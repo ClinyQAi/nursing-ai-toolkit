@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clinyqai.github.io/-AI-Educator-Toolkit/sitemap.xml
