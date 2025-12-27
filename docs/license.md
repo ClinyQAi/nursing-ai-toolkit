@@ -88,7 +88,7 @@ License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 For questions about the original work, contact the project team via the SEDA (Staff and Educational Development Association).
 
 For questions about this nursing education adaptation, contact:
-- **GitHub**: https://github.com/ClinyQAi/AI-Educator-Toolkit/issues
+- **GitHub**: https://github.com/ClinyQAi/-AI-Educator-Toolkit/issues
 - **Open Nursing Core**: https://build.fhir.org/ig/Open-Nursing/open-nursing-core/
 
 ---

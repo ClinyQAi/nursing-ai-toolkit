@@ -216,4 +216,4 @@ This approach can be adapted for other clinical topics:
 
 ## Share Your Experience
 
-Have you used GenAI for wound care or clinical visualization in your nursing programme? [Share your experience](https://github.com/ClinyQAi/AI-Educator-Toolkit/discussions) to help build the community knowledge base!
+Have you used GenAI for wound care or clinical visualization in your nursing programme? [Share your experience](https://github.com/ClinyQAi/-AI-Educator-Toolkit/discussions) to help build the community knowledge base!

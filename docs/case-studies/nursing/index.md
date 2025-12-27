@@ -62,7 +62,7 @@ Using GenAI to analyze nursing documentation and promote dignity-preserving, per
 4. **Verify Clinical Accuracy** — Always check AI outputs against authoritative sources (NICE, NMC, Cochrane)
 
 :::tip Contributing
-Have you used GenAI in nursing education? We'd love to hear about it! [Submit your case study](https://github.com/ClinyQAi/AI-Educator-Toolkit/discussions) to share with the community.
+Have you used GenAI in nursing education? We'd love to hear about it! [Submit your case study](https://github.com/ClinyQAi/-AI-Educator-Toolkit/discussions) to share with the community.
 :::
 
 ---
