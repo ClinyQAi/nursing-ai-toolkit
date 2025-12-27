@@ -31,7 +31,7 @@ Students often struggle to link the squiggly lines on an ECG to the mechanical a
 > Create a Mermaid sequence diagram showing the electrical flow vs. time."
 
 ## Visual Aid: The "Heart Castle" Analogy
-![ECG Castle Metaphor](/img/ecg_castle.png)
+![ECG Castle Metaphor](../../../static/img/ecg_castle.png)
 *Using metaphor (Kings, Gates, Highways) helps students visualize the invisible electrical pathway.*
 
 ## Learning Outcome

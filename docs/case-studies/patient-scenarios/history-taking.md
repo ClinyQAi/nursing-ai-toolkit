@@ -41,7 +41,7 @@ Students often struggle to remember the systematic approach to pain assessment (
 > Start by saying: *'Nurse, I don't feel right...'* and then wait for my response."
 
 ## Visual Aid: Meet "Arthur"
-![Arthur - Simulated Patient](/img/arthur_patient.png)
+![Arthur - Simulated Patient](../../../static/img/arthur_patient.png)
 *AI-generated persona to clear the "uncanny valley" and make roleplay more immersive.*
 
 ## Learning Activity

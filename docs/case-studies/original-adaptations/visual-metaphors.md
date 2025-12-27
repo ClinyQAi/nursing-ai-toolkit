@@ -23,7 +23,7 @@ Asking students to generate an image that represents a concept can reveal their 
 *   **Student C** generates an image of a tree with deep roots. (Focus: Social determinants of health).
 
 ## Example Student Output: "The Roots of Health"
-![Holistic Care Tree](/img/holistic_tree.png)
+![Holistic Care Tree](../../../static/img/holistic_tree.png)
 *A student-generated image representing how "unseen" roots (social factors) support the visible tree (patient health).*
 
 ## Discussion
