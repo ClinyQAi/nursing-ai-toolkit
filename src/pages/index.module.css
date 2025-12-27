@@ -29,6 +29,28 @@
   font-weight: 800;
   margin-bottom: 1.5rem;
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* Animated Gradient Text */
+  background: linear-gradient(90deg,
+      #ffffff 0%,
+      #a5d8ff 25%,
+      #ffffff 50%,
+      #ffc9c9 75%,
+      #ffffff 100%);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmerText 4s linear infinite;
+}
+
+@keyframes shimmerText {
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
 }
 
 .heroSubtitle {
