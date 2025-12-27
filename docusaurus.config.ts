@@ -142,7 +142,7 @@ const config: Config = {
 
         {
           type: 'search',
-          position: 'left',
+          position: 'right',
         },
         {
           href: 'https://github.com/ClinyQAi/-AI-Educator-Toolkit',
