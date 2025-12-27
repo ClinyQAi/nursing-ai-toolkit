@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  image: string;
   description: JSX.Element;
   link: string;
 };
@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Teaching Delivery',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: require('@site/static/img/premium_teaching.png').default,
     description: (
       <>
         Strategies for educators to deliver engaging, interactive sessions using AI.
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Self-Regulated Learning',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    image: require('@site/static/img/premium_learning.png').default,
     description: (
       <>
         Empowering students to use AI as a "24/7 Personal Tutor" for adaptive
@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'AI-Resilient Assessment',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/premium_assessment.png').default,
     description: (
       <>
         Moving from "Policing" to "Designing". Explore Viva Voce, Video Vlogs,
@@ -45,12 +45,12 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, Svg, description, link }: FeatureItem) {
+function Feature({ title, image, description, link }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className={styles.featureCard}>
         <div className="text--center">
-          <Svg className={styles.featureSvg} role="img" />
+          <img src={image} className={styles.featureSvg} alt={title} />
         </div>
         <div className="padding-horiz--md">
           <h3 className={styles.featureTitle}>{title}</h3>
