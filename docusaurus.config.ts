@@ -93,7 +93,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/ClinyQAi/AI-Educator-Toolkit',
+          href: 'https://github.com/ClinyQAi/-AI-Educator-Toolkit',
           label: 'GitHub',
           position: 'right',
         },
