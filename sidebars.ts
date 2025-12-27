@@ -89,6 +89,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Case Studies',
       items: [
+        'case-studies/index',
         {
           type: 'category',
           label: 'Nursing Scenarios',
