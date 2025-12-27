@@ -37,5 +37,6 @@ jobs:
           publish_dir: ./build
           # The following lines assign commit authorship to the official
           # GH-Actions bot for deploys to `gh-pages` branch:
-          // user_name: 'github-actions[bot]'
-          // user_email: 'github-actions[bot]@users.noreply.github.com'
+          # user_name: 'github-actions[bot]'
+          # user_email: 'github-actions[bot]@users.noreply.github.com'
+
