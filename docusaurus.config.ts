@@ -189,12 +189,15 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Connect',
           items: [
-
             {
               label: 'GitHub',
               href: 'https://github.com/ClinyQAi/-AI-Educator-Toolkit',
+            },
+            {
+              label: 'LinkedIn (Lincoln Gombedza)',
+              href: 'https://www.linkedin.com/in/lincolngombedza/',
             },
             {
               label: 'Privacy Policy',
@@ -203,7 +206,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Original work: "Educators' guide to multimodal learning and Generative AI" by Tünde Varga-Atkins, Samuel Saunders, et al. (2024/25) - <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a><br>Adapted for UK Nursing Education by Lincoln Gombedza, RN (LD) © ${new Date().getFullYear()}`,
+      copyright: `Original work: "Educators' guide to multimodal learning and Generative AI" by Tünde Varga-Atkins, Samuel Saunders, et al. (2024/25) - <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a><br>Adapted for UK Nursing Education by <a href="https://www.linkedin.com/in/lincolngombedza/" target="_blank">Lincoln Gombedza, RN (LD)</a> © ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,
