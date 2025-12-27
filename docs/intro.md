@@ -80,7 +80,7 @@ Throughout, you'll find **nursing-specific case studies**, **practical examples*
 
 Ready to explore? Here's where to go:
 
-- **New to GenAI?** → Start with [What is Generative AI?](/docs/introduction/what-is-generative-ai)
+- **New to GenAI?** → Start with [What is Generative AI?](/docs/what-is-generative-ai)
 - **Concerned about ethics?** → Read [Responsible Use](/docs/responsible-use)
 - **Need practical ideas?** → Browse [Teaching with AI](/docs/teaching)
 - **Looking for examples?** → Check [Case Studies](/docs/case-studies/patient-scenarios)
