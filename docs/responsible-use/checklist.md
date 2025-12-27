@@ -384,4 +384,20 @@ Use these checklists to ensure responsible AI integration in nursing education. 
 
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz 
+  question="Which of the following is an **inappropriate** use of AI by a nursing student?"
+  answers={[
+    "Using AI to summarize a complex research paper",
+    "Generating flashcards for anatomy revision",
+    "Inputting patient notes to generate a care plan",
+    "Creating a roleplay scenario for communication practice"
+  ]}
+  correctIndex={2}
+  explanation="Never input patient-identifiable data into a public AI model. This violates patient confidentiality and GDPR regulations."
+/>
+
+***
+
 **Congratulations!** You've completed the Responsible Use section. Continue exploring other sections of the AI Educator Toolkit to learn more about effective AI integration in nursing education.
