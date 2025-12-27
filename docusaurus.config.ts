@@ -70,7 +70,14 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/social-card.jpg',
+    image: 'img/social-preview.png',
+    metadata: [
+      { name: 'keywords', content: 'nursing, education, AI, generative AI, UK, NMC, healthcare, multimodal learning, digital literacy' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@ClinyQAi' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:image', content: 'https://clinyqai.github.io/-AI-Educator-Toolkit/img/social-preview.png' },
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },

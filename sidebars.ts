@@ -137,6 +137,7 @@ const sidebars: SidebarsConfig = {
         'resources/genai-tools',
         'resources/nursing-resources',
         'resources/academic-papers',
+        'resources/prompt-playground',
       ],
     },
     'license',

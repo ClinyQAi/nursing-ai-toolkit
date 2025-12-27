@@ -1,0 +1,24 @@
+name: Broken Link Checker
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly on Sundays at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install Link Checker
+        run: npm install -g lychee
+        
+      - name: Check Links
+        run: |
+          lychee --verbose --no-progress './docs/**/*.md' './README.md' './CONTRIBUTING.md'
+        continue-on-error: true # Don't fail the build if external links are down, just report
+        
+      - name: Report Results
+        if: failure()
+        run: echo "Broken links found! Check the log above."

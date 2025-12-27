@@ -32,8 +32,8 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="AI Literacy and Implementation Guide for UK Nursing Educators">
+      title="AI Educator Toolkit for UK Nursing Education"
+      description="A practical guide for nurse educators to integrate Generative AI into teaching, learning, and assessment. Aligned with NMC Standards.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
