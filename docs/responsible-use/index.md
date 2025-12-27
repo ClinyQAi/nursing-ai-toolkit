@@ -40,9 +40,33 @@ These concerns are amplified in nursing where accuracy and patient safety are pa
 Beckingham and Hartley (2025a) suggest four areas to consider when looking at the cost of using GenAI:
 
 ### 1. Cost to the Individual
-### 2. Cost to the Environment  
+* **Accountability**: Students must take responsibility for AI-generated work. Academic integrity and professional honesty are paramount.
+* **Privacy**: Sharing patient or personal data with AI models poses significant risks. Identifying details must never be uploaded.
+* **Cognitive Load**: Over-reliance can lead to "skill atrophy" where critical thinking and basic competencies weaken over time.
+* **Emotional Impact**: Anxiety about "keeping up" and imposter syndrome ("did I write this or did the AI?") are growing concerns.
+
+[Read more about individual costs &rarr;](./cost-individual)
+
+### 2. Cost to the Environment
+* **Energy Consumption**: Generative AI models consume vast amounts of electricity for both training and daily queries (far more than standard web searches).
+* **Carbon Footprint**: Data centers contribute significantly to global emissions. Nursing's commitment to public health includes environmental stewardship.
+* **E-Waste**: The demand for powerful hardware accelerates device obsolescence, adding to the toxic e-waste stream.
+
+[Read more about environmental costs &rarr;](./cost-environment)
+
 ### 3. Cost to Knowledge
+* **The "Google Effect"**: We tend to remember *where* to find information rather than the information itself. In clinical practice, immediate internal knowledge is often required.
+* **Learning Paradox**: Efficiency isn't always effective. The "struggle" of learning builds neural pathways; AI shortcuts can bypass this essential cognitive effort.
+* **Epistemic Trust**: A shift from trusting peer-reviewed research to trusting opaque algorithmic outputs can erode evidence-based practice.
+
+[Read more about knowledge costs &rarr;](./cost-knowledge)
+
 ### 4. Cost to Future Jobs
+* **Displacement vs. Transformation**: While nursing involves irreplaceable human connection, administrative and diagnostic tasks will shift.
+* **New Competencies**: "AI Literacy" is becoming a core skill alongside clinical competence.
+* **Human Premium**: Skills that AI cannot replicate—empathy, complex ethical judgment, and physical care—will become even more valuable.
+
+[Read more about future employment implications &rarr;](./cost-jobs)
 
 ```mermaid
 graph TD
