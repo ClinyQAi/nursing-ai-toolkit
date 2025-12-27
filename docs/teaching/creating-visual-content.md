@@ -49,17 +49,25 @@ Minimalist style, suitable for infographic use."
 
 ### 2. Create Multimodal Elements for Infographics
 
-Transform financial concepts, clinical data, or evidence-based practice into visual infographics using text-to-image tools.
+Transform financial concepts, clinical data, or evidence-based practice into visual infographics.
+
+**🚨 GAME CHANGER: Nano Banana Pro (Gemini 3 Pro Image)**  
+Unlike older models (DALL-E 3), Nano Banana can **render perfect text** inside images. You can now create fully labeled diagrams without needing Photoshop.
 
 **Nursing Example**: Sepsis Six Care Bundle
 ```
-Prompt: "Create an infographic showing the Sepsis Six care bundle. Include 3 tests 
-(blood lactate, blood cultures, urine output) and 3 treatments (oxygen, IV fluids, 
-antibiotics). Use clear icons and NHS branding colors. Make it suitable for A4 poster 
-printing in clinical areas."
+Prompt: "Create a detailed infographic showing the Sepsis Six care bundle. 
+Include 3 tests (blood lactate, blood cultures, urine output) and 3 treatments 
+(oxygen, IV fluids, antibiotics). The text must be perfectly spelled and legible. 
+Use clear icons and NHS branding colors. Make it suitable for A4 poster printing."
 ```
 
-### 3. Generate Visual Metaphors
+### 3. Localization & Multilingual Resources
+**New Capability**: Nano Banana can translate text *inside* an existing image.
+*   **Use Case**: Take an English "Stroke Awareness (FAST)" poster and instantly regenerate it in Polish, Urdu, or Spanish for diverse patient populations.
+*   **Prompt**: *"Translate all the text in this image into Spanish while maintaining the original layout and NHS branding."*
+
+### 4. Generate Visual Metaphors
 
 Use GenAI-generated images to represent abstract concepts, combining visuals with reflection.
 
@@ -71,7 +79,7 @@ various aspects of holistic care (physical, emotional, social, spiritual). Water
 illustration style, warm and compassionate tone."
 ```
 
-### 4. Create Educational Videos and Animated Explainers
+### 5. Create Educational Videos and Animated Explainers
 
 Generate short educational videos or animated explainers from written prompts, using motion graphics and narration.
 
@@ -120,14 +128,13 @@ suggested labels or annotations.
 ## Tools for Visual Content Creation
 
 ### Text-to-Image AI:
-- **DALL-E 3** (OpenAI) — High-quality, detailed images
-- **Midjourney v7** (Dec 2025) — Latest version with improved realism
-- **Adobe Firefly** — Commercially safe, integrated with Adobe Suite
-- **Stable Diffusion XL** — Open-source, customizable
-- **Google Imagen 3** (Dec 2024) — High-quality image generation
+-   **Gemini 3 Pro (Nano Banana)** — The new "Gold Standard" for text rendering and detailed reasoning.
+-   **DALL-E 3** (OpenAI) — Excellent for stylized visuals, but struggles with complex text.
+-   **Midjourney v7** — Best for "artistic" photorealism.
+-   **Adobe Firefly** — Commercially safe, integrated with Adobe Suite.
 
 ### Diagram and Flowchart Tools:
-- **Gemini 3 Pro / GPT-5** + Mermaid syntax — Generate diagram code
+-   **Gemini 3 Pro** + Mermaid — Can now generate complex flowcharts directly.
 - **ChatGPT / Claude Sonnet 4** — Text-to-diagram generation
 - **Lucidchart** — Professional flowcharts
 - **Canva** — User-friendly design platform with AI features
