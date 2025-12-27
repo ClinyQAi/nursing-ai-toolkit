@@ -167,4 +167,4 @@ This guide offers broad principles and approaches rather than platform-specific 
 
 ---
 
-**Next**: Learn about [Multimodal Learning Concepts](./multimodal-concepts) to understand the theoretical foundations.
+**Next**: Continue to the [Main Introduction](/docs/intro) for a comprehensive overview of multimodal learning and nursing context.

@@ -17,10 +17,10 @@ This section covers the foundational concepts you need to understand multimodal 
 
 ## Start Here
 
-If you're new to GenAI and multimodal learning, we recommend reading these pages in order:
+If you're new to GenAI and multimodal learning, we recommend starting with:
 
 1. [What is Generative AI?](./what-is-generative-ai) — Start here if GenAI is new to you
-2. [Multimodal Concepts](./multimodal-concepts) — Understand the theory behind multimodal learning
-3. [Nursing Context](./nursing-context) — See how this applies to nursing practice and education
+2. [Main Introduction](/docs/intro) — Comprehensive overview of multimodal learning and nursing context
 
 Ready to dive in? Let's begin! 🚀
+
