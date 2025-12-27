@@ -18,12 +18,12 @@ Compliance is key. Always align your AI use with the standards of your professio
 *   The NMC explicitly states that nurses remain accountable for decisions made, regardless of the tools used.
 
 ## Royal College of Nursing (RCN)
-*   [**Digital Health**](https://www.rcn.org.uk/clinical-topics/ehealth-and-digital-health): Resources on digital literacy and the "Principles of Nursing Practice".
+*   [**Digital Nursing Forum**](https://www.rcn.org.uk/Get-Involved/Forums/Digital-Nursing-Forum): Connect with peers and access resources on digital literacy.
 
 ## NHS England
 *   [**Artificial Intelligence Strategy**](https://transform.england.nhs.uk/ai-lab/): The NHS AI Lab's guidance on safe and ethical deployment of AI in health and care.
 *   **Caldicott Principles**: Essential reading for understanding data privacy limits when using AI.
 
 ## Higher Education
-*   [**Jisc: Generative AI in Education**](https://www.jisc.ac.uk/artificial-intelligence): The UK's digital body for HE, offering excellent student-facing guides.
+*   [**Jisc: Generative AI in Education**](https://www.jisc.ac.uk/innovation/artificial-intelligence): The UK's digital body for HE, offering excellent student-facing guides.
 *   [**QAA Guidance on AI**](https://www.qaa.ac.uk/): Quality Assurance Agency guidance on maintaining academic standards in the AI era.
