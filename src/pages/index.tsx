@@ -10,17 +10,20 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">A Practical Guide for UK Nursing Education</p>
+        <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
+        <p className={styles.heroSubtitle}>A Practical Guide for UK Nursing Education</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Start the Guide ⏱️
+            className={clsx('button button--primary button--lg', styles.heroButton)}
+            to="/docs/getting-started">
+            Get Started &rarr;
+          </Link>
+          <Link
+            className={clsx('button button--outline button--secondary button--lg', styles.heroButton)}
+            to="/docs/case-studies">
+            Case Studies
           </Link>
         </div>
       </div>

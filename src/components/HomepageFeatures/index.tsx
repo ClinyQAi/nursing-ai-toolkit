@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -48,13 +48,19 @@ const FeatureList: FeatureItem[] = [
 function Feature({ title, Svg, description, link }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-        <a href={link} className="button button--secondary button--sm">Explore &rarr;</a>
+      <div className={styles.featureCard}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className="padding-horiz--md">
+          <h3 className={styles.featureTitle}>{title}</h3>
+          <p className={styles.featureDescription}>{description}</p>
+          <Link
+            className={clsx('button button--primary button--sm', styles.featureButton)}
+            to={link}>
+            Explore &rarr;
+          </Link>
+        </div>
       </div>
     </div>
   );
