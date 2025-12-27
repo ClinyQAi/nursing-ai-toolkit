@@ -1,0 +1,64 @@
+---
+sidebar_position: 1
+title: Overview
+description: Responsible and ethical use of AI in nursing education
+---
+
+# Responsible Use of AI in Multimodal Context
+
+:::info Attribution
+**Original work**: "Educators' guide to multimodal learning and Generative AI" — Tünde Varga-Atkins, Samuel Saunders, et al. (2024/25) — [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
+**Adapted for UK Nursing Education by**: Lincoln Gombedza, RN (LD)  
+**Last Updated**: December 2025
+:::
+
+Despite the way GenAI is often marketed as efficient, trustworthy, innovative and invaluable to boosting users' productivity, integrating GenAI into multimodal learning brings substantial pedagogical, social and ethical challenges.
+
+## The Reality Check
+
+The responsible use of multimodal GenAI in nursing education requires a careful balance of:
+
+- **Ethical considerations**
+- **Pedagogical effectiveness** 
+- **Legal compliance**
+- **Practical sustainability**
+
+### Key Concerns:
+
+1. **Accuracy** — AI's outputs can contain errors or hallucinations
+2. **Bias** — Reflects entrenched social biases in training data
+3. **Over-reliance** — May weaken student voice or critical thinking
+4. **Uncertainty** — Educators and students feel unsure about effective, ethical use
+5. **Policy ambiguity** — Institutional policies may be vague or unclear
+
+:::warning For Nursing Education
+These concerns are amplified in nursing where accuracy and patient safety are paramount. A hallucinated medication dose or incorrect clinical procedure could have serious consequences if students don't verify information against authoritative sources.
+:::
+
+## Four Key Cost Areas
+
+Beckingham and Hartley (2025a) suggest four areas to consider when looking at the cost of using GenAI:
+
+### 1. Cost to the Individual
+### 2. Cost to the Environment  
+### 3. Cost to Knowledge
+### 4. Cost to Future Jobs
+
+*(Diagram: Cost of GenAI framework by Beckingham and Hartley (2025a))*
+
+Let's explore each in depth:
+
+---
+
+## Next Steps
+
+To understand these costs and how to mitigate them, read the following pages:
+
+- [Cost to the Individual](./cost-individual) — Personal responsibility and accountability
+- [Cost to the Environment](./cost-environment) — Energy use and sustainability
+- [Cost to Knowledge](./cost-knowledge) — Impact on learning and retention
+- [Cost to Future Jobs](./cost-jobs) — Employment implications for nursing
+
+Then explore:
+- [Practical Implications](./implications) — What this means for nursing education
+- [Responsible Use Checklist](./checklist) — Actionable steps for educators
