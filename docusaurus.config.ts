@@ -65,7 +65,7 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         gtag: {
-          trackingID: 'G-XXXXXXXXXX', // Replace with your Google Analytics 4 Measurement ID
+          trackingID: 'G-91YZDP5SRZ', // Replace with your Google Analytics 4 Measurement ID
           anonymizeIP: true,
         },
         sitemap: {
