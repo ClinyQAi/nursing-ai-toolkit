@@ -34,6 +34,24 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'text/javascript',
+      },
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied',
+          'analytics_storage': 'denied'
+        });
+      `,
+    },
+  ],
 
   presets: [
     [
@@ -163,8 +181,8 @@ const config: Config = {
               href: 'https://github.com/ClinyQAi/AI-Educator-Toolkit',
             },
             {
-              label: 'License',
-              to: '/docs/license',
+              label: 'Privacy Policy',
+              to: '/docs/privacy-policy',
             },
           ],
         },
