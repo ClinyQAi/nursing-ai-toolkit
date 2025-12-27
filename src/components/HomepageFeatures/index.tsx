@@ -19,7 +19,7 @@ const FeatureList: FeatureItem[] = [
         From Socratic tutoring to roleplay simulations.
       </>
     ),
-    link: '/AI-Educator-Toolkit/docs/teaching/',
+    link: '/-AI-Educator-Toolkit/docs/teaching/',
   },
   {
     title: 'Self-Regulated Learning',
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
         study, self-quizzing, and concept simplification.
       </>
     ),
-    link: '/AI-Educator-Toolkit/docs/learning/',
+    link: '/-AI-Educator-Toolkit/docs/learning/',
   },
   {
     title: 'AI-Resilient Assessment',
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
         and Process-focused assessments that measure authentic skill.
       </>
     ),
-    link: '/AI-Educator-Toolkit/docs/assessment/',
+    link: '/-AI-Educator-Toolkit/docs/assessment/',
   },
 ];
 
