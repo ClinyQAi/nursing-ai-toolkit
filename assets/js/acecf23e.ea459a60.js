@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkai_educator_toolkit=globalThis.webpackChunkai_educator_toolkit||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/-AI-Educator-Toolkit/blog","blogTitle":"Blog","authorsListPath":"/-AI-Educator-Toolkit/blog/authors"}')}}]);
