@@ -9,6 +9,12 @@ const sidebars: SidebarsConfig = {
       label: 'Responsible Use',
       items: [
         'responsible-use/index',
+        'responsible-use/cost-individual',
+        'responsible-use/cost-environment',
+        'responsible-use/cost-knowledge',
+        'responsible-use/cost-jobs',
+        'responsible-use/implications',
+        'responsible-use/checklist',
       ],
     },
     {
