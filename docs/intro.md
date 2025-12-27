@@ -83,6 +83,6 @@ Ready to explore? Here's where to go:
 - **New to GenAI?** → Start with [What is Generative AI?](./what-is-generative-ai)
 - **Concerned about ethics?** → Read [Responsible Use](../responsible-use/)
 - **Need practical ideas?** → Browse [Teaching with AI](../teaching/)
-- **Looking for examples?** → Check [Case Studies](../case-studies/)
+- **Looking for examples?** → Check [Case Studies](/docs/category/case-studies)
 
 Let's begin this journey to enhance nursing education through thoughtful, critical, and creative use of multimodal learning and GenAI! 🚀

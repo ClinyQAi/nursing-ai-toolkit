@@ -166,4 +166,4 @@ Begin with simple activities like having students generate and critique AI-creat
 **Explore more**:
 - [Practical teaching strategies](../teaching/) for integrating AI literacy
 - [Assessment approaches](../assessment/) that evaluate AI competency
-- [Case studies](../case-studies/) showing AI literacy in action
+- [Case studies](/docs/category/case-studies) showing AI literacy in action
