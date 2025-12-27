@@ -5,6 +5,22 @@ title: AI Literacy in Nursing Education
 description: Developing AI literacy competencies for nursing educators and students
 ---
 
+```mermaid
+graph TD
+    A[AI Literacy in Nursing] --> B[Foundational]
+    A --> C[Functional]
+    A --> D[Critical]
+    
+    B --> B1[Understanding Concepts]
+    B --> B2[Ethical Awareness]
+    
+    C --> C1[Prompt Engineering]
+    C --> C2[Tool Competency]
+    
+    D --> D1[Evaluating Bias]
+    D --> D2[NMC Alignment]
+```
+
 # Developing AI Literacy in Multimodal Context
 
 :::info Attribution

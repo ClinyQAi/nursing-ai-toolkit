@@ -44,7 +44,29 @@ Beckingham and Hartley (2025a) suggest four areas to consider when looking at th
 ### 3. Cost to Knowledge
 ### 4. Cost to Future Jobs
 
-*(Diagram: Cost of GenAI framework by Beckingham and Hartley (2025a))*
+```mermaid
+graph TD
+    A[Cost of GenAI Framework] --> B(Cost to the Individual)
+    A --> C(Cost to the Environment)
+    A --> D(Cost to Knowledge)
+    A --> E(Cost to Future Jobs)
+    
+    B --> B1[Accountability]
+    B --> B2[Privacy]
+    
+    C --> C1[Energy Use]
+    C --> C2[Sustainability]
+    
+    D --> D1[Learning Atrophy]
+    D --> D2[Critical Reasoning]
+    
+    E --> E1[Job Displacement]
+    E --> E2[Skill Shifting]
+
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+```
+
+*Beckingham and Hartley (2025a) Four Key Cost Areas*
 
 Let's explore each in depth:
 

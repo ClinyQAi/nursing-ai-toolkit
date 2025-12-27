@@ -2,6 +2,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
+    'getting-started',
     'intro',
     'what-is-generative-ai',
     {
@@ -22,6 +23,31 @@ const sidebars: SidebarsConfig = {
       label: 'AI Literacy',
       items: [
         'ai-literacy/index',
+        'ai-literacy/individual-competencies',
+        'ai-literacy/module-integration',
+        'ai-literacy/programme-strategy',
+        'ai-literacy/institutional-framework',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Choosing Platforms',
+      items: [
+        'choosing-platforms/index',
+        'choosing-platforms/tool-comparison',
+        'choosing-platforms/selection-criteria',
+        'choosing-platforms/institutional-considerations',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Design Framework',
+      items: [
+        'design-framework/index',
+        'design-framework/needs-analysis',
+        'design-framework/learning-design',
+        'design-framework/implementation-guide',
+        'design-framework/evaluation',
       ],
     },
     {
