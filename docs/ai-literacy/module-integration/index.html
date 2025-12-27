@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-ai-literacy/module-integration" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Module Integration | AI Educator Toolkit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://clinyqai.github.io/-AI-Educator-Toolkit/img/social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://clinyqai.github.io/-AI-Educator-Toolkit/img/social-card.jpg"><meta data-rh="true" property="og:url" content="https://clinyqai.github.io/-AI-Educator-Toolkit/docs/ai-literacy/module-integration"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Module Integration | AI Educator Toolkit"><meta data-rh="true" name="description" content="Integrating AI literacy at module level"><meta data-rh="true" property="og:description" content="Integrating AI literacy at module level"><link data-rh="true" rel="icon" href="/-AI-Educator-Toolkit/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://clinyqai.github.io/-AI-Educator-Toolkit/docs/ai-literacy/module-integration"><link data-rh="true" rel="alternate" href="https://clinyqai.github.io/-AI-Educator-Toolkit/docs/ai-literacy/module-integration" hreflang="en"><link data-rh="true" rel="alternate" href="https://clinyqai.github.io/-AI-Educator-Toolkit/docs/ai-literacy/module-integration" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/-AI-Educator-Toolkit/blog/rss.xml" title="AI Educator Toolkit RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/-AI-Educator-Toolkit/blog/atom.xml" title="AI Educator Toolkit Atom Feed"><link rel="stylesheet" href="/-AI-Educator-Toolkit/assets/css/styles.9c53a5ce.css">
+<script src="/-AI-Educator-Toolkit/assets/js/runtime~main.141df46b.js" defer="defer"></script>
+<script src="/-AI-Educator-Toolkit/assets/js/main.4d07ce94.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/-AI-Educator-Toolkit/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/-AI-Educator-Toolkit/"><div class="navbar__logo"><img src="/-AI-Educator-Toolkit/img/logo.svg" alt="AI Educator Toolkit Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/-AI-Educator-Toolkit/img/logo.svg" alt="AI Educator Toolkit Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">AI Educator Toolkit</b></a><a class="navbar__item navbar__link" href="/-AI-Educator-Toolkit/docs/intro">Guide</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"></div><a href="https://github.com/ClinyQAi/-AI-Educator-Toolkit" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Module-Level AI Literacy Integration</h1></header>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Attribution</div><div class="admonitionContent_BuS1"><p><strong>Original work</strong>: &quot;Educators&#x27; guide to multimodal learning and Generative AI&quot; — Tünde Varga-Atkins, Samuel Saunders, et al. (2024/25) — <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer" class="">CC BY-NC 4.0</a><br>
+<strong>Adapted for UK Nursing Education by</strong>: Lincoln Gombedza, RN (LD)<br>
+<strong>Last Updated</strong>: December 2025</p></div></div>
+<p>Integrating AI literacy into individual modules ensures students develop competencies progressively and contextually. This page provides practical guidance for module leaders.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="module-design-principles">Module Design Principles<a href="#module-design-principles" class="hash-link" aria-label="Direct link to Module Design Principles" title="Direct link to Module Design Principles" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-alignment-with-learning-outcomes">1. Alignment with Learning Outcomes<a href="#1-alignment-with-learning-outcomes" class="hash-link" aria-label="Direct link to 1. Alignment with Learning Outcomes" title="Direct link to 1. Alignment with Learning Outcomes" translate="no">​</a></h3>
+<p><strong>Explicit AI Literacy Outcomes</strong></p>
+<ul>
+<li class="">Include AI competencies in module learning outcomes</li>
+<li class="">Align with NMC proficiencies</li>
+<li class="">Map to programme-level competencies</li>
+<li class="">Ensure progressive development</li>
+<li class="">Make expectations clear</li>
+</ul>
+<p><strong>Example Learning Outcomes</strong></p>
+<ul>
+<li class="">&quot;Critically evaluate AI-generated clinical information against evidence-based sources&quot;</li>
+<li class="">&quot;Use AI tools ethically and safely in care planning while maintaining professional accountability&quot;</li>
+<li class="">&quot;Demonstrate understanding of AI limitations in nursing practice&quot;</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-contextual-integration">2. Contextual Integration<a href="#2-contextual-integration" class="hash-link" aria-label="Direct link to 2. Contextual Integration" title="Direct link to 2. Contextual Integration" translate="no">​</a></h3>
+<p><strong>Embed in Clinical Context</strong></p>
+<ul>
+<li class="">Relate AI use to module content</li>
+<li class="">Use nursing-specific examples</li>
+<li class="">Connect to practice scenarios</li>
+<li class="">Align with placement learning</li>
+<li class="">Ensure clinical relevance</li>
+</ul>
+<p><strong>Avoid</strong></p>
+<ul>
+<li class="">Generic AI training disconnected from nursing</li>
+<li class="">Technology for technology&#x27;s sake</li>
+<li class="">Unrealistic or impractical applications</li>
+<li class="">Ignoring clinical context</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="module-planning-framework">Module Planning Framework<a href="#module-planning-framework" class="hash-link" aria-label="Direct link to Module Planning Framework" title="Direct link to Module Planning Framework" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-needs-analysis">Step 1: Needs Analysis<a href="#step-1-needs-analysis" class="hash-link" aria-label="Direct link to Step 1: Needs Analysis" title="Direct link to Step 1: Needs Analysis" translate="no">​</a></h3>
+<p><strong>Assess Current State</strong></p>
+<ul>
+<li class="">What AI tools do students already use?</li>
+<li class="">What misconceptions exist?</li>
+<li class="">What competencies are needed?</li>
+<li class="">What resources are available?</li>
+<li class="">What are the risks?</li>
+</ul>
+<p><strong>Define Module-Specific Needs</strong></p>
+<ul>
+<li class="">Which AI competencies align with this module?</li>
+<li class="">How can AI enhance learning?</li>
+<li class="">What are the ethical considerations?</li>
+<li class="">What support do students need?</li>
+<li class="">How will competency be assessed?</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-learning-design">Step 2: Learning Design<a href="#step-2-learning-design" class="hash-link" aria-label="Direct link to Step 2: Learning Design" title="Direct link to Step 2: Learning Design" translate="no">​</a></h3>
+<p><strong>Select Appropriate AI Applications</strong></p>
+<ul>
+<li class="">Care planning assistance</li>
+<li class="">Patient education material creation</li>
+<li class="">Clinical scenario generation</li>
+<li class="">Literature review support</li>
+<li class="">Concept explanation</li>
+</ul>
+<p><strong>Design Learning Activities</strong></p>
+<ul>
+<li class="">Guided AI exploration</li>
+<li class="">Critical evaluation exercises</li>
+<li class="">Comparative analysis (AI vs. traditional)</li>
+<li class="">Ethical case discussions</li>
+<li class="">Reflective practice</li>
+</ul>
+<p><strong>Example Activity Sequence</strong></p>
+<ol>
+<li class=""><strong>Week 1</strong>: Introduction to AI in [module topic]</li>
+<li class=""><strong>Week 2</strong>: Guided practice with AI tool</li>
+<li class=""><strong>Week 3</strong>: Critical evaluation exercise</li>
+<li class=""><strong>Week 4</strong>: AI-enhanced assignment</li>
+<li class=""><strong>Week 5</strong>: Reflection and peer discussion</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-assessment-design">Step 3: Assessment Design<a href="#step-3-assessment-design" class="hash-link" aria-label="Direct link to Step 3: Assessment Design" title="Direct link to Step 3: Assessment Design" translate="no">​</a></h3>
+<p><strong>AI-Aware Assessment</strong></p>
+<ul>
+<li class="">Clarify AI use policy for each assessment</li>
+<li class="">Design tasks that require human insight</li>
+<li class="">Include process as well as product</li>
+<li class="">Require justification and reflection</li>
+<li class="">Use varied assessment methods</li>
+</ul>
+<p><strong>Assessment Types</strong></p>
+<ul>
+<li class=""><strong>AI-Enhanced</strong>: Students may use AI with disclosure</li>
+<li class=""><strong>AI-Assisted</strong>: AI allowed for specific components only</li>
+<li class=""><strong>AI-Free</strong>: No AI use permitted</li>
+<li class=""><strong>AI-Focused</strong>: Evaluating AI literacy itself</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-module-plans">Example Module Plans<a href="#example-module-plans" class="hash-link" aria-label="Direct link to Example Module Plans" title="Direct link to Example Module Plans" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-1-adult-nursing---care-planning-module">Example 1: Adult Nursing - Care Planning Module<a href="#example-1-adult-nursing---care-planning-module" class="hash-link" aria-label="Direct link to Example 1: Adult Nursing - Care Planning Module" title="Direct link to Example 1: Adult Nursing - Care Planning Module" translate="no">​</a></h3>
+<p><strong>Module Overview</strong></p>
+<ul>
+<li class="">Level: Year 2</li>
+<li class="">Credits: 20</li>
+<li class="">Focus: Holistic care planning</li>
+</ul>
+<p><strong>AI Literacy Integration</strong></p>
+<p><strong>Learning Outcomes</strong></p>
+<ol>
+<li class="">Develop evidence-based care plans using appropriate tools including AI</li>
+<li class="">Critically evaluate AI-generated care recommendations</li>
+<li class="">Demonstrate ethical AI use in care planning</li>
+</ol>
+<p><strong>Activities</strong></p>
+<ul>
+<li class="">
+<p><strong>Week 3</strong>: Introduction to AI-assisted care planning</p>
+<ul>
+<li class="">Demonstrate AI care plan generation</li>
+<li class="">Discuss limitations and risks</li>
+<li class="">Practice prompt crafting</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Week 4</strong>: Critical Evaluation Workshop</p>
+<ul>
+<li class="">Generate AI care plans for case studies</li>
+<li class="">Compare with NICE guidelines</li>
+<li class="">Identify errors and omissions</li>
+<li class="">Discuss clinical safety</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Week 5</strong>: Ethical Considerations</p>
+<ul>
+<li class="">Patient confidentiality scenarios</li>
+<li class="">Professional accountability discussion</li>
+<li class="">NMC Code alignment</li>
+<li class="">Documentation requirements</li>
+</ul>
+</li>
+</ul>
+<p><strong>Assessment</strong></p>
+<ul>
+<li class="">Care plan portfolio (AI-enhanced)<!-- -->
+<ul>
+<li class="">Must include AI-generated draft</li>
+<li class="">Critical evaluation of AI output</li>
+<li class="">Evidence-based modifications</li>
+<li class="">Reflection on AI use</li>
+<li class="">Disclosure statement</li>
+</ul>
+</li>
+</ul>
+<p><strong>Success Criteria</strong></p>
+<ul>
+<li class="">Appropriate AI tool selection</li>
+<li class="">Effective prompt crafting</li>
+<li class="">Accurate error identification</li>
+<li class="">Evidence-based modifications</li>
+<li class="">Ethical practice demonstrated</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-2-mental-health-nursing---therapeutic-communication">Example 2: Mental Health Nursing - Therapeutic Communication<a href="#example-2-mental-health-nursing---therapeutic-communication" class="hash-link" aria-label="Direct link to Example 2: Mental Health Nursing - Therapeutic Communication" title="Direct link to Example 2: Mental Health Nursing - Therapeutic Communication" translate="no">​</a></h3>
+<p><strong>Module Overview</strong></p>
+<ul>
+<li class="">Level: Year 2</li>
+<li class="">Credits: 15</li>
+<li class="">Focus: Communication skills</li>
+</ul>
+<p><strong>AI Literacy Integration</strong></p>
+<p><strong>Learning Outcomes</strong></p>
+<ol>
+<li class="">Practice therapeutic communication using AI simulation</li>
+<li class="">Evaluate AI limitations in understanding human emotion</li>
+<li class="">Maintain person-centered approach despite AI use</li>
+</ol>
+<p><strong>Activities</strong></p>
+<ul>
+<li class="">
+<p><strong>Week 2</strong>: AI Role-Play Scenarios</p>
+<ul>
+<li class="">Use AI to generate patient scenarios</li>
+<li class="">Practice responses</li>
+<li class="">Receive AI feedback</li>
+<li class="">Discuss limitations</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Week 4</strong>: Empathy and AI</p>
+<ul>
+<li class="">Compare AI vs. human responses</li>
+<li class="">Analyze emotional intelligence gaps</li>
+<li class="">Discuss irreplaceable human skills</li>
+<li class="">Reflect on therapeutic relationship</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Week 6</strong>: Ethical Practice</p>
+<ul>
+<li class="">Patient consent for AI use</li>
+<li class="">Privacy in digital communication</li>
+<li class="">Professional boundaries</li>
+<li class="">Documentation standards</li>
+</ul>
+</li>
+</ul>
+<p><strong>Assessment</strong></p>
+<ul>
+<li class="">Communication portfolio (AI-assisted)<!-- -->
+<ul>
+<li class="">AI-generated scenarios (disclosed)</li>
+<li class="">Video recorded responses</li>
+<li class="">Self-evaluation</li>
+<li class="">Peer feedback</li>
+<li class="">Reflection on AI&#x27;s role</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-3-child-nursing---health-promotion">Example 3: Child Nursing - Health Promotion<a href="#example-3-child-nursing---health-promotion" class="hash-link" aria-label="Direct link to Example 3: Child Nursing - Health Promotion" title="Direct link to Example 3: Child Nursing - Health Promotion" translate="no">​</a></h3>
+<p><strong>Module Overview</strong></p>
+<ul>
+<li class="">Level: Year 3</li>
+<li class="">Credits: 20</li>
+<li class="">Focus: Child and family health promotion</li>
+</ul>
+<p><strong>AI Literacy Integration</strong></p>
+<p><strong>Learning Outcomes</strong></p>
+<ol>
+<li class="">Create age-appropriate health education materials using AI</li>
+<li class="">Evaluate AI-generated content for developmental appropriateness</li>
+<li class="">Adapt AI outputs for diverse family needs</li>
+</ol>
+<p><strong>Activities</strong></p>
+<ul>
+<li class="">
+<p><strong>Week 3</strong>: AI for Health Education</p>
+<ul>
+<li class="">Generate patient information leaflets</li>
+<li class="">Create visual aids</li>
+<li class="">Develop activity sheets</li>
+<li class="">Adapt for different ages</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Week 5</strong>: Critical Evaluation</p>
+<ul>
+<li class="">Assess developmental appropriateness</li>
+<li class="">Check accuracy against evidence</li>
+<li class="">Evaluate cultural sensitivity</li>
+<li class="">Test with families (simulated)</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Week 7</strong>: Personalization</p>
+<ul>
+<li class="">Adapt for learning disabilities</li>
+<li class="">Translate for non-English speakers</li>
+<li class="">Modify for different health literacy levels</li>
+<li class="">Ensure inclusivity</li>
+</ul>
+</li>
+</ul>
+<p><strong>Assessment</strong></p>
+<ul>
+<li class="">Health promotion resource pack (AI-enhanced)<!-- -->
+<ul>
+<li class="">AI-generated materials (disclosed)</li>
+<li class="">Evidence-based modifications</li>
+<li class="">Developmental justification</li>
+<li class="">Family feedback (simulated)</li>
+<li class="">Critical reflection</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="implementation-guidance">Implementation Guidance<a href="#implementation-guidance" class="hash-link" aria-label="Direct link to Implementation Guidance" title="Direct link to Implementation Guidance" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="for-module-leaders">For Module Leaders<a href="#for-module-leaders" class="hash-link" aria-label="Direct link to For Module Leaders" title="Direct link to For Module Leaders" translate="no">​</a></h3>
+<p><strong>Preparation</strong></p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Review institutional AI policy</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Explore relevant AI tools</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Identify integration opportunities</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Design AI-aware assessments</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Prepare student guidance</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Plan staff development</li>
+</ul>
+<p><strong>Communication</strong></p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Include AI policy in module handbook</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Discuss in first session</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Provide written examples</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Clarify assessment expectations</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Offer ongoing support</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Address student concerns</li>
+</ul>
+<p><strong>Support</strong></p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Provide AI tool access</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Offer training sessions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create guidance documents</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Establish help channels</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Monitor student progress</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Gather feedback</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-challenges-and-solutions">Common Challenges and Solutions<a href="#common-challenges-and-solutions" class="hash-link" aria-label="Direct link to Common Challenges and Solutions" title="Direct link to Common Challenges and Solutions" translate="no">​</a></h3>
+<p><strong>Challenge 1: Student Over-Reliance</strong></p>
+<ul>
+<li class=""><strong>Solution</strong>: Design AI-free components</li>
+<li class=""><strong>Solution</strong>: Require process documentation</li>
+<li class=""><strong>Solution</strong>: Include oral assessments</li>
+<li class=""><strong>Solution</strong>: Emphasize independent practice</li>
+</ul>
+<p><strong>Challenge 2: Unequal Access</strong></p>
+<ul>
+<li class=""><strong>Solution</strong>: Provide institutional subscriptions</li>
+<li class=""><strong>Solution</strong>: Offer alternative tools</li>
+<li class=""><strong>Solution</strong>: Allow library access</li>
+<li class=""><strong>Solution</strong>: Flexible deadlines</li>
+</ul>
+<p><strong>Challenge 3: Academic Misconduct</strong></p>
+<ul>
+<li class=""><strong>Solution</strong>: Clear disclosure requirements</li>
+<li class=""><strong>Solution</strong>: Process-focused assessment</li>
+<li class=""><strong>Solution</strong>: Unique, personalized tasks</li>
+<li class=""><strong>Solution</strong>: Oral defense of work</li>
+</ul>
+<p><strong>Challenge 4: Staff Confidence</strong></p>
+<ul>
+<li class=""><strong>Solution</strong>: Peer support networks</li>
+<li class=""><strong>Solution</strong>: Training workshops</li>
+<li class=""><strong>Solution</strong>: Shared resources</li>
+<li class=""><strong>Solution</strong>: Start small, scale gradually</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="assessment-strategies">Assessment Strategies<a href="#assessment-strategies" class="hash-link" aria-label="Direct link to Assessment Strategies" title="Direct link to Assessment Strategies" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-enhanced-assessments">AI-Enhanced Assessments<a href="#ai-enhanced-assessments" class="hash-link" aria-label="Direct link to AI-Enhanced Assessments" title="Direct link to AI-Enhanced Assessments" translate="no">​</a></h3>
+<p><strong>Care Plan Assignment</strong></p>
+<ul>
+<li class="">Students may use AI for initial draft</li>
+<li class="">Must verify against evidence</li>
+<li class="">Require critical evaluation</li>
+<li class="">Include reflection on AI use</li>
+<li class="">Disclose all AI assistance</li>
+</ul>
+<p><strong>Rubric Criteria</strong></p>
+<ul>
+<li class="">Appropriate AI tool selection (10%)</li>
+<li class="">Effective prompt crafting (10%)</li>
+<li class="">Critical evaluation of output (25%)</li>
+<li class="">Evidence-based modifications (30%)</li>
+<li class="">Professional reflection (15%)</li>
+<li class="">Disclosure and integrity (10%)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-free-assessments">AI-Free Assessments<a href="#ai-free-assessments" class="hash-link" aria-label="Direct link to AI-Free Assessments" title="Direct link to AI-Free Assessments" translate="no">​</a></h3>
+<p><strong>Clinical Simulation</strong></p>
+<ul>
+<li class="">Real-time decision-making</li>
+<li class="">No technology access</li>
+<li class="">Demonstrates independent competence</li>
+<li class="">Assesses clinical reasoning</li>
+<li class="">Evaluates practical skills</li>
+</ul>
+<p><strong>Oral Examination</strong></p>
+<ul>
+<li class="">Defend written work</li>
+<li class="">Explain reasoning</li>
+<li class="">Answer probing questions</li>
+<li class="">Demonstrate understanding</li>
+<li class="">Show clinical judgment</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="hybrid-assessments">Hybrid Assessments<a href="#hybrid-assessments" class="hash-link" aria-label="Direct link to Hybrid Assessments" title="Direct link to Hybrid Assessments" translate="no">​</a></h3>
+<p><strong>Portfolio</strong></p>
+<ul>
+<li class="">AI-enhanced components (disclosed)</li>
+<li class="">AI-free reflections</li>
+<li class="">Practical demonstrations</li>
+<li class="">Peer evaluations</li>
+<li class="">Self-assessments</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quality-assurance">Quality Assurance<a href="#quality-assurance" class="hash-link" aria-label="Direct link to Quality Assurance" title="Direct link to Quality Assurance" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="module-evaluation">Module Evaluation<a href="#module-evaluation" class="hash-link" aria-label="Direct link to Module Evaluation" title="Direct link to Module Evaluation" translate="no">​</a></h3>
+<p><strong>Student Feedback</strong></p>
+<ul>
+<li class="">AI integration effectiveness</li>
+<li class="">Support adequacy</li>
+<li class="">Assessment clarity</li>
+<li class="">Learning outcomes achievement</li>
+<li class="">Suggestions for improvement</li>
+</ul>
+<p><strong>Learning Analytics</strong></p>
+<ul>
+<li class="">AI tool usage patterns</li>
+<li class="">Assessment performance</li>
+<li class="">Engagement metrics</li>
+<li class="">Support requests</li>
+<li class="">Misconduct incidents</li>
+</ul>
+<p><strong>External Review</strong></p>
+<ul>
+<li class="">External examiner feedback</li>
+<li class="">Professional body alignment</li>
+<li class="">Benchmark against sector</li>
+<li class="">Continuous improvement</li>
+<li class="">Best practice sharing</li>
+</ul>
+<hr>
+<p><strong>Next</strong>: Explore <a class="" href="/-AI-Educator-Toolkit/docs/ai-literacy/programme-strategy">Programme Strategy</a> for curriculum-wide integration.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/ClinyQAi/AI-Educator-Toolkit/tree/main/docs/ai-literacy/module-integration.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#module-design-principles" class="table-of-contents__link toc-highlight">Module Design Principles</a><ul><li><a href="#1-alignment-with-learning-outcomes" class="table-of-contents__link toc-highlight">1. Alignment with Learning Outcomes</a></li><li><a href="#2-contextual-integration" class="table-of-contents__link toc-highlight">2. Contextual Integration</a></li></ul></li><li><a href="#module-planning-framework" class="table-of-contents__link toc-highlight">Module Planning Framework</a><ul><li><a href="#step-1-needs-analysis" class="table-of-contents__link toc-highlight">Step 1: Needs Analysis</a></li><li><a href="#step-2-learning-design" class="table-of-contents__link toc-highlight">Step 2: Learning Design</a></li><li><a href="#step-3-assessment-design" class="table-of-contents__link toc-highlight">Step 3: Assessment Design</a></li></ul></li><li><a href="#example-module-plans" class="table-of-contents__link toc-highlight">Example Module Plans</a><ul><li><a href="#example-1-adult-nursing---care-planning-module" class="table-of-contents__link toc-highlight">Example 1: Adult Nursing - Care Planning Module</a></li><li><a href="#example-2-mental-health-nursing---therapeutic-communication" class="table-of-contents__link toc-highlight">Example 2: Mental Health Nursing - Therapeutic Communication</a></li><li><a href="#example-3-child-nursing---health-promotion" class="table-of-contents__link toc-highlight">Example 3: Child Nursing - Health Promotion</a></li></ul></li><li><a href="#implementation-guidance" class="table-of-contents__link toc-highlight">Implementation Guidance</a><ul><li><a href="#for-module-leaders" class="table-of-contents__link toc-highlight">For Module Leaders</a></li><li><a href="#common-challenges-and-solutions" class="table-of-contents__link toc-highlight">Common Challenges and Solutions</a></li></ul></li><li><a href="#assessment-strategies" class="table-of-contents__link toc-highlight">Assessment Strategies</a><ul><li><a href="#ai-enhanced-assessments" class="table-of-contents__link toc-highlight">AI-Enhanced Assessments</a></li><li><a href="#ai-free-assessments" class="table-of-contents__link toc-highlight">AI-Free Assessments</a></li><li><a href="#hybrid-assessments" class="table-of-contents__link toc-highlight">Hybrid Assessments</a></li></ul></li><li><a href="#quality-assurance" class="table-of-contents__link toc-highlight">Quality Assurance</a><ul><li><a href="#module-evaluation" class="table-of-contents__link toc-highlight">Module Evaluation</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Guide Sections</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/-AI-Educator-Toolkit/docs/intro">Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/-AI-Educator-Toolkit/docs/teaching">Teaching with AI</a></li><li class="footer__item"><a class="footer__link-item" href="/-AI-Educator-Toolkit/docs/case-studies">Case Studies</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Nursing Resources</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.nmc.org.uk/" target="_blank" rel="noopener noreferrer" class="footer__link-item">NMC Standards<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.fons.org/" target="_blank" rel="noopener noreferrer" class="footer__link-item">FONS<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://opennursingcoreig.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Open Nursing Core IG<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/ClinyQAi/AI-Educator-Toolkit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/-AI-Educator-Toolkit/docs/license">License</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Original work: "Educators' guide to multimodal learning and Generative AI" by Tünde Varga-Atkins, Samuel Saunders, et al. (2024/25) - <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a><br>Adapted for UK Nursing Education by Lincoln Gombedza, RN (LD) © 2025</div></div></div></footer></div>
+</body>
+</html>
