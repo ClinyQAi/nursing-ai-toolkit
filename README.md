@@ -225,7 +225,7 @@ We welcome contributions from the nursing education community!
 
 - 💬 **Discussion Forum**: [GitHub Discussions](https://github.com/ClinyQAi/-AI-Educator-Toolkit/discussions)
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/ClinyQAi/-AI-Educator-Toolkit/issues)
-- 📧 **Direct Contact**: info@nursingcitizendevelopment.com
+- 📧 
 
 ### Acknowledgments
 
