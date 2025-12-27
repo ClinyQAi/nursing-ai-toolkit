@@ -62,7 +62,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ClinyQAi/AI-Educator-Toolkit/tree/main/',
+            'https://github.com/ClinyQAi/-AI-Educator-Toolkit/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -178,7 +178,7 @@ const config: Config = {
 
             {
               label: 'GitHub',
-              href: 'https://github.com/ClinyQAi/AI-Educator-Toolkit',
+              href: 'https://github.com/ClinyQAi/-AI-Educator-Toolkit',
             },
             {
               label: 'Privacy Policy',
