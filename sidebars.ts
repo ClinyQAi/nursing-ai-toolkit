@@ -3,14 +3,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'intro',
-    {
-      type: 'category',
-      label: 'Introduction',
-      items: [
-        'introduction/index',
-        'introduction/what-is-generative-ai',
-      ],
-    },
+    'what-is-generative-ai',
     {
       type: 'category',
       label: 'Responsible Use',
