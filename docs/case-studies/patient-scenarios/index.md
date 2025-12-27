@@ -23,8 +23,8 @@ To make a simulation effective, you must give the AI a rich "backstory" or perso
 
 ## In This Section
 
-### [History Taking: Chest Pain](./history-taking)
+### [History Taking: Chest Pain](./history-taking.md)
 A scenario designed to practice the SOCRATES pain assessment model.
 
-### [The Deteriorating Patient](./deteriorating-patient)
+### [The Deteriorating Patient](./deteriorating-patient.md)
 A scenario focused on recognizing the signs of sepsis using the NEWS2 framework.
