@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkai_educator_toolkit=globalThis.webpackChunkai_educator_toolkit||[]).push([[6366],{6366(e,t,a){a.d(t,{createArchitectureServices:()=>c.S});var c=a(8980);a(7960)}}]);
