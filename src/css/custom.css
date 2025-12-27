@@ -113,3 +113,46 @@ h4,
   min-width: 100px;
   font-weight: 600;
 }
+
+/* --- Visual Affordance & Navigation --- */
+
+/* 1. Clear Link Indicators */
+.markdown a {
+  text-decoration: underline;
+  text-decoration-color: rgba(10, 77, 140, 0.3);
+  /* Subtle underline by default */
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.markdown a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration-color: var(--ifm-color-primary);
+  /* Bold underline on hover */
+  background-color: rgba(10, 77, 140, 0.05);
+  /* Very subtle highlight */
+  border-radius: 4px;
+}
+
+/* 2. Sidebar Active State */
+.menu__link--active {
+  background-color: rgba(10, 77, 140, 0.1);
+  /* Soft blue background */
+  border-right: 3px solid var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* 3. Refined Anchor Links (Hashtags) */
+.hash-link {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  color: var(--ifm-color-primary-light);
+  padding-left: 0.5rem;
+}
+
+h1:hover .hash-link,
+h2:hover .hash-link,
+h3:hover .hash-link {
+  opacity: 1;
+  text-decoration: none;
+}
