@@ -230,6 +230,15 @@ We welcome contributions from the nursing education community!
 ### Acknowledgments
 
 Special thanks to:
+- **Professor Joanne Bosanquet**, Chief Executive Foundation of Nursing Studies
+- **Kumbi Kariwo**, Nurse Citizen Developer & Expert in Wound/Skintone Bias and Coded Bias in AI
+- **Hector Musonza**, Practice Education and Preceptorship Lead North Staffordshire Combined Healthcare NHS Trust
+- **Dr Clare Cable**, Chief Executive Burdett Trust for Nursing Now Challenge
+- **Professor Gemma Stacey**, Mentor and Programme Director Nursing Now Challenge
+- **Josie Rudman MBE**, NHS England and my mutual mentor
+- **Rohit Sagoo**, Children's Nurse and Mentor
+- **Dr. Hellena Habte-Asres**, Multi-Award-Winning Postdoctoral Researcher (PhD Epidemiology) | Clinical Academic Nurse | Diabetes, CKD & Ophthalmology | Real-World Evidence mentor and friend
+- **Janet Michel**, Executive Director Global Health Mentorships
 - **Dr. Tünde Varga-Atkins** and the University of Liverpool team for creating the foundational guide
 - The **NMC** and **RCN** for their guidance on digital literacy in nursing
 - The **FONS** community for championing evidence-based nursing practice
