@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HowItWorks from '@site/src/components/HowItWorks';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -11,27 +12,38 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
-      <div className="container">
-        <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
-        <p className={styles.heroSubtitle}>A Practical Guide for UK Nursing Education</p>
-        <div className={styles.buttons}>
-          <Link
-            className={clsx('button button--primary button--lg', styles.heroButton)}
-            to="/docs/getting-started">
-            Get Started &rarr;
-          </Link>
-          <Link
-            className={clsx('button button--outline button--secondary button--lg', styles.heroButton)}
-            to="/docs/case-studies">
-            Case Studies
-          </Link>
+      <div className={clsx('container', styles.heroContainer)}>
+        <div className={styles.heroContent}>
+          <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
+          <p className={styles.heroSubtitle}>
+            Empowering UK Nursing Educators with practical, NMC-aligned guidance for integrating AI into teaching, learning, and assessment.
+          </p>
+          <div className={styles.buttons}>
+            <Link
+              className={clsx('button button--lg', styles.heroButtonPrimary)}
+              to="/docs/getting-started">
+              Get Started &rarr;
+            </Link>
+            <Link
+              className={clsx('button button--outline button--lg', styles.heroButtonSecondary)}
+              to="/docs/case-studies">
+              Case Studies
+            </Link>
+          </div>
+        </div>
+        <div className={styles.heroGraphic}>
+          <img
+            src={require('@site/static/img/premium_teaching.png').default}
+            alt="AI in Nursing Education"
+            className={styles.heroImage}
+          />
         </div>
       </div>
     </header>
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
@@ -40,6 +52,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HowItWorks />
       </main>
     </Layout>
   );

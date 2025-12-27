@@ -4,8 +4,8 @@
  */
 
 .heroBanner {
-  padding: 8rem 0;
-  text-align: center;
+  padding: 6rem 0;
+  text-align: left;
   position: relative;
   overflow: hidden;
   /* Premium Mesh Gradient */
@@ -24,11 +24,50 @@
   background-color: #0f172a;
 }
 
+/* Split Hero Container */
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 600px;
+}
+
+.heroGraphic {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  animation: floatImage 6s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
 .heroTitle {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   /* Animated Gradient Text */
   background: linear-gradient(90deg,
       #ffffff 0%,
@@ -54,15 +93,28 @@
 }
 
 .heroSubtitle {
-  font-size: 1.5rem;
-  opacity: 0.9;
-  max-width: 800px;
-  margin: 0 auto 2.5rem;
+  font-size: 1.3rem;
+  opacity: 0.95;
+  line-height: 1.7;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .heroContainer {
+    flex-direction: column;
+  }
+
+  .heroContent {
+    max-width: 100%;
+  }
+
+  .heroGraphic {
+    margin-top: 2rem;
   }
 
   .heroTitle {
@@ -73,19 +125,41 @@
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
-.heroButton {
-  padding: 0.8rem 2.5rem !important;
+/* Primary Accent Button (Warm Amber) */
+.heroButtonPrimary {
+  padding: 0.9rem 2.5rem !important;
   font-size: 1.1rem !important;
   border-radius: 50px !important;
   font-weight: 600 !important;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%) !important;
+  border: none !important;
+  color: white !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease !important;
 }
 
-.heroButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+.heroButtonPrimary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(245, 158, 11, 0.4);
+  color: white !important;
+}
+
+/* Secondary Button */
+.heroButtonSecondary {
+  padding: 0.9rem 2.5rem !important;
+  font-size: 1.1rem !important;
+  border-radius: 50px !important;
+  font-weight: 600 !important;
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  color: white !important;
+  transition: transform 0.2s ease, background 0.2s ease !important;
+}
+
+.heroButtonSecondary:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
 }
