@@ -123,7 +123,7 @@ Lincoln is a registered Learning Disability Nurse and Founder of [**ClinyQAi**](
 - 🌐 **Website**: [nursingcitizendevelopment.com](https://nursingcitizendevelopment.com)
 - 💼 **LinkedIn**: [Lincoln Gombedza](https://www.linkedin.com/in/lincoln-gombedza)
 - 🐙 **GitHub**: [@ClinyQAi](https://github.com/ClinyQAi)
-- 📧 **Email**: info@nursingcitizendevelopment.com
+
 
 ---
 
