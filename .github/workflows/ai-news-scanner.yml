@@ -1,5 +1,9 @@
 name: AI News Scanner for Nursing Education
 
+permissions:
+  contents: read
+  issues: write
+
 on:
   # Run every Monday at 9:00 AM UTC (Adjust to your timezone)
   schedule:
