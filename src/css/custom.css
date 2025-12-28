@@ -156,3 +156,51 @@ h3:hover .hash-link {
   opacity: 1;
   text-decoration: none;
 }
+
+/* --- Premium Admonitions (Glassmorphism) --- */
+.alert {
+  border: 1px solid var(--glass-border);
+  border-left-width: 5px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+  /* background-color fallback handled by docusaurus */
+}
+
+/* Success/Tip */
+.alert--success,
+.alert--info {
+  background-color: rgba(235, 248, 255, 0.7);
+}
+
+[data-theme='dark'] .alert--success,
+[data-theme='dark'] .alert--info {
+  background-color: rgba(14, 165, 233, 0.15);
+}
+
+/* Warning */
+.alert--warning {
+  background-color: rgba(255, 251, 235, 0.7);
+}
+
+[data-theme='dark'] .alert--warning {
+  background-color: rgba(245, 158, 11, 0.15);
+}
+
+/* Danger */
+.alert--danger {
+  background-color: rgba(254, 242, 242, 0.7);
+}
+
+[data-theme='dark'] .alert--danger {
+  background-color: rgba(239, 68, 68, 0.15);
+}
+
+/* --- Ambient Background --- */
+/* Add a subtle fixed noise/gradient to body */
+body {
+  background-image:
+    radial-gradient(circle at 15% 50%, rgba(var(--ifm-color-primary-rgb), 0.08), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(200, 50, 200, 0.05), transparent 25%);
+  background-attachment: fixed;
+}
