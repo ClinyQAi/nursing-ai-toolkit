@@ -230,6 +230,8 @@ We welcome contributions from the nursing education community!
 ### Acknowledgments
 
 Special thanks to:
+- **Lorna Zvikomborero Magume**, Care and Support Worker at ALC Supported Living (Aspirational Led Care) — whose dedication to person-centred care is nothing short of inspirational
+- **Aisha Holloway**, Chief Nursing Officer for Scotland and mentor
 - **Professor Joanne Bosanquet**, Chief Executive Foundation of Nursing Studies
 - **Kumbi Kariwo**, Nurse Citizen Developer & Expert in Wound/Skintone Bias and Coded Bias in AI
 - **Hector Musonza**, Practice Education and Preceptorship Lead North Staffordshire Combined Healthcare NHS Trust
