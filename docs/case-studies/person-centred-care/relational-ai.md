@@ -24,6 +24,8 @@ This approach is inspired by the work of the **Foundation of Nursing Studies (Fo
 
 ## The FoNS "Person-Centred Nursing Framework"
 
+![Person-Centred Nursing Framework Diagram](@site/static/img/pcc_framework_diagram.png)
+
 The **Person-Centred Nursing Framework** (McCormack & McCance, 2006; updated 2017) is a widely-used model that underpins person-centred care. It consists of four key constructs:
 
 | Construct | Description |

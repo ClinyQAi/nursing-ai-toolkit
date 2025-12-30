@@ -6,19 +6,19 @@ const STEPS = [
         number: '01',
         title: 'Explore',
         description: 'Browse case studies, prompts, and frameworks tailored for UK nursing education.',
-        icon: '📚',
+        icon: '/img/explore_icon.png',
     },
     {
         number: '02',
         title: 'Adapt',
         description: 'Customize strategies to fit your module, student cohort, and NMC proficiencies.',
-        icon: '✏️',
+        icon: '/img/adapt_icon.png',
     },
     {
         number: '03',
         title: 'Teach',
         description: 'Integrate AI responsibly into your teaching, learning, and assessment workflows.',
-        icon: '🎓',
+        icon: '/img/teach_icon.png',
     },
 ];
 
@@ -33,7 +33,9 @@ export default function HowItWorks() {
                 <div className={styles.stepsContainer}>
                     {STEPS.map((step, index) => (
                         <div key={index} className={styles.step}>
-                            <div className={styles.stepIcon}>{step.icon}</div>
+                            <div className={styles.stepIcon}>
+                                <img src={step.icon} alt={step.title} className={styles.stepImage} />
+                            </div>
                             <div className={styles.stepNumber}>{step.number}</div>
                             <h3 className={styles.stepTitle}>{step.title}</h3>
                             <p className={styles.stepDescription}>{step.description}</p>
