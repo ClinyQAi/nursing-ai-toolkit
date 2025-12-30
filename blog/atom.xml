@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://clinyqai.github.io/-AI-Educator-Toolkit/blog</id>
-    <title>AI Educator Toolkit Blog</title>
+    <title>AI in Nursing Education: A Multimodal Learning Toolkit Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://clinyqai.github.io/-AI-Educator-Toolkit/blog"/>
-    <subtitle>AI Educator Toolkit Blog</subtitle>
+    <subtitle>AI in Nursing Education: A Multimodal Learning Toolkit Blog</subtitle>
     <icon>https://clinyqai.github.io/-AI-Educator-Toolkit/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
