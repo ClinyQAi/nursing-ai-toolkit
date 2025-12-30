@@ -1,6 +1,6 @@
 ---
 title: Site Map
-description: Complete overview of all pages in AI in Nursing Education: A Multimodal Learning Toolkit
+description: "Complete overview of all pages in AI in Nursing Education: A Multimodal Learning Toolkit"
 sidebar_position: 100
 ---
 
