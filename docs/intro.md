@@ -17,12 +17,31 @@ This work builds upon the foundational research of **Tünde Varga-Atkins, Samuel
 This toolkit would not exist without the pioneering work and inspiration of:
 
 **Academic Foundation**:
-- **Tünde Varga-Atkins, Samuel Saunders, et al.** — For their comprehensive guide to multimodal learning and GenAI, published under CC BY-NC 4.0 licence[^1]
+- **Dr Tünde Varga-Atkins and the University of Liverpool team** — For creating the foundational guide to multimodal learning and GenAI, published under CC BY-NC 4.0 licence[^1]
+
+**Mentors and Champions**:
+- **Aisha Holloway**, Chief Nursing Officer for Scotland — My mentor, whose leadership continues to inspire excellence in nursing practice
+- **Professor Gemma Stacey**, Programme Director Nursing Now Challenge — Mentor and champion of nurse-led innovation
+- **Josie Rudman MBE**, NHS England — My mutual mentor, whose wisdom has shaped my approach to healthcare transformation
+- **Dr Clare Cable**, Chief Executive Burdett Trust for Nursing, Nursing Now Challenge — For supporting nurse-led initiatives and evidence-based practice
+- **Janet Michel**, Executive Director Global Health Mentorships — For championing global nursing collaboration
 
 **Nurse Citizen Developer Pioneers**:
-- **Joanne Bosanquet** — For championing digital innovation and person-centred language in nursing practice
-- **Kumbi Kariwo** — For demonstrating how nurses can lead technological transformation
-- **The wider Nurse Citizen Developer community** — For proving that nurses are not passive technology users, but active creators and innovators
+- **Professor Joanne Bosanquet**, Chief Executive Foundation of Nursing Studies — For championing digital innovation, person-centred language, and evidence-based nursing practice
+- **Kumbi Kariwo**, Nurse Citizen Developer & Expert in Wound/Skintone Bias and Coded Bias in AI — For demonstrating how nurses can lead technological transformation and address critical AI equity issues
+
+**Clinical Colleagues and Friends**:
+- **Lorna Zvikomborero Magume**, Care and Support Worker at ALC Supported Living (Aspirational Led Care) — Whose dedication to person-centred care is nothing short of inspirational
+- **Hector Musonza**, Practice Education and Preceptorship Lead, North Staffordshire Combined Healthcare NHS Trust — For advancing nursing education excellence
+- **Rohit Sagoo**, Children's Nurse — Mentor whose commitment to paediatric nursing inspires innovation
+- **Dr Hellena Habte-Asres**, Multi-Award-Winning Postdoctoral Researcher (PhD Epidemiology), Clinical Academic Nurse — Mentor and friend whose expertise in diabetes, CKD, and ophthalmology, and dedication to real-world evidence continues to inspire
+
+**Professional Bodies**:
+- **The Nursing and Midwifery Council (NMC)** and **Royal College of Nursing (RCN)** — For their guidance on digital literacy in nursing
+- **The Foundation of Nursing Studies (FONS) community** — For championing evidence-based nursing practice
+
+**To All Nurse Educators**:
+- Every nurse educator experimenting with AI in their teaching — You are shaping the future of nursing education
 
 Their collective work has shown that nurses can—and should—shape the AI tools we use, rather than simply accepting what is built for us.
 
