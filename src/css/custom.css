@@ -395,3 +395,65 @@ body {
 [data-theme='dark'] .footer::before {
   box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
 }
+
+/* === MOBILE RESPONSIVENESS FIXES === */
+@media screen and (max-width: 996px) {
+
+  /* Disable intensive ambient backgrounds on mobile */
+  body {
+    background-image: none !important;
+  }
+
+  [data-theme='dark'] body {
+    background-image: none !important;
+    background-color: var(--ifm-background-color);
+  }
+
+  /* Disable hero orbs on mobile (handled in index.module.css but ensuring override) */
+  .heroBanner::before,
+  .heroBanner::after {
+    display: none !important;
+  }
+
+  /* Ensure footer is visible */
+  .footer {
+    z-index: auto;
+    position: relative;
+  }
+
+  .footer::before {
+    z-index: 1;
+  }
+
+  /* Fix navbar sidebar visibility */
+  .navbar-sidebar {
+    background-color: var(--ifm-background-color) !important;
+    z-index: 9999 !important;
+  }
+
+  [data-theme='dark'] .navbar-sidebar {
+    background-color: #0a0f1a !important;
+  }
+
+  /* Ensure content is not obscured */
+  .main-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Remove glows that may cause rendering issues */
+  [data-theme='dark'] .button--primary {
+    box-shadow: none;
+  }
+
+  [data-theme='dark'] .footer::before {
+    box-shadow: none;
+  }
+}
+
+/* Ensure no horizontal overflow */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}

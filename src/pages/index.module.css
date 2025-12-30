@@ -215,6 +215,13 @@
   .heroBanner {
     padding: 4rem 2rem;
     text-align: center;
+    overflow: hidden;
+  }
+
+  /* Hide decorative orbs on mobile */
+  .heroBanner::before,
+  .heroBanner::after {
+    display: none !important;
   }
 
   .heroContainer {
@@ -229,13 +236,18 @@
     margin-top: 2rem;
   }
 
-  .heroTitle {
-    font-size: 2.5rem;
+  /* Hide rotating glow on mobile */
+  .heroGraphic::before {
+    display: none !important;
   }
 
-  .heroGraphic::before {
-    width: 120%;
-    height: 120%;
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroImage {
+    max-height: 250px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
 }
 
