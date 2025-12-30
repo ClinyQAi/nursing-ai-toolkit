@@ -12,6 +12,8 @@ description: Using AI grounded in nursing values and evidence
 **Last Updated**: December 2025
 :::
 
+![Relational AI - Human and Digital Connection](@site/static/img/relational_ai_spot.png)
+
 ## What is Relational AI?
 
 **Relational AI** is an approach to using artificial intelligence that prioritises the *relational* aspects of nursing—empathy, compassion, and person-centredness—over purely transactional outputs. It moves AI from being a tool that simply generates answers to one that helps nurses *reflect* on their practice.
