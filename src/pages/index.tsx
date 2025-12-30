@@ -47,7 +47,7 @@ export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title="AI Educator Toolkit for UK Nursing Education"
+      title="AI in Nursing Education: A Multimodal Learning Toolkit for UK Educators"
       description="A practical guide for nurse educators to integrate Generative AI into teaching, learning, and assessment. Aligned with NMC Standards.">
       <HomepageHeader />
       <main>

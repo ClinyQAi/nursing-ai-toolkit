@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 AI Educator Toolkit
+# 🎓 AI in Nursing Education: A Multimodal Learning Toolkit
 
 ### A Practical Guide for UK Nursing Education
 
@@ -30,7 +30,7 @@
 
 ## 🌟 Overview
 
-The **AI Educator Toolkit** is a comprehensive, open-access resource designed specifically for **UK nursing educators** who want to integrate Generative AI into their teaching practice responsibly and effectively.
+The **AI in Nursing Education: A Multimodal Learning Toolkit** is a comprehensive, open-access resource designed specifically for **UK nursing educators** who want to integrate Generative AI into their teaching practice responsibly and effectively.
 
 This toolkit provides:
 - ✅ **Practical strategies** for teaching delivery, self-regulated learning, and AI-resilient assessment
@@ -76,7 +76,7 @@ Curated links to:
 ## 🚀 Quick Start
 
 ### View the Live Guide
-👉 **[Visit the AI Educator Toolkit](https://clinyqai.github.io/-AI-Educator-Toolkit/)**
+👉 **[Visit AI in Nursing Education: Multimodal Learning Toolkit](https://clinyqai.github.io/-AI-Educator-Toolkit/)**
 
 ### Run Locally
 
@@ -141,7 +141,7 @@ This toolkit is an **adaptation** of the **"Educators' guide to multimodal learn
 
 ### This Adaptation
 
-**Adapted Work**: AI Educator Toolkit for UK Nursing Education  
+**Adapted Work**: AI in Nursing Education: A Multimodal Learning Toolkit for UK Nursing Education  
 **Adapter**: Lincoln Gombedza, RN (LD) © 2024-2025  
 **Adaptation License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 

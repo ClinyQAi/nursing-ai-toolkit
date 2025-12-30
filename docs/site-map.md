@@ -1,12 +1,12 @@
 ---
 title: Site Map
-description: Complete overview of all pages in the AI Educator Toolkit
+description: Complete overview of all pages in AI in Nursing Education: A Multimodal Learning Toolkit
 sidebar_position: 100
 ---
 
 # 🗺️ Site Map
 
-Browse all pages in the AI Educator Toolkit. Click any link to jump directly to that content.
+Browse all pages in this toolkit. Click any link to jump directly to that content.
 
 ---
 

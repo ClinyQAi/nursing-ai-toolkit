@@ -1,6 +1,6 @@
-# Contributing to the AI Educator Toolkit
+# Contributing to AI in Nursing Education: A Multimodal Learning Toolkit
 
-First off, thank you for considering contributing to the AI Educator Toolkit! It's people like you that make this a valuable resource for the nursing education community. 🩺✨
+First off, thank you for considering contributing to this toolkit! It's people like you that make this a valuable resource for the nursing education community. 🩺✨
 
 We welcome contributions from nurse educators, students, clinical practitioners, and educational developers.
 
