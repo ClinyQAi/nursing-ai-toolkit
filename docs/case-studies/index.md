@@ -20,16 +20,16 @@ Explore how Generative AI is being applied across various nursing education cont
 
 We have organized our examples into several key domains of nursing practice:
 
-### 🩺 [Patient Scenarios](./patient-scenarios)
+### 🩺 [Patient Scenarios](./patient-scenarios/index.md)
 Practice history taking, NEWS2 assessment, and clinical reasoning with virtual patients.
 
-### 💉 [Clinical Skills](./clinical-skills)
+### 💉 [Clinical Skills](./clinical-skills/index.md)
 Using AI to visualize complex anatomy (Wound Care) and conceptual metaphors (ECG Interpretation).
 
-### 🗣️ [Communication & Empathy](./person-centred-care)
+### 🗣️ [Communication & Empathy](./person-centred-care/index.md)
 Refining person-centred language and practicing difficult conversations in a safe environment.
 
-### 🎨 [Original Student Adaptations](./original-adaptations)
+### 🎨 [Original Student Adaptations](./original-adaptations/index.md)
 Seeing how students take ownership of AI tools to create their own visual metaphors and study aids.
 
 ## Why Case Studies?
@@ -41,4 +41,4 @@ Case studies bridge the gap between AI theory and clinical reality. They help ed
 
 ---
 
-**Explore the first category**: [Patient Scenarios](./patient-scenarios)
+**Explore the first category**: [Patient Scenarios](./patient-scenarios/index.md)
