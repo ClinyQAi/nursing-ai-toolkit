@@ -29,8 +29,6 @@ This toolkit would not exist without the pioneering work and inspiration of:
 **Nurse Citizen Developer Pioneers**:
 - **Professor Joanne Bosanquet**, Chief Executive Foundation of Nursing Studies — For championing digital innovation, person-centred language, and evidence-based nursing practice
 - **Kumbi Kariwo**, Nurse Citizen Developer & Expert in Wound/Skintone Bias and Coded Bias in AI — For demonstrating how nurses can lead technological transformation and address critical AI equity issues
-
-**Clinical Colleagues and Friends**:
 - **Lorna Zvikomborero Magume**, Care and Support Worker at ALC Supported Living (Aspirational Led Care) — Whose dedication to person-centred care is nothing short of inspirational
 - **Hector Musonza**, Practice Education and Preceptorship Lead, North Staffordshire Combined Healthcare NHS Trust — For advancing nursing education excellence
 - **Rohit Sagoo**, Children's Nurse — Mentor whose commitment to paediatric nursing inspires innovation
