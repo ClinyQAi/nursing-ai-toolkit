@@ -37,6 +37,21 @@ The responsible use of multimodal GenAI in nursing education requires a careful 
 These concerns are amplified in nursing where accuracy and patient safety are paramount. A hallucinated medication dose or incorrect clinical procedure could have serious consequences if students don't verify information against authoritative sources.
 :::
 
+## NMC Regulatory Updates
+
+:::tip December 2025 Update
+The **Nursing and Midwifery Council (NMC)** is actively reviewing its Code and revalidation guidance to include **clearer standards on the safe and appropriate use of AI** in nursing practice.
+
+**Timeline**:
+- **2025-2026**: Corporate plan development and stakeholder consultation
+- **Q3-Q4 2026**: Public consultation on proposed AI standards
+- **October 2027**: Publication of modernised Code with AI guidance
+
+**Current Status**: Digital and technological literacy is already a **foundational requirement** in NMC's Standards for pre-registration nursing programmes. Students must demonstrate these capabilities to meet programme outcomes.
+
+**What This Means**: While formal AI-specific standards are forthcoming, nursing educators should continue developing students' critical AI literacy now. This toolkit aligns with the NMC's emphasis on safe, effective, and ethical practice.
+:::
+
 ## Four Key Cost Areas
 
 Beckingham and Hartley (2025a) suggest four areas to consider when looking at the cost of using GenAI:

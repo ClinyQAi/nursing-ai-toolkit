@@ -309,9 +309,13 @@ An institutional framework provides the foundation for consistent, ethical, and 
 
 **NMC Engagement**
 - Standards alignment
-- Policy consultation
+- Policy consultation (NMC Code review 2025-2027)
 - Inspection preparation
 - Sector contribution
+
+:::tip NMC AI Standards Timeline
+The NMC is currently reviewing its Code to integrate AI standards. Consultation expected **Q3-Q4 2026**, with publication in **October 2027**. Institutions should actively participate in the consultation process and align policies with forthcoming standards.
+:::
 
 **RCN Collaboration**
 - Professional development

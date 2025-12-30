@@ -17,7 +17,7 @@ Students often struggle to remember the systematic approach to pain assessment (
 
 ## The Prompt (For Students)
 
-> **Copy and paste this into Gemini 3 / GPT-5:**
+> **Copy and paste this into ChatGPT (GPT-5.2), Claude (Opus 4.5), or Gemini (3.0 Flash):**
 >
 > "Act as a 65-year-old male patient named 'Arthur'.
 > You have come to A&E with 'heaviness' in your chest.
