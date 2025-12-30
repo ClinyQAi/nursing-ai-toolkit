@@ -234,14 +234,14 @@ Special thanks to:
 - **Aisha Holloway**, Chief Nursing Officer for Scotland and mentor
 - **Professor Joanne Bosanquet**, Chief Executive Foundation of Nursing Studies
 - **Kumbi Kariwo**, Health Inequalities Lead, Nurse Citizen Developer & Expert in Wound/Skintone Bias and Coded Bias in AI
-- **Hector Musonza**, Practice Education and Preceptorship Lead North Staffordshire Combined Healthcare NHS Trust
+- **Hector Musonza**, Practice Education and Preceptorship Lead.
 - **Dr Clare Cable**, Chief Executive Burdett Trust for Nursing Now Challenge
 - **Professor Gemma Stacey**, Mentor and Programme Director Nursing Now Challenge
 - **Josie Rudman MBE**, NHS England and my mutual mentor
 - **Rohit Sagoo**, Children's Nurse and Mentor
 - **Dr. Hellena Habte-Asres**, Multi-Award-Winning Postdoctoral Researcher (PhD Epidemiology) | Clinical Academic Nurse | Diabetes, CKD & Ophthalmology | Real-World Evidence mentor and friend
 - **Janet Michel**, Executive Director Global Health Mentorships
-- **Kelly Thobekile Ncube**, UEL Senior Lecturer in Adult Nursing (SFHEA), Global Health Lecturer Volunteer Fellow — Passionate educator in resuscitation and expert in AI nursing education, championing innovative teaching methods
+- **Kelly Thobekile Ncube**, Senior Lecturer in Adult Nursing (SFHEA), Global Health Lecturer Volunteer Fellow — Passionate educator in resuscitation and expert in AI nursing education, championing innovative teaching methods
 - **Dr. Tünde Varga-Atkins** and the University of Liverpool team for creating the foundational guide
 - The **NMC** and **RCN** for their guidance on digital literacy in nursing
 - The **FONS** community for championing evidence-based nursing practice
