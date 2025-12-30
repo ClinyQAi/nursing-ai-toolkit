@@ -14,10 +14,15 @@ We do not endorse any specific paid product. Tools are listed for their function
 
 | Tool | Creator | Model | Cost | Best For |
 | :--- | :--- | :--- | :--- | :--- |
-| **ChatGPT** | OpenAI | GPT-4o / o1 | Freemium | General purpose, coding, reasoning. |
-| **Claude** | Anthropic | Sonnet 3.5 | Freemium | Nuanced writing, large context window (pasting whole papers). |
-| **Gemini** | Google | Gemini 1.5 Pro | Freemium | Integration with Google Docs/Drive, multimodal input. |
+| **ChatGPT** | OpenAI | GPT-5.2 / GPT-5 | Freemium | Professional knowledge work, deep reasoning, long-context understanding. |
+| **ChatGPT for Teachers** | OpenAI | GPT-5.2 | Free (for educators) | Lesson planning, grading assistance, instructional design. Available to ~150k+ US educators. |
+| **Claude** | Anthropic | Opus 4.5 / Sonnet 4.5 | Freemium | Coding, agents, complex reasoning. Leading for software tasks and math. |
+| **Gemini** | Google | Gemini 3.0 Flash / 3 Deep Think | Freemium | Lightning-fast reasoning, multimodal, deep integration with Google Workspace. |
 | **Microsoft Copilot** | Microsoft | GPT-4 | Freemium | Web searching, enterprise data protection (if logged in with work ID). |
+
+:::tip December 2025 Update
+**Latest models**: GPT-5.2 (Dec 2025), Claude Opus 4.5 (Nov 2025), Gemini 3.0 Flash (Dec 2025) represent significant improvements in reasoning, efficiency, and professional knowledge work. **ChatGPT for Teachers** launched Nov 19, 2025, offering free access to educators.
+:::
 
 ## 🔬 Research & Evidence
 

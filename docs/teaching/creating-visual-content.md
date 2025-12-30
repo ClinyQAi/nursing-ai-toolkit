@@ -53,8 +53,8 @@ Minimalist style, suitable for infographic use."
 
 Transform financial concepts, clinical data, or evidence-based practice into visual infographics.
 
-**🚨 GAME CHANGER: Nano Banana Pro (Gemini 3 Pro Image)**  
-Unlike older models (DALL-E 3), Nano Banana can **render perfect text** inside images. You can now create fully labeled diagrams without needing Photoshop.
+**💡 Advanced Text Rendering**  
+Modern AI image generators (including Gemini 3.0, DALL-E 3, and Midjourney v7) now support **accurate text rendering** within images. You can create fully labeled diagrams, infographics, and educational posters without external editing tools.
 
 **Nursing Example**: Sepsis Six Care Bundle
 ```
@@ -65,9 +65,10 @@ Use clear icons and NHS branding colors. Make it suitable for A4 poster printing
 ```
 
 ### 3. Localization & Multilingual Resources
-**New Capability**: Nano Banana can translate text *inside* an existing image.
-*   **Use Case**: Take an English "Stroke Awareness (FAST)" poster and instantly regenerate it in Polish, Urdu, or Spanish for diverse patient populations.
+**Advanced Capability**: Modern AI models can translate text *within* existing images while preserving layout and design.
+*   **Use Case**: Take an English "Stroke Awareness (FAST)" poster and regenerate it in Polish, Urdu, or Spanish for diverse patient populations.
 *   **Prompt**: *"Translate all the text in this image into Spanish while maintaining the original layout and NHS branding."*
+*   **Best Tools**: Gemini 3.0 Flash, GPT-5.2 with vision capabilities
 
 ### 4. Generate Visual Metaphors
 
@@ -130,14 +131,14 @@ suggested labels or annotations.
 ## Tools for Visual Content Creation
 
 ### Text-to-Image AI:
--   **Gemini 3 Pro (Nano Banana)** — The new "Gold Standard" for text rendering and detailed reasoning.
--   **DALL-E 3** (OpenAI) — Excellent for stylized visuals, but struggles with complex text.
--   **Midjourney v7** — Best for "artistic" photorealism.
--   **Adobe Firefly** — Commercially safe, integrated with Adobe Suite.
+-   **Gemini 3.0 Flash** (Google) — Lightning-fast image generation with excellent text rendering and multimodal reasoning.
+-   **DALL-E 3** (OpenAI, via GPT-5.2) — Integrated conversational image generation, improved text accuracy.
+-   **Midjourney v7** — Best for artistic photorealism and stylized medical illustrations.
+-   **Adobe Firefly** — Commercially safe, ethically trained, integrated with Adobe Suite.
 
 ### Diagram and Flowchart Tools:
--   **Gemini 3 Pro** + Mermaid — Can now generate complex flowcharts directly.
-- **ChatGPT / Claude Sonnet 4** — Text-to-diagram generation
+-   **Gemini 3.0 Flash** + Mermaid — Generate complex flowcharts and diagrams directly from text.
+- **GPT-5.2 / Claude Opus 4.5** — Advanced text-to-diagram generation with reasoning
 - **Lucidchart** — Professional flowcharts
 - **Canva** — User-friendly design platform with AI features
 
