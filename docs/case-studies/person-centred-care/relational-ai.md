@@ -52,7 +52,6 @@ The following resources from FoNS are **freely available** for educational use:
 | **IPDJ Archive** | Full archive of the International Practice Development Journal (2011-2023) | [fons.org/library/journal](https://www.fons.org/library/journal/) |
 | **Creating Caring Cultures** | Programme for developing person-centred workplaces | [fons.org/programmes](https://www.fons.org/programmes/) |
 | **Resilience-based Clinical Supervision** | Model for restorative supervision | [fons.org/resources](https://www.fons.org/resources/) |
-| **Project Reports** | Case studies of practice development in action | [fons.org/library/report-series](https://www.fons.org/library/report-series/) |
 
 ---
 
