@@ -1,0 +1,75 @@
+.backToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--accent-teal, #00a499) 100%);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+        0 4px 15px rgba(0, 94, 184, 0.3),
+        0 0 30px rgba(0, 164, 153, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.8);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+}
+
+.backToTop.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.backToTop:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow:
+        0 8px 25px rgba(0, 94, 184, 0.4),
+        0 0 50px rgba(0, 164, 153, 0.3);
+}
+
+.backToTop:active {
+    transform: scale(0.95);
+}
+
+/* Pulse animation on idle */
+.backToTop.visible {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        box-shadow:
+            0 4px 15px rgba(0, 94, 184, 0.3),
+            0 0 30px rgba(0, 164, 153, 0.2);
+    }
+
+    50% {
+        box-shadow:
+            0 4px 20px rgba(0, 94, 184, 0.5),
+            0 0 40px rgba(0, 164, 153, 0.3);
+    }
+}
+
+.backToTop:hover {
+    animation: none;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+    .backToTop {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 45px;
+        height: 45px;
+    }
+}

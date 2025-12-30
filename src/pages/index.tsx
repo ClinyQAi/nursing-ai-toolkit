@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HowItWorks from '@site/src/components/HowItWorks';
+import BackToTop from '@site/src/components/BackToTop';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -54,6 +55,7 @@ export default function Home(): React.JSX.Element {
         <HomepageFeatures />
         <HowItWorks />
       </main>
+      <BackToTop />
     </Layout>
   );
 }
