@@ -16,5 +16,5 @@ This section contains case studies directly adapted from the original *Educators
 
 ## In This Section
 
-### [Visual Metaphors](./visual-metaphors)
+### [Visual Metaphors](./visual-metaphors.md)
 How creating AI imagery can help students understand abstract concepts.

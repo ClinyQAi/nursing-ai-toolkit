@@ -26,28 +26,28 @@ These case studies demonstrate practical applications of multimodal GenAI in UK 
 
 ## Featured Case Studies
 
-### [Wound Care Visualization](./wound-care-visualization)
+### [Wound Care Visualization](./wound-care-visualization.md)
 Using text-to-image AI to create anatomical wound healing diagrams and care pathway visualizations.
 
 **NMC Competencies**: Platform 1 (Being an accountable professional), Platform 2 (Promoting health and preventing ill health)
 
 ---
 
-### [Patient Scenario Generation](./patient-scenarios)
+### [Patient Scenario Generation](../patient-scenarios/index.md)
 Creating realistic, person-centred patient scenarios using multimodal GenAI for clinical reasoning practice.
 
 **NMC Competencies**: Platform 3 (Assessing needs and planning care), Platform 4 (Providing and evaluating care)
 
 ---
 
-### [Clinical Skills Training](./clinical-skills)
+### [Clinical Skills Training](../clinical-skills/index.md)
 Developing video demonstrations and interactive guides for aseptic technique, catheterization, and medication administration.
 
 **NMC Competencies**: Platform 4 (Providing and evaluating care), Annexe A (Communication and relationship management skills)
 
 ---
 
-### [Person-Centred Language Checker](./person-centred-language)
+### [Person-Centred Language Checker](./person-centred-language.md)
 Using GenAI to analyze nursing documentation and promote dignity-preserving, person-centred language aligned with FONS principles.
 
 **NMC Competencies**: Platform 7 (Coordinating care), Annexe A (Communication and relationship management skills)
@@ -70,10 +70,10 @@ Have you used GenAI in nursing education? We'd love to hear about it! [Submit yo
 ## Index of All Case Studies
 
 ### Nursing-Specific:
-- [Wound Care Visualization](./wound-care-visualization)
-- [Patient Scenario Generation](./patient-scenarios)
-- [Clinical Skills Training](./clinical-skills)
-- [Person-Centred Language Checker](./person-centred-language)
+- [Wound Care Visualization](./wound-care-visualization.md)
+- [Patient Scenario Generation](../patient-scenarios/index.md)
+- [Clinical Skills Training](../clinical-skills/index.md)
+- [Person-Centred Language Checker](./person-centred-language.md)
 
 ### Original Case Studies:
 Browse other case studies from the original guide that can be adapted for nursing:

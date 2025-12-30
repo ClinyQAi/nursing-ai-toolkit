@@ -22,8 +22,8 @@ These case studies are for **educational theory** only.
 
 ## In This Section
 
-### [ECG Interpretation](./ecg-interpretation)
+### [ECG Interpretation](./ecg-interpretation.md)
 Using AI to explain the *theory* of ECG waveforms (P-waves, QRS complexes) using visual metaphors.
 
-### [Medication Mechanisms](./medication-mechanism)
+### [Medication Mechanisms](./medication-mechanism.md)
 Using AI to visualize pharmacodynamics (e.g., "How do ACE Inhibitors actually work?").

@@ -16,18 +16,18 @@ Communication is the bedrock of nursing. While AI cannot feel empathy, it is sur
 
 ## In This Section
 
-### [Difficult Conversations](./difficult-conversations)
+### [Difficult Conversations](./difficult-conversations.md)
 Rehearsing breaking bad news or addressing a concern with a relative using simulated roleplay.
 
-### [Language Refinement](./language-refinement)
+### [Language Refinement](./language-refinement.md)
 Translating "Medicalese" into "Human". How to check your own language for jargon and institutional bias.
 
-### [Relational AI & FoNS Insights](./relational-ai)
+### [Relational AI & FoNS Insights](./relational-ai.md)
 Using AI grounded in nursing values and the Foundation of Nursing Studies' person-centred framework.
 
-### [Student Activities](./student-activities)
+### [Student Activities](./student-activities.md)
 Hands-on exercises for students to develop person-centred practice with AI.
 
-### [Educator Guide](./educator-guide)
+### [Educator Guide](./educator-guide.md)
 Resources for educators to integrate FoNS principles and person-centred AI into their curriculum.
 
