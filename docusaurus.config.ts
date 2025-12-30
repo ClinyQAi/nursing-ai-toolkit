@@ -129,8 +129,8 @@ const config: Config = {
     navbar: {
       title: 'AI in Nursing Education',
       logo: {
-        alt: 'AI Educator Toolkit Logo',
-        src: 'img/logo.svg',
+        alt: 'AI in Nursing Education Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
