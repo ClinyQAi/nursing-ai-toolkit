@@ -233,7 +233,7 @@ Special thanks to:
 - **Lorna Zvikomborero Magume**, Care and Support Worker at ALC Supported Living (Aspirational Led Care) — whose dedication to person-centred care is nothing short of inspirational
 - **Aisha Holloway**, Chief Nursing Officer for Scotland and mentor
 - **Professor Joanne Bosanquet**, Chief Executive Foundation of Nursing Studies
-- **Kumbi Kariwo**, Nurse Citizen Developer & Expert in Wound/Skintone Bias and Coded Bias in AI
+- **Kumbi Kariwo**, Health Inequalities Lead, Nurse Citizen Developer & Expert in Wound/Skintone Bias and Coded Bias in AI
 - **Hector Musonza**, Practice Education and Preceptorship Lead North Staffordshire Combined Healthcare NHS Trust
 - **Dr Clare Cable**, Chief Executive Burdett Trust for Nursing Now Challenge
 - **Professor Gemma Stacey**, Mentor and Programme Director Nursing Now Challenge
@@ -241,6 +241,7 @@ Special thanks to:
 - **Rohit Sagoo**, Children's Nurse and Mentor
 - **Dr. Hellena Habte-Asres**, Multi-Award-Winning Postdoctoral Researcher (PhD Epidemiology) | Clinical Academic Nurse | Diabetes, CKD & Ophthalmology | Real-World Evidence mentor and friend
 - **Janet Michel**, Executive Director Global Health Mentorships
+- **Kelly Thobekile Ncube**, UEL Senior Lecturer in Adult Nursing (SFHEA), Global Health Lecturer Volunteer Fellow — Passionate educator in resuscitation and expert in AI nursing education, championing innovative teaching methods
 - **Dr. Tünde Varga-Atkins** and the University of Liverpool team for creating the foundational guide
 - The **NMC** and **RCN** for their guidance on digital literacy in nursing
 - The **FONS** community for championing evidence-based nursing practice
