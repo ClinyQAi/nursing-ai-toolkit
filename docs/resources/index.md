@@ -4,6 +4,8 @@ title: Resources
 description: Curated tools, guidance, and evidence for AI in nursing
 ---
 
+![AI Resources Library](@site/static/img/cover_resources_ai.png)
+
 # Resources Library
 
 :::info Attribution

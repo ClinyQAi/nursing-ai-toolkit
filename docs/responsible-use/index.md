@@ -4,6 +4,8 @@ title: Overview
 description: Responsible and ethical use of AI in nursing education
 ---
 
+![Responsible Use of AI](@site/static/img/cover_responsible_use.png)
+
 # Responsible Use of AI in Multimodal Context
 
 :::info Attribution

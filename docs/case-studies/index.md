@@ -4,6 +4,8 @@ title: Overview
 description: Real-world examples of Generative AI in nursing education
 ---
 
+![Nursing Case Studies](@site/static/img/cover_case_studies.png)
+
 # Nursing Case Studies
 
 :::info Attribution

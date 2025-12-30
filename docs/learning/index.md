@@ -4,6 +4,8 @@ title: Learning with AI
 description: Empowering students to use GenAI for self-regulated learning
 ---
 
+![Learning with AI](@site/static/img/cover_learning_ai.png)
+
 # Learning with AI
 
 :::info Attribution

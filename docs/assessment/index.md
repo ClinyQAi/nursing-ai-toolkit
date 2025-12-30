@@ -4,6 +4,8 @@ title: Assessment with AI
 description: Moving from policing to designing AI-resilient assessments
 ---
 
+![Assessment with AI](@site/static/img/cover_assessment_ai.png)
+
 # Assessment with AI
 
 :::info Attribution

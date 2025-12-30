@@ -4,6 +4,8 @@ title: Creating Visual Content
 description: Using Gen AI to create images, diagrams, and videos for nursing education
 ---
 
+![Visual Content](@site/static/img/header_abstract_flow.png)
+
 # Creating Visual Content with GenAI
 
 :::info Attribution

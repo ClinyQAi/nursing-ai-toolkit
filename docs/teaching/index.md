@@ -3,6 +3,8 @@ sidebar_label:  Overview
 sidebar_position: 1
 ---
 
+![Teaching with AI](@site/static/img/cover_teaching_ai.png)
+
 # Teaching with Multimodal Gen AI
 
 :::info Attribution
