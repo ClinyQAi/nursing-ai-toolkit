@@ -6,18 +6,33 @@ description: Understanding multimodal learning and Generative AI in nursing educ
 
 # Introduction to Multimodal Learning and Generative AI
 
-:::info Attribution
-**Original work**: "Educators' guide to multimodal learning and Generative AI" — Tünde Varga-Atkins, Samuel Saunders, et al. (2024/25) — [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
-**Adapted for UK Nursing Education by**: Lincoln Gombedza, RN (LD)  
+## About This Toolkit
+
+Welcome! I'm **Lincoln Gombedza, RN (LD)**, and I've created this toolkit to help UK nursing educators harness the potential of Generative AI whilst maintaining the rigorous standards our profession demands.
+
+This work builds upon the foundational research of **Tünde Varga-Atkins, Samuel Saunders, and colleagues** in their excellent "Educators' guide to multimodal learning and Generative AI" (2024/25)[^1]. I have adapted and contextualised their insights for UK nursing education, integrating NMC standards, clinical examples, and person-centred care principles.
+
+### Acknowledgments
+
+This toolkit would not exist without the pioneering work and inspiration of:
+
+**Academic Foundation**:
+- **Tünde Varga-Atkins, Samuel Saunders, et al.** — For their comprehensive guide to multimodal learning and GenAI, published under CC BY-NC 4.0 licence[^1]
+
+**Nurse Citizen Developer Pioneers**:
+- **Joanne Bosanquet** — For championing digital innovation and person-centred language in nursing practice
+- **Kumbi Kariwo** — For demonstrating how nurses can lead technological transformation
+- **The wider Nurse Citizen Developer community** — For proving that nurses are not passive technology users, but active creators and innovators
+
+Their collective work has shown that nurses can—and should—shape the AI tools we use, rather than simply accepting what is built for us.
+
 **Last Updated**: December 2025
-**Adaptations**: Nursing context, NMC alignment, clinical examples, FONS integration
-:::
+
+---
 
 ## Welcome to the AI Educator Toolkit
 
-This guide presents strategies and techniques for the incorporation of Generative AI (GenAI) in multimodal forms of teaching, learning, and assessment in **nursing education**. It focuses on the intersection of multimodal learning and Generative AI (GenAI) and is written for both educators and educational developers, who play a pivotal role in modelling pedagogical innovation and guiding colleagues through evolving landscapes of teaching and learning.
-
-The guide is a product of a 2024/25 SEDA Small Grants project, conducted between academics and researchers spread across multiple higher education institutions across Britain and beyond. The project drew on their own experiences with Generative AI in multimodal contexts, as well as data from an extensive literature review, a case-study collection exercise, a survey, and a suite of focus groups with educational developers, educators, and students conducted during a collaborative research project in 2024–25.
+This toolkit presents strategies and techniques for the incorporation of Generative AI (GenAI) in multimodal forms of teaching, learning, and assessment in **nursing education**. It focuses on the intersection of multimodal learning and GenAI and is written for both educators and educational developers, who play a pivotal role in modelling pedagogical innovation and guiding colleagues through evolving landscapes of teaching and learning.
 
 ## Our Position on Generative AI
 
@@ -86,3 +101,9 @@ Ready to explore? Here's where to go:
 - **Looking for examples?** → Check [Case Studies](/docs/case-studies/patient-scenarios)
 
 Let's begin this journey to enhance nursing education through thoughtful, critical, and creative use of multimodal learning and GenAI! 🚀
+
+---
+
+## References
+
+[^1]: Varga-Atkins, T., Saunders, S., et al. (2024/25). *Educators' guide to multimodal learning and Generative AI*. SEDA Small Grants project. Available under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licence.
