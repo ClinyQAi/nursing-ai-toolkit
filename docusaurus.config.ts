@@ -139,6 +139,11 @@ const config: Config = {
           position: 'left',
           label: 'Guide',
         },
+        {
+          to: '/docs/site-map',
+          position: 'left',
+          label: '🗺️ All Pages',
+        },
 
         {
           type: 'search',
