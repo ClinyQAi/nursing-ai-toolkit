@@ -33,6 +33,7 @@ This toolkit would not exist without the pioneering work and inspiration of:
 - **Hector Musonza**, Practice Education and Preceptorship Lead, North Staffordshire Combined Healthcare NHS Trust — For advancing nursing education excellence
 - **Rohit Sagoo**, Children's Nurse — Mentor whose commitment to paediatric nursing inspires innovation
 - **Dr Hellena Habte-Asres**, Multi-Award-Winning Postdoctoral Researcher (PhD Epidemiology), Clinical Academic Nurse — Mentor and friend whose expertise in diabetes, CKD, and ophthalmology, and dedication to real-world evidence continues to inspire
+- **Kelly Thobekile Ncube**, UEL Senior Lecturer in Adult Nursing (SFHEA), Global Health Lecturer Volunteer Fellow — Passionate educator in resuscitation and expert in AI nursing education, championing innovative teaching methods
 
 **Professional Bodies**:
 - **The Nursing and Midwifery Council (NMC)** and **Royal College of Nursing (RCN)** — For their guidance on digital literacy in nursing
