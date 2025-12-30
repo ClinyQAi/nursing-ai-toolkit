@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
 title: Introduction
-description: Understanding multimodal learning and Generative AI in nursing education
+description: Generative AI in UK nursing education - A toolkit for ethical, evidence-based practice
 ---
 
-# Introduction to Multimodal Learning and Generative AI
+# AI in Nursing Education: A Multimodal Learning Toolkit
 
 ## About This Toolkit
 
@@ -53,18 +53,38 @@ Their collective work has shown that nurses can—and should—shape the AI tool
 
 This toolkit presents strategies and techniques for the incorporation of Generative AI (GenAI) in multimodal forms of teaching, learning, and assessment in **nursing education**. It focuses on the intersection of multimodal learning and GenAI and is written for both educators and educational developers, who play a pivotal role in modelling pedagogical innovation and guiding colleagues through evolving landscapes of teaching and learning.
 
-## Our Position on Generative AI
+## Our Nursing Position on Generative AI
 
-At this initial stage, it is important to outline our position on the presence and use of GenAI in higher education. Whilst 'Artificial Intelligence' has existed in different forms for decades, the appearance and accessibility of GenAI since the release of the first iteration of OpenAI's ChatGPT in 2022 have enhanced its usability in learning and teaching contexts, and has solidified GenAI as an emerging frontier in the application of AI in education.
+As nurses and nursing educators, our position on AI must reflect the professional, ethical, and clinical realities of our practice. This toolkit aligns with guidance from the **International Council of Nurses (ICN)**, **Nursing and Midwifery Council (NMC)**, and **Royal College of Nursing (RCN)**.
 
-However, in this Guide, we opt for a **pragmatic approach** to the technology. We are not uncritical 'techno-fixers' or over-enthusiastic adopters of GenAI, and nor do we view Generative AI technology as the ultimate destroyer of higher education. Rather, and as Vallor (2024) eloquently puts it, we contend that AI is a 'mirror machine' that reflects ourselves back at us, and, just like Vallor, we wish to provide educators, educational developers and students with an approach that gives them:
+### Core Principles
 
-> "a middle way between passive resignation to AI technology as a replacement for human agency and rejecting AI as an existential threat that must be opposed and defeated" (Vallor, 2024).
+**1. Nurses Must Lead, Not Follow**  
+The ICN (2025) is unequivocal: nurses must be "actively engaged and lead in all phases of AI solution development, implementation, and evaluation." We are not passive recipients of technology—we are **Nurse Citizen Developers** who shape the tools we use.
 
-Part of the challenge of examining GenAI in educational contexts is the tension between its speed of development and evolution, and its already-entrenched position in pedagogy, as well as its endorsement by national and educational institutions. On the one hand, even as we write this guide, GenAI is advancing rapidly. On the other hand, Generative AI is already 'here to stay'; students, staff, professionals, lay-users, and the public all use Generative AI in their daily lives – sometimes without realising it.
+**2. AI Augments, Never Replaces, Nursing Judgement**  
+The RCN (October 2025) states that "AI has significant potential to modernise services but must enhance, rather than replace, personal nursing care." AI does not replace a nurse's critical thinking, clinical judgement, empathy, or the therapeutic relationship. It is a **supportive tool**, not a substitute for human connection.
 
-:::caution Important
-We do not believe that talking about Generative AI is the same as uncritically endorsing the use of Generative AI. We do not necessarily endorse Generative AI in educational contexts at every opportunity. Rather, we contend that wilfully ignoring it and/or actively rejecting it does students a disservice, and will ultimately make them more likely to misunderstand the technology in future contexts.
+**3. Patient Safety and Accountability Remain with Nurses**  
+The American Nurses Association (2025) Code of Ethics is clear: nurses remain accountable for all clinical decisions, even when AI contributes to diagnosis or monitoring. We must verify AI-generated information against authoritative sources (NICE, BNF, NMC standards) and never outsource our professional responsibility.
+
+**4. Ethical Vigilance is Non-Negotiable**  
+AI systems can perpetuate bias, especially around skin tone in wound assessment, diagnostic algorithms, and triage tools. The ICN emphasises "vigilance against data bias" and "ensuring transparency and accountability." As nurses, we advocate for health equity and must scrutinise AI for fairness.
+
+**5. Education Now, Regulation Coming**  
+The NMC is reviewing its Code to include AI standards (consultation 2026, publication 2027). However, **digital literacy is already a foundational requirement** in NMC pre-registration standards. We cannot wait for regulation—we must equip students with critical AI literacy now.
+
+### Our Pragmatic Approach
+
+We adopt what Vallor (2024) calls **"a middle way"**: neither uncritical enthusiasm nor outright rejection. AI is here—students already use it, healthcare systems are deploying it, and patients expect it. Our role as educators is to:
+
+- **Model responsible use** — Show students how to use AI ethically and effectively
+- **Teach critical evaluation** — Equip students to identify hallucinations, bias, and limitations
+- **Preserve humanistic care** — Ensure AI enhances, rather than erodes, compassion and connection
+- **Prepare for the future** — AI fluency is now a core nursing competency alongside clinical skills
+
+:::caution Our Commitment
+We do not believe that discussing AI means uncritically endorsing it. Rather, we believe that **ignoring AI does students a disservice**. Future nurses will work in AI-augmented healthcare systems. Our responsibility is to prepare them to use AI safely, ethically, and in service of person-centred care.
 :::
 
 ## Why Multimodal Learning Matters in Nursing
