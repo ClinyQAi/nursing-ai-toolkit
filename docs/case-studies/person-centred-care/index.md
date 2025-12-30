@@ -21,3 +21,13 @@ Rehearsing breaking bad news or addressing a concern with a relative using simul
 
 ### [Language Refinement](./language-refinement)
 Translating "Medicalese" into "Human". How to check your own language for jargon and institutional bias.
+
+### [Relational AI & FoNS Insights](./relational-ai)
+Using AI grounded in nursing values and the Foundation of Nursing Studies' person-centred framework.
+
+### [Student Activities](./student-activities)
+Hands-on exercises for students to develop person-centred practice with AI.
+
+### [Educator Guide](./educator-guide)
+Resources for educators to integrate FoNS principles and person-centred AI into their curriculum.
+
