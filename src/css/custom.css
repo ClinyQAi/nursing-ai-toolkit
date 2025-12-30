@@ -266,9 +266,7 @@ body {
 /* --- Premium Footer --- */
 .footer {
   position: relative;
-  background: linear-gradient(180deg,
-      var(--ifm-background-color) 0%,
-      rgba(0, 94, 184, 0.05) 100%);
+  z-index: 1;
 }
 
 .footer::before {
@@ -282,6 +280,7 @@ body {
       var(--ifm-color-primary) 0%,
       var(--accent-teal, #00a499) 50%,
       var(--accent-purple, #7c3aed) 100%);
+  z-index: 2;
 }
 
 .footer__title {
