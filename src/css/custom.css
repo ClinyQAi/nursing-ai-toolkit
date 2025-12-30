@@ -1,15 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
 
 :root {
-  /* Premium Clinical Palette */
-  --ifm-color-primary: #0a4d8c;
-  /* Deep Clinical Blue */
-  --ifm-color-primary-dark: #09457e;
-  --ifm-color-primary-darker: #084176;
-  --ifm-color-primary-darkest: #073662;
-  --ifm-color-primary-light: #0b559a;
-  --ifm-color-primary-lighter: #0c59a1;
-  --ifm-color-primary-lightest: #0e67ba;
+  /* NHS-Inspired Clinical Palette */
+  --ifm-color-primary: #005eb8;
+  /* NHS Blue */
+  --ifm-color-primary-dark: #004c95;
+  --ifm-color-primary-darker: #00428a;
+  --ifm-color-primary-darkest: #003371;
+  --ifm-color-primary-light: #0072ce;
+  --ifm-color-primary-lighter: #1e88e5;
+  --ifm-color-primary-lightest: #41a5f5;
+
+  /* Accent Colours */
+  --accent-teal: #00a499;
+  /* NHS Teal */
+  --accent-purple: #7c3aed;
+  --accent-amber: #f59e0b;
+  --accent-pink: #ec4899;
+  --accent-green: #10b981;
 
   /* Backgrounds & Surfaces */
   --ifm-background-color: #f8fafc;
@@ -17,8 +25,15 @@
 
   /* Typography */
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
-  --ifm-heading-font-family: 'Outfit', sans-serif;
+  --ifm-heading-font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.65;
   --ifm-code-font-size: 95%;
+
+  /* Heading Sizes */
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 2rem;
+  --ifm-h3-font-size: 1.5rem;
 
   /* Glassmorphism Tokens */
   --glass-bg: rgba(255, 255, 255, 0.7);
@@ -31,13 +46,20 @@
 
 [data-theme='dark'] {
   --ifm-color-primary: #3b82f6;
-  /* Bright Clinical Blue */
+  /* Bright Blue for dark */
   --ifm-color-primary-dark: #2563eb;
   --ifm-color-primary-darker: #1d4ed8;
   --ifm-color-primary-darkest: #1e3a8a;
   --ifm-color-primary-light: #60a5fa;
   --ifm-color-primary-lighter: #93c5fd;
   --ifm-color-primary-lightest: #bfdbfe;
+
+  /* Accent Colours for dark */
+  --accent-teal: #2dd4bf;
+  --accent-purple: #a78bfa;
+  --accent-amber: #fbbf24;
+  --accent-pink: #f472b6;
+  --accent-green: #34d399;
 
   --ifm-background-color: #0f172a;
   --ifm-background-surface-color: rgba(30, 41, 59, 0.8);
@@ -49,14 +71,43 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Global Typography Tweaks */
+/* Global Typography */
 h1,
 h2,
 h3,
 h4,
 .navbar__brand {
   font-family: var(--ifm-heading-font-family);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+/* Decorative H1 with gradient underline */
+.markdown h1 {
+  position: relative;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--ifm-color-primary), var(--accent-teal));
+  border-radius: 2px;
+}
+
+/* H2 with subtle accent */
+.markdown h2 {
+  color: var(--ifm-color-primary-dark);
+  margin-top: 2.5rem;
+}
+
+[data-theme='dark'] .markdown h2 {
+  color: var(--ifm-color-primary-light);
 }
 
 .navbar {
