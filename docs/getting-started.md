@@ -6,7 +6,7 @@ description: Quick start guide for the AI Educator Toolkit
 
 # Getting Started
 
-Welcome to the **AI Educator Toolkit**, a practical guide for integrating Generative AI into UK nursing education. This toolkit is designed to help educators, students, and institutional leaders navigate the rapidly evolving AI landscape safely and effectively.
+Welcome to the **AI in Nursing Education: A Multimodal Learning Toolkit**, a practical guide for integrating Generative AI into UK nursing education. This toolkit is designed to help educators, students, and institutional leaders navigate the rapidly evolving AI landscape safely and effectively.
 
 ## 🚀 Recommended Pathways
 
