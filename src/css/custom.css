@@ -61,14 +61,21 @@
   --accent-pink: #f472b6;
   --accent-green: #34d399;
 
-  --ifm-background-color: #0f172a;
-  --ifm-background-surface-color: rgba(30, 41, 59, 0.8);
+  /* Dark backgrounds */
+  --ifm-background-color: #0a0f1a;
+  --ifm-background-surface-color: rgba(15, 23, 42, 0.95);
 
-  --glass-bg: rgba(30, 41, 59, 0.7);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  /* Enhanced glass for dark */
+  --glass-bg: rgba(15, 23, 42, 0.8);
+  --glass-border: rgba(59, 130, 246, 0.15);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Glow tokens */
+  --glow-primary: 0 0 20px rgba(59, 130, 246, 0.3);
+  --glow-teal: 0 0 20px rgba(45, 212, 191, 0.3);
+  --glow-purple: 0 0 20px rgba(167, 139, 250, 0.3);
+
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.15);
 }
 
 /* Global Typography */
@@ -316,4 +323,76 @@ body {
 
 .footer__copyright a:hover {
   text-decoration-color: var(--ifm-color-primary);
+}
+
+/* --- Dark Mode Premium Enhancements --- */
+
+/* Glowing navbar in dark mode */
+[data-theme='dark'] .navbar {
+  border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.3),
+    0 0 30px rgba(59, 130, 246, 0.05);
+}
+
+/* Subtle glow on dark mode buttons */
+[data-theme='dark'] .button--primary {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+[data-theme='dark'] .button--primary:hover {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+}
+
+/* Enhanced code blocks with glow */
+[data-theme='dark'] pre {
+  background: rgba(15, 23, 42, 0.9) !important;
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  box-shadow:
+    inset 0 0 30px rgba(0, 0, 0, 0.3),
+    0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='dark'] code {
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+/* Glowing sidebar links on hover */
+[data-theme='dark'] .menu__link:hover {
+  background: rgba(59, 130, 246, 0.1);
+  box-shadow: inset 0 0 15px rgba(59, 130, 246, 0.1);
+}
+
+[data-theme='dark'] .menu__link--active {
+  background: rgba(59, 130, 246, 0.15);
+  border-right: 3px solid var(--ifm-color-primary-light);
+  box-shadow: inset 0 0 20px rgba(59, 130, 246, 0.15);
+}
+
+/* Dark mode table styling */
+[data-theme='dark'] table {
+  border: 1px solid rgba(59, 130, 246, 0.15);
+}
+
+[data-theme='dark'] th {
+  background: rgba(59, 130, 246, 0.1);
+}
+
+[data-theme='dark'] tr:hover {
+  background: rgba(59, 130, 246, 0.05);
+}
+
+/* Enhanced dark mode ambient background */
+[data-theme='dark'] body {
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.08), transparent 30%),
+    radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.06), transparent 30%),
+    radial-gradient(circle at 50% 50%, rgba(45, 212, 191, 0.04), transparent 40%);
+  background-attachment: fixed;
+}
+
+/* Dark mode footer glow */
+[data-theme='dark'] .footer::before {
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
 }
