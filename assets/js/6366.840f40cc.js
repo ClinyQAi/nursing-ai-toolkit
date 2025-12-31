@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknursing_ai_toolkit=globalThis.webpackChunknursing_ai_toolkit||[]).push([[6366],{86366(i,e,t){t.d(e,{createArchitectureServices:()=>a.S});var a=t(38980);t(87960)}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknursing_ai_toolkit=globalThis.webpackChunknursing_ai_toolkit||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);

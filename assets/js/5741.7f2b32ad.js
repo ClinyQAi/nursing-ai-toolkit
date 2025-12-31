@@ -1,0 +1,1 @@
+(globalThis.webpackChunknursing_ai_toolkit=globalThis.webpackChunknursing_ai_toolkit||[]).push([[5741],{45741(){}}]);
