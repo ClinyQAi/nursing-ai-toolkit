@@ -6,11 +6,13 @@
 
 *Multimodal Learning with Generative AI for Nurse Educators*
 
-[![GitHub Pages](https://img.shields.io/badge/docs-live-brightgreen?style=for-the-badge)](https://clinyqai.github.io/-AI-Educator-Toolkit/)
+[![Website](https://img.shields.io/badge/🌐_Website-practicedev.cloud-blue?style=for-the-badge)](https://practicedev.cloud/)
+[![Deploy Status](https://img.shields.io/github/actions/workflow/status/ClinyQAi/-AI-Educator-Toolkit/deploy.yml?branch=main&style=for-the-badge&label=Deploy)](https://github.com/ClinyQAi/-AI-Educator-Toolkit/actions)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Built with Docusaurus](https://img.shields.io/badge/Built%20with-Docusaurus-2e8555?style=for-the-badge&logo=docusaurus)](https://docusaurus.io/)
+[![NMC Aligned](https://img.shields.io/badge/NMC-Aligned-ff6b6b?style=for-the-badge)](https://www.nmc.org.uk/)
 
-[**📖 Read the Guide**](https://clinyqai.github.io/-AI-Educator-Toolkit/) • [**💡 Case Studies**](https://clinyqai.github.io/-AI-Educator-Toolkit/docs/case-studies/) • [**🔗 Resources**](https://clinyqai.github.io/-AI-Educator-Toolkit/docs/resources/)
+[**📖 Read the Guide**](https://practicedev.cloud/) • [**🧪 Prompt Playground**](https://practicedev.cloud/docs/resources/prompt-playground) • [**🏅 ClinyQAi™ Passport**](https://practicedev.cloud/docs/resources/clinyqai-passport) • [**💡 Case Studies**](https://practicedev.cloud/docs/case-studies/)
 
 </div>
 

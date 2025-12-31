@@ -2,19 +2,60 @@
 
 ## Supported Versions
 
-Only the latest version of the toolkit is supported with security updates.
-
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-| < 1.0   | :x:                |
+| Latest  | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
-We take the security of this project seriously. If you find a security vulnerability, please do NOT open a public issue. Instead, follow these steps:
+We take security seriously. If you discover a security vulnerability within this project, please follow responsible disclosure:
 
-1. **Email us**: Send a detailed report to info@nursingcitizendevelopment.com
-2. **Details**: Include a description of the vulnerability, steps to reproduce, and possible impact.
-3. **Response**: We will acknowledge your report within 48 hours and provide a timeline for a fix.
+### How to Report
 
-Thank you for helping keep the nursing education community safe!
+1. **Do NOT** open a public GitHub issue for security vulnerabilities
+2. Email the maintainer directly or use [GitHub Security Advisories](https://github.com/ClinyQAi/-AI-Educator-Toolkit/security/advisories/new)
+3. Include:
+   - Description of the vulnerability
+   - Steps to reproduce
+   - Potential impact
+   - Suggested fix (if any)
+
+### Response Timeline
+
+- **Initial Response**: Within 48 hours
+- **Status Update**: Within 7 days
+- **Resolution Target**: Within 30 days (depending on complexity)
+
+## Security Considerations
+
+### Data Privacy
+
+This is a static documentation site that:
+- ❌ Does NOT collect personal data
+- ❌ Does NOT use authentication
+- ❌ Does NOT store user information server-side
+- ✅ Uses only client-side localStorage for the ClinyQAi™ Passport (stays on user's device)
+
+### Third-Party Dependencies
+
+We regularly review and update dependencies to address known vulnerabilities:
+- Dependabot is enabled for automated security updates
+- Dependencies are audited with `npm audit`
+
+### Content Security
+
+- All content reflects evidence-based nursing practice
+- AI prompt templates are designed with safety guardrails
+- No patient-identifiable information is included in examples
+
+## Responsible AI Use
+
+This toolkit promotes responsible AI use in healthcare education. All AI prompts and strategies are designed to:
+- Maintain human oversight
+- Encourage critical thinking
+- Align with NMC Code of Conduct
+- Protect patient safety
+
+## Contact
+
+For security concerns: [Open a Security Advisory](https://github.com/ClinyQAi/-AI-Educator-Toolkit/security/advisories/new)

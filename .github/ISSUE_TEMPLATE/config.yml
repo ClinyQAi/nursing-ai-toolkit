@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions
+    url: https://github.com/ClinyQAi/-AI-Educator-Toolkit/discussions
+    about: Ask questions, share ideas, and connect with the nursing AI education community
+  - name: 📖 Documentation
+    url: https://practicedev.cloud/
+    about: Read the full toolkit documentation
+  - name: 🧪 Prompt Playground
+    url: https://practicedev.cloud/docs/resources/prompt-playground
+    about: Try out AI prompts for nursing education

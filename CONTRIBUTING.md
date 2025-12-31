@@ -1,58 +1,104 @@
-# Contributing to AI in Nursing Education: A Multimodal Learning Toolkit
+# Contributing to AI in Nursing Education Toolkit
 
-First off, thank you for considering contributing to this toolkit! It's people like you that make this a valuable resource for the nursing education community. 🩺✨
+Thank you for your interest in contributing to this project! 🎉 We welcome contributions from the nursing education community.
 
-We welcome contributions from nurse educators, students, clinical practitioners, and educational developers.
+## 📋 Table of Contents
 
-## 🌈 Ways to Contribute
+- [Code of Conduct](#code-of-conduct)
+- [How Can I Contribute?](#how-can-i-contribute)
+- [Getting Started](#getting-started)
+- [Submitting Changes](#submitting-changes)
+- [Style Guidelines](#style-guidelines)
 
-There are many ways to contribute, and all are valued:
+## Code of Conduct
 
-### 1. Share a Case Study (High Impact!)
-The most valuable thing you can contribute is your experience. Have you used AI in a clinical simulation? To help students understand a complex concept? As an assessment tool? 
-- Use our [Case Study Template](.github/ISSUE_TEMPLATE/case-study-submission.md).
-- Focus on the *process*, the *NMC alignment*, and the *lessons learned*.
+This project adheres to a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
-### 2. Improve Documentation
-- Fix a typo.
-- Clarify a confusing sentence.
-- Suggest a better analogy for a nursing concept.
+## How Can I Contribute?
 
-### 3. Share a "Golden Prompt"
-Do you have a prompt that works exceptionally well for generating care plans or clinical scenarios? Share it in our [GitHub Discussions](https://github.com/ClinyQAi/-AI-Educator-Toolkit/discussions).
+### 🐛 Reporting Bugs
 
-### 4. Technical Improvements
-If you're tech-savvy, you can help improve the Docusaurus site structure, design, or accessibility.
+- Use the **Bug Report** issue template
+- Include screenshots if applicable
+- Describe the expected vs actual behaviour
 
----
+### 💡 Suggesting Features
 
-## 🛠️ Your First Contribution (The Process)
+- Use the **Feature Request** issue template
+- Explain the use case and benefit to nursing educators
 
-1.  **Find/Create an Issue**: Check our [Issues list](https://github.com/ClinyQAi/-AI-Educator-Toolkit/issues) or create a new one to discuss what you'd like to add.
-2.  **Fork the Repo**: Click the "Fork" button on GitHub to create your own copy of the project.
-3.  **Branch Out**: Create a branch for your work (e.g., `feature/acute-care-simulation`).
-4.  **Make Your Changes**: Edit the markdown files or code.
-5.  **Commit & Push**: Commit your changes with a clear message (e.g., `feat: Add case study for acute care simulation Haus`).
-6.  **Pull Request (PR)**: Open a PR from your branch to our `main` branch. We'll review it and provide feedback!
+### 📝 Submitting Case Studies
 
----
+We especially welcome nursing-specific case studies! Use the **Case Study** issue template to propose:
+- Patient simulation scenarios
+- Clinical teaching examples
+- AI integration success stories
 
-## 📜 Style Guidelines
+### 🔧 Code Contributions
 
-- **Tone**: Professional, encouraging, and authoritative yet accessible.
-- **Nursing Focus**: Always relate AI use back to nursing practice, patient safety, and NMC standards.
-- **Privacy**: **NEVER** include real patient data or identifiable information in case studies. Use personas like "Arthur."
-- **Formatting**: Use [Markdown](https://guides.github.com/features/mastering-markdown/) for all content.
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature-name`
+3. Make your changes
+4. Test locally: `npm start`
+5. Commit with a clear message: `git commit -m "feat: add amazing feature"`
+6. Push: `git push origin feature/your-feature-name`
+7. Open a Pull Request
 
-## ✅ Contributor Checklist
+## Getting Started
 
-Before submitting a PR, please ensure:
-- [ ] Your content is aligned with the [Code of Conduct](CODE_OF_CONDUCT.md) (coming soon).
-- [ ] You have verified all links.
-- [ ] All images have descriptive alt-text.
-- [ ] You have disclosed which AI tools (if any) assisted in creating the contribution.
+```bash
+# Clone your fork
+git clone https://github.com/YOUR-USERNAME/-AI-Educator-Toolkit.git
+cd -AI-Educator-Toolkit
 
-## 🏆 Becoming a Contributor
-All contributors who have a PR merged will be added to our [Acknowledgments](README.md#acknowledgments) list.
+# Install dependencies
+npm install
 
-Thank you for helping us lead the way in nursing education! 🩺🚀
+# Start development server
+npm start
+```
+
+## Submitting Changes
+
+### Pull Request Process
+
+1. Ensure your code builds: `npm run build`
+2. Update documentation if needed
+3. Fill out the PR template completely
+4. Request a review from maintainers
+
+### Commit Message Format
+
+We follow [Conventional Commits](https://www.conventionalcommits.org/):
+
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation changes
+- `style:` - Formatting, no code change
+- `refactor:` - Code restructuring
+- `test:` - Adding tests
+- `chore:` - Maintenance tasks
+
+## Style Guidelines
+
+### Documentation
+
+- Write in clear, accessible language
+- Use UK English spelling
+- Include NMC/NHS references where applicable
+- Add alt text to all images
+
+### Code
+
+- Use TypeScript where possible
+- Follow existing code patterns
+- Comment complex logic
+- Keep components modular
+
+## 🙏 Recognition
+
+Contributors will be acknowledged in:
+- The project README
+- The "Acknowledgments" section of the live site
+
+Thank you for helping improve AI education for UK nursing! 💙

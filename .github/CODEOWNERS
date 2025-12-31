@@ -1,0 +1,22 @@
+# CODEOWNERS file for AI Educator Toolkit
+# These owners will be requested for review when someone opens a pull request
+
+# Default owners for everything in the repo
+* @ClinyQAi
+
+# Documentation
+/docs/ @ClinyQAi
+
+# Interactive Components
+/src/components/ @ClinyQAi
+
+# Styling
+/src/css/ @ClinyQAi
+*.css @ClinyQAi
+
+# Configuration
+docusaurus.config.ts @ClinyQAi
+package.json @ClinyQAi
+
+# GitHub Workflows
+/.github/ @ClinyQAi
