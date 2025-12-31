@@ -23,7 +23,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ClinyQAi', // Usually your GitHub org/user name.
-  projectName: '-AI-Educator-Toolkit', // Usually your repo name.
+  projectName: 'nursing-ai-toolkit', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 

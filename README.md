@@ -78,14 +78,14 @@ Curated links to:
 ## 🚀 Quick Start
 
 ### View the Live Guide
-👉 **[Visit AI in Nursing Education: Multimodal Learning Toolkit](https://clinyqai.github.io/-AI-Educator-Toolkit/)**
+👉 **[Visit AI in Nursing Education: Multimodal Learning Toolkit](https://practicedev.cloud/)**
 
 ### Run Locally
 
 ```bash
 # Clone the repository
-git clone https://github.com/ClinyQAi/-AI-Educator-Toolkit.git
-cd -AI-Educator-Toolkit
+git clone https://github.com/ClinyQAi/nursing-ai-toolkit.git
+cd nursing-ai-toolkit
 
 # Install dependencies
 npm install
@@ -94,7 +94,7 @@ npm install
 npm start
 ```
 
-The site will open at `http://localhost:3000/-AI-Educator-Toolkit/`
+The site will open at `http://localhost:3000/`
 
 ### Build for Production
 
@@ -199,7 +199,7 @@ We welcome contributions from the nursing education community!
 ### Project Structure
 
 ```
--AI-Educator-Toolkit/
+nursing-ai-toolkit/
 ├── docs/                    # Documentation markdown files
 │   ├── teaching/           # Teaching with AI section
 │   ├── learning/           # Self-regulated learning section
@@ -225,8 +225,8 @@ We welcome contributions from the nursing education community!
 
 ### Questions or Issues?
 
-- 💬 **Discussion Forum**: [GitHub Discussions](https://github.com/ClinyQAi/-AI-Educator-Toolkit/discussions)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/ClinyQAi/-AI-Educator-Toolkit/issues)
+- 💬 **Discussion Forum**: [GitHub Discussions](https://github.com/ClinyQAi/nursing-ai-toolkit/discussions)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/ClinyQAi/nursing-ai-toolkit/issues)
 - 📧 
 
 ### Acknowledgments
@@ -255,6 +255,6 @@ Special thanks to:
 
 **Made with ❤️ for the Nursing Education Community**
 
-[![Star this repo](https://img.shields.io/github/stars/ClinyQAi/-AI-Educator-Toolkit?style=social)](https://github.com/ClinyQAi/-AI-Educator-Toolkit)
+[![Star this repo](https://img.shields.io/github/stars/ClinyQAi/nursing-ai-toolkit?style=social)](https://github.com/ClinyQAi/nursing-ai-toolkit)
 
 </div>
