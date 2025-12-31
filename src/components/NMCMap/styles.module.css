@@ -1,0 +1,167 @@
+.nmcMapContainer {
+    padding: 1rem 0;
+}
+
+/* Platform Grid */
+.platformGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.platformCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid var(--ifm-color-emphasis-300);
+    border-radius: 12px;
+    background: var(--ifm-background-surface-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-height: 100px;
+}
+
+.platformCard:hover {
+    border-color: var(--ifm-color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.platformCard.selected {
+    border-color: var(--ifm-color-primary);
+    background: var(--ifm-color-primary-lightest);
+}
+
+.platformNumber {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--ifm-color-primary);
+    line-height: 1;
+}
+
+.platformTitle {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: var(--ifm-font-color-base);
+    font-weight: 500;
+}
+
+/* Proficiency Section */
+.proficiencySection {
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.proficiencySection h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--ifm-color-primary-dark);
+}
+
+.platformDescription {
+    color: var(--ifm-font-color-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.proficiencyList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.proficiencyItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.proficiencyItem:hover {
+    background: var(--ifm-color-emphasis-100);
+}
+
+.proficiencyItem input[type="checkbox"] {
+    margin-top: 2px;
+    accent-color: var(--ifm-color-primary);
+}
+
+/* Suggested Strategies */
+.suggestedStrategies {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--ifm-color-emphasis-300);
+}
+
+.suggestedStrategies h4 {
+    margin: 0 0 0.75rem 0;
+    font-size: 1rem;
+}
+
+.strategyTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.strategyTag {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    background: linear-gradient(135deg, var(--ifm-color-primary-lightest), var(--ifm-color-primary-lighter));
+    color: var(--ifm-color-primary-darkest);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Output Section */
+.outputSection {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: #f5f5f5;
+}
+
+.outputSection h4 {
+    margin: 0 0 1rem 0;
+    color: #ffffff;
+}
+
+.statementOutput {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    white-space: pre-wrap;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    margin-bottom: 1rem;
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .platformCard {
+    background: var(--ifm-background-color);
+}
+
+[data-theme='dark'] .platformCard.selected {
+    background: rgba(var(--ifm-color-primary-rgb), 0.15);
+}
+
+[data-theme='dark'] .proficiencySection {
+    background: var(--ifm-background-color);
+}
+
+[data-theme='dark'] .strategyTag {
+    background: linear-gradient(135deg, rgba(var(--ifm-color-primary-rgb), 0.3), rgba(var(--ifm-color-primary-rgb), 0.2));
+    color: var(--ifm-color-primary-lighter);
+}
