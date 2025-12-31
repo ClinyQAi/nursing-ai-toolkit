@@ -45,37 +45,50 @@
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #3b82f6;
-  /* Bright Blue for dark */
-  --ifm-color-primary-dark: #2563eb;
-  --ifm-color-primary-darker: #1d4ed8;
-  --ifm-color-primary-darkest: #1e3a8a;
-  --ifm-color-primary-light: #60a5fa;
-  --ifm-color-primary-lighter: #93c5fd;
-  --ifm-color-primary-lightest: #bfdbfe;
+  /* Ivory Dark - Premium Blue with Ivory Accents */
+  --ifm-color-primary: #60a5fa;
+  /* Softer bright blue */
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
 
-  /* Accent Colours for dark */
-  --accent-teal: #2dd4bf;
-  --accent-purple: #a78bfa;
-  --accent-amber: #fbbf24;
-  --accent-pink: #f472b6;
-  --accent-green: #34d399;
+  /* Refined Accent Colours - Ivory/Cream inspired */
+  --accent-teal: #5eead4;
+  --accent-purple: #c4b5fd;
+  --accent-amber: #fcd34d;
+  --accent-pink: #f9a8d4;
+  --accent-green: #6ee7b7;
+  --accent-ivory: #fffbeb;
+  /* Warm ivory accent */
+  --accent-cream: #fef3c7;
 
-  /* Dark backgrounds */
-  --ifm-background-color: #0a0f1a;
-  --ifm-background-surface-color: rgba(15, 23, 42, 0.95);
+  /* Deep Dark Backgrounds - Charcoal with blue undertones */
+  --ifm-background-color: #0c1222;
+  --ifm-background-surface-color: rgba(15, 23, 42, 0.97);
+  --ifm-navbar-background-color: rgba(12, 18, 34, 0.85);
 
-  /* Enhanced glass for dark */
-  --glass-bg: rgba(15, 23, 42, 0.8);
-  --glass-border: rgba(59, 130, 246, 0.15);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  /* Typography - Ivory tinted for warmth */
+  --ifm-font-color-base: #f1f5f9;
+  --ifm-font-color-secondary: #cbd5e1;
+  --ifm-heading-color: #fefce8;
+  /* Warm ivory for headings */
 
-  /* Glow tokens */
-  --glow-primary: 0 0 20px rgba(59, 130, 246, 0.3);
-  --glow-teal: 0 0 20px rgba(45, 212, 191, 0.3);
-  --glow-purple: 0 0 20px rgba(167, 139, 250, 0.3);
+  /* Enhanced Glassmorphism */
+  --glass-bg: rgba(15, 23, 42, 0.75);
+  --glass-border: rgba(96, 165, 250, 0.12);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+  --glass-blur: 16px;
 
-  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.15);
+  /* Premium Glow tokens */
+  --glow-primary: 0 0 25px rgba(96, 165, 250, 0.25);
+  --glow-teal: 0 0 25px rgba(94, 234, 212, 0.2);
+  --glow-purple: 0 0 25px rgba(196, 181, 253, 0.2);
+  --glow-ivory: 0 0 30px rgba(254, 252, 232, 0.1);
+
+  --docusaurus-highlighted-code-line-bg: rgba(96, 165, 250, 0.12);
 }
 
 /* Global Typography */
@@ -382,18 +395,32 @@ body {
   background: rgba(59, 130, 246, 0.05);
 }
 
-/* Enhanced dark mode ambient background */
+/* Enhanced dark mode ambient background - Ivory Dark Premium */
 [data-theme='dark'] body {
   background-image:
-    radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.08), transparent 30%),
-    radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.06), transparent 30%),
-    radial-gradient(circle at 50% 50%, rgba(45, 212, 191, 0.04), transparent 40%);
+    radial-gradient(ellipse at 10% 20%, rgba(96, 165, 250, 0.06), transparent 35%),
+    radial-gradient(ellipse at 90% 80%, rgba(196, 181, 253, 0.05), transparent 35%),
+    radial-gradient(ellipse at 50% 50%, rgba(94, 234, 212, 0.03), transparent 45%),
+    radial-gradient(ellipse at 30% 70%, rgba(254, 252, 232, 0.02), transparent 30%);
   background-attachment: fixed;
 }
 
-/* Dark mode footer glow */
+/* Dark mode footer glow - enhanced */
 [data-theme='dark'] .footer::before {
-  box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 50px rgba(96, 165, 250, 0.25);
+}
+
+/* Dark mode headings with ivory tint */
+[data-theme='dark'] h1,
+[data-theme='dark'] h2 {
+  color: var(--ifm-heading-color);
+}
+
+/* Enhanced cards in dark mode */
+[data-theme='dark'] .card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
 }
 
 /* === MOBILE RESPONSIVENESS FIXES === */
