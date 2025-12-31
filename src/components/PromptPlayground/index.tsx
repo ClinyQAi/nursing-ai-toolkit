@@ -29,6 +29,7 @@ const TEMPLATES = {
         name: 'Socratic Tutor',
         description: 'Test your knowledge with guided questioning - no direct answers given.',
         nmcAlignment: 'Platform 1: Being an Accountable Professional',
+        passportId: 'hallucination',
         fields: [
             { id: 'topic', label: 'Topic to Practice', placeholder: 'e.g., Heart Failure Management' },
             { id: 'level', label: 'Your Level', placeholder: 'e.g., 2nd year student, newly qualified' },
@@ -53,6 +54,7 @@ Start with your first question now.`,
         name: 'Concept Simplifier',
         description: 'Break down complex concepts into simple language.',
         nmcAlignment: 'Annexe A2: Communication for Health Promotion',
+        passportId: 'simplifier',
         fields: [
             { id: 'concept', label: 'Complex Concept', placeholder: "e.g., Starling's Law, Sepsis Pathophysiology" },
             { id: 'audience', label: 'Explain As If To...', placeholder: 'e.g., a worried patient, a 10-year old' },
@@ -73,6 +75,7 @@ RULES:
         name: 'Patient Simulator',
         description: 'Practice history taking with a realistic patient persona.',
         nmcAlignment: 'Platform 3: Assessing Needs and Planning Care',
+        passportId: 'deterioration',
         fields: [
             { id: 'condition', label: 'Medical Condition', placeholder: 'e.g., Chest pain for 2 days' },
             { id: 'personality', label: 'Patient Personality', placeholder: 'e.g., Anxious and talkative, quiet and stoic' },
@@ -99,6 +102,7 @@ Start by greeting me as I call your name in the waiting room.`,
         name: 'SBAR Handover Practice',
         description: 'Practice structured clinical handovers.',
         nmcAlignment: 'Annexe A1: Underpinning Communication Skills',
+        passportId: 'sbar',
         fields: [
             { id: 'mode', label: 'Practice Mode', placeholder: 'RECEIVE (AI gives scenario) or CRITIQUE (I give handover)' },
             { id: 'specialty', label: 'Clinical Area', placeholder: 'e.g., Medical ward, A&E, Community' },
@@ -124,6 +128,7 @@ Start by ${data.mode === 'CRITIQUE' ? 'asking me to deliver my handover' : 'givi
         name: 'Drug Calculation Tutor',
         description: 'Practice medication calculations step by step.',
         nmcAlignment: 'Annexe B11: Medicines Administration',
+        passportId: 'medsafety',
         fields: [
             { id: 'difficulty', label: 'Difficulty Level', placeholder: 'Basic, Intermediate, or Advanced' },
             { id: 'focus', label: 'Calculation Type (optional)', placeholder: 'e.g., IV rates, weight-based, paediatric' },
@@ -155,6 +160,7 @@ Use UK drug names and formulations. Start with a ${data.difficulty || 'moderate'
         name: 'Ethical Dilemma Simulator',
         description: 'Explore complex ethical scenarios with NMC Code guidance.',
         nmcAlignment: 'Platform 1: Being an Accountable Professional',
+        passportId: 'ethics',
         fields: [
             { id: 'level', label: 'Your Experience Level', placeholder: 'Student, Newly Qualified, or Experienced' },
             { id: 'topic', label: 'Specific Topic (optional)', placeholder: 'e.g., Capacity, Confidentiality, End of life' },
@@ -187,6 +193,7 @@ Begin with a scenario appropriate for my level.`,
         name: '🚀 Clinical Fishbowl',
         description: 'Multi-agent simulation: Patient + Mentor giving you live coaching.',
         nmcAlignment: 'Annexe A2: Difficult Conversations, A3: Therapeutic Communication',
+        passportId: 'fishbowl',
         fields: [
             { id: 'condition', label: 'Patient Condition/Situation', placeholder: 'e.g., New cancer diagnosis, unexpected death of relative' },
             { id: 'patientName', label: 'Patient Name', placeholder: 'e.g., Mrs. Thompson' },
@@ -217,6 +224,7 @@ Begin now as ${data.patientName || 'Mrs. Thompson'}.`,
         name: '🚀 Crash Cart Simulator',
         description: 'Real-time deteriorating patient. Your decisions change the outcome.',
         nmcAlignment: 'Annexe B2: Clinical Procedures, B2.13: Deterioration',
+        passportId: 'deterioration',
         fields: [
             { id: 'scenario', label: 'Clinical Scenario', placeholder: 'e.g., Post-operative, Chest pain, Sepsis' },
             { id: 'patientName', label: 'Patient Name', placeholder: 'e.g., Mr. Johnson' },
@@ -254,6 +262,7 @@ I will start my A-E assessment now. What do I find when I approach the bedside?`
         name: '🚀 Sepsis Response Agent',
         description: 'Time-critical sepsis scenario with Sepsis Six bundle tracking.',
         nmcAlignment: 'Annexe B9: Infection Prevention, B2.13: Deterioration',
+        passportId: 'sepsis',
         fields: [
             { id: 'source', label: 'Likely Sepsis Source', placeholder: 'e.g., UTI, Cellulitis, Pneumonia' },
             { id: 'comorbidities', label: 'Patient Comorbidities', placeholder: 'e.g., Diabetes, COPD, Immunocompromised' },
@@ -293,6 +302,7 @@ Start now. I'm approaching the patient - what do I see?`,
         name: '🚀 Safety Co-Pilot',
         description: 'Drug safety checker that critiques without giving answers.',
         nmcAlignment: 'Annexe B11: Medicines Administration',
+        passportId: 'medsafety',
         fields: [
             { id: 'focus', label: 'Safety Focus', placeholder: 'Prescription checking, Feedback delivery, or Both' },
         ],
@@ -335,6 +345,7 @@ Ready for my first scenario...`,
         name: '🚀 Agentic De-escalation',
         description: 'Practice de-escalation with live escalation level tracking.',
         nmcAlignment: 'Annexe A3: Therapeutic Communication, A3.5: De-escalation',
+        passportId: 'deescalation',
         fields: [
             { id: 'scenario', label: 'Escalation Scenario', placeholder: 'e.g., Long A&E wait, Visiting hours dispute, Pain not managed' },
             { id: 'patientName', label: 'Person Name', placeholder: 'e.g., Mr. Harris' },
@@ -369,6 +380,7 @@ Begin as ${data.patientName || 'Mr. Harris'} expressing frustration.`,
         name: 'A-G Assessment Simulator',
         description: 'Systematic patient assessment practice.',
         nmcAlignment: 'Annexe B2: Clinical Procedures, Platform 3: Assessment',
+        passportId: 'assessment',
         fields: [
             { id: 'acuity', label: 'Patient Acuity', placeholder: 'Stable, Deteriorating, or Critical' },
             { id: 'setting', label: 'Clinical Setting', placeholder: 'e.g., Medical ward, A&E, Community' },
@@ -431,6 +443,7 @@ Provide feedback on my clinical reasoning. Start by describing the patient and w
         name: '🚀 Agentic History Taking',
         description: 'Patient + family member with different perspectives.',
         nmcAlignment: 'Annexe B1: History Taking, Platform 3: Assessment',
+        passportId: 'family',
         fields: [
             { id: 'presentation', label: 'Patient Presentation', placeholder: 'e.g., Confusion, Fall at home, Chest pain' },
             { id: 'familyRelation', label: 'Family Member', placeholder: 'e.g., Daughter, Son, Spouse' },
@@ -464,6 +477,7 @@ Begin with the ${data.familyRelation || 'daughter'} calling out: "Nurse! Thank g
         name: '🚀 Explain-Like-I\'m-5',
         description: 'Reverse tutoring - teach the AI to test your understanding.',
         nmcAlignment: 'Annexe A2: Health Promotion, Patient Education',
+        passportId: 'simplifier',
         fields: [
             { id: 'condition', label: 'Condition to Explain', placeholder: 'e.g., Heart failure, Diabetes, Asthma' },
         ],
@@ -599,13 +613,30 @@ export default function PromptPlayground() {
                             {generatedPrompt}
                         </pre>
 
-                        <button
-                            className={clsx('button button--lg', copied ? 'button--success' : 'button--primary')}
-                            onClick={handleCopy}
-                            style={{ width: '100%', marginTop: '1rem' }}
-                        >
-                            {copied ? '✅ Copied to Clipboard!' : '📋 Copy Prompt'}
-                        </button>
+                        <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
+                            <button
+                                className={clsx('button button--lg', copied ? 'button--success' : 'button--primary')}
+                                onClick={handleCopy}
+                                style={{ flex: 1 }}
+                            >
+                                {copied ? '✅ Copied!' : '📋 Copy Prompt'}
+                            </button>
+
+                            {currentTemplate.passportId && (
+                                <button
+                                    className={clsx('button button--lg button--outline button--secondary')}
+                                    onClick={() => {
+                                        const progress = JSON.parse(localStorage.getItem('clinyqai_passport') || '{}');
+                                        progress[currentTemplate.passportId] = true;
+                                        localStorage.setItem('clinyqai_passport', JSON.stringify(progress));
+                                        alert('✨ Practice logged in your ClinyQAi™ Passport!');
+                                    }}
+                                    style={{ flex: 1 }}
+                                >
+                                    🏅 Log Practice
+                                </button>
+                            )}
+                        </div>
                     </div>
 
                 </div>

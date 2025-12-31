@@ -138,6 +138,7 @@ const sidebars: SidebarsConfig = {
         'resources/nursing-resources',
         'resources/academic-papers',
         'resources/prompt-playground',
+        'resources/clinyqai-passport',
         'resources/nmc-proficiency-mapping',
       ],
     },
