@@ -6,19 +6,19 @@ const STEPS = [
         number: '01',
         title: 'Explore',
         description: 'Browse case studies, prompts, and frameworks tailored for UK nursing education.',
-        icon: '/img/explore_icon.png',
+        icon: require('@site/static/img/explore_icon.png').default,
     },
     {
         number: '02',
         title: 'Adapt',
         description: 'Customize strategies to fit your module, student cohort, and NMC proficiencies.',
-        icon: '/img/adapt_icon.png',
+        icon: require('@site/static/img/adapt_icon.png').default,
     },
     {
         number: '03',
         title: 'Teach',
         description: 'Integrate AI responsibly into your teaching, learning, and assessment workflows.',
-        icon: '/img/teach_icon.png',
+        icon: require('@site/static/img/teach_icon.png').default,
     },
 ];
 
