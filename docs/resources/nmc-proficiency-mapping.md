@@ -10,12 +10,12 @@ import NMCMap from '@site/src/components/NMCMap';
 
 Align your use of Generative AI with the **NMC Standards of Proficiency for Registered Nurses (2018)**. This tool helps you:
 
-1.  **Select** relevant NMC Platforms and proficiencies for your teaching activity.
+1.  **Select** relevant Platforms, Annexe A, or Annexe B proficiencies for your teaching activity.
 2.  **Discover** AI strategies specifically mapped to each domain.
 3.  **Generate** a formatted compliance statement for your module descriptor or lesson plan.
 
 :::info Why does this matter?
-UK Higher Education Institutions (HEIs) require lecturers to demonstrate how learning activities map to NMC standards. This tool makes that process faster and more transparent, while also ensuring AI use is educationally justified.
+UK Higher Education Institutions require lecturers to demonstrate how learning activities map to NMC standards. This tool makes that process faster and more transparent, while also ensuring AI use is educationally justified.
 :::
 
 ---
@@ -26,28 +26,25 @@ UK Higher Education Institutions (HEIs) require lecturers to demonstrate how lea
 
 ## 📚 About the NMC Standards
 
-The [NMC Standards of Proficiency for Registered Nurses](https://www.nmc.org.uk/standards/standards-for-nurses/standards-of-proficiency-for-registered-nurses/) define the knowledge and skills required for registration. They are structured around **7 Platforms**:
+The [NMC Standards of Proficiency for Registered Nurses](https://www.nmc.org.uk/standards/standards-for-nurses/standards-of-proficiency-for-registered-nurses/) define the knowledge and skills required for registration.
 
-| Platform | Title |
-|:--------:|:------|
-| 1 | Being an Accountable Professional |
-| 2 | Promoting Health and Preventing Ill Health |
-| 3 | Assessing Needs and Planning Care |
-| 4 | Providing and Evaluating Care |
-| 5 | Leading and Managing Nursing Care |
-| 6 | Improving Safety and Quality of Care |
-| 7 | Coordinating Care |
+### Three Components
 
-Plus two **Annexes** covering communication skills (Annexe A) and nursing procedures (Annexe B).
+| Component | Focus | Sections |
+|:----------|:------|:---------|
+| **7 Platforms** | Core nursing competencies | Professional accountability, health promotion, assessment, care delivery, leadership, safety, coordination |
+| **Annexe A** | Communication & Relationship Management | 4 sections covering underpinning skills, health promotion communication, therapeutic interventions, team communication |
+| **Annexe B** | Nursing Procedures | 11 sections covering assessment, clinical procedures, hygiene, nutrition, continence, mobility, respiratory, infection control, end of life, medicines |
 
 ---
 
 ## 💡 How to Use This Tool
 
-1.  **Click a Platform card** to see its associated proficiencies.
-2.  **Check the proficiencies** that your AI activity addresses.
-3.  **Review the suggested AI strategies** for inspiration.
-4.  **Copy the generated statement** and paste it into your module documentation.
+1.  **Choose a tab**: Select "7 Platforms", "Annexe A: Communication", or "Annexe B: Procedures".
+2.  **Click a section** to see its associated proficiencies.
+3.  **Check the proficiencies** that your AI activity addresses.
+4.  **Review the suggested AI strategies** for inspiration.
+5.  **Copy the generated statement** and paste it into your module documentation.
 
 ---
 
