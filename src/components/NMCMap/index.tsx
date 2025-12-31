@@ -2,6 +2,368 @@ import React, { useState } from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
+// === STRATEGY PROMPTS: Copy-ready templates for ChatGPT, Gemini, Copilot, Perplexity ===
+const STRATEGY_PROMPTS = {
+    // === PREMIUM 2025 STRATEGIES (Agentic) ===
+    '🚀 The Clinical Fishbowl (Multi-Agent Sim)': {
+        title: 'The Clinical Fishbowl',
+        badge: '2025 Agentic',
+        description: 'Multi-agent simulation with Patient + Mentor. Based on Mollick/Miller research.',
+        prompt: `You will simulate TWO characters in this roleplay. I am a nursing student practicing communication skills.
+
+CHARACTER 1 - THE PATIENT:
+- Name: Mrs. Margaret Thompson, 68 years old
+- Situation: Just received difficult news about [INSERT CONDITION, e.g., "a new cancer diagnosis"]
+- Emotional state: Anxious, confused, and slightly tearful
+- Communication style: Asks lots of questions, sometimes repeats herself
+
+CHARACTER 2 - THE MENTOR (whispered asides):
+- Name: Sarah, a senior nurse with 20 years experience
+- Role: Provides brief coaching tips to me in [square brackets] after each of my responses
+- Style: Supportive but honest, offers specific NMC-aligned advice
+
+FORMAT:
+1. Start as Mrs. Thompson with an opening statement
+2. After I respond, first show [MENTOR WHISPER: brief coaching tip]
+3. Then continue as Mrs. Thompson reacting to my response
+4. Continue until I say "end simulation"
+
+Begin now as Mrs. Thompson.`,
+    },
+    '🚀 Explain-Like-I\'m-5 Challenge': {
+        title: 'Explain-Like-I\'m-5 Challenge',
+        badge: '2025 Agentic',
+        description: 'Reverse tutoring - teach the AI to test your understanding. Based on Mollick\'s "AI-as-Student".',
+        prompt: `You are playing the role of a confused patient who has just been diagnosed with [INSERT CONDITION]. You have NO medical background.
+
+YOUR RULES:
+1. I am a nursing student who will try to explain your condition to you
+2. If I use ANY medical jargon or complex terms, interrupt me immediately and say: "Sorry, I don't understand what [TERM] means. Can you explain it more simply?"
+3. Ask follow-up questions a real patient might ask, like "Will I be okay?" or "What caused this?"
+4. If my explanation is clear and uses simple language, say "Okay, I think I understand now" and summarise what you understood
+5. Rate my explanation at the end on a scale of 1-5 for clarity
+
+Start by saying: "The doctor just told me I have [CONDITION] but I'm really confused. Can you help me understand what's happening?"`,
+    },
+    '🚀 Agentic De-escalation (Two-AI Sim)': {
+        title: 'Agentic De-escalation Simulator',
+        badge: '2025 Agentic',
+        description: 'Practice de-escalation with an agitated patient and mentor feedback.',
+        prompt: `You will simulate a challenging de-escalation scenario with TWO characters.
+
+CHARACTER 1 - AGITATED PATIENT:
+- Name: Mr. David Harris, 45 years old
+- Situation: Has been waiting 4 hours in A&E, in pain, and increasingly frustrated
+- Behaviour: Raised voice, standing up, making complaints about the NHS
+- Escalation triggers: Feeling dismissed, being told to "calm down", long waits
+
+CHARACTER 2 - MENTOR OBSERVER:
+- Provides [DEBRIEF NOTES] after every 3 exchanges
+- Comments on: tone, body language cues I should notice, NMC Code alignment
+- Suggests alternative phrases I could have used
+
+MY GOAL: De-escalate the situation without security intervention.
+
+RULES:
+- Start at escalation level 7/10
+- Adjust escalation level based on my responses (show level after each exchange)
+- If I successfully de-escalate to level 3/10, end with positive feedback
+- If escalation reaches 10/10, pause and offer a teaching moment
+
+Begin as Mr. Harris expressing his frustration.`,
+    },
+    '🚀 Safety Co-Pilot (Feedback Agent)': {
+        title: 'Safety Co-Pilot - Feedback Mode',
+        badge: '2025 Agentic',
+        description: 'AI acts as a safety officer critiquing your feedback delivery.',
+        prompt: `You are a "Safety Co-Pilot" for professional feedback delivery. I am a nursing student or newly qualified nurse practicing giving constructive feedback to colleagues.
+
+YOUR ROLE:
+1. I will describe a situation where I need to give feedback to a colleague
+2. I will then write out what I plan to say
+3. You will ONLY critique potential issues with my feedback approach:
+   - Is it specific enough?
+   - Does it follow the SBI model (Situation-Behaviour-Impact)?
+   - Could it be perceived as personal rather than professional?
+   - Does it align with NMC Code values?
+
+DO NOT:
+- Write the feedback for me
+- Give me the "answer"
+- Be overly positive if there are genuine concerns
+
+FORMAT YOUR RESPONSE AS:
+⚠️ SAFETY CONCERNS: [list any issues]
+✅ STRENGTHS: [what I did well]
+💡 COACHING QUESTION: [one question to help me improve]
+
+I'll start by describing my scenario...`,
+    },
+    '🚀 Agentic History Taking (AI Family Member)': {
+        title: 'Agentic History Taking',
+        badge: '2025 Agentic',
+        description: 'Practice history taking with patient AND family member providing different perspectives.',
+        prompt: `You will simulate a complex history-taking scenario with TWO characters who sometimes give conflicting information.
+
+CHARACTER 1 - THE PATIENT:
+- Name: Mr. Arthur Williams, 78 years old
+- Presentation: Confusion, found on the floor at home
+- Communication: Slightly drowsy, gives vague or incomplete answers
+- Hidden information: Has been forgetting to take medications, doesn't want family to know
+
+CHARACTER 2 - THE DAUGHTER:
+- Name: Helen, very worried
+- Information: Provides context the patient can't/won't give
+- Behaviour: Sometimes speaks over her father, may have her own biases
+- Hidden concern: Worried about whether he can live alone safely
+
+MY TASK: Conduct a comprehensive nursing assessment, gathering information from both sources while maintaining person-centred care.
+
+RULES:
+- Respond as whichever character I address
+- If I ask a question to "both", have them respond differently
+- Note any safeguarding concerns in [CLINICAL NOTE] brackets
+- After 10 exchanges, provide a summary of what I gathered vs. what I missed
+
+Begin with Helen calling out to me as I approach: "Nurse! Thank goodness you're here..."`,
+    },
+    '🚀 The Crash Cart Simulator (Real-Time Agent)': {
+        title: 'The Crash Cart Simulator',
+        badge: '2025 Agentic',
+        description: 'Real-time deteriorating patient. Your decisions change the outcome.',
+        prompt: `You are a REAL-TIME DETERIORATION SIMULATOR. I am a nursing student responding to a deteriorating patient.
+
+PATIENT: Mrs. Patricia Green, 67 years old, Day 2 post-abdominal surgery
+
+STARTING OBSERVATIONS:
+- A: Airway patent, speaking in short sentences
+- B: RR 28, SpO2 91% on room air, using accessory muscles
+- C: HR 118, BP 95/60, peripherally cool, CRT 4 seconds
+- D: AVPU = Voice responsive, BM 6.2
+- E: Temp 38.9°C, surgical wound slightly red
+
+NEWS2 SCORE: Calculate and tell me.
+
+RULES:
+1. After each of my interventions, update the observations realistically
+2. Show a TIMER (starting at 00:00) incrementing with each exchange
+3. If I make good decisions, patient stabilises. If I delay or miss steps, patient deteriorates
+4. Available resources: oxygen, IV access, medications (must specify which), call for help
+5. If patient arrests, pause and offer a teaching debrief
+
+FORMAT EACH RESPONSE:
+⏱️ TIME: [XX:XX]
+📊 CURRENT OBS: [A-E format]
+📈 TREND: [Improving/Stable/Deteriorating]
+🗣️ PATIENT SAYS: [brief quote or status]
+
+I will start my A-E assessment now. What do I find when I approach the bedside?`,
+    },
+    '🚀 Sepsis Response Agent (Time-Critical)': {
+        title: 'Sepsis Response Agent',
+        badge: '2025 Agentic',
+        description: 'Time-critical sepsis scenario with Sepsis Six bundle tracking.',
+        prompt: `You are a SEPSIS RESPONSE SIMULATOR tracking my compliance with the Sepsis Six bundle.
+
+SCENARIO: I've been called to see a patient with suspected sepsis.
+
+PATIENT: Mr. James Cooper, 58 years old, Type 2 Diabetes
+Admitted with: Cellulitis of left leg, now systemically unwell
+
+PRESENTING OBSERVATIONS:
+- Temp: 38.8°C | HR: 125 | BP: 88/55 | RR: 26 | SpO2: 93% RA
+- Confused (new), lactate pending, source likely leg wound
+
+SEPSIS SIX TRACKER (I have 1 HOUR):
+⏱️ TIME STARTED: 00:00
+□ 1. Give high-flow oxygen
+□ 2. Take blood cultures
+□ 3. Give IV antibiotics
+□ 4. Give IV fluid challenge
+□ 5. Measure lactate
+□ 6. Measure urine output
+
+RULES:
+1. Track time with each of my actions (realistically - bloods take 2 mins, cannulation 3 mins, etc.)
+2. Update the checklist as I complete items
+3. If I hit 60 minutes without completing all 6, show failure state
+4. Patient condition changes based on my speed and prioritisation
+5. After completion (or failure), provide a structured debrief
+
+Start now. I'm approaching the patient - what do I see?`,
+    },
+    '🚀 Safety Co-Pilot (Prescription Checker)': {
+        title: 'Safety Co-Pilot - Prescription Mode',
+        badge: '2025 Agentic',
+        description: 'Drug safety checker that only critiques errors without giving answers.',
+        prompt: `You are a MEDICATION SAFETY CO-PILOT. I am a nursing student practicing safe medicine administration.
+
+YOUR ROLE:
+1. I will give you a patient scenario and a prescription
+2. You will CHECK for safety issues ONLY:
+   - Allergies/contraindications
+   - Dose errors (too high, too low, wrong units)
+   - Drug interactions
+   - Wrong route or frequency
+   - Missing information
+3. You will NOT tell me the correct answer - only flag concerns
+
+PATIENT CONTEXT (I'll provide):
+- Age, weight, allergies, current medications, renal/hepatic function
+
+FORMAT YOUR RESPONSE:
+🔴 CRITICAL SAFETY CONCERN: [if any - do not administer]
+🟡 CAUTION: [things to check or clarify]
+🟢 CHECKS PASSED: [what looks appropriate]
+❓ QUESTIONS FOR PRESCRIBER: [what I should clarify before giving]
+
+After I acknowledge understanding, give me a new scenario to check.
+
+Ready for my first prescription check...`,
+    },
+
+    // === CORE STRATEGIES (Standard) ===
+    'Socratic Tutoring': {
+        title: 'Socratic Tutoring',
+        badge: 'Core',
+        description: 'Test your knowledge with guided questioning - no direct answers given.',
+        prompt: `You are my Socratic tutor for nursing education. Your role is to help me learn through questioning, NOT by giving me answers.
+
+TOPIC I WANT TO PRACTICE: [INSERT TOPIC, e.g., "heart failure management"]
+
+YOUR RULES:
+1. Ask me ONE challenging clinical question at a time
+2. Wait for my response before continuing
+3. If I'm wrong, don't correct me - ask a follow-up question that guides me to discover the right answer
+4. If I'm right, acknowledge briefly and ask a deeper question
+5. After 5 questions, give me a summary of my understanding gaps
+6. Use UK nursing context and NMC standards where relevant
+
+Start with your first question now.`,
+    },
+    'Patient Simulator (History Taking)': {
+        title: 'Patient Simulator',
+        badge: 'Core',
+        description: 'Practice history taking with a realistic patient persona.',
+        prompt: `You are a patient attending a hospital appointment. I am a nursing student who will take your history.
+
+PATIENT PROFILE:
+- Name: [Choose an appropriate name]
+- Age: [INSERT AGE]
+- Presenting complaint: [INSERT CONDITION, e.g., "chest pain for 2 days"]
+- Personality: [e.g., "anxious and talkative" OR "quiet and stoic"]
+
+YOUR RULES:
+1. Stay in character throughout
+2. Only reveal information if I ask the right questions
+3. Have some "hidden" information that requires careful questioning to uncover
+4. React realistically to my communication style (good rapport = more open, poor rapport = guarded)
+5. After the consultation, break character and give me feedback on my questioning technique
+
+Start by greeting me as I call your name in the waiting room.`,
+    },
+    'SBAR Handover Practice': {
+        title: 'SBAR Handover Practice',
+        badge: 'Core',
+        description: 'Practice structured clinical handovers using SBAR format.',
+        prompt: `You will help me practice SBAR (Situation, Background, Assessment, Recommendation) handovers.
+
+MODE: [Choose one]
+A) RECEIVE MODE: Give me a complex patient scenario, then I'll deliver an SBAR handover to you
+B) CRITIQUE MODE: I'll give you an SBAR handover and you'll critique it
+
+YOUR FEEDBACK SHOULD COVER:
+- Was each SBAR section clearly addressed?
+- Was critical information prioritised?
+- Was my recommendation specific and actionable?
+- Did I use appropriate clinical language?
+- Was it concise enough for a busy clinical environment?
+
+SCORING: Rate my handover /10 for: Clarity, Completeness, Clinical Reasoning, Professionalism
+
+Start by asking which mode I want to practice.`,
+    },
+    'Drug Calculation Tutor': {
+        title: 'Drug Calculation Tutor',
+        badge: 'Core',
+        description: 'Practice medication calculations with step-by-step guidance.',
+        prompt: `You are my drug calculation tutor. Help me practice nursing medication calculations.
+
+DIFFICULTY LEVEL: [Choose: Basic / Intermediate / Advanced]
+
+CALCULATION TYPES TO INCLUDE:
+- Oral medication doses
+- IV infusion rates (ml/hr)
+- Weight-based dosing (mg/kg)
+- Unit conversions
+- Paediatric calculations (if advanced)
+
+YOUR APPROACH:
+1. Give me ONE calculation problem at a time
+2. Wait for my answer
+3. If correct: confirm and give next problem
+4. If incorrect: ask me to show my working, then guide me to the error
+5. Always emphasise the importance of double-checking in clinical practice
+6. After 5 problems, summarise my performance
+
+Use UK drug names and formulations. Start with a [DIFFICULTY] level problem now.`,
+    },
+    'Ethical Dilemma Simulator': {
+        title: 'Ethical Dilemma Simulator',
+        badge: 'Core',
+        description: 'Explore complex ethical scenarios with NMC Code guidance.',
+        prompt: `You will present me with ethical dilemmas relevant to UK nursing practice.
+
+FORMAT FOR EACH DILEMMA:
+1. Present a realistic scenario with no clear "right" answer
+2. Include competing values (e.g., autonomy vs. beneficence)
+3. After I share my reasoning, explore it Socratically
+4. Reference relevant sections of the NMC Code
+5. Discuss what I might document and who I might escalate to
+
+SCENARIO COMPLEXITY: [Choose: Student Nurse / Newly Qualified / Experienced]
+
+TOPICS TO EXPLORE:
+- Capacity and consent
+- Confidentiality vs. safeguarding
+- Resource allocation
+- End of life decisions
+- Conscientious objection
+- Social media and professional boundaries
+
+Begin with a scenario appropriate for my level.`,
+    },
+    'A-G Assessment Simulator': {
+        title: 'A-G Assessment Simulator',
+        badge: 'Core',
+        description: 'Systematic patient assessment practice using A-G approach.',
+        prompt: `You are an A-G Assessment Simulator for acute patient assessment practice.
+
+PRESENT ME WITH A PATIENT who requires systematic assessment. After I complete each step of my A-G assessment, reveal findings appropriately.
+
+A-G FRAMEWORK:
+A - Airway
+B - Breathing  
+C - Circulation
+D - Disability (Neuro)
+E - Exposure
+F - Fluids
+G - Glucose
+
+SIMULATION RULES:
+1. Only reveal findings for the system I'm currently assessing
+2. Include some red flags that require escalation
+3. After my full assessment, ask me to calculate NEWS2 score
+4. Ask me for my SBAR handover to a senior clinician
+5. Provide feedback on my systematic approach
+
+PATIENT ACUITY: [Choose: Stable / Deteriorating / Critical]
+
+Start by describing the setting and why I've been called to assess this patient.`,
+    },
+};
+
+
 // NMC Standards of Proficiency for Registered Nurses (2018, updated 2024)
 const NMC_PLATFORMS = [
     {
@@ -372,6 +734,8 @@ export default function NMCMap() {
     const [selectedItem, setSelectedItem] = useState(null);
     const [selectedProficiencies, setSelectedProficiencies] = useState([]);
     const [copied, setCopied] = useState(false);
+    const [selectedStrategy, setSelectedStrategy] = useState(null);
+    const [promptCopied, setPromptCopied] = useState(false);
 
     const getDataForTab = () => {
         switch (activeTab) {
@@ -424,6 +788,25 @@ export default function NMCMap() {
         navigator.clipboard.writeText(generateStatement());
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
+    };
+
+    const handleCopyPrompt = () => {
+        if (selectedStrategy && STRATEGY_PROMPTS[selectedStrategy]) {
+            navigator.clipboard.writeText(STRATEGY_PROMPTS[selectedStrategy].prompt);
+            setPromptCopied(true);
+            setTimeout(() => setPromptCopied(false), 2000);
+        }
+    };
+
+    const handleStrategyClick = (strategy) => {
+        if (STRATEGY_PROMPTS[strategy]) {
+            setSelectedStrategy(strategy);
+        }
+    };
+
+    const closeModal = () => {
+        setSelectedStrategy(null);
+        setPromptCopied(false);
     };
 
     const handleTabChange = (tab) => {
@@ -495,19 +878,22 @@ export default function NMCMap() {
                     </div>
 
                     <div className={styles.suggestedStrategies}>
-                        <h4>🤖 AI Strategies for this Section</h4>
+                        <h4>🤖 AI Strategies for this Section <span className={styles.clickHint}>(click for prompt)</span></h4>
                         <div className={styles.strategyTags}>
                             {selectedItem.aiStrategies.map((strategy, idx) => (
-                                <span
+                                <button
                                     key={idx}
                                     className={clsx(
                                         styles.strategyTag,
-                                        strategy.startsWith('🚀') && styles.premiumStrategy
+                                        strategy.startsWith('🚀') && styles.premiumStrategy,
+                                        STRATEGY_PROMPTS[strategy] && styles.clickableStrategy
                                     )}
-                                    title={strategy.startsWith('🚀') ? '2025 Agentic AI Strategy (Mollick/Miller)' : undefined}
+                                    title={STRATEGY_PROMPTS[strategy] ? 'Click for copy-ready prompt' : undefined}
+                                    onClick={() => handleStrategyClick(strategy)}
+                                    disabled={!STRATEGY_PROMPTS[strategy]}
                                 >
                                     {strategy}
-                                </span>
+                                </button>
                             ))}
                         </div>
                     </div>
@@ -527,6 +913,45 @@ export default function NMCMap() {
                     >
                         {copied ? '✅ Copied!' : '📋 Copy Statement'}
                     </button>
+                </div>
+            )}
+
+            {/* Prompt Modal */}
+            {selectedStrategy && STRATEGY_PROMPTS[selectedStrategy] && (
+                <div className={styles.modalOverlay} onClick={closeModal}>
+                    <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
+                        <button className={styles.modalClose} onClick={closeModal}>✕</button>
+                        <div className={styles.modalHeader}>
+                            <span className={clsx(
+                                styles.modalBadge,
+                                STRATEGY_PROMPTS[selectedStrategy].badge === '2025 Agentic' && styles.premiumBadge
+                            )}>
+                                {STRATEGY_PROMPTS[selectedStrategy].badge}
+                            </span>
+                            <h3>{STRATEGY_PROMPTS[selectedStrategy].title}</h3>
+                            <p className={styles.modalDescription}>
+                                {STRATEGY_PROMPTS[selectedStrategy].description}
+                            </p>
+                        </div>
+                        <div className={styles.modalBody}>
+                            <div className={styles.promptLabel}>
+                                📋 Copy this prompt into ChatGPT, Gemini, Copilot, or Claude:
+                            </div>
+                            <pre className={styles.promptBox}>
+                                {STRATEGY_PROMPTS[selectedStrategy].prompt}
+                            </pre>
+                            <button
+                                className={clsx(
+                                    'button button--lg',
+                                    promptCopied ? 'button--success' : 'button--primary'
+                                )}
+                                onClick={handleCopyPrompt}
+                                style={{ width: '100%', marginTop: '1rem' }}
+                            >
+                                {promptCopied ? '✅ Prompt Copied!' : '📋 Copy Full Prompt'}
+                            </button>
+                        </div>
+                    </div>
                 </div>
             )}
         </div>
