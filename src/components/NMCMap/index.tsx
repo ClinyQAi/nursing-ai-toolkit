@@ -118,7 +118,7 @@ const ANNEXE_A = [
             { id: 'A1.11', text: 'Provide clear information when delegating or handing over care' },
             { id: 'A1.12', text: 'Recognise the need for and facilitate access to translator services' },
         ],
-        aiStrategies: ['SBAR Handover Practice', 'Documentation Review Bot', 'Active Listening Simulator'],
+        aiStrategies: ['SBAR Handover Practice', 'Documentation Review Bot', 'Active Listening Simulator', '🚀 The Clinical Fishbowl (Multi-Agent Sim)'],
     },
     {
         id: 'A2',
@@ -135,7 +135,7 @@ const ANNEXE_A = [
             { id: 'A2.8', text: 'Provide information and respond to questions about treatment and care' },
             { id: 'A2.9', text: 'Engage in difficult conversations including breaking bad news' },
         ],
-        aiStrategies: ['Patient Education Simplifier', 'Breaking Bad News Roleplay', 'Health Literacy Checker'],
+        aiStrategies: ['Patient Education Simplifier', 'Breaking Bad News Roleplay', 'Health Literacy Checker', '🚀 Explain-Like-I\'m-5 Challenge'],
     },
     {
         id: 'A3',
@@ -153,7 +153,7 @@ const ANNEXE_A = [
             { id: 'A3.8', text: 'Distraction and diversion strategies' },
             { id: 'A3.9', text: 'Positive behaviour support approaches' },
         ],
-        aiStrategies: ['Motivational Interviewing Practice', 'De-escalation Scenario Simulator', 'CBT Technique Coach'],
+        aiStrategies: ['Motivational Interviewing Practice', 'De-escalation Scenario Simulator', 'CBT Technique Coach', '🚀 Agentic De-escalation (Two-AI Sim)'],
     },
     {
         id: 'A4',
@@ -173,7 +173,7 @@ const ANNEXE_A = [
             { id: 'A4.2.5', text: 'Use de-escalation strategies in conflict' },
             { id: 'A4.2.6', text: 'Use effective negotiation and escalation procedures' },
         ],
-        aiStrategies: ['Feedback Delivery Practice', 'Conflict Resolution Roleplay', 'Team Meeting Facilitator'],
+        aiStrategies: ['Feedback Delivery Practice', 'Conflict Resolution Roleplay', 'Team Meeting Facilitator', '🚀 Safety Co-Pilot (Feedback Agent)'],
     },
 ];
 
@@ -195,7 +195,7 @@ const ANNEXE_B = [
             { id: 'B1.2.2', text: 'Recognise symptoms and signs of physical distress' },
             { id: 'B1.2.3', text: 'Recognise symptoms and signs of deterioration and sepsis' },
         ],
-        aiStrategies: ['History Taking Simulator', 'Mental Health Assessment Practice', 'Deterioration Recognition Scenarios'],
+        aiStrategies: ['History Taking Simulator', 'Mental Health Assessment Practice', 'Deterioration Recognition Scenarios', '🚀 Agentic History Taking (AI Family Member)'],
     },
     {
         id: 'B2',
@@ -217,7 +217,7 @@ const ANNEXE_B = [
             { id: 'B2.13', text: 'Identify and respond to signs of deterioration and sepsis' },
             { id: 'B2.16', text: 'Recognise and manage seizures, choking and anaphylaxis' },
         ],
-        aiStrategies: ['Vital Signs Interpretation Quiz', 'ECG Reading Tutor', 'A-G Assessment Simulator'],
+        aiStrategies: ['Vital Signs Interpretation Quiz', 'ECG Reading Tutor', 'A-G Assessment Simulator', '🚀 The Crash Cart Simulator (Real-Time Agent)'],
     },
     {
         id: 'B3',
@@ -328,7 +328,7 @@ const ANNEXE_B = [
             { id: 'B9.8', text: 'Safely dispose of waste, laundry and sharps' },
             { id: 'B9.9', text: 'Safely manage invasive medical devices and lines' },
         ],
-        aiStrategies: ['Infection Control Scenarios', 'PPE Selection Quiz', 'ANTT Practice Simulator'],
+        aiStrategies: ['Infection Control Scenarios', 'PPE Selection Quiz', 'ANTT Practice Simulator', '🚀 Sepsis Response Agent (Time-Critical)'],
     },
     {
         id: 'B10',
@@ -363,7 +363,7 @@ const ANNEXE_B = [
             { id: 'B11.10', text: 'Recognise and respond to adverse reactions to medications' },
             { id: 'B11.11', text: 'Undertake safe storage, transportation and disposal of medicines' },
         ],
-        aiStrategies: ['Drug Calculation Tutor', 'Medication Error Scenarios', 'Injection Technique Practice'],
+        aiStrategies: ['Drug Calculation Tutor', 'Medication Error Scenarios', 'Injection Technique Practice', '🚀 Safety Co-Pilot (Prescription Checker)'],
     },
 ];
 
@@ -498,7 +498,16 @@ export default function NMCMap() {
                         <h4>🤖 AI Strategies for this Section</h4>
                         <div className={styles.strategyTags}>
                             {selectedItem.aiStrategies.map((strategy, idx) => (
-                                <span key={idx} className={styles.strategyTag}>{strategy}</span>
+                                <span
+                                    key={idx}
+                                    className={clsx(
+                                        styles.strategyTag,
+                                        strategy.startsWith('🚀') && styles.premiumStrategy
+                                    )}
+                                    title={strategy.startsWith('🚀') ? '2025 Agentic AI Strategy (Mollick/Miller)' : undefined}
+                                >
+                                    {strategy}
+                                </span>
                             ))}
                         </div>
                     </div>
