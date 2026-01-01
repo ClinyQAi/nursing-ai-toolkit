@@ -1,4 +1,4 @@
-# AI-Educator-Toolkit Constitution
+# nursing-ai-toolkit Constitution
 **Governing Principles for Development**
 
 ## 1. Clinical & Professional Integrity

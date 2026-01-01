@@ -48,4 +48,4 @@ The [NMC Standards of Proficiency for Registered Nurses](https://www.nmc.org.uk/
 
 ---
 
-**Have feedback or suggestions for new AI strategies?** [Start a Discussion on GitHub!](https://github.com/ClinyQAi/-AI-Educator-Toolkit/discussions)
+**Have feedback or suggestions for new AI strategies?** [Start a Discussion on GitHub!](https://github.com/ClinyQAi/nursing-ai-toolkit/discussions)

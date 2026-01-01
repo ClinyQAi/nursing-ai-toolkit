@@ -166,7 +166,7 @@ This aligns with the NMC Code (2018), which emphasises that registered nurses mu
 
 The *AI in Nursing Education: A Multimodal Learning Toolkit* represents a practical, evidence-based response to the challenges and opportunities of the AI era. By providing UK nurse educators with ready-to-use resources, grounded in NMC, RCN, and FoNS principles, it supports the development of digitally literate, critically aware, and person-centred nursing graduates.
 
-The toolkit is freely available at: https://clinyqai.github.io/-AI-Educator-Toolkit/
+The toolkit is freely available at: https://practicedev.cloud/
 
 Contributions from the nursing education community are welcomed. By working together—as Nurse Citizen Developers—we can ensure that AI serves the values of our profession, rather than the other way around.
 

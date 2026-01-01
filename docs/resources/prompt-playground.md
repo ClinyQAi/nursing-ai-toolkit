@@ -70,4 +70,4 @@ These templates use the **C.R.E.A.T.E.** framework to ensure consistent results:
 
 ---
 
-**Have a "Golden Prompt" to share?** [Submit it on GitHub Discussions!](https://github.com/ClinyQAi/-AI-Educator-Toolkit/discussions)
+**Have a "Golden Prompt" to share?** [Submit it on GitHub Discussions!](https://github.com/ClinyQAi/nursing-ai-toolkit/discussions)
