@@ -1,0 +1,7 @@
+gradio>=5.0.0
+litellm
+sentence-transformers
+numpy
+pandas
+python-dotenv
+duckduckgo-search>=5.0.0

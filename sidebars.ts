@@ -140,6 +140,8 @@ const sidebars: SidebarsConfig = {
         'resources/prompt-playground',
         'resources/clinyqai-passport',
         'resources/nmc-proficiency-mapping',
+        'resources/podcast-agent',
+        'resources/nmc-bot',
       ],
     },
     'license',

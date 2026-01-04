@@ -1,0 +1,8 @@
+gradio
+google-genai
+edge-tts
+pypdf
+anyio
+numpy
+librosa
+soundfile

@@ -1,0 +1,48 @@
+import json
+
+scenarios = [
+    {
+        "id": "scenario_1",
+        "platform": 1,
+        "title": "Accountable Professional & Records",
+        "prompt": "You are an NMC-compliant nursing assistant. A student nurse asks why it is important to keep 'timely' records according to Platform 1. How should you explain this based on the standards?",
+        "expected_themes": ["Clear, accurate and timely records", "Accountability", "Professional standards", "Patient safety"]
+    },
+    {
+        "id": "scenario_2",
+        "platform": 3,
+        "title": "Assessing Needs & Person-Centred Care",
+        "prompt": "Explain how a nurse should apply a 'person-centred approach' when assessing the mental and physical needs of an elderly patient with cognitive impairment. Reference NMC Platform 3.",
+        "expected_themes": ["Person-centred approach", "Elderly care", "Cognitive impairment", "Shared decision-making", "Holistic assessment"]
+    },
+    {
+        "id": "scenario_3",
+        "platform": 6,
+        "title": "Improving Safety & Risk Assessment",
+        "prompt": "Describe the nurse's role in undertaking risk assessments in a community care setting to improve safety and quality of care as per Platform 6.",
+        "expected_themes": ["Risk assessment", "Community setting", "Improvement methodologies", "Reducing harm", "Equity and outcomes"]
+    },
+    {
+        "id": "scenario_4",
+        "platform": 2,
+        "title": "Infection Prevention & Control",
+        "prompt": "A junior colleague asks what the NMC standards say about 'antimicrobial stewardship and resistance' under Platform 2. What is your response?",
+        "expected_themes": ["Infection prevention and control", "Antimicrobial stewardship", "Communicable disease surveillance", "Health protection"]
+    },
+    {
+        "id": "scenario_5",
+        "annex_b": True,
+        "title": "Safe Administration of Medicines",
+        "prompt": "What are the core nursing proficiencies required for the safe administration of medicines across different care settings according to the NMC framework?",
+        "expected_themes": ["Safe administration", "Medication usage", "Calculations/Numeracy", "Monitoring effects", "Professional responsibility"]
+    }
+]
+
+def save_scenarios():
+    output_path = r"c:\Users\g0226\Downloads\nmc_brain\train\evaluation_scenarios.json"
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(scenarios, f, indent=2)
+    print(f"Saved {len(scenarios)} evaluation scenarios to {output_path}")
+
+if __name__ == "__main__":
+    save_scenarios()
