@@ -232,6 +232,40 @@ Integrating AI literacy into individual modules ensures students develop compete
   - Family feedback (simulated)
   - Critical reflection
 
+### Example 4: Learning Disability Nursing - Accessible Health Information
+
+**Module Overview**
+- Level: Year 2
+- Credits: 20
+- Focus: Reducing Health Inequalities & Accessible Communication
+
+**AI Literacy Integration**
+
+**Learning Outcomes**
+1. Use AI tools to simplify complex medical information into "Easy Read" formats.
+2. Evaluate AI-generated accessible resources for genuine accessibility and accuracy.
+3. Demonstrate understanding of reasonable adjustments in digital health communication.
+
+**Activities**
+- **Week 2**: Introduction to Easy Read
+  - Analyze 'Easy Read' standards (images, text size, layout).
+  - Workshop: Prompting AI to "summarize this for a person with a learning disability" and critiquing the output.
+
+- **Week 4**: Creating Social Stories
+  - Use AI image generation to create visual cues for hospital visits (e.g., "Having a Blood Test").
+  - Use text AI to script a Social Story.
+  - Review with Service User Group (simulated).
+
+- **Week 6**: The "Human in the Loop"
+  - Discuss risks of AI hallucinating incorrect medical advice in simplified text.
+  - Ethical discussion: Does AI-generated art represent people with learning disabilities respectfully?
+
+**Assessment**
+- Accessible Resource Pack (AI-Assisted)
+  - Create a Health Action Plan or Hospital Passport using AI support.
+  - Submission must include the "Raw AI Output" vs "Final Edited Version".
+  - 500-word justification of changes made to ensure true accessibility.
+
 ## Implementation Guidance
 
 ### For Module Leaders
