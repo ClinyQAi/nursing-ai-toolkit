@@ -7,6 +7,7 @@ import HowItWorks from '@site/src/components/HowItWorks';
 import BackToTop from '@site/src/components/BackToTop';
 import Heading from '@theme/Heading';
 
+import CallToAction from '@site/src/components/CallToAction';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -22,7 +23,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className={clsx('button button--lg', styles.heroButtonPrimary)}
-              to="/docs/getting-started">
+              to="/docs/intro">
               Get Started &rarr;
             </Link>
             <Link
@@ -54,6 +55,7 @@ export default function Home(): React.JSX.Element {
       <main>
         <HomepageFeatures />
         <HowItWorks />
+        <CallToAction />
       </main>
       <BackToTop />
     </Layout>
