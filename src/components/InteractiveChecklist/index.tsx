@@ -6,11 +6,19 @@ import { Document, Packer, Paragraph, TextRun, HeadingLevel, CheckBox, Alignment
 import styles from './styles.module.css';
 import { CHECKLIST_DATA, ChecklistCategory } from './data';
 
-export default function InteractiveChecklist(): JSX.Element {
+interface InteractiveChecklistProps {
+    data?: ChecklistCategory[];
+    fileName?: string;
+}
+
+export default function InteractiveChecklist({
+    data = CHECKLIST_DATA,
+    fileName = "Checklist_Report"
+}: InteractiveChecklistProps): JSX.Element {
     const [activeCategoryIndex, setActiveCategoryIndex] = useState(0);
     const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
 
-    const activeCategory = CHECKLIST_DATA[activeCategoryIndex];
+    const activeCategory = data[activeCategoryIndex];
 
     const handleToggle = (id: string) => {
         setCheckedItems(prev => ({
@@ -35,7 +43,7 @@ export default function InteractiveChecklist(): JSX.Element {
         // Title
         children.push(
             new Paragraph({
-                text: `Responsible AI Use Checklist: ${activeCategory.title}`,
+                text: `Checklist Report: ${activeCategory.title}`,
                 heading: HeadingLevel.HEADING_1,
                 alignment: AlignmentType.CENTER,
             }),
@@ -89,14 +97,14 @@ export default function InteractiveChecklist(): JSX.Element {
         });
 
         const blob = await Packer.toBlob(doc);
-        saveAs(blob, `AI_Checklist_${activeCategory.title.replace(/\s+/g, '_')}.docx`);
+        saveAs(blob, `${fileName}_${activeCategory.title.replace(/\s+/g, '_')}.docx`);
     };
 
     return (
         <div className={styles.checklistContainer}>
             {/* Category Tabs */}
             <div className={styles.categoryTabs}>
-                {CHECKLIST_DATA.map((cat, idx) => (
+                {data.map((cat, idx) => (
                     <button
                         key={idx}
                         className={clsx(styles.tabButton, idx === activeCategoryIndex && styles.tabButtonActive)}

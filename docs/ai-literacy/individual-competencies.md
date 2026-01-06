@@ -243,39 +243,12 @@ AI literacy is not just about using tools—it's about developing critical compe
 - Mentoring evaluation
 - Capstone portfolio
 
-## Self-Assessment Tool
 
-### Rate Your Competence (1-5)
+import InteractiveChecklist from '@site/src/components/InteractiveChecklist';
+import { COMPETENCY_DATA } from '@site/src/components/InteractiveChecklist/data_competencies';
 
-**Technical Skills**
-- [ ] I can use multiple AI tools effectively (1-5)
-- [ ] I craft clear, effective prompts (1-5)
-- [ ] I troubleshoot AI issues independently (1-5)
-- [ ] I understand AI capabilities and limitations (1-5)
+<InteractiveChecklist data={COMPETENCY_DATA} fileName="AI_Competency_Report" />
 
-**Critical Evaluation**
-- [ ] I verify AI information against authoritative sources (1-5)
-- [ ] I identify bias and errors in AI outputs (1-5)
-- [ ] I assess clinical safety of AI suggestions (1-5)
-- [ ] I know when to seek human expertise (1-5)
-
-**Ethical Practice**
-- [ ] I protect patient confidentiality with AI (1-5)
-- [ ] I disclose AI use appropriately (1-5)
-- [ ] I maintain academic integrity (1-5)
-- [ ] I align AI use with NMC Code (1-5)
-
-**Professional Application**
-- [ ] I integrate AI with evidence-based practice (1-5)
-- [ ] I use AI to enhance, not replace, clinical reasoning (1-5)
-- [ ] I communicate AI use effectively (1-5)
-- [ ] I contribute to responsible AI culture (1-5)
-
-**Scoring**
-- 16-32: Developing - Focus on foundation skills
-- 33-48: Competent - Continue building expertise
-- 49-64: Proficient - Ready for advanced integration
-- 65-80: Expert - Mentor others and lead initiatives
 
 ## Development Resources
 
