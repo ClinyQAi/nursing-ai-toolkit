@@ -208,6 +208,10 @@ const config: Config = {
               label: 'Privacy Policy',
               to: '/docs/privacy-policy',
             },
+            {
+              label: 'X (@nursecitizendev)',
+              href: 'https://x.com/nursecitizendev',
+            },
           ],
         },
       ],
