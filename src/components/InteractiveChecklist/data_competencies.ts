@@ -39,6 +39,7 @@ export const COMPETENCY_DATA: ChecklistCategory[] = [
     },
     {
         title: "Self-Assessment Tool",
+        type: 'rating',
         groups: [
             {
                 title: "Technical Skills",

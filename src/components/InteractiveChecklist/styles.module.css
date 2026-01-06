@@ -1,3 +1,5 @@
+@import './rating_styles.module.css';
+
 .checklistContainer {
     margin: 2rem 0;
 }

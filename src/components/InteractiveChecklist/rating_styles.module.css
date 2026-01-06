@@ -1,0 +1,62 @@
+.ratingContainer {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.ratingButton {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--ifm-color-emphasis-300);
+    background: var(--ifm-background-color);
+    color: var(--ifm-color-emphasis-700);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ratingButton:hover {
+    background-color: var(--ifm-color-emphasis-200);
+}
+
+.ratingButtonSelected {
+    background-color: var(--ifm-color-primary);
+    color: white;
+    border-color: var(--ifm-color-primary);
+}
+
+.scoreDisplay {
+    background-color: var(--ifm-color-emphasis-100);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.scoreValue {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--ifm-color-primary);
+    display: block;
+}
+
+.scoreLabel {
+    font-size: 1.2rem;
+    color: var(--ifm-heading-color);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.ratingLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--ifm-color-emphasis-100);
+}

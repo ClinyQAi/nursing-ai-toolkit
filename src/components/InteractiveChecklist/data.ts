@@ -11,6 +11,7 @@ export interface ChecklistGroup {
 
 export interface ChecklistCategory {
     title: string;
+    type?: 'checkbox' | 'rating';
     groups: ChecklistGroup[];
 }
 
