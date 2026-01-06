@@ -49,16 +49,16 @@ This toolkit provides:
 
 ---
 
-## 📦 What's Inside
+### 📦 What's Inside
 
-### 🧑‍🏫 **Teaching with AI**
-Learn how to use multimodal GenAI tools to enhance clinical teaching, create simulations, and develop visual learning resources.
+<div align="center">
 
-### 🎓 **Supporting Self-Regulated Learning**
-Discover strategies for helping nursing students use AI as a study companion while developing critical thinking skills.
+| **🧑‍🏫 Teaching with AI** | **🎓 Self-Regulated Learning** | **📝 AI-Resilient Assessment** |
+|:---:|:---:|:---:|
+| <img src="static/img/premium_teaching.png" width="250" alt="Teaching"/> | <img src="static/img/premium_learning.png" width="250" alt="Learning"/> | <img src="static/img/premium_assessment.png" width="250" alt="Assessment"/> |
+| Enhancing clinical teaching & simulations | Strategies for student-led AI study | Academic integrity & modern design |
 
-### 📝 **AI-Resilient Assessment**
-Explore assessment design approaches that maintain academic integrity while acknowledging AI's role in modern practice.
+</div>
 
 ### 💼 **Case Studies**
 Real examples from nursing education including:
@@ -264,5 +264,15 @@ Special thanks to:
 **Made with ❤️ for the Nursing Education Community**
 
 [![Star this repo](https://img.shields.io/github/stars/ClinyQAi/nursing-ai-toolkit?style=social)](https://github.com/ClinyQAi/nursing-ai-toolkit)
+
+<br>
+
+<a href="https://star-history.com/#ClinyQAi/nursing-ai-toolkit&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ClinyQAi/nursing-ai-toolkit&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ClinyQAi/nursing-ai-toolkit&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ClinyQAi/nursing-ai-toolkit&type=Date" width="600" />
+ </picture>
+</a>
 
 </div>
