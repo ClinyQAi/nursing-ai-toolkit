@@ -1,0 +1,39 @@
+name: 🏥 Case Study Submission
+description: Submit a new nursing case study for inclusion in the toolkit
+title: "[Case Study]: "
+labels: ["case study", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to nursing education!
+  - type: input
+    id: clinical_area
+    attributes:
+      label: Clinical Area
+      description: e.g., Critical Care, Community, Mental Health
+      placeholder: Adult Nursing
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario Description
+      description: Describe the clinical scenario and the AI tool used.
+      placeholder: We used ChatGPT to generate a patient history for...
+    validations:
+      required: true
+  - type: textarea
+    id: learning_outcomes
+    attributes:
+      label: Learning Outcomes
+      description: What did students learn?
+      placeholder: Students demonstrated improved history taking...
+    validations:
+      required: true
+  - type: textarea
+    id: nmc_alignment
+    attributes:
+      label: NMC Standards Alignment
+      description: Which proficiency does this map to?
+      placeholder: Platform 3 - Assessing needs and planning care

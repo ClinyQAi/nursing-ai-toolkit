@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "AI in Nursing Education: A Multimodal Learning Toolkit"
+message: "If you use this software or educational materials, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: Gombedza
+    given-names: Lincoln
+    affiliation: "Independent Nurse Citizen Developer"
+    email: lincoln.gombedza@example.com
+version: 1.0.0
+date-released: 2026-01-06
+license: CC-BY-NC-4.0
+repository-code: "https://github.com/ClinyQAi/nursing-ai-toolkit"
+url: "https://practicedev.cloud"
+abstract: "A toolkit for UK nursing educators to integrate multimodal Generative AI into teaching, learning, and assessment, aligned with NMC standards and person-centred care principles."
+keywords:
+  - nursing education
+  - generative AI
+  - multimodal learning
+  - UK nursing
+  - NMC standards
