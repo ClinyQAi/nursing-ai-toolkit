@@ -5,8 +5,11 @@ type: software
 authors:
   - family-names: Gombedza
     given-names: Lincoln
-    affiliation: "Independent Nurse Citizen Developer"
-    email: lincoln.gombedza@example.com
+    affiliation: "Nursing Citizen Development"
+    email: info@nursingcitizendevelopment.com
+- family-names: Kelly
+    given-names: Ncube
+    affiliation: "None"
 version: 1.0.0
 date-released: 2026-01-06
 license: CC-BY-NC-4.0
