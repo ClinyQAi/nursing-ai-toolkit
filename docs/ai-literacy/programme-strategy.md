@@ -4,6 +4,9 @@ title: Programme Strategy
 description: Programme-wide AI literacy integration
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Programme-Level AI Literacy Strategy
 
 :::info Attribution
@@ -14,396 +17,167 @@ description: Programme-wide AI literacy integration
 
 A coherent programme-wide strategy ensures AI literacy develops progressively across the nursing curriculum, aligning with NMC proficiencies and preparing graduates for AI-enhanced practice.
 
-## Strategic Framework
+## 🌟 Strategic Framework
 
 ### Vision Statement
 
-**Example Vision**
-"To develop nursing graduates who are AI-literate, critically engaged, and ethically grounded professionals capable of integrating AI responsibly into person-centered care while maintaining professional accountability and clinical excellence."
+> "To develop nursing graduates who are **AI-literate, critically engaged, and ethically grounded professionals** capable of integrating AI responsibly into person-centered care while maintaining professional accountability and clinical excellence."
 
 ### Strategic Objectives
+1.  **Competency Development**: Ensure all graduates achieve core AI literacy competencies
+2.  **Progressive Integration**: Build AI literacy systematically across three years
+3.  **NMC Alignment**: Map AI competencies to NMC proficiencies
+4.  **Quality Assurance**: Maintain high standards in AI-enhanced education
+5.  **Ethical Practice**: Embed responsible AI use throughout curriculum
 
-1. **Competency Development**: Ensure all graduates achieve core AI literacy competencies
-2. **Progressive Integration**: Build AI literacy systematically across three years
-3. **NMC Alignment**: Map AI competencies to NMC proficiencies
-4. **Quality Assurance**: Maintain high standards in AI-enhanced education
-5. **Ethical Practice**: Embed responsible AI use throughout curriculum
-
-## Curriculum Mapping
-
-### Year 1: Foundation
-
-**Focus**: Understanding and Awareness
-
-**Core Competencies**
-- Basic AI concepts and terminology
-- Safe and ethical AI tool use
-- Critical evaluation of AI outputs
-- Privacy and confidentiality
-- Academic integrity
-
-**Module Integration**
-- **Foundations of Nursing**: Introduction to AI in healthcare
-- **Digital Health**: AI tools and platforms overview
-- **Professional Practice**: Ethical frameworks for AI use
-- **Evidence-Based Practice**: Evaluating AI-generated information
-
-**Key Activities**
-- AI literacy workshops
-- Guided tool exploration
-- Critical analysis exercises
-- Ethical case discussions
-- Reflective practice
-
-**Assessment**
-- AI knowledge assessment
-- Ethical scenario analysis
-- Reflective portfolio entries
-- Practical demonstrations
-
-### Year 2: Application
-
-**Focus**: Integration and Practice
-
-**Core Competencies**
-- AI-enhanced clinical reasoning
-- Evidence-based AI integration
-- Professional judgment with AI support
-- Collaborative AI use
-- Patient-centered AI application
-
-**Module Integration**
-- **Care Planning**: AI-assisted care plan development
-- **Pharmacology**: AI for medication information (verified)
-- **Health Promotion**: AI-generated patient education
-- **Clinical Skills**: AI simulation and practice
-- **Research Methods**: AI for literature review
-
-**Key Activities**
-- AI-enhanced assignments
-- Clinical scenario analysis
-- Patient education material creation
-- Collaborative projects
-- Placement integration
-
-**Assessment**
-- AI-enhanced care plans
-- Critical appraisal assignments
-- Portfolio development
-- Practical assessments
-- Peer evaluation
-
-### Year 3: Mastery
-
-**Focus**: Leadership and Innovation
-
-**Core Competencies**
-- Advanced AI integration
-- Quality improvement with AI
-- Mentoring and teaching
-- Policy contribution
-- Innovation and research
-
-**Module Integration**
-- **Leadership**: AI in healthcare management
-- **Quality Improvement**: AI for data analysis
-- **Dissertation**: AI research tools
-- **Transition to Practice**: AI in clinical settings
-- **Advanced Practice**: Specialized AI applications
-
-**Key Activities**
-- Complex clinical scenarios
-- Quality improvement projects
-- Peer mentoring
-- Policy development
-- Research projects
-
-**Assessment**
-- Advanced portfolios
-- Leadership projects
-- Research dissertations
-- Capstone assessments
-- Professional presentations
-
-## NMC Proficiency Mapping
-
-### Platform 1: Being an Accountable Professional
-
-**AI Literacy Integration**
-- Understand professional accountability with AI use
-- Maintain NMC Code standards
-- Practice within scope of competence
-- Document AI-assisted decisions
-- Advocate for ethical AI use
-
-**Evidence**
-- Ethical AI use in all assessments
-- Professional reflection on AI integration
-- Disclosure of AI assistance
-- Alignment with NMC Code
-
-### Platform 2: Promoting Health and Preventing Ill Health
-
-**AI Literacy Integration**
-- Use AI for health promotion materials
-- Evaluate AI health information critically
-- Adapt AI outputs for diverse populations
-- Ensure cultural sensitivity
-- Maintain evidence-based practice
-
-**Evidence**
-- AI-generated patient education (verified)
-- Health promotion projects
-- Cultural adaptation of AI content
-- Evidence-based modifications
-
-### Platform 3: Assessing Needs and Planning Care
-
-**AI Literacy Integration**
-- AI-assisted holistic assessment
-- Evidence-based care planning with AI
-- Critical evaluation of AI recommendations
-- Person-centered care maintenance
-- Clinical judgment primacy
-
-**Evidence**
-- AI-enhanced care plans
-- Critical analysis of AI suggestions
-- Evidence-based justifications
-- Patient-centered modifications
-
-### Platform 4: Providing and Evaluating Care
-
-**AI Literacy Integration**
-- AI for clinical decision support
-- Evaluation of AI-assisted interventions
-- Documentation of AI use
-- Quality improvement with AI
-- Patient safety prioritization
-
-**Evidence**
-- Clinical practice portfolios
-- Quality improvement projects
-- Safety incident analysis
-- Evaluation reports
-
-### Platform 5: Leading and Managing Nursing Care
-
-**AI Literacy Integration**
-- Leadership in AI implementation
-- Team education on AI use
-- Policy development contribution
-- Resource management
-- Change management
-
-**Evidence**
-- Leadership projects
-- Team teaching sessions
-- Policy contributions
-- Management portfolios
-
-### Platform 6: Improving Safety and Quality of Care
-
-**AI Literacy Integration**
-- AI for quality monitoring
-- Error detection and prevention
-- Data analysis for improvement
-- Evidence-based practice enhancement
-- Safety culture promotion
-
-**Evidence**
-- Quality improvement projects
-- Safety analyses
-- Data-driven reports
-- Practice improvements
-
-### Platform 7: Coordinating Care
-
-**AI Literacy Integration**
-- AI for care coordination
-- Communication enhancement
-- Information sharing (safely)
-- Multidisciplinary collaboration
-- Transition planning
-
-**Evidence**
-- Coordination portfolios
-- Communication examples
-- Collaborative projects
-- Transition plans
-
-## Progressive Development Model
-
-### Scaffolding Approach
-
-**Year 1: Guided Practice**
-- Structured AI activities
-- Clear instructions
-- Extensive support
-- Frequent feedback
-- Close supervision
-
-**Year 2: Supported Independence**
-- More autonomy
-- Selective guidance
-- Peer collaboration
-- Reflective practice
-- Mentor support
-
-**Year 3: Independent Practice**
-- Self-directed learning
-- Minimal scaffolding
-- Leadership opportunities
-- Innovation encouraged
-- Professional autonomy
-
-## Quality Assurance
-
-### Programme Monitoring
-
-**Key Performance Indicators**
-- Student AI literacy competency levels
-- Assessment performance
-- Graduate feedback
-- Employer satisfaction
-- NMC inspection outcomes
-
-**Data Collection**
-- Pre/post competency assessments
-- Module evaluations
-- Portfolio reviews
-- Graduate surveys
-- Employer feedback
-
-**Review Cycle**
-- Annual programme review
-- External examiner reports
-- Professional body feedback
-- Student representation
-- Continuous improvement
-
-### Standards and Benchmarks
-
-**Internal Standards**
-- All graduates achieve core competencies
-- 90%+ pass rate on AI literacy assessments
-- Positive student feedback (>80% satisfaction)
-- Zero academic misconduct related to undisclosed AI use
-- 100% NMC proficiency alignment
-
-**External Benchmarks**
-- Sector-leading AI integration
-- Professional body recognition
-- Employer satisfaction
-- Graduate employability
-- Research contributions
-
-## Stakeholder Engagement
-
-### Students
-
-**Involvement**
-- Programme committee representation
-- Feedback mechanisms
-- Co-design opportunities
-- Peer support networks
-- Student-led initiatives
-
-**Support**
-- Clear guidance and policies
-- Accessible resources
-- Training opportunities
-- Technical support
-- Academic support
-
-### Staff
-
-**Development**
-- AI literacy training
-- Pedagogical workshops
-- Technical support
-- Communities of practice
-- Research opportunities
-
-**Resources**
-- AI tool access
-- Teaching materials
-- Assessment exemplars
-- Policy guidance
-- Time allocation
-
-### Practice Partners
-
-**Collaboration**
-- Placement AI policies
-- Mentor training
-- Practice integration
-- Feedback mechanisms
-- Joint development
-
-**Communication**
-- Regular updates
-- Policy sharing
-- Best practice exchange
-- Problem-solving
-- Partnership strengthening
-
-### Professional Bodies
-
-**Engagement**
-- NMC alignment
-- RCN collaboration
-- Policy contribution
-- Standards development
-- Sector leadership
-
-## Implementation Roadmap
-
-### Year 1: Foundation
-
-**Q1: Planning**
-- Establish working group
-- Review current state
-- Develop strategy
-- Secure resources
-- Plan communication
-
-**Q2: Development**
-- Create policies
-- Design Year 1 integration
-- Develop resources
-- Train staff
-- Pilot activities
-
-**Q3: Implementation**
-- Launch Year 1 integration
-- Monitor progress
-- Gather feedback
-- Provide support
-- Adjust as needed
-
-**Q4: Review**
-- Evaluate outcomes
-- Refine approach
-- Plan Year 2
-- Share learning
-- Celebrate success
-
-### Year 2: Expansion
-
-- Implement Year 2 integration
-- Continue Year 1 refinement
-- Develop Year 3 plans
-- Build evidence base
-- Expand staff development
-
-### Year 3: Maturity
-
-- Full programme integration
-- Continuous improvement
-- Sector leadership
-- Research dissemination
-- Sustainability planning
+---
+
+## 🗺️ Progressive Curriculum Mapping
+
+We use a scaffolded approach: **Foundation** (Year 1) → **Reference** (Year 2) → **Mastery** (Year 3).
+
+<Tabs>
+  <TabItem value="year1" label="Year 1: Foundation" default>
+
+    ### 🟢 Focus: Understanding & Awareness
+    
+    **Core Competencies**
+    *   Basic AI concepts and terminology ("What is an LLM?")
+    *   Safe and ethical AI tool use (Privacy first!)
+    *   Critical evaluation of AI outputs (Hallucination checking)
+    
+    **Module Integration Points**
+    *   **Foundations of Nursing**: Introduction to AI in healthcare contexts.
+    *   **Academic Skills**: Using AI for brainstorming (but not writing) essays.
+    *   **Evidence-Based Practice**: Distinguishing between AI summaries and primary research.
+
+    **Key Assessment**
+    *   **"My First Prompt"**: A reflective exercise on creating and critiquing a simple patient scenario.
+
+  </TabItem>
+  <TabItem value="year2" label="Year 2: Application">
+
+    ### 🟡 Focus: Integration & Practice
+    
+    **Core Competencies**
+    *   AI-enhanced clinical reasoning (Decision support)
+    *   Evidence-based AI verification (Checking against NICE)
+    *   Patient-centered AI application (Communication skills)
+
+    **Module Integration Points**
+    *   **Care Planning**: Generating and critiquing complex care plans.
+    *   **Pharmacology**: Using AI to summarize drug interactions (then verifying in BNF).
+    *   **Health Promotion**: Creating accessible leaflets for diverse groups.
+
+    **Key Assessment**
+    *   **The "Red Pen" Exercise**: Students are given a flawed AI-generated care plan and must identify all clinical errors and ethical risks.
+
+  </TabItem>
+  <TabItem value="year3" label="Year 3: Mastery">
+
+    ### 🔴 Focus: Leadership & Innovation
+    
+    **Core Competencies**
+    *   Advanced AI integration (Workflow optimization)
+    *   Quality improvement with AI Data analysis
+    *   Policy contribution & Advocacy (Leading the change)
+
+    **Module Integration Points**
+    *   **Leadership**: Managing teams using digital tools.
+    *   **Quality Improvement**: Analyzing audit data patterns.
+    *   **Transition to Practice**: Understanding the AI tools used in local NHS Trusts.
+
+    **Key Assessment**
+    *   **Innovation Project**: Design a quality improvement initiative that safely leverages AI to improve patient outcomes.
+
+  </TabItem>
+</Tabs>
+
+---
+
+## 📋 NMC Proficiency Mapping
+
+How does this align with the **Future Nurse Standards (2018)**? Click to explore the mapping for each platform.
+
+<details>
+<summary><strong>Platform 1: Being an Accountable Professional</strong></summary>
+
+*   **AI Integration**: Understand professional accountability. If AI gives wrong advice, **you** are accountable, not the algorithm.
+*   **Evidence**: Reflective accounts of AI usage demonstrating full disclosure and checking against the Code.
+</details>
+
+<details>
+<summary><strong>Platform 2: Promoting Health and Preventing Ill Health</strong></summary>
+
+*   **AI Integration**: Use AI to draft health promotion materials (e.g., "Summarize this diabetes advice for an 8-Year old").
+*   **Evidence**: Verified, clinically accurate patient information leaflets created with AI assistance.
+</details>
+
+<details>
+<summary><strong>Platform 3: Assessing Needs and Planning Care</strong></summary>
+
+*   **AI Integration**: AI-assisted holistic assessment prompts. Critically evaluating AI care plan suggestions for person-centredness.
+*   **Evidence**: Care plans that explicitly note where AI was used for brainstorming and where human judgement applied corrections.
+</details>
+
+<details>
+<summary><strong>Platform 4: Providing and Evaluating Care</strong></summary>
+
+*   **AI Integration**: Using AI for decision support (e.g., "List potential differential diagnoses for these symptoms") but evaluating clinically.
+*   **Evidence**: Clinical portfolios showing safe use of decision support tools.
+</details>
+
+<details>
+<summary><strong>Platform 5: Leading and Managing Nursing Care</strong></summary>
+
+*   **AI Integration**: Leadership in digital transformation. Teaching junior staff how to use tools safely.
+*   **Evidence**: Teaching plan for a "Digital Safety" huddle.
+</details>
+
+<details>
+<summary><strong>Platform 6: Improving Safety and Quality of Care</strong></summary>
+
+*   **AI Integration**: Identifying how AI can reduce error (e.g., double-checking calculations) vs. where it introduces error (hallucination).
+*   **Evidence**: Safety incident analysis involving digital tools.
+</details>
+
+<details>
+<summary><strong>Platform 7: Coordinating Care</strong></summary>
+
+*   **AI Integration**: Using tools to summarize complex discharge notes for interdisciplinary teams (while maintaining privacy).
+*   **Evidence**: Simulated discharge letters edited for clarity and accuracy.
+</details>
+
+---
+
+## 🚀 Implementation Roadmap
+
+A sample timeline for rolling out this strategy in Year 1:
+
+```mermaid
+timeline
+    title Year 1 Implementation Plan
+    Q1 : Planning Phase : Establish Working Group
+       : Review Policies : Secure Tool Access
+    Q2 : Development : Train Module Leaders
+       : Create Resources : Design Pilot Modules
+    Q3 : Implementation : Launch Year 1 Pilot
+       : Monitor Student Usage : Gather Mid-point Feedback
+    Q4 : Review : Evaluate Outcomes
+       : Refine Strategy : Plan Year 2 Rollout
+```
+
+---
+
+## 🤝 Stakeholder Engagement
+
+To succeed, you need everyone on board:
+
+| Stakeholder | Key Message | Support Required |
+| :--- | :--- | :--- |
+| **Students** | "AI helps you think, it doesn't think for you." | Clear workspaces, paid tool access (ideally), safety nets. |
+| **Staff** | "You don't need to be a tech wizard, just a safe practitioner." | Time allowance for training, "Sandpits" for experimentation. |
+| **Practice Partners** | "We are training nurses for the digital future of the NHS." | Alignment on what tools are permitted in clinical areas. |
 
 ---
 
