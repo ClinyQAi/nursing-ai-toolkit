@@ -5,21 +5,8 @@ title: AI Literacy in Nursing Education
 description: Developing AI literacy competencies for nursing educators and students
 ---
 
-```mermaid
-graph TD
-    A[AI Literacy in Nursing] --> B[Foundational]
-    A --> C[Functional]
-    A --> D[Critical]
-    
-    B --> B1[Understanding Concepts]
-    B --> B2[Ethical Awareness]
-    
-    C --> C1[Prompt Engineering]
-    C --> C2[Tool Competency]
-    
-    D --> D1[Evaluating Bias]
-    D --> D2[NMC Alignment]
-```
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Developing AI Literacy in Multimodal Context
 
@@ -38,148 +25,181 @@ Developing AI literac(ies) is of critical importance whether you're engaging or 
 :::
 
 **For nursing specifically**:
-- Nurses are increasingly encountering AI in clinical practice
-- AI is embedded in patient monitoring systems, diagnostic tools, and care planning software  
-- Future nurses must understand how to work alongside AI safely and effectively
-- NMC standards require competence in digital technologies
-- Professional accountability demands understanding the tools we use
+- 🏥 **Clinical Reality**: Nurses are increasingly encountering AI in patient monitoring and diagnostics.
+- 🛡️ **Safety**: Future nurses must understand how to work alongside AI safely and effectively.
+- 📜 **Regulation**: NMC standards require competence in digital technologies.
+- ⚖️ **Accountability**: Professional accountability demands understanding the tools we use.
 
-## Three Levels of AI Literacy
+---
 
-Below are some basic approaches that may help nursing educators begin fostering GenAI literacy in their staff and student audiences:
+## 📐 Three Levels of AI Literacy
+
+We visualize AI literacy as a progressive journey. You don't need to be an expert immediately; start at the base and build up.
+
+```mermaid
+graph BT
+    Basic[🟢 Basic Literacy<br/>Awareness & Safe Use] --> Inter[🟡 Intermediate Literacy<br/>Co-creation & Evaluation]
+    Inter --> Adv[🔴 Advanced Literacy<br/>Design, Ethics & Leadership]
+    
+    style Basic fill:#e6fffa,stroke:#319795,stroke-width:2px
+    style Inter fill:#fffaf0,stroke:#dd6b20,stroke-width:2px
+    style Adv fill:#fff5f5,stroke:#e53e3e,stroke-width:2px
+```
 
 ### 🟢 Basic Literacy
-
 **Awareness** of multimodal GenAI platforms, their capabilities, and appropriate uses in educational context.
 
-**Example nursing activities**:
+:::note 🩺 Nursing Activities
 - Creating prompts for patient scenario generation
 - Generating visual care pathway diagrams
-- Understanding when GenAI is appropriate vs. inappropriate (e.g., NOT for calculating drug doses)
+- Understanding when GenAI is appropriate vs. inappropriate (e.g., **NOT** for calculating drug doses)
+:::
 
 ### 🟡 Intermediate Literacy
-
 **Ability** to co-create multimodal content, critically evaluate multimodal AI outputs, and scaffold uses.
 
-**Example nursing activities**:
+:::note 🩺 Nursing Activities
 - Transforming lecture notes on wound care into visuals or podcasts
 - Critically evaluating AI-generated patient scenarios for accuracy
 - Identifying biases in AI-generated health information
+:::
 
 ### 🔴 Advanced Literacy
-
 **Designing** activities or assessments that incorporate multimodal uses of GenAI, fostering critical analysis and engagement, and leading ethical and philosophical discussions.
 
-**Example nursing activities**:
+:::note 🩺 Nursing Activities
 - Creating assessment rubrics that incorporate appropriate AI use
 - Leading discussions on AI ethics in healthcare
 - Designing clinical simulations that integrate AI tools appropriately
+:::
 
 ---
 
-## Key Teaching Competencies
+## 🎓 Key Teaching Competencies
 
-### 1. Scaffolded Prompting
+To teach effectively with AI, focus on these three core skills:
 
-Advising students how to craft and iterate on prompts to refine multimodal GenAI outputs.
-
-**Nursing Example**:
-```
-Poor prompt: "Create a care plan"
-
-Better prompt: "Create a person-centred care plan for a 75-year-old patient 
-with Type 2 diabetes and limited mobility, focusing on falls prevention and 
-medication adherence. Use the Roper-Logan-Tierney model."
-```
-
-### 2. Evaluation Frameworks
-
-Encouraging students to critique GenAI content for accuracy, bias, and coherence.
-
-**Nursing Example**: Have students examine and annotate AI-generated wound assessment documentation, identifying:
-- Factual errors
-- Missing clinical details
-- Inappropriate language
-- Bias issues
-
-### 3. Ethical Protocols
-
-Establishing clear boundaries on acceptable use.
-
-**Example boundaries**:
-- ❌ Do NOT use AI to write reflective practice assignments (personal reflection required)
-- ✅ DO use it for brainstorming clinical teaching scenarios
-- ❌ Do NOT input real patient data into public AI tools
-- ✅ DO use it to generate example ECG rhythms for practice
+<div className="row">
+  <div className="col col--4">
+    <div className="card margin-bottom--lg">
+      <div className="card__header">
+        <h3>1. Scaffolded Prompting</h3>
+      </div>
+      <div className="card__body">
+        <p>Advising students how to craft and iterate on prompts to refine outputs.</p>
+        <div style={{backgroundColor: '#ffebee', padding: '10px', borderRadius: '5px', marginBottom: '5px'}}>
+        ❌ <strong>Poor:</strong> "Create a care plan"
+        </div>
+        <div style={{backgroundColor: '#e8f5e9', padding: '10px', borderRadius: '5px'}}>
+        ✅ <strong>Better:</strong> "Create a person-centred care plan for a 75-year-old patient with Type 2 diabetes..."
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="col col--4">
+    <div className="card margin-bottom--lg">
+      <div className="card__header">
+        <h3>2. Evaluation Frameworks</h3>
+      </div>
+      <div className="card__body">
+        <p>Encouraging students to critique GenAI content for:</p>
+        <ul>
+            <li>Accuracy</li>
+            <li>Bias (e.g., skin tone representation)</li>
+            <li>Coherence</li>
+            <li>Evidence-base</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div className="col col--4">
+    <div className="card margin-bottom--lg">
+      <div className="card__header">
+        <h3>3. Ethical Protocols</h3>
+      </div>
+      <div className="card__body">
+        <p>Establishing clear boundaries:</p>
+        <ul>
+            <li>❌ No personal data input</li>
+            <li>❌ No AI for pure reflection</li>
+            <li>✅ Use for clinical brainstorming</li>
+            <li>✅ Use for scenario generation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
-## Strategies Across Different Levels
+## 🚀 Strategies Across Different Levels
 
-### Individual Level
+Select your level of operation to see specific strategies:
 
-**Students**:
-- Participate in workshops on GenAI use in nursing tasks  
-- Practice prompt crafting for clinical scenarios
-- Document AI usage in reflective assignments
+<Tabs>
+  <TabItem value="individual" label="👤 Individual" default>
+    
+    ### For Students
+    - **Workshop Participation**: Join sessions on GenAI use in nursing tasks.
+    - **Prompt Practice**: Practice crafting prompts for clinical scenarios.
+    - **Transparency**: Document AI usage in reflective assignments.
 
-**Educators**:
-- Engage in professional learning (e.g., HEE digital capabilities framework)
-- Experiment with low-stakes uses of GenAI
-- Reflect on ethical practices
+    ### For Educators
+    - **CPD**: Engage in professional learning (e.g., HEE digital capabilities framework).
+    - **Experimentation**: Try low-stakes uses of GenAI (e.g., generating quiz questions).
+    - **Reflection**: Reflect on the ethical implications of your tools.
 
-**Practice Educators**:
-- Model safe AI use in clinical settings
-- Demonstrate how to verify AI outputs against evidence-based guidelines
-- Share examples with student nurses
+    ### For Practice Educators
+    - **Modeling**: Demonstrate safe AI use in clinical settings.
+    - **Verification**: Show students how to cross-reference AI outputs with **NICE Guidelines** or **BNF**.
 
-### Module Level
+  </TabItem>
+  <TabItem value="module" label="📦 Module Level">
+    
+    ### Curriculum Integration
+    - **Learning Outcomes**: Embed GenAI literacy (e.g., *'critically evaluate AI-generated clinical decision support'*).
+    - **Assessment**: Offer optional multimodal tasks that include GenAI use with clear rubrics.
+    - **Reflection**: Include components where students analyse their own AI interaction.
 
-- Embed GenAI literacy into learning outcomes (e.g., 'critically evaluate AI-generated clinical decision support')
-- Offer optional multimodal tasks that include GenAI use with clear rubrics
-- Include creative and reflective components where students analyse their own AI use
+    :::tip Example Module Outcome
+    "Students will demonstrate the ability to critically evaluate AI-generated health information and verify it against authoritative nursing sources (NMC, NICE, Cochrane)."
+    :::
 
-**Example module outcome**:
-> "Students will demonstrate the ability to critically evaluate AI-generated health information and verify it against authoritative nursing sources (NMC, NICE, Cochrane)."
+  </TabItem>
+  <TabItem value="programme" label="🎓 Programme Level">
+    
+    ### Strategic Alignment
+    - **Consistency**: Develop cross-module policies to ensure students don't face conflicting rules.
+    - **Graduate Attributes**: Align GenAI practices with critical thinking and digital fluency.
+    - **Shared Resources**: Embed AI literacies in academic skills modules shared across programmes.
 
-### Programme Level
+    ### Align with Standards
+    *   **NMC** Standards of Proficiency for Registered Nurses
+    *   **Health Education England** Digital Literacy Framework
+    *   **NHS** Digital Capabilities Framework
 
-- Develop cross-module policies and examples on GenAI use
-- Promote consistency and transparency via workshops and activities
-- Align GenAI practices with graduate attributes such as criticality, creativity, and digital fluency
-- Consider embedding AI literacies in academic skills modules shared across programmes
+  </TabItem>
+  <TabItem value="institution" label="🏛️ Institutional Level">
+    
+    ### Policy & Infrastructure
+    - **Clear Policies**: Define acceptable use for learning vs. assessment.
+    - **Vetted Tools**: Ensure data privacy protocols (GDPR) are enforced.
+    - **Development Pathways**: Create training for staff.
+    - **Communities of Practice**: Support groups like "Digital Nursing Innovators" to share best practice.
 
-**For UK nursing programmes**, align with:
-- NMC Standards of Proficiency for Registered Nurses
-- Health Education England Digital Literacy Framework
-- NHS Digital Capabilities Framework
-
-### Institutional Level
-
-- Provide clear policies on GenAI use in learning and teaching
-- Offer vetted tools and ensure data privacy protocols are enforced
-- Create professional development pathways
-- Support communities of practice (e.g., Digital Nursing Innovators groups)
-- Showcase successful implementations to build confidence
-- Offer platforms for debate and critique
+  </TabItem>
+</Tabs>
 
 ---
 
 ## Next Steps for Nursing Educators
 
-1. **Assess current literacy** — Where are you? Where are your students?
-2. **Start small** — Pick one module to experiment with AI literacy activities
-3. **Build competencies** — Use the frameworks above to structure development
-4. **Share practice** — Join communities like FONS, RCN digital groups, or nursing education networks
-5. **Align with standards** — Map to NMC competencies and HEE frameworks
+1.  **Assess current literacy** — Where are you? Where are your students?
+2.  **Start small** — Pick one module to experiment with AI literacy activities
+3.  **Build competencies** — Use the frameworks above to structure development
+4.  **Share practice** — Join communities like FONS, RCN digital groups, or nursing education networks
+5.  **Align with standards** — Map to NMC competencies and HEE frameworks
 
-:::tip Get Started
-Begin with simple activities like having students generate and critique AI-created patient scenarios, then build up to more complex applications.
+:::tip Get Started Now
+Begin with a simple activity: ask students to generate a patient scenario using AI, then critique it for **clinical accuracy** and **person-centredness**.
 :::
-
----
-
-**Explore more**:
-- [Practical teaching strategies](../teaching/) for integrating AI literacy
-- [Assessment approaches](../assessment/) that evaluate AI competency
-- [Case studies](/docs/category/case-studies) showing AI literacy in action
