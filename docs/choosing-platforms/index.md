@@ -18,18 +18,18 @@ Selecting the right AI platform is a critical decision for nursing educators. Th
 
 ```mermaid
 graph TD
-    A[Nursing Education AI Needs] --> B[Generic LLMs]
-    A --> C[Specialized Healthcare AI]
-    A --> D[Integrated Tools]
+    A["Nursing Education AI Needs"] --> B["Generic LLMs"]
+    A --> C["Specialized Healthcare AI"]
+    A --> D["Integrated Tools"]
     
-    B --> B1[ChatGPT<br/>(Creative/Voice)]
-    B --> B2[Claude<br/>(Analytical/Writing)]
+    B --> B1["ChatGPT<br/>(Creative/Voice)"]
+    B --> B2["Claude<br/>(Analytical/Writing)"]
     
-    C --> C1[PubMed Tools<br/>(Evidence Search)]
-    C --> C2[Virtual Patients<br/>(Simulation)]
+    C --> C1["PubMed Tools<br/>(Evidence Search)"]
+    C --> C2["Virtual Patients<br/>(Simulation)"]
     
-    D --> D1[VLE Plugins<br/>(Canvas/Moodle)]
-    D --> D2[Microsoft Copilot<br/>(Office 365)]
+    D --> D1["VLE Plugins<br/>(Canvas/Moodle)"]
+    D --> D2["Microsoft Copilot<br/>(Office 365)"]
     
     style A fill:#e1f5fe,stroke:#01579b
     style B fill:#fff3e0,stroke:#e65100
