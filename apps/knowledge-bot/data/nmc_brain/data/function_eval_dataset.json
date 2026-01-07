@@ -1,0 +1,202 @@
+[
+    {
+        "input": "BP is 110/70, pulse 68",
+        "expected": "record_vitals(systolic=110, diastolic=70, heart_rate=68)"
+    },
+    {
+        "input": "Patient's blood pressure 130/85, heart rate 78, temperature 36.9",
+        "expected": "record_vitals(systolic=130, diastolic=85, heart_rate=78, temp_c=36.9)"
+    },
+    {
+        "input": "Obs: BP 145/95, pulse 92, temp 37.8",
+        "expected": "record_vitals(systolic=145, diastolic=95, heart_rate=92, temp_c=37.8)"
+    },
+    {
+        "input": "Vitals taken: 118/76, HR 70",
+        "expected": "record_vitals(systolic=118, diastolic=76, heart_rate=70)"
+    },
+    {
+        "input": "Current readings: blood pressure one twenty over eighty, pulse sixty-five",
+        "expected": "record_vitals(systolic=120, diastolic=80, heart_rate=65)"
+    },
+    {
+        "input": "Blood pressure normal at 120/80, temperature slightly raised at 37.5",
+        "expected": "record_vitals(systolic=120, diastolic=80, temp_c=37.5)"
+    },
+    {
+        "input": "Patient febrile, temp 38.2, pulse elevated at 98",
+        "expected": "record_vitals(heart_rate=98, temp_c=38.2)"
+    },
+    {
+        "input": "Hypotensive episode: BP 90/60, tachycardic at 110",
+        "expected": "record_vitals(systolic=90, diastolic=60, heart_rate=110)"
+    },
+    {
+        "input": "Stable observations - 125/82, 72bpm, 36.8 degrees",
+        "expected": "record_vitals(systolic=125, diastolic=82, heart_rate=72, temp_c=36.8)"
+    },
+    {
+        "input": "Post-op vitals: BP 115/75, P 80, T 36.6",
+        "expected": "record_vitals(systolic=115, diastolic=75, heart_rate=80, temp_c=36.6)"
+    },
+    {
+        "input": "Gave Paracetamol 500mg by mouth",
+        "expected": "administer_medication(drug_name='Paracetamol', dose='500mg', route='PO')"
+    },
+    {
+        "input": "Administered Ibuprofen 400mg orally",
+        "expected": "administer_medication(drug_name='Ibuprofen', dose='400mg', route='PO')"
+    },
+    {
+        "input": "Given Morphine 5mg IV for pain",
+        "expected": "administer_medication(drug_name='Morphine', dose='5mg', route='IV')"
+    },
+    {
+        "input": "Codeine phosphate 30mg oral given",
+        "expected": "administer_medication(drug_name='Codeine phosphate', dose='30mg', route='PO')"
+    },
+    {
+        "input": "Insulin 10 units subcutaneous",
+        "expected": "administer_medication(drug_name='Insulin', dose='10 units', route='SC')"
+    },
+    {
+        "input": "Administered Amoxicillin 500mg PO",
+        "expected": "administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')"
+    },
+    {
+        "input": "IV antibiotics: Gentamicin 80mg given",
+        "expected": "administer_medication(drug_name='Gentamicin', dose='80mg', route='IV')"
+    },
+    {
+        "input": "Patient received Omeprazole 20mg oral",
+        "expected": "administer_medication(drug_name='Omeprazole', dose='20mg', route='PO')"
+    },
+    {
+        "input": "IM injection Diclofenac 75mg administered",
+        "expected": "administer_medication(drug_name='Diclofenac', dose='75mg', route='IM')"
+    },
+    {
+        "input": "Tramadol 50mg given orally for breakthrough pain",
+        "expected": "administer_medication(drug_name='Tramadol', dose='50mg', route='PO')"
+    },
+    {
+        "input": "Salbutamol nebuliser 2.5mg administered",
+        "expected": "administer_medication(drug_name='Salbutamol', dose='2.5mg', route='NEB')"
+    },
+    {
+        "input": "Fentanyl patch 25mcg applied",
+        "expected": "administer_medication(drug_name='Fentanyl', dose='25mcg', route='TD')"
+    },
+    {
+        "input": "What are the NMC guidelines on confidentiality?",
+        "expected": "search_nmc_standards(query='confidentiality')"
+    },
+    {
+        "input": "Search the Code for duty of candour",
+        "expected": "search_nmc_standards(query='duty of candour')"
+    },
+    {
+        "input": "What does NMC say about raising concerns?",
+        "expected": "search_nmc_standards(query='raising concerns')"
+    },
+    {
+        "input": "Find NMC guidance on delegation",
+        "expected": "search_nmc_standards(query='delegation')"
+    },
+    {
+        "input": "Look up NMC standards on record keeping",
+        "expected": "search_nmc_standards(query='record keeping')"
+    },
+    {
+        "input": "What are my professional responsibilities according to NMC?",
+        "expected": "search_nmc_standards(query='professional responsibilities')"
+    },
+    {
+        "input": "NMC guidance on consent",
+        "expected": "search_nmc_standards(query='consent')"
+    },
+    {
+        "input": "Search for NMC competency standards",
+        "expected": "search_nmc_standards(query='competency standards')"
+    },
+    {
+        "input": "What does the Code say about being accountable?",
+        "expected": "search_nmc_standards(query='accountability')"
+    },
+    {
+        "input": "Find guidance on safeguarding vulnerable adults",
+        "expected": "search_nmc_standards(query='safeguarding vulnerable adults')"
+    },
+    {
+        "input": "NMC standards for medicines management",
+        "expected": "search_nmc_standards(query='medicines management')"
+    },
+    {
+        "input": "What are the requirements for revalidation?",
+        "expected": "search_nmc_standards(query='revalidation')"
+    },
+    {
+        "input": "Look up NMC guidance on social media",
+        "expected": "search_nmc_standards(query='social media')"
+    },
+    {
+        "input": "What does NMC say about working with other professionals?",
+        "expected": "search_nmc_standards(query='working with other professionals')"
+    },
+    {
+        "input": "BP 160/100, gave Amlodipine 5mg",
+        "expected": "administer_medication(drug_name='Amlodipine', dose='5mg', route='PO')"
+    },
+    {
+        "input": "Morning obs: 122/78, 74, 36.5. Given morning meds",
+        "expected": "record_vitals(systolic=122, diastolic=78, heart_rate=74, temp_c=36.5)"
+    },
+    {
+        "input": "Post PRN Paracetamol, patient's temp down to 37.0",
+        "expected": "record_vitals(temp_c=37.0)"
+    },
+    {
+        "input": "Checked NMC standards, then gave Metformin 500mg",
+        "expected": "administer_medication(drug_name='Metformin', dose='500mg', route='PO')"
+    },
+    {
+        "input": "Early warning score triggered - BP 95/55, HR 115, temp 38.5",
+        "expected": "record_vitals(systolic=95, diastolic=55, heart_rate=115, temp_c=38.5)"
+    },
+    {
+        "input": "Administered Enoxaparin 40mg subcutaneously",
+        "expected": "administer_medication(drug_name='Enoxaparin', dose='40mg', route='SC')"
+    },
+    {
+        "input": "GTN spray 2 puffs sublingual for chest pain",
+        "expected": "administer_medication(drug_name='GTN', dose='2 puffs', route='SL')"
+    },
+    {
+        "input": "IV Flucloxacillin 1g given",
+        "expected": "administer_medication(drug_name='Flucloxacillin', dose='1g', route='IV')"
+    },
+    {
+        "input": "Rectal Diazepam 10mg administered for seizure",
+        "expected": "administer_medication(drug_name='Diazepam', dose='10mg', route='PR')"
+    },
+    {
+        "input": "Patient stable: normal sinus rhythm, BP 118/72",
+        "expected": "record_vitals(systolic=118, diastolic=72)"
+    },
+    {
+        "input": "What's the NMC position on student supervision?",
+        "expected": "search_nmc_standards(query='student supervision')"
+    },
+    {
+        "input": "Find NMC guidance on fitness to practise",
+        "expected": "search_nmc_standards(query='fitness to practise')"
+    },
+    {
+        "input": "Administered Co-codamol 30/500 two tablets orally",
+        "expected": "administer_medication(drug_name='Co-codamol 30/500', dose='2 tablets', route='PO')"
+    },
+    {
+        "input": "Oxygen 2L via nasal cannula commenced",
+        "expected": "administer_medication(drug_name='Oxygen', dose='2L', route='NC')"
+    }
+]

@@ -1,0 +1,550 @@
+{"instruction": "Blood pressure: 117/87, pulse rate 79bpm, temperature 35.9", "output": "<function_call>record_vitals(systolic=117, diastolic=87, heart_rate=79, temp_c=35.9)</function_call>"}
+{"instruction": "Simvastatin 20mg given transdermal to patient", "output": "<function_call>administer_medication(drug_name='Simvastatin', dose='20mg', route='TD')</function_call>"}
+{"instruction": "Look up mental capacity in the NMC Code", "output": "<function_call>search_nmc_standards(query='mental capacity')</function_call>"}
+{"instruction": "Patient received Dalteparin 2500 units sublingually", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='2500 units', route='SL')</function_call>"}
+{"instruction": "Medication given: Metformin 850mg IM", "output": "<function_call>administer_medication(drug_name='Metformin', dose='850mg', route='IM')</function_call>"}
+{"instruction": "Help me understand NMC requirements for revalidation", "output": "<function_call>search_nmc_standards(query='revalidation')</function_call>"}
+{"instruction": "What's the NMC position on informed consent?", "output": "<function_call>search_nmc_standards(query='informed consent')</function_call>"}
+{"instruction": "Medication given: Tramadol 100mg via nebuliser", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='100mg', route='NEB')</function_call>"}
+{"instruction": "Amoxicillin 1g intramuscularly given", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='1g', route='IM')</function_call>"}
+{"instruction": "Search for delegation guidelines", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Metformin 500mg per oral given", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Obs recorded: Recorded BP of 139/63, heart rate 98", "output": "<function_call>record_vitals(systolic=139, diastolic=63, heart_rate=98)</function_call>"}
+{"instruction": "Metformin 500mg given IV push to patient", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='IV')</function_call>"}
+{"instruction": "BP is 130/100, febrile at 38.8", "output": "<function_call>record_vitals(systolic=130, diastolic=100, temp_c=38.8)</function_call>"}
+{"instruction": "NMC standards regarding safeguarding", "output": "<function_call>search_nmc_standards(query='safeguarding')</function_call>"}
+{"instruction": "On assessment: Blood pressure: 91/94, pulse rate 84bpm", "output": "<function_call>record_vitals(systolic=91, diastolic=94, heart_rate=84)</function_call>"}
+{"instruction": "Given Clopidogrel 75mg PR", "output": "<function_call>administer_medication(drug_name='Clopidogrel', dose='75mg', route='PR')</function_call>"}
+{"instruction": "What's the NMC position on pain management?", "output": "<function_call>search_nmc_standards(query='pain management')</function_call>"}
+{"instruction": "Patient received Dalteparin 5000 units intravenous", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='5000 units', route='IV')</function_call>"}
+{"instruction": "Furosemide 40mg given swallowed to patient", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='40mg', route='PO')</function_call>"}
+{"instruction": "Help me understand NMC requirements for deprivation of liberty", "output": "<function_call>search_nmc_standards(query='deprivation of liberty')</function_call>"}
+{"instruction": "under the skin Lorazepam 2mg", "output": "<function_call>administer_medication(drug_name='Lorazepam', dose='2mg', route='SC')</function_call>"}
+{"instruction": "BP taken: 92/97, pulse: 101", "output": "<function_call>record_vitals(systolic=92, diastolic=97, heart_rate=101)</function_call>"}
+{"instruction": "IM Metformin 850mg", "output": "<function_call>administer_medication(drug_name='Metformin', dose='850mg', route='IM')</function_call>"}
+{"instruction": "Post-op vitals: Blood pressure: 131/86, pulse 72", "output": "<function_call>record_vitals(systolic=131, diastolic=86, heart_rate=72)</function_call>"}
+{"instruction": "Dalteparin 5000 units administered topically", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='5000 units', route='TD')</function_call>"}
+{"instruction": "Current readings: BP is 121/95, HR: 102/min", "output": "<function_call>record_vitals(systolic=121, diastolic=95, heart_rate=102)</function_call>"}
+{"instruction": "What are the NMC standards for end of life care?", "output": "<function_call>search_nmc_standards(query='end of life care')</function_call>"}
+{"instruction": "Check NMC guidance: fitness to practise", "output": "<function_call>search_nmc_standards(query='fitness to practise')</function_call>"}
+{"instruction": "Search for informed consent guidelines", "output": "<function_call>search_nmc_standards(query='informed consent')</function_call>"}
+{"instruction": "per rectum Diazepam 10mg", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='10mg', route='PR')</function_call>"}
+{"instruction": "Admission vitals: Recorded BP of 137/98, pulse 79", "output": "<function_call>record_vitals(systolic=137, diastolic=98, heart_rate=79)</function_call>"}
+{"instruction": "NMC standards regarding infection control", "output": "<function_call>search_nmc_standards(query='infection control')</function_call>"}
+{"instruction": "Blood pressure measured at 112/79", "output": "<function_call>record_vitals(systolic=112, diastolic=79)</function_call>"}
+{"instruction": "Check NMC guidance: professional boundaries", "output": "<function_call>search_nmc_standards(query='professional boundaries')</function_call>"}
+{"instruction": "Dispensed Metformin 850mg subcutaneous", "output": "<function_call>administer_medication(drug_name='Metformin', dose='850mg', route='SC')</function_call>"}
+{"instruction": "Dispensed Amlodipine 10mg via nebuliser", "output": "<function_call>administer_medication(drug_name='Amlodipine', dose='10mg', route='NEB')</function_call>"}
+{"instruction": "I need NMC guidelines on social media", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "Systolic 146, diastolic 66, temperature 35.5", "output": "<function_call>record_vitals(systolic=146, diastolic=66, temp_c=35.5)</function_call>"}
+{"instruction": "Given Diazepam 5mg per rectum", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='5mg', route='PR')</function_call>"}
+{"instruction": "Administered Amoxicillin 250mg sublingual", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='250mg', route='SL')</function_call>"}
+{"instruction": "Recorded BP of 171/52", "output": "<function_call>record_vitals(systolic=171, diastolic=52)</function_call>"}
+{"instruction": "BP reading: 100/100, temp: 39.3C", "output": "<function_call>record_vitals(systolic=100, diastolic=100, temp_c=39.3)</function_call>"}
+{"instruction": "Dispensed Aspirin 75mg per rectum", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='75mg', route='PR')</function_call>"}
+{"instruction": "Dispensed Aspirin 75mg by mouth", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='75mg', route='PO')</function_call>"}
+{"instruction": "Current BP: 175/56mmHg, pulse 70, temp 38.9\u00b0C", "output": "<function_call>record_vitals(systolic=175, diastolic=56, heart_rate=70, temp_c=38.9)</function_call>"}
+{"instruction": "Given Prednisolone 40mg sublingually", "output": "<function_call>administer_medication(drug_name='Prednisolone', dose='40mg', route='SL')</function_call>"}
+{"instruction": "NMC standards regarding student supervision", "output": "<function_call>search_nmc_standards(query='student supervision')</function_call>"}
+{"instruction": "Current BP: 135/78mmHg, HR 82, temp 35.7", "output": "<function_call>record_vitals(systolic=135, diastolic=78, heart_rate=82, temp_c=35.7)</function_call>"}
+{"instruction": "Check NMC guidance: patient dignity", "output": "<function_call>search_nmc_standards(query='patient dignity')</function_call>"}
+{"instruction": "What does the NMC say about raising concerns?", "output": "<function_call>search_nmc_standards(query='raising concerns')</function_call>"}
+{"instruction": "BP is 148/83, heart rate of 51, afebrile at 38.9", "output": "<function_call>record_vitals(systolic=148, diastolic=83, heart_rate=51, temp_c=38.9)</function_call>"}
+{"instruction": "Gave Enoxaparin 60mg per rectum", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='60mg', route='PR')</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Find information about social media from NMC", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "Patient received Amoxicillin 1g sublingual", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='1g', route='SL')</function_call>"}
+{"instruction": "Diazepam 10mg given intramuscular injection to patient", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='10mg', route='IM')</function_call>"}
+{"instruction": "Patient received Codeine 60mg intravenous", "output": "<function_call>administer_medication(drug_name='Codeine', dose='60mg', route='IV')</function_call>"}
+{"instruction": "What does the Code say about mental capacity?", "output": "<function_call>search_nmc_standards(query='mental capacity')</function_call>"}
+{"instruction": "Dispensed Enoxaparin 60mg sublingual", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='60mg', route='SL')</function_call>"}
+{"instruction": "Blood pressure: 125/86, HR: 110/min", "output": "<function_call>record_vitals(systolic=125, diastolic=86, heart_rate=110)</function_call>"}
+{"instruction": "pulse is 108, temp: 36.6C", "output": "<function_call>record_vitals(heart_rate=108, temp_c=36.6)</function_call>"}
+{"instruction": "Recorded BP of 112/104, pulse is 96", "output": "<function_call>record_vitals(systolic=112, diastolic=104, heart_rate=96)</function_call>"}
+{"instruction": "Recorded BP of 104/88, pulse rate 84bpm, temp: 36.5C", "output": "<function_call>record_vitals(systolic=104, diastolic=88, heart_rate=84, temp_c=36.5)</function_call>"}
+{"instruction": "NMC guidance on deprivation of liberty", "output": "<function_call>search_nmc_standards(query='deprivation of liberty')</function_call>"}
+{"instruction": "BP taken: 95/58, heart rate of 120, febrile at 37.3", "output": "<function_call>record_vitals(systolic=95, diastolic=58, heart_rate=120, temp_c=37.3)</function_call>"}
+{"instruction": "What's the NMC position on clinical governance?", "output": "<function_call>search_nmc_standards(query='clinical governance')</function_call>"}
+{"instruction": "Search for duty of candour guidelines", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Search for medicines management guidelines", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Vital signs: Blood pressure measured at 176/98, pulse rate 102bpm", "output": "<function_call>record_vitals(systolic=176, diastolic=98, heart_rate=102)</function_call>"}
+{"instruction": "Morphine 10mg via nebuliser given", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='NEB')</function_call>"}
+{"instruction": "Search NMC guidelines for professional boundaries", "output": "<function_call>search_nmc_standards(query='professional boundaries')</function_call>"}
+{"instruction": "I need NMC guidelines on safeguarding", "output": "<function_call>search_nmc_standards(query='safeguarding')</function_call>"}
+{"instruction": "What's the NMC position on professional boundaries?", "output": "<function_call>search_nmc_standards(query='professional boundaries')</function_call>"}
+{"instruction": "What does the Code say about end of life care?", "output": "<function_call>search_nmc_standards(query='end of life care')</function_call>"}
+{"instruction": "I need NMC guidelines on informed consent", "output": "<function_call>search_nmc_standards(query='informed consent')</function_call>"}
+{"instruction": "Administered Amoxicillin 500mg SL", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='SL')</function_call>"}
+{"instruction": "Dispensed Aspirin 300mg subcutaneous", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='300mg', route='SC')</function_call>"}
+{"instruction": "Obs recorded: Patient's BP 176 over 69, pulse: 119", "output": "<function_call>record_vitals(systolic=176, diastolic=69, heart_rate=119)</function_call>"}
+{"instruction": "Codeine 30mg per rectum given", "output": "<function_call>administer_medication(drug_name='Codeine', dose='30mg', route='PR')</function_call>"}
+{"instruction": "Just took obs: BP is 95/57, pulse rate 80bpm", "output": "<function_call>record_vitals(systolic=95, diastolic=57, heart_rate=80)</function_call>"}
+{"instruction": "Medication given: Enoxaparin 40mg SL", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='40mg', route='SL')</function_call>"}
+{"instruction": "Administered Atorvastatin 40mg SC", "output": "<function_call>administer_medication(drug_name='Atorvastatin', dose='40mg', route='SC')</function_call>"}
+{"instruction": "BP reading: 145/108, heart rate of 83", "output": "<function_call>record_vitals(systolic=145, diastolic=108, heart_rate=83)</function_call>"}
+{"instruction": "Pre-procedure: Systolic 144, diastolic 107, pulse 75", "output": "<function_call>record_vitals(systolic=144, diastolic=107, heart_rate=75)</function_call>"}
+{"instruction": "intramuscular injection Omeprazole 20mg", "output": "<function_call>administer_medication(drug_name='Omeprazole', dose='20mg', route='IM')</function_call>"}
+{"instruction": "BP reading: 113/90, pulse is 82", "output": "<function_call>record_vitals(systolic=113, diastolic=90, heart_rate=82)</function_call>"}
+{"instruction": "Metformin 500mg administered subcutaneously", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='SC')</function_call>"}
+{"instruction": "Blood pressure 172 systolic, 96 diastolic, temp: 37.4C", "output": "<function_call>record_vitals(systolic=172, diastolic=96, temp_c=37.4)</function_call>"}
+{"instruction": "Look up hand hygiene in the NMC Code", "output": "<function_call>search_nmc_standards(query='hand hygiene')</function_call>"}
+{"instruction": "Medication given: Codeine 60mg transdermal", "output": "<function_call>administer_medication(drug_name='Codeine', dose='60mg', route='TD')</function_call>"}
+{"instruction": "Current readings: Blood pressure 146 systolic, 110 diastolic, pulse 59", "output": "<function_call>record_vitals(systolic=146, diastolic=110, heart_rate=59)</function_call>"}
+{"instruction": "pulse is 54, afebrile at 39.3", "output": "<function_call>record_vitals(heart_rate=54, temp_c=39.3)</function_call>"}
+{"instruction": "BP is 128/105, HR 76, temp 36.4\u00b0C", "output": "<function_call>record_vitals(systolic=128, diastolic=105, heart_rate=76, temp_c=36.4)</function_call>"}
+{"instruction": "Vital signs: BP is 94/61, heart rate of 117", "output": "<function_call>record_vitals(systolic=94, diastolic=61, heart_rate=117)</function_call>"}
+{"instruction": "Obs recorded: BP taken: 135/59, HR: 74/min", "output": "<function_call>record_vitals(systolic=135, diastolic=59, heart_rate=74)</function_call>"}
+{"instruction": "Patient's BP 162 over 84, temp 36.6\u00b0C", "output": "<function_call>record_vitals(systolic=162, diastolic=84, temp_c=36.6)</function_call>"}
+{"instruction": "Lorazepam 2mg nebulised given", "output": "<function_call>administer_medication(drug_name='Lorazepam', dose='2mg', route='NEB')</function_call>"}
+{"instruction": "Patient received Enoxaparin 20mg intramuscularly", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='20mg', route='IM')</function_call>"}
+{"instruction": "Search NMC guidelines for record keeping", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "Medication given: Morphine 15mg IM", "output": "<function_call>administer_medication(drug_name='Morphine', dose='15mg', route='IM')</function_call>"}
+{"instruction": "NMC guidance on end of life care", "output": "<function_call>search_nmc_standards(query='end of life care')</function_call>"}
+{"instruction": "NMC standards regarding consent", "output": "<function_call>search_nmc_standards(query='consent')</function_call>"}
+{"instruction": "Dispensed Insulin 10 units IM", "output": "<function_call>administer_medication(drug_name='Insulin', dose='10 units', route='IM')</function_call>"}
+{"instruction": "What's the NMC position on social media?", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "HR: 62/min, T: 39.0", "output": "<function_call>record_vitals(heart_rate=62, temp_c=39.0)</function_call>"}
+{"instruction": "Medication given: Morphine 10mg swallowed", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='PO')</function_call>"}
+{"instruction": "Administered Tramadol 50mg via nebuliser", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='50mg', route='NEB')</function_call>"}
+{"instruction": "Given Enoxaparin 20mg patch applied", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='20mg', route='TD')</function_call>"}
+{"instruction": "I need NMC guidelines on deprivation of liberty", "output": "<function_call>search_nmc_standards(query='deprivation of liberty')</function_call>"}
+{"instruction": "Given Insulin 10 units per rectum", "output": "<function_call>administer_medication(drug_name='Insulin', dose='10 units', route='PR')</function_call>"}
+{"instruction": "Aspirin 75mg given intravenous to patient", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='75mg', route='IV')</function_call>"}
+{"instruction": "Blood pressure measured at 145/78", "output": "<function_call>record_vitals(systolic=145, diastolic=78)</function_call>"}
+{"instruction": "orally Codeine 60mg", "output": "<function_call>administer_medication(drug_name='Codeine', dose='60mg', route='PO')</function_call>"}
+{"instruction": "Blood pressure 110 systolic, 67 diastolic, afebrile at 38.3", "output": "<function_call>record_vitals(systolic=110, diastolic=67, temp_c=38.3)</function_call>"}
+{"instruction": "Admission vitals: Current BP: 164/56mmHg, heart rate 77", "output": "<function_call>record_vitals(systolic=164, diastolic=56, heart_rate=77)</function_call>"}
+{"instruction": "NMC standards regarding record keeping", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "Recorded BP of 112/88, pulse 54", "output": "<function_call>record_vitals(systolic=112, diastolic=88, heart_rate=54)</function_call>"}
+{"instruction": "I need NMC guidelines on accountability", "output": "<function_call>search_nmc_standards(query='accountability')</function_call>"}
+{"instruction": "Blood pressure: 175/78", "output": "<function_call>record_vitals(systolic=175, diastolic=78)</function_call>"}
+{"instruction": "Aspirin 75mg rectally given", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='75mg', route='PR')</function_call>"}
+{"instruction": "Gave Paracetamol 500mg via nebuliser", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='500mg', route='NEB')</function_call>"}
+{"instruction": "What's the NMC position on medicines management?", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "pulse rate 99bpm, febrile at 38.0", "output": "<function_call>record_vitals(heart_rate=99, temp_c=38.0)</function_call>"}
+{"instruction": "Given Amlodipine 5mg SC", "output": "<function_call>administer_medication(drug_name='Amlodipine', dose='5mg', route='SC')</function_call>"}
+{"instruction": "BP is 149/59, pulse: 73, temp 37.6", "output": "<function_call>record_vitals(systolic=149, diastolic=59, heart_rate=73, temp_c=37.6)</function_call>"}
+{"instruction": "Search NMC guidelines for raising concerns", "output": "<function_call>search_nmc_standards(query='raising concerns')</function_call>"}
+{"instruction": "heart rate 101, afebrile at 38.9", "output": "<function_call>record_vitals(heart_rate=101, temp_c=38.9)</function_call>"}
+{"instruction": "Search for professional boundaries guidelines", "output": "<function_call>search_nmc_standards(query='professional boundaries')</function_call>"}
+{"instruction": "Lorazepam 1mg intravenous given", "output": "<function_call>administer_medication(drug_name='Lorazepam', dose='1mg', route='IV')</function_call>"}
+{"instruction": "NMC guidance on patient dignity", "output": "<function_call>search_nmc_standards(query='patient dignity')</function_call>"}
+{"instruction": "HR: 70/min, temp 37.2\u00b0C", "output": "<function_call>record_vitals(heart_rate=70, temp_c=37.2)</function_call>"}
+{"instruction": "NMC guidance on safeguarding", "output": "<function_call>search_nmc_standards(query='safeguarding')</function_call>"}
+{"instruction": "Systolic 121, diastolic 88", "output": "<function_call>record_vitals(systolic=121, diastolic=88)</function_call>"}
+{"instruction": "Given Diazepam 5mg intravenously", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='5mg', route='IV')</function_call>"}
+{"instruction": "Patient's BP 149 over 57", "output": "<function_call>record_vitals(systolic=149, diastolic=57)</function_call>"}
+{"instruction": "Gave Furosemide 80mg per oral", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='80mg', route='PO')</function_call>"}
+{"instruction": "via nebuliser Metformin 500mg", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='NEB')</function_call>"}
+{"instruction": "Given Clopidogrel 75mg PR", "output": "<function_call>administer_medication(drug_name='Clopidogrel', dose='75mg', route='PR')</function_call>"}
+{"instruction": "Medication given: Simvastatin 20mg SC", "output": "<function_call>administer_medication(drug_name='Simvastatin', dose='20mg', route='SC')</function_call>"}
+{"instruction": "Omeprazole 40mg under the tongue given", "output": "<function_call>administer_medication(drug_name='Omeprazole', dose='40mg', route='SL')</function_call>"}
+{"instruction": "Furosemide 80mg transdermal given", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='80mg', route='TD')</function_call>"}
+{"instruction": "Patient received Metformin 850mg IV", "output": "<function_call>administer_medication(drug_name='Metformin', dose='850mg', route='IV')</function_call>"}
+{"instruction": "Patient received Ibuprofen 200mg intravenous", "output": "<function_call>administer_medication(drug_name='Ibuprofen', dose='200mg', route='IV')</function_call>"}
+{"instruction": "Medication given: Prednisolone 25mg PO", "output": "<function_call>administer_medication(drug_name='Prednisolone', dose='25mg', route='PO')</function_call>"}
+{"instruction": "On assessment: BP is 156/76, HR 87", "output": "<function_call>record_vitals(systolic=156, diastolic=76, heart_rate=87)</function_call>"}
+{"instruction": "HR: 58/min, temperature of 36.2 degrees", "output": "<function_call>record_vitals(heart_rate=58, temp_c=36.2)</function_call>"}
+{"instruction": "Current BP: 130/71mmHg", "output": "<function_call>record_vitals(systolic=130, diastolic=71)</function_call>"}
+{"instruction": "heart rate of 78, temperature of 39.0 degrees", "output": "<function_call>record_vitals(heart_rate=78, temp_c=39.0)</function_call>"}
+{"instruction": "Blood pressure: 106/101, pulse 92, temperature 38.5", "output": "<function_call>record_vitals(systolic=106, diastolic=101, heart_rate=92, temp_c=38.5)</function_call>"}
+{"instruction": "Morning obs: Current BP: 106/76mmHg, HR: 107/min", "output": "<function_call>record_vitals(systolic=106, diastolic=76, heart_rate=107)</function_call>"}
+{"instruction": "Check NMC guidance: duty of candour", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Blood pressure: 101/110, temperature 36.4", "output": "<function_call>record_vitals(systolic=101, diastolic=110, temp_c=36.4)</function_call>"}
+{"instruction": "Administered Diazepam 10mg under the skin", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='10mg', route='SC')</function_call>"}
+{"instruction": "What are the NMC standards for pain management?", "output": "<function_call>search_nmc_standards(query='pain management')</function_call>"}
+{"instruction": "Omeprazole 20mg transdermal given", "output": "<function_call>administer_medication(drug_name='Omeprazole', dose='20mg', route='TD')</function_call>"}
+{"instruction": "Given Lorazepam 2mg nebulizer", "output": "<function_call>administer_medication(drug_name='Lorazepam', dose='2mg', route='NEB')</function_call>"}
+{"instruction": "BP reading: 146/87", "output": "<function_call>record_vitals(systolic=146, diastolic=87)</function_call>"}
+{"instruction": "Administered Simvastatin 20mg transdermal", "output": "<function_call>administer_medication(drug_name='Simvastatin', dose='20mg', route='TD')</function_call>"}
+{"instruction": "NMC guidance on record keeping", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "BP is 147/84, pulse: 110", "output": "<function_call>record_vitals(systolic=147, diastolic=84, heart_rate=110)</function_call>"}
+{"instruction": "Atorvastatin 40mg given under the skin to patient", "output": "<function_call>administer_medication(drug_name='Atorvastatin', dose='40mg', route='SC')</function_call>"}
+{"instruction": "Systolic 138, diastolic 66, afebrile at 38.5", "output": "<function_call>record_vitals(systolic=138, diastolic=66, temp_c=38.5)</function_call>"}
+{"instruction": "Administered Omeprazole 20mg under the tongue", "output": "<function_call>administer_medication(drug_name='Omeprazole', dose='20mg', route='SL')</function_call>"}
+{"instruction": "Gave Prednisolone 5mg SL", "output": "<function_call>administer_medication(drug_name='Prednisolone', dose='5mg', route='SL')</function_call>"}
+{"instruction": "Current BP: 117/89mmHg, heart rate of 102, temp 37.8\u00b0C", "output": "<function_call>record_vitals(systolic=117, diastolic=89, heart_rate=102, temp_c=37.8)</function_call>"}
+{"instruction": "Just took obs: Current BP: 104/102mmHg, pulse: 71", "output": "<function_call>record_vitals(systolic=104, diastolic=102, heart_rate=71)</function_call>"}
+{"instruction": "Blood pressure 121 systolic, 84 diastolic, pulse: 96, T: 38.2", "output": "<function_call>record_vitals(systolic=121, diastolic=84, heart_rate=96, temp_c=38.2)</function_call>"}
+{"instruction": "Patient's BP 175 over 96, temperature of 38.2 degrees", "output": "<function_call>record_vitals(systolic=175, diastolic=96, temp_c=38.2)</function_call>"}
+{"instruction": "Given Atorvastatin 20mg PR", "output": "<function_call>administer_medication(drug_name='Atorvastatin', dose='20mg', route='PR')</function_call>"}
+{"instruction": "Find information about informed consent from NMC", "output": "<function_call>search_nmc_standards(query='informed consent')</function_call>"}
+{"instruction": "I need NMC guidelines on confidentiality", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Enoxaparin 60mg given subcutaneously to patient", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='60mg', route='SC')</function_call>"}
+{"instruction": "Morning obs: Recorded BP of 124/52, heart rate 94", "output": "<function_call>record_vitals(systolic=124, diastolic=52, heart_rate=94)</function_call>"}
+{"instruction": "Given Aspirin 75mg PR", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='75mg', route='PR')</function_call>"}
+{"instruction": "Diazepam 5mg given via nebuliser to patient", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='5mg', route='NEB')</function_call>"}
+{"instruction": "Blood pressure: 153/82", "output": "<function_call>record_vitals(systolic=153, diastolic=82)</function_call>"}
+{"instruction": "NMC standards regarding duty of candour", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Find information about duty of candour from NMC", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Blood pressure 117 systolic, 82 diastolic, pulse is 62", "output": "<function_call>record_vitals(systolic=117, diastolic=82, heart_rate=62)</function_call>"}
+{"instruction": "Medication given: Furosemide 80mg via nebuliser", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='80mg', route='NEB')</function_call>"}
+{"instruction": "HR 104, afebrile at 37.7", "output": "<function_call>record_vitals(heart_rate=104, temp_c=37.7)</function_call>"}
+{"instruction": "Current readings: Blood pressure 120 systolic, 58 diastolic, HR 82", "output": "<function_call>record_vitals(systolic=120, diastolic=58, heart_rate=82)</function_call>"}
+{"instruction": "Recorded BP of 124/75, afebrile at 39.0", "output": "<function_call>record_vitals(systolic=124, diastolic=75, temp_c=39.0)</function_call>"}
+{"instruction": "Look up medicines management in the NMC Code", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "What does the Code say about fitness to practise?", "output": "<function_call>search_nmc_standards(query='fitness to practise')</function_call>"}
+{"instruction": "Given Omeprazole 20mg transdermal", "output": "<function_call>administer_medication(drug_name='Omeprazole', dose='20mg', route='TD')</function_call>"}
+{"instruction": "Blood pressure 101 systolic, 69 diastolic, T: 37.4", "output": "<function_call>record_vitals(systolic=101, diastolic=69, temp_c=37.4)</function_call>"}
+{"instruction": "NMC standards regarding professional boundaries", "output": "<function_call>search_nmc_standards(query='professional boundaries')</function_call>"}
+{"instruction": "Help me understand NMC requirements for patient dignity", "output": "<function_call>search_nmc_standards(query='patient dignity')</function_call>"}
+{"instruction": "heart rate 113, T: 39.0", "output": "<function_call>record_vitals(heart_rate=113, temp_c=39.0)</function_call>"}
+{"instruction": "Find NMC guidance on fitness to practise", "output": "<function_call>search_nmc_standards(query='fitness to practise')</function_call>"}
+{"instruction": "Medication given: Codeine 60mg nebulised", "output": "<function_call>administer_medication(drug_name='Codeine', dose='60mg', route='NEB')</function_call>"}
+{"instruction": "What are the NMC standards for informed consent?", "output": "<function_call>search_nmc_standards(query='informed consent')</function_call>"}
+{"instruction": "Furosemide 40mg administered intravenously", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='40mg', route='IV')</function_call>"}
+{"instruction": "Patient received Simvastatin 20mg per oral", "output": "<function_call>administer_medication(drug_name='Simvastatin', dose='20mg', route='PO')</function_call>"}
+{"instruction": "Recorded BP of 96/80, heart rate 55, temperature of 36.8 degrees", "output": "<function_call>record_vitals(systolic=96, diastolic=80, heart_rate=55, temp_c=36.8)</function_call>"}
+{"instruction": "Given Aspirin 75mg sublingual", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='75mg', route='SL')</function_call>"}
+{"instruction": "BP reading: 138/89, pulse is 98, temperature 35.8", "output": "<function_call>record_vitals(systolic=138, diastolic=89, heart_rate=98, temp_c=35.8)</function_call>"}
+{"instruction": "Enoxaparin 60mg patch applied given", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='60mg', route='TD')</function_call>"}
+{"instruction": "Enoxaparin 40mg administered under the skin", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='40mg', route='SC')</function_call>"}
+{"instruction": "Current readings: Systolic 180, diastolic 77, HR 69", "output": "<function_call>record_vitals(systolic=180, diastolic=77, heart_rate=69)</function_call>"}
+{"instruction": "Gave Lorazepam 0.5mg rectally", "output": "<function_call>administer_medication(drug_name='Lorazepam', dose='0.5mg', route='PR')</function_call>"}
+{"instruction": "Morphine 15mg administered per rectum", "output": "<function_call>administer_medication(drug_name='Morphine', dose='15mg', route='PR')</function_call>"}
+{"instruction": "Search NMC guidelines for social media", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "BP reading: 126/101, pulse rate 85bpm, temperature of 38.4 degrees", "output": "<function_call>record_vitals(systolic=126, diastolic=101, heart_rate=85, temp_c=38.4)</function_call>"}
+{"instruction": "Gave Insulin 6 units subcut", "output": "<function_call>administer_medication(drug_name='Insulin', dose='6 units', route='SC')</function_call>"}
+{"instruction": "What are the NMC standards for medicines management?", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Morphine 10mg administered nebulised", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='NEB')</function_call>"}
+{"instruction": "Morning obs: Patient's BP 107 over 58, heart rate 83", "output": "<function_call>record_vitals(systolic=107, diastolic=58, heart_rate=83)</function_call>"}
+{"instruction": "HR 81, temperature 36.8", "output": "<function_call>record_vitals(heart_rate=81, temp_c=36.8)</function_call>"}
+{"instruction": "BP is 147/56, pulse is 86, T: 35.7", "output": "<function_call>record_vitals(systolic=147, diastolic=56, heart_rate=86, temp_c=35.7)</function_call>"}
+{"instruction": "BP is 128/62, pulse rate 73bpm", "output": "<function_call>record_vitals(systolic=128, diastolic=62, heart_rate=73)</function_call>"}
+{"instruction": "Find NMC guidance on pain management", "output": "<function_call>search_nmc_standards(query='pain management')</function_call>"}
+{"instruction": "Patient received Enoxaparin 40mg subcut", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='40mg', route='SC')</function_call>"}
+{"instruction": "Blood pressure 98 systolic, 68 diastolic, temp 37.9", "output": "<function_call>record_vitals(systolic=98, diastolic=68, temp_c=37.9)</function_call>"}
+{"instruction": "Find information about end of life care from NMC", "output": "<function_call>search_nmc_standards(query='end of life care')</function_call>"}
+{"instruction": "Gave Dalteparin 5000 units IM", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='5000 units', route='IM')</function_call>"}
+{"instruction": "BP taken: 159/54, pulse: 61", "output": "<function_call>record_vitals(systolic=159, diastolic=54, heart_rate=61)</function_call>"}
+{"instruction": "Look up duty of candour in the NMC Code", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Check NMC guidance: student supervision", "output": "<function_call>search_nmc_standards(query='student supervision')</function_call>"}
+{"instruction": "Blood pressure: 92/70", "output": "<function_call>record_vitals(systolic=92, diastolic=70)</function_call>"}
+{"instruction": "Recorded BP of 110/96, HR: 70/min, temp: 35.6C", "output": "<function_call>record_vitals(systolic=110, diastolic=96, heart_rate=70, temp_c=35.6)</function_call>"}
+{"instruction": "BP is 170/74, heart rate 89, temperature of 36.9 degrees", "output": "<function_call>record_vitals(systolic=170, diastolic=74, heart_rate=89, temp_c=36.9)</function_call>"}
+{"instruction": "Patient's BP 176 over 56, temperature 36.0", "output": "<function_call>record_vitals(systolic=176, diastolic=56, temp_c=36.0)</function_call>"}
+{"instruction": "Recorded BP of 119/86, temperature of 37.0 degrees", "output": "<function_call>record_vitals(systolic=119, diastolic=86, temp_c=37.0)</function_call>"}
+{"instruction": "Blood pressure measured at 155/97, pulse rate 55bpm", "output": "<function_call>record_vitals(systolic=155, diastolic=97, heart_rate=55)</function_call>"}
+{"instruction": "Omeprazole 40mg administered PR", "output": "<function_call>administer_medication(drug_name='Omeprazole', dose='40mg', route='PR')</function_call>"}
+{"instruction": "Patient received Codeine 60mg by mouth", "output": "<function_call>administer_medication(drug_name='Codeine', dose='60mg', route='PO')</function_call>"}
+{"instruction": "What does the Code say about infection control?", "output": "<function_call>search_nmc_standards(query='infection control')</function_call>"}
+{"instruction": "Help me understand NMC requirements for record keeping", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "heart rate 77, T: 36.0", "output": "<function_call>record_vitals(heart_rate=77, temp_c=36.0)</function_call>"}
+{"instruction": "Insulin 12 units given orally to patient", "output": "<function_call>administer_medication(drug_name='Insulin', dose='12 units', route='PO')</function_call>"}
+{"instruction": "BP reading: 129/76, pulse 88, T: 38.3", "output": "<function_call>record_vitals(systolic=129, diastolic=76, heart_rate=88, temp_c=38.3)</function_call>"}
+{"instruction": "pulse: 115, temperature 35.7", "output": "<function_call>record_vitals(heart_rate=115, temp_c=35.7)</function_call>"}
+{"instruction": "heart rate of 74, T: 36.0", "output": "<function_call>record_vitals(heart_rate=74, temp_c=36.0)</function_call>"}
+{"instruction": "Systolic 96, diastolic 95, temperature of 36.2 degrees", "output": "<function_call>record_vitals(systolic=96, diastolic=95, temp_c=36.2)</function_call>"}
+{"instruction": "Administered Lorazepam 1mg per rectum", "output": "<function_call>administer_medication(drug_name='Lorazepam', dose='1mg', route='PR')</function_call>"}
+{"instruction": "pulse rate 119bpm, afebrile at 38.7", "output": "<function_call>record_vitals(heart_rate=119, temp_c=38.7)</function_call>"}
+{"instruction": "BP is 156/107, febrile at 35.7", "output": "<function_call>record_vitals(systolic=156, diastolic=107, temp_c=35.7)</function_call>"}
+{"instruction": "Current BP: 173/82mmHg", "output": "<function_call>record_vitals(systolic=173, diastolic=82)</function_call>"}
+{"instruction": "BP taken: 114/88", "output": "<function_call>record_vitals(systolic=114, diastolic=88)</function_call>"}
+{"instruction": "Metformin 500mg administered IV push", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='IV')</function_call>"}
+{"instruction": "I need NMC guidelines on student supervision", "output": "<function_call>search_nmc_standards(query='student supervision')</function_call>"}
+{"instruction": "NMC standards regarding social media", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "Administered Tramadol 100mg IV", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='100mg', route='IV')</function_call>"}
+{"instruction": "Amoxicillin 250mg given nebulised to patient", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='250mg', route='NEB')</function_call>"}
+{"instruction": "Amoxicillin 1g given transdermal to patient", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='1g', route='TD')</function_call>"}
+{"instruction": "Given Enoxaparin 40mg nebulizer", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='40mg', route='NEB')</function_call>"}
+{"instruction": "Recorded BP of 98/93, HR: 106/min, temp 36.3", "output": "<function_call>record_vitals(systolic=98, diastolic=93, heart_rate=106, temp_c=36.3)</function_call>"}
+{"instruction": "Find NMC guidance on duty of candour", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Post-op vitals: Blood pressure 169 systolic, 73 diastolic, pulse 91", "output": "<function_call>record_vitals(systolic=169, diastolic=73, heart_rate=91)</function_call>"}
+{"instruction": "Given Lorazepam 0.5mg transdermal", "output": "<function_call>administer_medication(drug_name='Lorazepam', dose='0.5mg', route='TD')</function_call>"}
+{"instruction": "Gave Morphine 2.5mg sublingual", "output": "<function_call>administer_medication(drug_name='Morphine', dose='2.5mg', route='SL')</function_call>"}
+{"instruction": "Morphine 15mg administered nebulizer", "output": "<function_call>administer_medication(drug_name='Morphine', dose='15mg', route='NEB')</function_call>"}
+{"instruction": "Blood pressure measured at 96/76, pulse is 107, temperature 36.8", "output": "<function_call>record_vitals(systolic=96, diastolic=76, heart_rate=107, temp_c=36.8)</function_call>"}
+{"instruction": "pulse rate 94bpm, temp 37.9", "output": "<function_call>record_vitals(heart_rate=94, temp_c=37.9)</function_call>"}
+{"instruction": "Patient's BP 157 over 84, heart rate 58, temperature of 35.9 degrees", "output": "<function_call>record_vitals(systolic=157, diastolic=84, heart_rate=58, temp_c=35.9)</function_call>"}
+{"instruction": "Gave Paracetamol 1g nebulised", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='NEB')</function_call>"}
+{"instruction": "Simvastatin 40mg under the skin given", "output": "<function_call>administer_medication(drug_name='Simvastatin', dose='40mg', route='SC')</function_call>"}
+{"instruction": "Blood pressure 177 systolic, 74 diastolic, temperature of 39.2 degrees", "output": "<function_call>record_vitals(systolic=177, diastolic=74, temp_c=39.2)</function_call>"}
+{"instruction": "Blood pressure measured at 124/71, heart rate of 100, febrile at 38.7", "output": "<function_call>record_vitals(systolic=124, diastolic=71, heart_rate=100, temp_c=38.7)</function_call>"}
+{"instruction": "What are the NMC standards for social media?", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "Patient received Furosemide 20mg IV", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='20mg', route='IV')</function_call>"}
+{"instruction": "BP is 111/63, pulse rate 118bpm, temperature of 35.9 degrees", "output": "<function_call>record_vitals(systolic=111, diastolic=63, heart_rate=118, temp_c=35.9)</function_call>"}
+{"instruction": "pulse is 93, temp 38.5", "output": "<function_call>record_vitals(heart_rate=93, temp_c=38.5)</function_call>"}
+{"instruction": "Blood pressure 126 systolic, 54 diastolic", "output": "<function_call>record_vitals(systolic=126, diastolic=54)</function_call>"}
+{"instruction": "What does the NMC say about social media?", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "Dispensed Morphine 2.5mg orally", "output": "<function_call>administer_medication(drug_name='Morphine', dose='2.5mg', route='PO')</function_call>"}
+{"instruction": "Find NMC guidance on record keeping", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "Look up student supervision in the NMC Code", "output": "<function_call>search_nmc_standards(query='student supervision')</function_call>"}
+{"instruction": "Search for clinical governance guidelines", "output": "<function_call>search_nmc_standards(query='clinical governance')</function_call>"}
+{"instruction": "What does the Code say about hand hygiene?", "output": "<function_call>search_nmc_standards(query='hand hygiene')</function_call>"}
+{"instruction": "What does the NMC say about end of life care?", "output": "<function_call>search_nmc_standards(query='end of life care')</function_call>"}
+{"instruction": "Enoxaparin 60mg PR given", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='60mg', route='PR')</function_call>"}
+{"instruction": "Gave Paracetamol 500mg per rectum", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='500mg', route='PR')</function_call>"}
+{"instruction": "On assessment: BP reading: 119/105, pulse is 56", "output": "<function_call>record_vitals(systolic=119, diastolic=105, heart_rate=56)</function_call>"}
+{"instruction": "Dispensed Morphine 15mg rectally", "output": "<function_call>administer_medication(drug_name='Morphine', dose='15mg', route='PR')</function_call>"}
+{"instruction": "BP reading: 106/84, heart rate of 77, T: 39.2", "output": "<function_call>record_vitals(systolic=106, diastolic=84, heart_rate=77, temp_c=39.2)</function_call>"}
+{"instruction": "pulse rate 86bpm, febrile at 38.5", "output": "<function_call>record_vitals(heart_rate=86, temp_c=38.5)</function_call>"}
+{"instruction": "intravenously Atorvastatin 10mg", "output": "<function_call>administer_medication(drug_name='Atorvastatin', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Administered Clopidogrel 75mg IV push", "output": "<function_call>administer_medication(drug_name='Clopidogrel', dose='75mg', route='IV')</function_call>"}
+{"instruction": "What are the NMC standards for patient dignity?", "output": "<function_call>search_nmc_standards(query='patient dignity')</function_call>"}
+{"instruction": "Dispensed Diazepam 10mg nebulised", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='10mg', route='NEB')</function_call>"}
+{"instruction": "Gave Diazepam 5mg orally", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='5mg', route='PO')</function_call>"}
+{"instruction": "Furosemide 80mg given orally to patient", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='80mg', route='PO')</function_call>"}
+{"instruction": "IV push Amoxicillin 250mg", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='250mg', route='IV')</function_call>"}
+{"instruction": "Recorded BP of 126/86, pulse 76", "output": "<function_call>record_vitals(systolic=126, diastolic=86, heart_rate=76)</function_call>"}
+{"instruction": "Pre-procedure: Blood pressure 121 systolic, 62 diastolic, pulse rate 90bpm", "output": "<function_call>record_vitals(systolic=121, diastolic=62, heart_rate=90)</function_call>"}
+{"instruction": "heart rate 61, temp: 36.5C", "output": "<function_call>record_vitals(heart_rate=61, temp_c=36.5)</function_call>"}
+{"instruction": "Patient received Diazepam 2mg oral", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='2mg', route='PO')</function_call>"}
+{"instruction": "Recorded BP of 136/72, temp 36.5\u00b0C", "output": "<function_call>record_vitals(systolic=136, diastolic=72, temp_c=36.5)</function_call>"}
+{"instruction": "Insulin 12 units given under the skin to patient", "output": "<function_call>administer_medication(drug_name='Insulin', dose='12 units', route='SC')</function_call>"}
+{"instruction": "Check NMC guidance: raising concerns", "output": "<function_call>search_nmc_standards(query='raising concerns')</function_call>"}
+{"instruction": "I need NMC guidelines on infection control", "output": "<function_call>search_nmc_standards(query='infection control')</function_call>"}
+{"instruction": "NMC guidance on mental capacity", "output": "<function_call>search_nmc_standards(query='mental capacity')</function_call>"}
+{"instruction": "BP taken: 120/102, heart rate 103, temp: 35.8C", "output": "<function_call>record_vitals(systolic=120, diastolic=102, heart_rate=103, temp_c=35.8)</function_call>"}
+{"instruction": "Gave Atorvastatin 20mg via nebuliser", "output": "<function_call>administer_medication(drug_name='Atorvastatin', dose='20mg', route='NEB')</function_call>"}
+{"instruction": "Find NMC guidance on mental capacity", "output": "<function_call>search_nmc_standards(query='mental capacity')</function_call>"}
+{"instruction": "Search NMC guidelines for student supervision", "output": "<function_call>search_nmc_standards(query='student supervision')</function_call>"}
+{"instruction": "Gave Amoxicillin 500mg SC", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='SC')</function_call>"}
+{"instruction": "Find NMC guidance on raising concerns", "output": "<function_call>search_nmc_standards(query='raising concerns')</function_call>"}
+{"instruction": "Dalteparin 2500 units PR given", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='2500 units', route='PR')</function_call>"}
+{"instruction": "Medication given: Tramadol 100mg SL", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='100mg', route='SL')</function_call>"}
+{"instruction": "Administered Clopidogrel 75mg SL", "output": "<function_call>administer_medication(drug_name='Clopidogrel', dose='75mg', route='SL')</function_call>"}
+{"instruction": "Find information about professional boundaries from NMC", "output": "<function_call>search_nmc_standards(query='professional boundaries')</function_call>"}
+{"instruction": "Blood pressure measured at 132/101", "output": "<function_call>record_vitals(systolic=132, diastolic=101)</function_call>"}
+{"instruction": "Find NMC guidance on clinical governance", "output": "<function_call>search_nmc_standards(query='clinical governance')</function_call>"}
+{"instruction": "Codeine 60mg subcutaneously given", "output": "<function_call>administer_medication(drug_name='Codeine', dose='60mg', route='SC')</function_call>"}
+{"instruction": "Gave Diazepam 5mg intramuscularly", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='5mg', route='IM')</function_call>"}
+{"instruction": "I need NMC guidelines on whistleblowing", "output": "<function_call>search_nmc_standards(query='whistleblowing')</function_call>"}
+{"instruction": "Gave Diazepam 5mg IM", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='5mg', route='IM')</function_call>"}
+{"instruction": "Medication given: Dalteparin 2500 units sublingual", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='2500 units', route='SL')</function_call>"}
+{"instruction": "What does the Code say about revalidation?", "output": "<function_call>search_nmc_standards(query='revalidation')</function_call>"}
+{"instruction": "Recorded BP of 122/53, pulse rate 88bpm", "output": "<function_call>record_vitals(systolic=122, diastolic=53, heart_rate=88)</function_call>"}
+{"instruction": "Patient received Amoxicillin 1g under the skin", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='1g', route='SC')</function_call>"}
+{"instruction": "What does the NMC say about revalidation?", "output": "<function_call>search_nmc_standards(query='revalidation')</function_call>"}
+{"instruction": "Metformin 500mg under the skin given", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='SC')</function_call>"}
+{"instruction": "Morning obs: BP is 168/88, pulse rate 113bpm", "output": "<function_call>record_vitals(systolic=168, diastolic=88, heart_rate=113)</function_call>"}
+{"instruction": "heart rate of 69, temperature of 37.3 degrees", "output": "<function_call>record_vitals(heart_rate=69, temp_c=37.3)</function_call>"}
+{"instruction": "Find NMC guidance on professional boundaries", "output": "<function_call>search_nmc_standards(query='professional boundaries')</function_call>"}
+{"instruction": "What does the NMC say about student supervision?", "output": "<function_call>search_nmc_standards(query='student supervision')</function_call>"}
+{"instruction": "Patient received Enoxaparin 40mg subcutaneously", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='40mg', route='SC')</function_call>"}
+{"instruction": "What's the NMC position on raising concerns?", "output": "<function_call>search_nmc_standards(query='raising concerns')</function_call>"}
+{"instruction": "BP taken: 155/105, pulse is 114", "output": "<function_call>record_vitals(systolic=155, diastolic=105, heart_rate=114)</function_call>"}
+{"instruction": "Find NMC guidance on medicines management", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "What does the NMC say about professional boundaries?", "output": "<function_call>search_nmc_standards(query='professional boundaries')</function_call>"}
+{"instruction": "Just took obs: Recorded BP of 93/55, HR 53", "output": "<function_call>record_vitals(systolic=93, diastolic=55, heart_rate=53)</function_call>"}
+{"instruction": "Blood pressure: 95/83, HR 81", "output": "<function_call>record_vitals(systolic=95, diastolic=83, heart_rate=81)</function_call>"}
+{"instruction": "Search NMC guidelines for delegation", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "BP taken: 152/53", "output": "<function_call>record_vitals(systolic=152, diastolic=53)</function_call>"}
+{"instruction": "BP reading: 156/62", "output": "<function_call>record_vitals(systolic=156, diastolic=62)</function_call>"}
+{"instruction": "Medication given: Metformin 850mg IV push", "output": "<function_call>administer_medication(drug_name='Metformin', dose='850mg', route='IV')</function_call>"}
+{"instruction": "Dispensed Codeine 60mg PO", "output": "<function_call>administer_medication(drug_name='Codeine', dose='60mg', route='PO')</function_call>"}
+{"instruction": "I need NMC guidelines on fitness to practise", "output": "<function_call>search_nmc_standards(query='fitness to practise')</function_call>"}
+{"instruction": "I need NMC guidelines on mental capacity", "output": "<function_call>search_nmc_standards(query='mental capacity')</function_call>"}
+{"instruction": "What's the NMC position on student supervision?", "output": "<function_call>search_nmc_standards(query='student supervision')</function_call>"}
+{"instruction": "Check NMC guidance: medicines management", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Patient's BP 139 over 84", "output": "<function_call>record_vitals(systolic=139, diastolic=84)</function_call>"}
+{"instruction": "Current readings: Blood pressure: 122/81, pulse rate 66bpm", "output": "<function_call>record_vitals(systolic=122, diastolic=81, heart_rate=66)</function_call>"}
+{"instruction": "Post-op vitals: Current BP: 174/87mmHg, HR 98", "output": "<function_call>record_vitals(systolic=174, diastolic=87, heart_rate=98)</function_call>"}
+{"instruction": "Patient received Paracetamol 1000mg sublingually", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1000mg', route='SL')</function_call>"}
+{"instruction": "Given Tramadol 50mg intravenous", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='50mg', route='IV')</function_call>"}
+{"instruction": "Gave Enoxaparin 60mg nebulizer", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='60mg', route='NEB')</function_call>"}
+{"instruction": "pulse: 75, temp 38.1\u00b0C", "output": "<function_call>record_vitals(heart_rate=75, temp_c=38.1)</function_call>"}
+{"instruction": "Administered Atorvastatin 20mg transdermal", "output": "<function_call>administer_medication(drug_name='Atorvastatin', dose='20mg', route='TD')</function_call>"}
+{"instruction": "Patient's BP 137 over 107", "output": "<function_call>record_vitals(systolic=137, diastolic=107)</function_call>"}
+{"instruction": "What's the NMC position on infection control?", "output": "<function_call>search_nmc_standards(query='infection control')</function_call>"}
+{"instruction": "Dalteparin 2500 units administered subcut", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='2500 units', route='SC')</function_call>"}
+{"instruction": "Look up clinical governance in the NMC Code", "output": "<function_call>search_nmc_standards(query='clinical governance')</function_call>"}
+{"instruction": "Current BP: 140/53mmHg", "output": "<function_call>record_vitals(systolic=140, diastolic=53)</function_call>"}
+{"instruction": "What does the NMC say about informed consent?", "output": "<function_call>search_nmc_standards(query='informed consent')</function_call>"}
+{"instruction": "What's the NMC position on hand hygiene?", "output": "<function_call>search_nmc_standards(query='hand hygiene')</function_call>"}
+{"instruction": "Help me understand NMC requirements for confidentiality", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Amoxicillin 500mg administered transdermal", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='TD')</function_call>"}
+{"instruction": "Morning obs: Systolic 147, diastolic 63, heart rate of 85", "output": "<function_call>record_vitals(systolic=147, diastolic=63, heart_rate=85)</function_call>"}
+{"instruction": "What does the Code say about social media?", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "Recorded BP of 160/51, pulse rate 62bpm", "output": "<function_call>record_vitals(systolic=160, diastolic=51, heart_rate=62)</function_call>"}
+{"instruction": "Patient received Lorazepam 1mg oral", "output": "<function_call>administer_medication(drug_name='Lorazepam', dose='1mg', route='PO')</function_call>"}
+{"instruction": "Metformin 850mg patch applied given", "output": "<function_call>administer_medication(drug_name='Metformin', dose='850mg', route='TD')</function_call>"}
+{"instruction": "Morphine 10mg administered nebulised", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='NEB')</function_call>"}
+{"instruction": "pulse 96, afebrile at 38.8", "output": "<function_call>record_vitals(heart_rate=96, temp_c=38.8)</function_call>"}
+{"instruction": "orally Amoxicillin 500mg", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Post-op vitals: Systolic 120, diastolic 75, HR: 103/min", "output": "<function_call>record_vitals(systolic=120, diastolic=75, heart_rate=103)</function_call>"}
+{"instruction": "Given Metformin 500mg nebulised", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='NEB')</function_call>"}
+{"instruction": "Blood pressure measured at 164/107, temp: 35.6C", "output": "<function_call>record_vitals(systolic=164, diastolic=107, temp_c=35.6)</function_call>"}
+{"instruction": "What does the Code say about record keeping?", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "What are the NMC standards for raising concerns?", "output": "<function_call>search_nmc_standards(query='raising concerns')</function_call>"}
+{"instruction": "Morning obs: BP is 133/55, pulse is 61", "output": "<function_call>record_vitals(systolic=133, diastolic=55, heart_rate=61)</function_call>"}
+{"instruction": "Diazepam 2mg subcutaneously given", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='2mg', route='SC')</function_call>"}
+{"instruction": "Amoxicillin 250mg given nebulizer to patient", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='250mg', route='NEB')</function_call>"}
+{"instruction": "I need NMC guidelines on record keeping", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "Systolic 94, diastolic 84", "output": "<function_call>record_vitals(systolic=94, diastolic=84)</function_call>"}
+{"instruction": "On assessment: BP is 140/80, HR 81", "output": "<function_call>record_vitals(systolic=140, diastolic=80, heart_rate=81)</function_call>"}
+{"instruction": "Recorded BP of 113/108, pulse rate 83bpm, febrile at 37.0", "output": "<function_call>record_vitals(systolic=113, diastolic=108, heart_rate=83, temp_c=37.0)</function_call>"}
+{"instruction": "heart rate 50, temperature of 37.6 degrees", "output": "<function_call>record_vitals(heart_rate=50, temp_c=37.6)</function_call>"}
+{"instruction": "Patient's BP 157 over 73, temp: 39.1C", "output": "<function_call>record_vitals(systolic=157, diastolic=73, temp_c=39.1)</function_call>"}
+{"instruction": "Tramadol 100mg administered per rectum", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='100mg', route='PR')</function_call>"}
+{"instruction": "Blood pressure: 153/70", "output": "<function_call>record_vitals(systolic=153, diastolic=70)</function_call>"}
+{"instruction": "Blood pressure: 158/64, pulse 60", "output": "<function_call>record_vitals(systolic=158, diastolic=64, heart_rate=60)</function_call>"}
+{"instruction": "Administered Dalteparin 2500 units sublingual", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='2500 units', route='SL')</function_call>"}
+{"instruction": "Gave Dalteparin 5000 units per rectum", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='5000 units', route='PR')</function_call>"}
+{"instruction": "Given Tramadol 50mg nebulizer", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='50mg', route='NEB')</function_call>"}
+{"instruction": "Given Dalteparin 2500 units SC", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='2500 units', route='SC')</function_call>"}
+{"instruction": "Current readings: Blood pressure: 163/57, pulse: 91", "output": "<function_call>record_vitals(systolic=163, diastolic=57, heart_rate=91)</function_call>"}
+{"instruction": "Given Enoxaparin 20mg intramuscular injection", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='20mg', route='IM')</function_call>"}
+{"instruction": "Blood pressure measured at 175/80, temp 38.3", "output": "<function_call>record_vitals(systolic=175, diastolic=80, temp_c=38.3)</function_call>"}
+{"instruction": "What's the NMC position on mental capacity?", "output": "<function_call>search_nmc_standards(query='mental capacity')</function_call>"}
+{"instruction": "Patient's BP 119 over 83", "output": "<function_call>record_vitals(systolic=119, diastolic=83)</function_call>"}
+{"instruction": "pulse: 108, afebrile at 36.8", "output": "<function_call>record_vitals(heart_rate=108, temp_c=36.8)</function_call>"}
+{"instruction": "Codeine 60mg administered IM", "output": "<function_call>administer_medication(drug_name='Codeine', dose='60mg', route='IM')</function_call>"}
+{"instruction": "Look up revalidation in the NMC Code", "output": "<function_call>search_nmc_standards(query='revalidation')</function_call>"}
+{"instruction": "BP is 173/96, heart rate 83", "output": "<function_call>record_vitals(systolic=173, diastolic=96, heart_rate=83)</function_call>"}
+{"instruction": "BP is 108/65", "output": "<function_call>record_vitals(systolic=108, diastolic=65)</function_call>"}
+{"instruction": "Gave Codeine 30mg nebulised", "output": "<function_call>administer_medication(drug_name='Codeine', dose='30mg', route='NEB')</function_call>"}
+{"instruction": "Blood pressure measured at 148/59", "output": "<function_call>record_vitals(systolic=148, diastolic=59)</function_call>"}
+{"instruction": "What does the NMC say about hand hygiene?", "output": "<function_call>search_nmc_standards(query='hand hygiene')</function_call>"}
+{"instruction": "Help me understand NMC requirements for capacity", "output": "<function_call>search_nmc_standards(query='capacity')</function_call>"}
+{"instruction": "Metformin 850mg given sublingual to patient", "output": "<function_call>administer_medication(drug_name='Metformin', dose='850mg', route='SL')</function_call>"}
+{"instruction": "Post-op vitals: BP taken: 141/75, HR 90", "output": "<function_call>record_vitals(systolic=141, diastolic=75, heart_rate=90)</function_call>"}
+{"instruction": "Find NMC guidance on student supervision", "output": "<function_call>search_nmc_standards(query='student supervision')</function_call>"}
+{"instruction": "Help me understand NMC requirements for end of life care", "output": "<function_call>search_nmc_standards(query='end of life care')</function_call>"}
+{"instruction": "Morphine 5mg administered under the skin", "output": "<function_call>administer_medication(drug_name='Morphine', dose='5mg', route='SC')</function_call>"}
+{"instruction": "BP taken: 100/60, HR: 91/min, afebrile at 37.5", "output": "<function_call>record_vitals(systolic=100, diastolic=60, heart_rate=91, temp_c=37.5)</function_call>"}
+{"instruction": "Patient's BP 141 over 51, T: 35.5", "output": "<function_call>record_vitals(systolic=141, diastolic=51, temp_c=35.5)</function_call>"}
+{"instruction": "Medication given: Clopidogrel 75mg PO", "output": "<function_call>administer_medication(drug_name='Clopidogrel', dose='75mg', route='PO')</function_call>"}
+{"instruction": "Dispensed Amoxicillin 500mg patch applied", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='TD')</function_call>"}
+{"instruction": "Search NMC guidelines for consent", "output": "<function_call>search_nmc_standards(query='consent')</function_call>"}
+{"instruction": "Just took obs: Current BP: 110/57mmHg, HR: 76/min", "output": "<function_call>record_vitals(systolic=110, diastolic=57, heart_rate=76)</function_call>"}
+{"instruction": "Search NMC guidelines for capacity", "output": "<function_call>search_nmc_standards(query='capacity')</function_call>"}
+{"instruction": "Find information about capacity from NMC", "output": "<function_call>search_nmc_standards(query='capacity')</function_call>"}
+{"instruction": "What's the NMC position on revalidation?", "output": "<function_call>search_nmc_standards(query='revalidation')</function_call>"}
+{"instruction": "Patient's BP 150 over 50, pulse is 81, temperature 39.4", "output": "<function_call>record_vitals(systolic=150, diastolic=50, heart_rate=81, temp_c=39.4)</function_call>"}
+{"instruction": "What are the NMC standards for delegation?", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Medication given: Aspirin 300mg transdermal", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='300mg', route='TD')</function_call>"}
+{"instruction": "Dispensed Metformin 500mg intravenous", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='IV')</function_call>"}
+{"instruction": "Morphine 5mg administered PO", "output": "<function_call>administer_medication(drug_name='Morphine', dose='5mg', route='PO')</function_call>"}
+{"instruction": "Look up record keeping in the NMC Code", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "Current BP: 137/94mmHg, temp 38.4", "output": "<function_call>record_vitals(systolic=137, diastolic=94, temp_c=38.4)</function_call>"}
+{"instruction": "Blood pressure measured at 113/84", "output": "<function_call>record_vitals(systolic=113, diastolic=84)</function_call>"}
+{"instruction": "Gave Diazepam 10mg IV", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Find NMC guidance on delegation", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Find information about clinical governance from NMC", "output": "<function_call>search_nmc_standards(query='clinical governance')</function_call>"}
+{"instruction": "Dispensed Codeine 30mg nebulised", "output": "<function_call>administer_medication(drug_name='Codeine', dose='30mg', route='NEB')</function_call>"}
+{"instruction": "Recorded BP of 174/63, temp: 39.2C", "output": "<function_call>record_vitals(systolic=174, diastolic=63, temp_c=39.2)</function_call>"}
+{"instruction": "Patient received Insulin 12 units under the tongue", "output": "<function_call>administer_medication(drug_name='Insulin', dose='12 units', route='SL')</function_call>"}
+{"instruction": "Search for whistleblowing guidelines", "output": "<function_call>search_nmc_standards(query='whistleblowing')</function_call>"}
+{"instruction": "Just took obs: Systolic 143, diastolic 101, pulse is 54", "output": "<function_call>record_vitals(systolic=143, diastolic=101, heart_rate=54)</function_call>"}
+{"instruction": "Look up patient dignity in the NMC Code", "output": "<function_call>search_nmc_standards(query='patient dignity')</function_call>"}
+{"instruction": "Prednisolone 25mg sublingually given", "output": "<function_call>administer_medication(drug_name='Prednisolone', dose='25mg', route='SL')</function_call>"}
+{"instruction": "On assessment: Blood pressure 147 systolic, 66 diastolic, pulse rate 70bpm", "output": "<function_call>record_vitals(systolic=147, diastolic=66, heart_rate=70)</function_call>"}
+{"instruction": "Dalteparin 5000 units administered patch applied", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='5000 units', route='TD')</function_call>"}
+{"instruction": "Gave Enoxaparin 60mg IV", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='60mg', route='IV')</function_call>"}
+{"instruction": "On assessment: Blood pressure measured at 179/87, HR 94", "output": "<function_call>record_vitals(systolic=179, diastolic=87, heart_rate=94)</function_call>"}
+{"instruction": "BP taken: 173/84, pulse is 65, temp: 35.8C", "output": "<function_call>record_vitals(systolic=173, diastolic=84, heart_rate=65, temp_c=35.8)</function_call>"}
+{"instruction": "Search for social media guidelines", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "Recorded BP of 105/110, pulse is 71, temp: 35.9C", "output": "<function_call>record_vitals(systolic=105, diastolic=110, heart_rate=71, temp_c=35.9)</function_call>"}
+{"instruction": "Dispensed Codeine 30mg topically", "output": "<function_call>administer_medication(drug_name='Codeine', dose='30mg', route='TD')</function_call>"}
+{"instruction": "Pre-procedure: BP taken: 102/60, pulse: 71", "output": "<function_call>record_vitals(systolic=102, diastolic=60, heart_rate=71)</function_call>"}
+{"instruction": "Gave Ibuprofen 600mg via IV line", "output": "<function_call>administer_medication(drug_name='Ibuprofen', dose='600mg', route='IV')</function_call>"}
+{"instruction": "Administered Amlodipine 5mg IM", "output": "<function_call>administer_medication(drug_name='Amlodipine', dose='5mg', route='IM')</function_call>"}
+{"instruction": "HR 72, temp: 36.2C", "output": "<function_call>record_vitals(heart_rate=72, temp_c=36.2)</function_call>"}
+{"instruction": "What are the NMC standards for consent?", "output": "<function_call>search_nmc_standards(query='consent')</function_call>"}
+{"instruction": "BP is 102/96", "output": "<function_call>record_vitals(systolic=102, diastolic=96)</function_call>"}
+{"instruction": "Post-op vitals: Blood pressure 127 systolic, 60 diastolic, pulse rate 102bpm", "output": "<function_call>record_vitals(systolic=127, diastolic=60, heart_rate=102)</function_call>"}
+{"instruction": "Diazepam 10mg administered nebulised", "output": "<function_call>administer_medication(drug_name='Diazepam', dose='10mg', route='NEB')</function_call>"}
+{"instruction": "Check NMC guidance: capacity", "output": "<function_call>search_nmc_standards(query='capacity')</function_call>"}
+{"instruction": "Insulin 12 units administered intravenously", "output": "<function_call>administer_medication(drug_name='Insulin', dose='12 units', route='IV')</function_call>"}
+{"instruction": "Blood pressure: 139/100, heart rate 105, temp 37.4", "output": "<function_call>record_vitals(systolic=139, diastolic=100, heart_rate=105, temp_c=37.4)</function_call>"}
+{"instruction": "Check NMC guidance: safeguarding", "output": "<function_call>search_nmc_standards(query='safeguarding')</function_call>"}
+{"instruction": "Administered Tramadol 100mg nebulised", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='100mg', route='NEB')</function_call>"}
+{"instruction": "Dispensed Paracetamol 1000mg topically", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1000mg', route='TD')</function_call>"}
+{"instruction": "Medication given: Furosemide 20mg nebulizer", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='20mg', route='NEB')</function_call>"}
+{"instruction": "What's the NMC position on whistleblowing?", "output": "<function_call>search_nmc_standards(query='whistleblowing')</function_call>"}
+{"instruction": "Patient observations: Recorded BP of 163/83, heart rate of 64", "output": "<function_call>record_vitals(systolic=163, diastolic=83, heart_rate=64)</function_call>"}
+{"instruction": "What's the NMC position on record keeping?", "output": "<function_call>search_nmc_standards(query='record keeping')</function_call>"}
+{"instruction": "Blood pressure 124 systolic, 72 diastolic, pulse 94", "output": "<function_call>record_vitals(systolic=124, diastolic=72, heart_rate=94)</function_call>"}
+{"instruction": "Given Morphine 10mg IM injection", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IM')</function_call>"}
+{"instruction": "Help me understand NMC requirements for fitness to practise", "output": "<function_call>search_nmc_standards(query='fitness to practise')</function_call>"}
+{"instruction": "Look up safeguarding in the NMC Code", "output": "<function_call>search_nmc_standards(query='safeguarding')</function_call>"}
+{"instruction": "Administered Tramadol 50mg PR", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='50mg', route='PR')</function_call>"}
+{"instruction": "Patient's BP 158 over 91, pulse is 81, febrile at 36.9", "output": "<function_call>record_vitals(systolic=158, diastolic=91, heart_rate=81, temp_c=36.9)</function_call>"}
+{"instruction": "Find information about consent from NMC", "output": "<function_call>search_nmc_standards(query='consent')</function_call>"}
+{"instruction": "NMC guidance on clinical governance", "output": "<function_call>search_nmc_standards(query='clinical governance')</function_call>"}
+{"instruction": "Dispensed Insulin 6 units subcut", "output": "<function_call>administer_medication(drug_name='Insulin', dose='6 units', route='SC')</function_call>"}
+{"instruction": "Post-op vitals: Current BP: 180/79mmHg, HR 91", "output": "<function_call>record_vitals(systolic=180, diastolic=79, heart_rate=91)</function_call>"}
+{"instruction": "Search NMC guidelines for pain management", "output": "<function_call>search_nmc_standards(query='pain management')</function_call>"}
+{"instruction": "On assessment: Recorded BP of 157/100, pulse rate 77bpm", "output": "<function_call>record_vitals(systolic=157, diastolic=100, heart_rate=77)</function_call>"}
+{"instruction": "heart rate 116, temp 38.9\u00b0C", "output": "<function_call>record_vitals(heart_rate=116, temp_c=38.9)</function_call>"}
+{"instruction": "Gave Omeprazole 40mg intramuscularly", "output": "<function_call>administer_medication(drug_name='Omeprazole', dose='40mg', route='IM')</function_call>"}
+{"instruction": "What does the Code say about deprivation of liberty?", "output": "<function_call>search_nmc_standards(query='deprivation of liberty')</function_call>"}
+{"instruction": "heart rate 113, temperature 35.8", "output": "<function_call>record_vitals(heart_rate=113, temp_c=35.8)</function_call>"}
+{"instruction": "Blood pressure measured at 176/90, HR 60, temperature of 36.6 degrees", "output": "<function_call>record_vitals(systolic=176, diastolic=90, heart_rate=60, temp_c=36.6)</function_call>"}
+{"instruction": "Medication given: Clopidogrel 75mg IM injection", "output": "<function_call>administer_medication(drug_name='Clopidogrel', dose='75mg', route='IM')</function_call>"}
+{"instruction": "Given Atorvastatin 40mg transdermal", "output": "<function_call>administer_medication(drug_name='Atorvastatin', dose='40mg', route='TD')</function_call>"}
+{"instruction": "heart rate of 88, febrile at 36.5", "output": "<function_call>record_vitals(heart_rate=88, temp_c=36.5)</function_call>"}
+{"instruction": "BP is 100/105", "output": "<function_call>record_vitals(systolic=100, diastolic=105)</function_call>"}
+{"instruction": "Blood pressure measured at 158/92", "output": "<function_call>record_vitals(systolic=158, diastolic=92)</function_call>"}
+{"instruction": "Patient observations: BP is 91/50, pulse 103", "output": "<function_call>record_vitals(systolic=91, diastolic=50, heart_rate=103)</function_call>"}
+{"instruction": "Current readings: Blood pressure: 151/110, pulse rate 75bpm", "output": "<function_call>record_vitals(systolic=151, diastolic=110, heart_rate=75)</function_call>"}
+{"instruction": "Check NMC guidance: revalidation", "output": "<function_call>search_nmc_standards(query='revalidation')</function_call>"}
+{"instruction": "What are the NMC standards for confidentiality?", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient's BP 130 over 91, temp 38.3", "output": "<function_call>record_vitals(systolic=130, diastolic=91, temp_c=38.3)</function_call>"}
+{"instruction": "Administered Aspirin 75mg intravenous", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='75mg', route='IV')</function_call>"}
+{"instruction": "I need NMC guidelines on clinical governance", "output": "<function_call>search_nmc_standards(query='clinical governance')</function_call>"}
+{"instruction": "Blood pressure measured at 94/51, pulse is 89", "output": "<function_call>record_vitals(systolic=94, diastolic=51, heart_rate=89)</function_call>"}
+{"instruction": "Dispensed Tramadol 50mg topically", "output": "<function_call>administer_medication(drug_name='Tramadol', dose='50mg', route='TD')</function_call>"}
+{"instruction": "pulse: 111, febrile at 37.8", "output": "<function_call>record_vitals(heart_rate=111, temp_c=37.8)</function_call>"}
+{"instruction": "Just took obs: Patient's BP 157 over 59, HR 118", "output": "<function_call>record_vitals(systolic=157, diastolic=59, heart_rate=118)</function_call>"}
+{"instruction": "Paracetamol 1g administered orally", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Medication given: Furosemide 40mg PO", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='40mg', route='PO')</function_call>"}
+{"instruction": "Blood pressure: 163/61", "output": "<function_call>record_vitals(systolic=163, diastolic=61)</function_call>"}
+{"instruction": "Check NMC guidance: social media", "output": "<function_call>search_nmc_standards(query='social media')</function_call>"}
+{"instruction": "What does the Code say about safeguarding?", "output": "<function_call>search_nmc_standards(query='safeguarding')</function_call>"}
+{"instruction": "Patient received Omeprazole 20mg intramuscularly", "output": "<function_call>administer_medication(drug_name='Omeprazole', dose='20mg', route='IM')</function_call>"}
+{"instruction": "Given Ibuprofen 200mg IM injection", "output": "<function_call>administer_medication(drug_name='Ibuprofen', dose='200mg', route='IM')</function_call>"}
+{"instruction": "rectally Insulin 12 units", "output": "<function_call>administer_medication(drug_name='Insulin', dose='12 units', route='PR')</function_call>"}
+{"instruction": "BP is 123/68, temperature of 36.5 degrees", "output": "<function_call>record_vitals(systolic=123, diastolic=68, temp_c=36.5)</function_call>"}
+{"instruction": "NMC guidance on hand hygiene", "output": "<function_call>search_nmc_standards(query='hand hygiene')</function_call>"}
+{"instruction": "Given Enoxaparin 40mg intramuscularly", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='40mg', route='IM')</function_call>"}
+{"instruction": "NMC guidance on medicines management", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Vital signs: Current BP: 140/78mmHg, heart rate of 100", "output": "<function_call>record_vitals(systolic=140, diastolic=78, heart_rate=100)</function_call>"}
+{"instruction": "Check NMC guidance: confidentiality", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient's BP 172 over 92, temperature of 37.6 degrees", "output": "<function_call>record_vitals(systolic=172, diastolic=92, temp_c=37.6)</function_call>"}
+{"instruction": "heart rate 55, temperature 35.8", "output": "<function_call>record_vitals(heart_rate=55, temp_c=35.8)</function_call>"}
+{"instruction": "Patient's BP 155 over 54, heart rate of 74", "output": "<function_call>record_vitals(systolic=155, diastolic=54, heart_rate=74)</function_call>"}
+{"instruction": "Gave Metformin 850mg nebulised", "output": "<function_call>administer_medication(drug_name='Metformin', dose='850mg', route='NEB')</function_call>"}
+{"instruction": "Prednisolone 40mg given IM to patient", "output": "<function_call>administer_medication(drug_name='Prednisolone', dose='40mg', route='IM')</function_call>"}
+{"instruction": "Find NMC guidance on hand hygiene", "output": "<function_call>search_nmc_standards(query='hand hygiene')</function_call>"}
+{"instruction": "sublingually Metformin 500mg", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='SL')</function_call>"}
+{"instruction": "Admission vitals: BP is 104/106, HR 114", "output": "<function_call>record_vitals(systolic=104, diastolic=106, heart_rate=114)</function_call>"}
+{"instruction": "Morphine 5mg administered under the skin", "output": "<function_call>administer_medication(drug_name='Morphine', dose='5mg', route='SC')</function_call>"}
+{"instruction": "What's the NMC position on consent?", "output": "<function_call>search_nmc_standards(query='consent')</function_call>"}
+{"instruction": "Help me understand NMC requirements for raising concerns", "output": "<function_call>search_nmc_standards(query='raising concerns')</function_call>"}
+{"instruction": "BP taken: 151/60, pulse rate 72bpm", "output": "<function_call>record_vitals(systolic=151, diastolic=60, heart_rate=72)</function_call>"}
+{"instruction": "via nebuliser Simvastatin 20mg", "output": "<function_call>administer_medication(drug_name='Simvastatin', dose='20mg', route='NEB')</function_call>"}
+{"instruction": "Gave Paracetamol 500mg rectally", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='500mg', route='PR')</function_call>"}
+{"instruction": "Obs recorded: Blood pressure measured at 167/52, heart rate of 58", "output": "<function_call>record_vitals(systolic=167, diastolic=52, heart_rate=58)</function_call>"}
+{"instruction": "SC Aspirin 75mg", "output": "<function_call>administer_medication(drug_name='Aspirin', dose='75mg', route='SC')</function_call>"}
+{"instruction": "Dalteparin 5000 units PO given", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='5000 units', route='PO')</function_call>"}
+{"instruction": "Medication given: Clopidogrel 75mg transdermal", "output": "<function_call>administer_medication(drug_name='Clopidogrel', dose='75mg', route='TD')</function_call>"}
+{"instruction": "subcutaneously Enoxaparin 40mg", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='40mg', route='SC')</function_call>"}
+{"instruction": "BP taken: 133/74, HR: 57/min, T: 38.5", "output": "<function_call>record_vitals(systolic=133, diastolic=74, heart_rate=57, temp_c=38.5)</function_call>"}
+{"instruction": "Admission vitals: BP is 135/57, HR 53", "output": "<function_call>record_vitals(systolic=135, diastolic=57, heart_rate=53)</function_call>"}
+{"instruction": "Search for fitness to practise guidelines", "output": "<function_call>search_nmc_standards(query='fitness to practise')</function_call>"}
+{"instruction": "I need NMC guidelines on end of life care", "output": "<function_call>search_nmc_standards(query='end of life care')</function_call>"}
+{"instruction": "Find information about revalidation from NMC", "output": "<function_call>search_nmc_standards(query='revalidation')</function_call>"}
+{"instruction": "What does the NMC say about accountability?", "output": "<function_call>search_nmc_standards(query='accountability')</function_call>"}
+{"instruction": "Current BP: 173/96mmHg, pulse 97", "output": "<function_call>record_vitals(systolic=173, diastolic=96, heart_rate=97)</function_call>"}
+{"instruction": "Blood pressure 141 systolic, 94 diastolic, HR: 91/min", "output": "<function_call>record_vitals(systolic=141, diastolic=94, heart_rate=91)</function_call>"}
+{"instruction": "Enoxaparin 20mg administered under the skin", "output": "<function_call>administer_medication(drug_name='Enoxaparin', dose='20mg', route='SC')</function_call>"}
+{"instruction": "nebulizer Furosemide 40mg", "output": "<function_call>administer_medication(drug_name='Furosemide', dose='40mg', route='NEB')</function_call>"}
+{"instruction": "Blood pressure 148 systolic, 72 diastolic, HR: 108/min", "output": "<function_call>record_vitals(systolic=148, diastolic=72, heart_rate=108)</function_call>"}
+{"instruction": "Find information about deprivation of liberty from NMC", "output": "<function_call>search_nmc_standards(query='deprivation of liberty')</function_call>"}
+{"instruction": "BP is 137/72, febrile at 38.3", "output": "<function_call>record_vitals(systolic=137, diastolic=72, temp_c=38.3)</function_call>"}
+{"instruction": "Metformin 500mg given PO to patient", "output": "<function_call>administer_medication(drug_name='Metformin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "What are the NMC standards for whistleblowing?", "output": "<function_call>search_nmc_standards(query='whistleblowing')</function_call>"}
+{"instruction": "Blood pressure 105 systolic, 56 diastolic, HR: 73/min", "output": "<function_call>record_vitals(systolic=105, diastolic=56, heart_rate=73)</function_call>"}
+{"instruction": "Amlodipine 5mg administered orally", "output": "<function_call>administer_medication(drug_name='Amlodipine', dose='5mg', route='PO')</function_call>"}
+{"instruction": "Dispensed Simvastatin 40mg under the skin", "output": "<function_call>administer_medication(drug_name='Simvastatin', dose='40mg', route='SC')</function_call>"}
+{"instruction": "Morning obs: Patient's BP 163 over 88, heart rate 68", "output": "<function_call>record_vitals(systolic=163, diastolic=88, heart_rate=68)</function_call>"}
+{"instruction": "Systolic 174, diastolic 52, pulse: 97", "output": "<function_call>record_vitals(systolic=174, diastolic=52, heart_rate=97)</function_call>"}
+{"instruction": "Insulin 4 units patch applied given", "output": "<function_call>administer_medication(drug_name='Insulin', dose='4 units', route='TD')</function_call>"}
+{"instruction": "Dalteparin 5000 units administered PO", "output": "<function_call>administer_medication(drug_name='Dalteparin', dose='5000 units', route='PO')</function_call>"}
+{"instruction": "Gave Atorvastatin 40mg IM injection", "output": "<function_call>administer_medication(drug_name='Atorvastatin', dose='40mg', route='IM')</function_call>"}
+{"instruction": "Look up delegation in the NMC Code", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "NMC standards regarding medicines management", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Patient received Paracetamol 1g IM", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='IM')</function_call>"}
+{"instruction": "Systolic 112, diastolic 104, HR: 66/min, temp 38.8\u00b0C", "output": "<function_call>record_vitals(systolic=112, diastolic=104, heart_rate=66, temp_c=38.8)</function_call>"}
+{"instruction": "BP reading: 179/81", "output": "<function_call>record_vitals(systolic=179, diastolic=81)</function_call>"}

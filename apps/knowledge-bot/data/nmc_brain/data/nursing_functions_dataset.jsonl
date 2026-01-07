@@ -1,0 +1,500 @@
+{"instruction": "Vitals check: Heart rate 87, Blood pressure 126 over 62.", "input": "", "output": "<function_call>record_vitals(systolic=126, diastolic=62, heart_rate=87, temp_c=37.5)</function_call>"}
+{"instruction": "Please record stats: 134/86 mmHg, 103 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=134, diastolic=86, heart_rate=103, temp_c=37.9)</function_call>"}
+{"instruction": "What does the NMC say about duty of candour?", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Please record stats: 152/75 mmHg, 70 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=152, diastolic=75, heart_rate=70, temp_c=38.3)</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Vitals check: Heart rate 103, Blood pressure 154 over 89.", "input": "", "output": "<function_call>record_vitals(systolic=154, diastolic=89, heart_rate=103, temp_c=37.9)</function_call>"}
+{"instruction": "Please record stats: 117/91 mmHg, 89 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=117, diastolic=91, heart_rate=89, temp_c=37.0)</function_call>"}
+{"instruction": "Patient's BP is 96/63, pulse 107, temp 37.9.", "input": "", "output": "<function_call>record_vitals(systolic=96, diastolic=63, heart_rate=107, temp_c=37.9)</function_call>"}
+{"instruction": "Patient's BP is 104/65, pulse 69, temp 36.1.", "input": "", "output": "<function_call>record_vitals(systolic=104, diastolic=65, heart_rate=69, temp_c=36.1)</function_call>"}
+{"instruction": "Is it okay to post this? Check medicines management rules.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Patient's BP is 148/100, pulse 92, temp 37.7.", "input": "", "output": "<function_call>record_vitals(systolic=148, diastolic=100, heart_rate=92, temp_c=37.7)</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Check the guidelines on duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Please record stats: 111/65 mmHg, 88 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=111, diastolic=65, heart_rate=88, temp_c=37.0)</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Please record stats: 97/92 mmHg, 98 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=97, diastolic=92, heart_rate=98, temp_c=38.1)</function_call>"}
+{"instruction": "Vitals check: Heart rate 78, Blood pressure 137 over 78.", "input": "", "output": "<function_call>record_vitals(systolic=137, diastolic=78, heart_rate=78, temp_c=37.1)</function_call>"}
+{"instruction": "What does the NMC say about duty of candour?", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Please record stats: 149/64 mmHg, 86 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=149, diastolic=64, heart_rate=86, temp_c=36.6)</function_call>"}
+{"instruction": "What does the NMC say about duty of candour?", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Search standards for delegation.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Patient's BP is 113/71, pulse 102, temp 38.4.", "input": "", "output": "<function_call>record_vitals(systolic=113, diastolic=71, heart_rate=102, temp_c=38.4)</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Just took obs. T 38.3, P 83, BP 115/71.", "input": "", "output": "<function_call>record_vitals(systolic=115, diastolic=71, heart_rate=83, temp_c=38.3)</function_call>"}
+{"instruction": "Patient's BP is 131/70, pulse 108, temp 37.7.", "input": "", "output": "<function_call>record_vitals(systolic=131, diastolic=70, heart_rate=108, temp_c=37.7)</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Is it okay to post this? Check medicines management rules.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Please record stats: 97/89 mmHg, 98 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=97, diastolic=89, heart_rate=98, temp_c=37.1)</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Just took obs. T 38.4, P 75, BP 104/63.", "input": "", "output": "<function_call>record_vitals(systolic=104, diastolic=63, heart_rate=75, temp_c=38.4)</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on delegation.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Patient's BP is 146/96, pulse 85, temp 37.3.", "input": "", "output": "<function_call>record_vitals(systolic=146, diastolic=96, heart_rate=85, temp_c=37.3)</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Please record stats: 127/70 mmHg, 105 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=127, diastolic=70, heart_rate=105, temp_c=38.4)</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 72, Blood pressure 111 over 74.", "input": "", "output": "<function_call>record_vitals(systolic=111, diastolic=74, heart_rate=72, temp_c=36.8)</function_call>"}
+{"instruction": "Please record stats: 139/89 mmHg, 99 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=139, diastolic=89, heart_rate=99, temp_c=38.1)</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Vitals check: Heart rate 88, Blood pressure 98 over 93.", "input": "", "output": "<function_call>record_vitals(systolic=98, diastolic=93, heart_rate=88, temp_c=37.7)</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Please record stats: 97/70 mmHg, 71 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=97, diastolic=70, heart_rate=71, temp_c=36.3)</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Vitals check: Heart rate 92, Blood pressure 116 over 68.", "input": "", "output": "<function_call>record_vitals(systolic=116, diastolic=68, heart_rate=92, temp_c=37.4)</function_call>"}
+{"instruction": "Patient's BP is 114/82, pulse 88, temp 36.2.", "input": "", "output": "<function_call>record_vitals(systolic=114, diastolic=82, heart_rate=88, temp_c=36.2)</function_call>"}
+{"instruction": "Just took obs. T 36.5, P 66, BP 149/72.", "input": "", "output": "<function_call>record_vitals(systolic=149, diastolic=72, heart_rate=66, temp_c=36.5)</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient's BP is 136/91, pulse 73, temp 37.2.", "input": "", "output": "<function_call>record_vitals(systolic=136, diastolic=91, heart_rate=73, temp_c=37.2)</function_call>"}
+{"instruction": "Just took obs. T 37.3, P 102, BP 133/73.", "input": "", "output": "<function_call>record_vitals(systolic=133, diastolic=73, heart_rate=102, temp_c=37.3)</function_call>"}
+{"instruction": "Vitals check: Heart rate 67, Blood pressure 144 over 79.", "input": "", "output": "<function_call>record_vitals(systolic=144, diastolic=79, heart_rate=67, temp_c=38.4)</function_call>"}
+{"instruction": "Just took obs. T 37.0, P 105, BP 101/90.", "input": "", "output": "<function_call>record_vitals(systolic=101, diastolic=90, heart_rate=105, temp_c=37.0)</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 65, Blood pressure 156 over 77.", "input": "", "output": "<function_call>record_vitals(systolic=156, diastolic=77, heart_rate=65, temp_c=36.1)</function_call>"}
+{"instruction": "Vitals check: Heart rate 63, Blood pressure 91 over 65.", "input": "", "output": "<function_call>record_vitals(systolic=91, diastolic=65, heart_rate=63, temp_c=37.0)</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 68, Blood pressure 145 over 68.", "input": "", "output": "<function_call>record_vitals(systolic=145, diastolic=68, heart_rate=68, temp_c=37.9)</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Just took obs. T 38.3, P 94, BP 99/73.", "input": "", "output": "<function_call>record_vitals(systolic=99, diastolic=73, heart_rate=94, temp_c=38.3)</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Just took obs. T 36.5, P 99, BP 147/88.", "input": "", "output": "<function_call>record_vitals(systolic=147, diastolic=88, heart_rate=99, temp_c=36.5)</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Vitals check: Heart rate 97, Blood pressure 126 over 97.", "input": "", "output": "<function_call>record_vitals(systolic=126, diastolic=97, heart_rate=97, temp_c=36.5)</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Please record stats: 146/99 mmHg, 91 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=146, diastolic=99, heart_rate=91, temp_c=36.6)</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Search standards for social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Is it okay to post this? Check medicines management rules.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Patient's BP is 133/86, pulse 89, temp 37.4.", "input": "", "output": "<function_call>record_vitals(systolic=133, diastolic=86, heart_rate=89, temp_c=37.4)</function_call>"}
+{"instruction": "What does the NMC say about social media use?", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Please record stats: 91/71 mmHg, 106 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=91, diastolic=71, heart_rate=106, temp_c=37.5)</function_call>"}
+{"instruction": "Please record stats: 102/77 mmHg, 64 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=102, diastolic=77, heart_rate=64, temp_c=38.1)</function_call>"}
+{"instruction": "Patient's BP is 103/97, pulse 74, temp 37.5.", "input": "", "output": "<function_call>record_vitals(systolic=103, diastolic=97, heart_rate=74, temp_c=37.5)</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient's BP is 95/97, pulse 103, temp 38.5.", "input": "", "output": "<function_call>record_vitals(systolic=95, diastolic=97, heart_rate=103, temp_c=38.5)</function_call>"}
+{"instruction": "Patient's BP is 95/98, pulse 76, temp 37.0.", "input": "", "output": "<function_call>record_vitals(systolic=95, diastolic=98, heart_rate=76, temp_c=37.0)</function_call>"}
+{"instruction": "Search standards for confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Vitals check: Heart rate 92, Blood pressure 139 over 82.", "input": "", "output": "<function_call>record_vitals(systolic=139, diastolic=82, heart_rate=92, temp_c=36.5)</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Vitals check: Heart rate 91, Blood pressure 154 over 89.", "input": "", "output": "<function_call>record_vitals(systolic=154, diastolic=89, heart_rate=91, temp_c=37.6)</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Patient received Paracetamol 1g orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 84, Blood pressure 143 over 98.", "input": "", "output": "<function_call>record_vitals(systolic=143, diastolic=98, heart_rate=84, temp_c=36.4)</function_call>"}
+{"instruction": "Just took obs. T 36.8, P 86, BP 93/80.", "input": "", "output": "<function_call>record_vitals(systolic=93, diastolic=80, heart_rate=86, temp_c=36.8)</function_call>"}
+{"instruction": "Search standards for social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Vitals check: Heart rate 81, Blood pressure 100 over 77.", "input": "", "output": "<function_call>record_vitals(systolic=100, diastolic=77, heart_rate=81, temp_c=37.8)</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient's BP is 149/82, pulse 99, temp 36.7.", "input": "", "output": "<function_call>record_vitals(systolic=149, diastolic=82, heart_rate=99, temp_c=36.7)</function_call>"}
+{"instruction": "Just took obs. T 36.6, P 91, BP 150/98.", "input": "", "output": "<function_call>record_vitals(systolic=150, diastolic=98, heart_rate=91, temp_c=36.6)</function_call>"}
+{"instruction": "Search standards for confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient's BP is 124/82, pulse 67, temp 38.2.", "input": "", "output": "<function_call>record_vitals(systolic=124, diastolic=82, heart_rate=67, temp_c=38.2)</function_call>"}
+{"instruction": "Is it okay to post this? Check medicines management rules.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Search standards for social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Please record stats: 150/61 mmHg, 107 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=150, diastolic=61, heart_rate=107, temp_c=36.4)</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "What does the NMC say about delegation?", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Patient's BP is 129/68, pulse 108, temp 38.2.", "input": "", "output": "<function_call>record_vitals(systolic=129, diastolic=68, heart_rate=108, temp_c=38.2)</function_call>"}
+{"instruction": "Vitals check: Heart rate 62, Blood pressure 108 over 91.", "input": "", "output": "<function_call>record_vitals(systolic=108, diastolic=91, heart_rate=62, temp_c=38.4)</function_call>"}
+{"instruction": "Patient's BP is 118/98, pulse 76, temp 37.9.", "input": "", "output": "<function_call>record_vitals(systolic=118, diastolic=98, heart_rate=76, temp_c=37.9)</function_call>"}
+{"instruction": "Vitals check: Heart rate 101, Blood pressure 131 over 76.", "input": "", "output": "<function_call>record_vitals(systolic=131, diastolic=76, heart_rate=101, temp_c=37.9)</function_call>"}
+{"instruction": "Patient's BP is 132/95, pulse 100, temp 37.4.", "input": "", "output": "<function_call>record_vitals(systolic=132, diastolic=95, heart_rate=100, temp_c=37.4)</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check social media use rules.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Check the guidelines on medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Patient's BP is 91/91, pulse 97, temp 37.0.", "input": "", "output": "<function_call>record_vitals(systolic=91, diastolic=91, heart_rate=97, temp_c=37.0)</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient's BP is 145/70, pulse 74, temp 38.0.", "input": "", "output": "<function_call>record_vitals(systolic=145, diastolic=70, heart_rate=74, temp_c=38.0)</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Is it okay to post this? Check social media use rules.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Please record stats: 101/62 mmHg, 89 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=101, diastolic=62, heart_rate=89, temp_c=36.7)</function_call>"}
+{"instruction": "Patient's BP is 106/92, pulse 81, temp 38.3.", "input": "", "output": "<function_call>record_vitals(systolic=106, diastolic=92, heart_rate=81, temp_c=38.3)</function_call>"}
+{"instruction": "Patient's BP is 94/88, pulse 87, temp 37.5.", "input": "", "output": "<function_call>record_vitals(systolic=94, diastolic=88, heart_rate=87, temp_c=37.5)</function_call>"}
+{"instruction": "Vitals check: Heart rate 90, Blood pressure 108 over 70.", "input": "", "output": "<function_call>record_vitals(systolic=108, diastolic=70, heart_rate=90, temp_c=37.6)</function_call>"}
+{"instruction": "Vitals check: Heart rate 95, Blood pressure 125 over 64.", "input": "", "output": "<function_call>record_vitals(systolic=125, diastolic=64, heart_rate=95, temp_c=37.0)</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient's BP is 103/65, pulse 67, temp 38.1.", "input": "", "output": "<function_call>record_vitals(systolic=103, diastolic=65, heart_rate=67, temp_c=38.1)</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Vitals check: Heart rate 66, Blood pressure 105 over 100.", "input": "", "output": "<function_call>record_vitals(systolic=105, diastolic=100, heart_rate=66, temp_c=37.1)</function_call>"}
+{"instruction": "Vitals check: Heart rate 91, Blood pressure 143 over 87.", "input": "", "output": "<function_call>record_vitals(systolic=143, diastolic=87, heart_rate=91, temp_c=37.7)</function_call>"}
+{"instruction": "Please record stats: 135/90 mmHg, 92 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=135, diastolic=90, heart_rate=92, temp_c=36.2)</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "What does the NMC say about social media use?", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on delegation.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 93, Blood pressure 99 over 83.", "input": "", "output": "<function_call>record_vitals(systolic=99, diastolic=83, heart_rate=93, temp_c=37.2)</function_call>"}
+{"instruction": "Patient's BP is 157/100, pulse 109, temp 36.8.", "input": "", "output": "<function_call>record_vitals(systolic=157, diastolic=100, heart_rate=109, temp_c=36.8)</function_call>"}
+{"instruction": "Search standards for confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient's BP is 100/72, pulse 108, temp 37.2.", "input": "", "output": "<function_call>record_vitals(systolic=100, diastolic=72, heart_rate=108, temp_c=37.2)</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Please record stats: 155/73 mmHg, 92 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=155, diastolic=73, heart_rate=92, temp_c=37.3)</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Vitals check: Heart rate 63, Blood pressure 152 over 68.", "input": "", "output": "<function_call>record_vitals(systolic=152, diastolic=68, heart_rate=63, temp_c=37.4)</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Vitals check: Heart rate 109, Blood pressure 92 over 91.", "input": "", "output": "<function_call>record_vitals(systolic=92, diastolic=91, heart_rate=109, temp_c=38.4)</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Search standards for social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Patient's BP is 139/81, pulse 75, temp 37.3.", "input": "", "output": "<function_call>record_vitals(systolic=139, diastolic=81, heart_rate=75, temp_c=37.3)</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Search standards for social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Please record stats: 157/82 mmHg, 65 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=157, diastolic=82, heart_rate=65, temp_c=37.4)</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Vitals check: Heart rate 84, Blood pressure 156 over 96.", "input": "", "output": "<function_call>record_vitals(systolic=156, diastolic=96, heart_rate=84, temp_c=37.7)</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Just took obs. T 37.9, P 87, BP 99/72.", "input": "", "output": "<function_call>record_vitals(systolic=99, diastolic=72, heart_rate=87, temp_c=37.9)</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Please record stats: 152/63 mmHg, 78 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=152, diastolic=63, heart_rate=78, temp_c=37.6)</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Patient's BP is 139/82, pulse 98, temp 38.1.", "input": "", "output": "<function_call>record_vitals(systolic=139, diastolic=82, heart_rate=98, temp_c=38.1)</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Vitals check: Heart rate 74, Blood pressure 120 over 78.", "input": "", "output": "<function_call>record_vitals(systolic=120, diastolic=78, heart_rate=74, temp_c=37.6)</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Vitals check: Heart rate 62, Blood pressure 160 over 99.", "input": "", "output": "<function_call>record_vitals(systolic=160, diastolic=99, heart_rate=62, temp_c=37.1)</function_call>"}
+{"instruction": "Vitals check: Heart rate 103, Blood pressure 130 over 86.", "input": "", "output": "<function_call>record_vitals(systolic=130, diastolic=86, heart_rate=103, temp_c=36.5)</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Search standards for social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Just took obs. T 36.9, P 79, BP 135/79.", "input": "", "output": "<function_call>record_vitals(systolic=135, diastolic=79, heart_rate=79, temp_c=36.9)</function_call>"}
+{"instruction": "What does the NMC say about delegation?", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Just took obs. T 37.6, P 66, BP 150/82.", "input": "", "output": "<function_call>record_vitals(systolic=150, diastolic=82, heart_rate=66, temp_c=37.6)</function_call>"}
+{"instruction": "Just took obs. T 38.4, P 102, BP 103/70.", "input": "", "output": "<function_call>record_vitals(systolic=103, diastolic=70, heart_rate=102, temp_c=38.4)</function_call>"}
+{"instruction": "What does the NMC say about delegation?", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Please record stats: 144/91 mmHg, 68 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=144, diastolic=91, heart_rate=68, temp_c=38.4)</function_call>"}
+{"instruction": "Please record stats: 145/82 mmHg, 95 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=145, diastolic=82, heart_rate=95, temp_c=38.3)</function_call>"}
+{"instruction": "Patient's BP is 160/83, pulse 95, temp 37.9.", "input": "", "output": "<function_call>record_vitals(systolic=160, diastolic=83, heart_rate=95, temp_c=37.9)</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Patient's BP is 90/60, pulse 87, temp 37.2.", "input": "", "output": "<function_call>record_vitals(systolic=90, diastolic=60, heart_rate=87, temp_c=37.2)</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Patient's BP is 145/60, pulse 81, temp 37.9.", "input": "", "output": "<function_call>record_vitals(systolic=145, diastolic=60, heart_rate=81, temp_c=37.9)</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "What does the NMC say about delegation?", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Just took obs. T 38.5, P 105, BP 123/72.", "input": "", "output": "<function_call>record_vitals(systolic=123, diastolic=72, heart_rate=105, temp_c=38.5)</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 97, Blood pressure 144 over 82.", "input": "", "output": "<function_call>record_vitals(systolic=144, diastolic=82, heart_rate=97, temp_c=38.0)</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient received Paracetamol 1g orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Just took obs. T 37.1, P 92, BP 122/61.", "input": "", "output": "<function_call>record_vitals(systolic=122, diastolic=61, heart_rate=92, temp_c=37.1)</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "What does the NMC say about duty of candour?", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Search standards for social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient's BP is 95/90, pulse 86, temp 38.0.", "input": "", "output": "<function_call>record_vitals(systolic=95, diastolic=90, heart_rate=86, temp_c=38.0)</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Please record stats: 94/62 mmHg, 102 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=94, diastolic=62, heart_rate=102, temp_c=38.2)</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 89, Blood pressure 150 over 81.", "input": "", "output": "<function_call>record_vitals(systolic=150, diastolic=81, heart_rate=89, temp_c=36.8)</function_call>"}
+{"instruction": "Administered 500mg of Amoxicillin via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Just took obs. T 36.9, P 66, BP 101/89.", "input": "", "output": "<function_call>record_vitals(systolic=101, diastolic=89, heart_rate=66, temp_c=36.9)</function_call>"}
+{"instruction": "Vitals check: Heart rate 98, Blood pressure 141 over 99.", "input": "", "output": "<function_call>record_vitals(systolic=141, diastolic=99, heart_rate=98, temp_c=38.0)</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Please record stats: 112/83 mmHg, 90 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=112, diastolic=83, heart_rate=90, temp_c=37.6)</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Just took obs. T 36.5, P 74, BP 140/60.", "input": "", "output": "<function_call>record_vitals(systolic=140, diastolic=60, heart_rate=74, temp_c=36.5)</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "What does the NMC say about duty of candour?", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Please record stats: 107/95 mmHg, 71 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=107, diastolic=95, heart_rate=71, temp_c=36.4)</function_call>"}
+{"instruction": "Patient's BP is 130/88, pulse 69, temp 36.3.", "input": "", "output": "<function_call>record_vitals(systolic=130, diastolic=88, heart_rate=69, temp_c=36.3)</function_call>"}
+{"instruction": "Patient's BP is 90/87, pulse 101, temp 38.5.", "input": "", "output": "<function_call>record_vitals(systolic=90, diastolic=87, heart_rate=101, temp_c=38.5)</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Just took obs. T 38.1, P 90, BP 115/91.", "input": "", "output": "<function_call>record_vitals(systolic=115, diastolic=91, heart_rate=90, temp_c=38.1)</function_call>"}
+{"instruction": "Patient's BP is 120/80, pulse 80, temp 37.6.", "input": "", "output": "<function_call>record_vitals(systolic=120, diastolic=80, heart_rate=80, temp_c=37.6)</function_call>"}
+{"instruction": "Patient received Paracetamol 1g orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Please record stats: 117/65 mmHg, 75 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=117, diastolic=65, heart_rate=75, temp_c=37.4)</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Just took obs. T 37.9, P 60, BP 93/99.", "input": "", "output": "<function_call>record_vitals(systolic=93, diastolic=99, heart_rate=60, temp_c=37.9)</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Patient received Paracetamol 1g orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 100, Blood pressure 119 over 99.", "input": "", "output": "<function_call>record_vitals(systolic=119, diastolic=99, heart_rate=100, temp_c=36.6)</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "What does the NMC say about duty of candour?", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Vitals check: Heart rate 100, Blood pressure 143 over 79.", "input": "", "output": "<function_call>record_vitals(systolic=143, diastolic=79, heart_rate=100, temp_c=38.1)</function_call>"}
+{"instruction": "Patient's BP is 157/61, pulse 96, temp 37.0.", "input": "", "output": "<function_call>record_vitals(systolic=157, diastolic=61, heart_rate=96, temp_c=37.0)</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Vitals check: Heart rate 91, Blood pressure 128 over 64.", "input": "", "output": "<function_call>record_vitals(systolic=128, diastolic=64, heart_rate=91, temp_c=37.7)</function_call>"}
+{"instruction": "Vitals check: Heart rate 91, Blood pressure 126 over 73.", "input": "", "output": "<function_call>record_vitals(systolic=126, diastolic=73, heart_rate=91, temp_c=36.4)</function_call>"}
+{"instruction": "What does the NMC say about delegation?", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Please record stats: 157/100 mmHg, 82 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=157, diastolic=100, heart_rate=82, temp_c=38.4)</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Patient received Paracetamol 1g orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Just took obs. T 36.9, P 78, BP 142/80.", "input": "", "output": "<function_call>record_vitals(systolic=142, diastolic=80, heart_rate=78, temp_c=36.9)</function_call>"}
+{"instruction": "What does the NMC say about duty of candour?", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Search standards for delegation.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Patient's BP is 120/82, pulse 63, temp 36.3.", "input": "", "output": "<function_call>record_vitals(systolic=120, diastolic=82, heart_rate=63, temp_c=36.3)</function_call>"}
+{"instruction": "Patient's BP is 160/84, pulse 86, temp 37.7.", "input": "", "output": "<function_call>record_vitals(systolic=160, diastolic=84, heart_rate=86, temp_c=37.7)</function_call>"}
+{"instruction": "Search standards for confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Just took obs. T 37.4, P 96, BP 124/63.", "input": "", "output": "<function_call>record_vitals(systolic=124, diastolic=63, heart_rate=96, temp_c=37.4)</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Is it okay to post this? Check medicines management rules.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Patient's BP is 155/65, pulse 82, temp 37.0.", "input": "", "output": "<function_call>record_vitals(systolic=155, diastolic=65, heart_rate=82, temp_c=37.0)</function_call>"}
+{"instruction": "Just took obs. T 37.6, P 82, BP 105/73.", "input": "", "output": "<function_call>record_vitals(systolic=105, diastolic=73, heart_rate=82, temp_c=37.6)</function_call>"}
+{"instruction": "Just took obs. T 38.3, P 84, BP 148/94.", "input": "", "output": "<function_call>record_vitals(systolic=148, diastolic=94, heart_rate=84, temp_c=38.3)</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "What does the NMC say about social media use?", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "What does the NMC say about social media use?", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Please record stats: 154/86 mmHg, 68 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=154, diastolic=86, heart_rate=68, temp_c=36.2)</function_call>"}
+{"instruction": "Patient's BP is 148/88, pulse 87, temp 37.6.", "input": "", "output": "<function_call>record_vitals(systolic=148, diastolic=88, heart_rate=87, temp_c=37.6)</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Vitals check: Heart rate 73, Blood pressure 117 over 100.", "input": "", "output": "<function_call>record_vitals(systolic=117, diastolic=100, heart_rate=73, temp_c=38.5)</function_call>"}
+{"instruction": "Patient's BP is 136/72, pulse 70, temp 36.7.", "input": "", "output": "<function_call>record_vitals(systolic=136, diastolic=72, heart_rate=70, temp_c=36.7)</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Please record stats: 143/84 mmHg, 70 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=143, diastolic=84, heart_rate=70, temp_c=38.0)</function_call>"}
+{"instruction": "Search standards for confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Vitals check: Heart rate 101, Blood pressure 143 over 74.", "input": "", "output": "<function_call>record_vitals(systolic=143, diastolic=74, heart_rate=101, temp_c=38.4)</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 83, Blood pressure 90 over 81.", "input": "", "output": "<function_call>record_vitals(systolic=90, diastolic=81, heart_rate=83, temp_c=36.5)</function_call>"}
+{"instruction": "What does the NMC say about social media use?", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check social media use rules.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Is it okay to post this? Check medicines management rules.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Vitals check: Heart rate 84, Blood pressure 100 over 77.", "input": "", "output": "<function_call>record_vitals(systolic=100, diastolic=77, heart_rate=84, temp_c=37.3)</function_call>"}
+{"instruction": "What does the NMC say about social media use?", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Vitals check: Heart rate 76, Blood pressure 122 over 95.", "input": "", "output": "<function_call>record_vitals(systolic=122, diastolic=95, heart_rate=76, temp_c=38.5)</function_call>"}
+{"instruction": "Vitals check: Heart rate 69, Blood pressure 104 over 80.", "input": "", "output": "<function_call>record_vitals(systolic=104, diastolic=80, heart_rate=69, temp_c=37.8)</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Patient's BP is 96/85, pulse 65, temp 37.0.", "input": "", "output": "<function_call>record_vitals(systolic=96, diastolic=85, heart_rate=65, temp_c=37.0)</function_call>"}
+{"instruction": "Is it okay to post this? Check medicines management rules.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Just took obs. T 38.0, P 109, BP 143/72.", "input": "", "output": "<function_call>record_vitals(systolic=143, diastolic=72, heart_rate=109, temp_c=38.0)</function_call>"}
+{"instruction": "Please record stats: 137/96 mmHg, 98 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=137, diastolic=96, heart_rate=98, temp_c=38.2)</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "What does the NMC say about delegation?", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Just took obs. T 38.0, P 73, BP 98/95.", "input": "", "output": "<function_call>record_vitals(systolic=98, diastolic=95, heart_rate=73, temp_c=38.0)</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Just took obs. T 36.1, P 89, BP 122/88.", "input": "", "output": "<function_call>record_vitals(systolic=122, diastolic=88, heart_rate=89, temp_c=36.1)</function_call>"}
+{"instruction": "Please record stats: 156/99 mmHg, 105 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=156, diastolic=99, heart_rate=105, temp_c=37.2)</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient's BP is 146/100, pulse 83, temp 36.7.", "input": "", "output": "<function_call>record_vitals(systolic=146, diastolic=100, heart_rate=83, temp_c=36.7)</function_call>"}
+{"instruction": "Check the guidelines on delegation.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Patient's BP is 98/85, pulse 76, temp 36.8.", "input": "", "output": "<function_call>record_vitals(systolic=98, diastolic=85, heart_rate=76, temp_c=36.8)</function_call>"}
+{"instruction": "Search standards for duty of candour.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Search standards for confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Patient received Paracetamol 1g orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Please record stats: 142/75 mmHg, 66 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=142, diastolic=75, heart_rate=66, temp_c=37.7)</function_call>"}
+{"instruction": "Vitals check: Heart rate 93, Blood pressure 130 over 78.", "input": "", "output": "<function_call>record_vitals(systolic=130, diastolic=78, heart_rate=93, temp_c=37.3)</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 104, Blood pressure 109 over 87.", "input": "", "output": "<function_call>record_vitals(systolic=109, diastolic=87, heart_rate=104, temp_c=38.4)</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Just took obs. T 36.6, P 78, BP 152/77.", "input": "", "output": "<function_call>record_vitals(systolic=152, diastolic=77, heart_rate=78, temp_c=36.6)</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Check the guidelines on delegation.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Patient's BP is 113/91, pulse 71, temp 38.2.", "input": "", "output": "<function_call>record_vitals(systolic=113, diastolic=91, heart_rate=71, temp_c=38.2)</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Just took obs. T 38.2, P 65, BP 127/61.", "input": "", "output": "<function_call>record_vitals(systolic=127, diastolic=61, heart_rate=65, temp_c=38.2)</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Patient received Paracetamol 1g orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Search standards for social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Vitals check: Heart rate 71, Blood pressure 151 over 82.", "input": "", "output": "<function_call>record_vitals(systolic=151, diastolic=82, heart_rate=71, temp_c=36.3)</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Search standards for medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Vitals check: Heart rate 102, Blood pressure 99 over 68.", "input": "", "output": "<function_call>record_vitals(systolic=99, diastolic=68, heart_rate=102, temp_c=37.8)</function_call>"}
+{"instruction": "Is it okay to post this? Check medicines management rules.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Please record stats: 135/60 mmHg, 83 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=135, diastolic=60, heart_rate=83, temp_c=37.2)</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "What does the NMC say about delegation?", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Just took obs. T 36.6, P 83, BP 102/85.", "input": "", "output": "<function_call>record_vitals(systolic=102, diastolic=85, heart_rate=83, temp_c=36.6)</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Please record stats: 124/62 mmHg, 76 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=124, diastolic=62, heart_rate=76, temp_c=37.6)</function_call>"}
+{"instruction": "Just took obs. T 36.7, P 83, BP 152/75.", "input": "", "output": "<function_call>record_vitals(systolic=152, diastolic=75, heart_rate=83, temp_c=36.7)</function_call>"}
+{"instruction": "Administered 10mg of Morphine via IV route.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Patient's BP is 125/96, pulse 80, temp 36.6.", "input": "", "output": "<function_call>record_vitals(systolic=125, diastolic=96, heart_rate=80, temp_c=36.6)</function_call>"}
+{"instruction": "Just took obs. T 37.6, P 76, BP 95/98.", "input": "", "output": "<function_call>record_vitals(systolic=95, diastolic=98, heart_rate=76, temp_c=37.6)</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Is it okay to post this? Check duty of candour rules.", "input": "", "output": "<function_call>search_nmc_standards(query='duty of candour')</function_call>"}
+{"instruction": "Please record stats: 121/66 mmHg, 72 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=121, diastolic=66, heart_rate=72, temp_c=37.8)</function_call>"}
+{"instruction": "Vitals check: Heart rate 81, Blood pressure 130 over 76.", "input": "", "output": "<function_call>record_vitals(systolic=130, diastolic=76, heart_rate=81, temp_c=38.4)</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check social media use rules.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient's BP is 141/83, pulse 61, temp 36.7.", "input": "", "output": "<function_call>record_vitals(systolic=141, diastolic=83, heart_rate=61, temp_c=36.7)</function_call>"}
+{"instruction": "Please record stats: 134/74 mmHg, 65 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=134, diastolic=74, heart_rate=65, temp_c=37.5)</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Check the guidelines on medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Signed off Paracetamol 1g.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "I have given Amoxicillin 500mg PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Patient's BP is 122/71, pulse 72, temp 36.6.", "input": "", "output": "<function_call>record_vitals(systolic=122, diastolic=71, heart_rate=72, temp_c=36.6)</function_call>"}
+{"instruction": "Signed off Amoxicillin 500mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Check the guidelines on confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Patient's BP is 134/65, pulse 63, temp 37.9.", "input": "", "output": "<function_call>record_vitals(systolic=134, diastolic=65, heart_rate=63, temp_c=37.9)</function_call>"}
+{"instruction": "Please record stats: 94/82 mmHg, 60 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=94, diastolic=82, heart_rate=60, temp_c=37.1)</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Just took obs. T 37.5, P 81, BP 145/93.", "input": "", "output": "<function_call>record_vitals(systolic=145, diastolic=93, heart_rate=81, temp_c=37.5)</function_call>"}
+{"instruction": "What does the NMC say about delegation?", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Vitals check: Heart rate 104, Blood pressure 158 over 86.", "input": "", "output": "<function_call>record_vitals(systolic=158, diastolic=86, heart_rate=104, temp_c=37.5)</function_call>"}
+{"instruction": "Patient received Amoxicillin 500mg orally.", "input": "", "output": "<function_call>administer_medication(drug_name='Amoxicillin', dose='500mg', route='PO')</function_call>"}
+{"instruction": "Please record stats: 105/85 mmHg, 75 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=105, diastolic=85, heart_rate=75, temp_c=38.1)</function_call>"}
+{"instruction": "I have given Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Check the guidelines on medicines management.", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Search standards for confidentiality.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Please record stats: 153/82 mmHg, 108 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=153, diastolic=82, heart_rate=108, temp_c=37.5)</function_call>"}
+{"instruction": "Please record stats: 116/64 mmHg, 110 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=116, diastolic=64, heart_rate=110, temp_c=37.1)</function_call>"}
+{"instruction": "Patient had Morphine 10mg IV.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Is it okay to post this? Check social media use rules.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "What does the NMC say about medicines management?", "input": "", "output": "<function_call>search_nmc_standards(query='medicines management')</function_call>"}
+{"instruction": "Check the guidelines on social media use.", "input": "", "output": "<function_call>search_nmc_standards(query='social media use')</function_call>"}
+{"instruction": "Check the guidelines on delegation.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Is it okay to post this? Check confidentiality rules.", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Vitals check: Heart rate 99, Blood pressure 160 over 70.", "input": "", "output": "<function_call>record_vitals(systolic=160, diastolic=70, heart_rate=99, temp_c=37.3)</function_call>"}
+{"instruction": "What does the NMC say about confidentiality?", "input": "", "output": "<function_call>search_nmc_standards(query='confidentiality')</function_call>"}
+{"instruction": "Just took obs. T 37.5, P 79, BP 138/81.", "input": "", "output": "<function_call>record_vitals(systolic=138, diastolic=81, heart_rate=79, temp_c=37.5)</function_call>"}
+{"instruction": "Patient's BP is 117/69, pulse 79, temp 37.4.", "input": "", "output": "<function_call>record_vitals(systolic=117, diastolic=69, heart_rate=79, temp_c=37.4)</function_call>"}
+{"instruction": "Is it okay to post this? Check delegation rules.", "input": "", "output": "<function_call>search_nmc_standards(query='delegation')</function_call>"}
+{"instruction": "Administered 1g of Paracetamol via PO route.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}
+{"instruction": "Vitals check: Heart rate 74, Blood pressure 126 over 99.", "input": "", "output": "<function_call>record_vitals(systolic=126, diastolic=99, heart_rate=74, temp_c=36.2)</function_call>"}
+{"instruction": "Just took obs. T 36.4, P 97, BP 150/63.", "input": "", "output": "<function_call>record_vitals(systolic=150, diastolic=63, heart_rate=97, temp_c=36.4)</function_call>"}
+{"instruction": "Please record stats: 142/68 mmHg, 73 bpm.", "input": "", "output": "<function_call>record_vitals(systolic=142, diastolic=68, heart_rate=73, temp_c=37.8)</function_call>"}
+{"instruction": "Just took obs. T 37.1, P 103, BP 127/76.", "input": "", "output": "<function_call>record_vitals(systolic=127, diastolic=76, heart_rate=103, temp_c=37.1)</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "Signed off Morphine 10mg.", "input": "", "output": "<function_call>administer_medication(drug_name='Morphine', dose='10mg', route='IV')</function_call>"}
+{"instruction": "I have given Paracetamol 1g PO.", "input": "", "output": "<function_call>administer_medication(drug_name='Paracetamol', dose='1g', route='PO')</function_call>"}

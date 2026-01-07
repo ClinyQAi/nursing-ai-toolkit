@@ -1,0 +1,69 @@
+[
+    {
+        "platform": 1,
+        "title": "Being an accountable professional",
+        "criteria": [
+            "1.1 Use a person-centred approach that sees each person as an individual and respects their needs, values and preferences, taking account of any need for adjustments.",
+            "1.15 Demonstrate the numeracy, literacy, digital and technological skills required to meet the needs of people in their care to ensure safe and effective nursing practice.",
+            "1.16 Demonstrate the ability to keep complete, clear, accurate and timely records.",
+            "1.17 Take responsibility for continuous self-reflection, seeking and responding to feedback from other people, and using these experiences to develop their own knowledge, skills and behaviours.",
+            "1.8 Demonstrate the knowledge, skills and ability to think critically when applying evidence and drawing on experience to make evidence-informed decisions in all situations.",
+            "1.18 Demonstrate the knowledge and confidence to contribute effectively and proactively in an interdisciplinary team.",
+            "1.20 Safely demonstrate evidence-based practice in all skills and procedures stated in Annexes A and B."
+        ]
+    },
+    {
+        "platform": 2,
+        "title": "Promoting health and preventing ill health",
+        "criteria": [
+            "2.1 Understand and apply the principles of health promotion, health protection, and the prevention of ill health.",
+            "2.12 Protect health through understanding and applying the principles of infection prevention and control, including communicable disease surveillance and antimicrobial stewardship and resistance.",
+            "Engage individuals, communities, and populations to make informed choices about their health and manage their care.",
+            "Actively engage in public health initiatives, community development, and global health agendas to reduce health inequalities."
+        ]
+    },
+    {
+        "platform": 3,
+        "title": "Assessing needs and planning care",
+        "criteria": [
+            "3.3 Demonstrate and apply knowledge of all commonly encountered mental, physical, behavioural and cognitive health conditions, medication usage and treatments when undertaking full and accurate assessments of nursing care needs and when developing, prioritising and reviewing person-centred care plans.",
+            "3.4 Understand and apply a person-centred approach to nursing care, demonstrating shared assessment, planning, decision-making and goal setting when working with people, their families, communities and populations of all ages.",
+            "3.5 Demonstrate the ability to accurately assess and review the mental, physical, cognitive, behavioural, social and spiritual needs of people."
+        ]
+    },
+    {
+        "platform": 4,
+        "title": "Providing and evaluating care",
+        "criteria": [
+            "4.1 Demonstrate the ability to provide evidence-based, safe and compassionate nursing interventions in partnership with people, their families and carers.",
+            "4.7 Demonstrate the ability to monitor and evaluate the quality of care delivered by others in the team and lay carers.",
+            "4.8 Support and supervise students in the delivery of nursing care."
+        ]
+    },
+    {
+        "platform": 5,
+        "title": "Leading and managing nursing care and working in teams",
+        "criteria": [
+            "5.1 Demonstrate the ability to play an active role in interdisciplinary teams, acting as a role model, supervising, mentoring, and communicating effectively.",
+            "5.10 Contribute to supervision and team reflection activities to promote improvements in practice and services."
+        ]
+    },
+    {
+        "platform": 6,
+        "title": "Improving safety and quality of care",
+        "criteria": [
+            "6.1 Understand and apply the principles of health and safety legislation and policies, including those relating to substance safety, including when working across organisations and settings.",
+            "6.4 Demonstrate an understanding of the principles of improvement methodologies, participate in all stages of audit activity and identify appropriate quality improvement strategies.",
+            "6.5 Demonstrate the ability to accurately undertake risk assessments in a range of care settings, using a range of contemporary assessment and improvement tools.",
+            "6.6 Identify the need to make improvements and proactively respond to concerns to reduce risks, harm and improve equity and outcomes."
+        ]
+    },
+    {
+        "platform": 7,
+        "title": "Coordinating care",
+        "criteria": [
+            "7.1 Understand and apply the principles of partnership, collaboration and mediation, especially where resources are limited, risks are elevated or when working across organisations and settings.",
+            "Equip nurses with skills for leading and managing care transitions across organisations."
+        ]
+    }
+]
