@@ -1,0 +1,104 @@
+.anatomyContainer {
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.sentenceBox {
+    font-size: 1.5rem;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--ifm-heading-color);
+}
+
+.anatomyPart {
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    margin: 0 0.3rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+    font-weight: 600;
+    position: relative;
+}
+
+.anatomyPart:hover,
+.partActive {
+    transform: translateY(-2px);
+}
+
+.partRole {
+    background-color: rgba(52, 152, 219, 0.15);
+    color: #2980b9;
+}
+
+.partRole.partActive {
+    background-color: #3498db;
+    color: white;
+}
+
+.partTask {
+    background-color: rgba(46, 204, 113, 0.15);
+    color: #27ae60;
+}
+
+.partTask.partActive {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.partAudience {
+    background-color: rgba(155, 89, 182, 0.15);
+    color: #8e44ad;
+}
+
+.partAudience.partActive {
+    background-color: #9b59b6;
+    color: white;
+}
+
+.partFormat {
+    background-color: rgba(230, 126, 34, 0.15);
+    color: #d35400;
+}
+
+.partFormat.partActive {
+    background-color: #e67e22;
+    color: white;
+}
+
+.definitionBox {
+    background: var(--ifm-color-emphasis-100);
+    border-radius: 8px;
+    padding: 2rem;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.defTitle {
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.defText {
+    font-size: 1.1rem;
+    color: var(--ifm-font-color-base);
+}
+
+.defPlaceholder {
+    color: var(--ifm-color-emphasis-500);
+    font-style: italic;
+}

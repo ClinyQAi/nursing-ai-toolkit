@@ -1,0 +1,73 @@
+.policyContainer {
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.introText {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: var(--ifm-color-emphasis-700);
+}
+
+.questionGroup {
+    margin-bottom: 2rem;
+}
+
+.groupLabel {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: var(--ifm-color-emphasis-600);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    background: var(--ifm-background-color);
+    border: 1px solid var(--ifm-color-emphasis-300);
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.checkboxLabel:hover {
+    background: var(--ifm-color-emphasis-100);
+}
+
+.checkboxInput {
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: var(--ifm-color-primary);
+}
+
+.outputBox {
+    margin-top: 2rem;
+    background: var(--ifm-color-emphasis-100);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    position: relative;
+}
+
+.policyText {
+    white-space: pre-wrap;
+    font-family: var(--ifm-font-family-base);
+    line-height: 1.6;
+}
+
+.copyButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

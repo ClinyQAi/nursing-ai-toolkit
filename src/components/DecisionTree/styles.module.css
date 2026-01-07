@@ -1,0 +1,88 @@
+.treeContainer {
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.scenarioText {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--ifm-heading-color);
+    max-width: 600px;
+}
+
+.optionsGrid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.optionButton {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: 2px solid var(--ifm-color-primary);
+    background: var(--ifm-background-color);
+    color: var(--ifm-color-primary);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+}
+
+.optionButton:hover {
+    background: var(--ifm-color-primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedbackBox {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: var(--ifm-color-emphasis-100);
+    text-align: left;
+    max-width: 600px;
+    border-left: 4px solid var(--ifm-color-primary);
+}
+
+.feedbackTitle {
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: var(--ifm-color-emphasis-600);
+}
+
+.resetButton {
+    margin-top: 2rem;
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: var(--ifm-color-emphasis-500);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.aiBadge {
+    display: inline-block;
+    background: #6c5ce7;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}

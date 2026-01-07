@@ -39,6 +39,13 @@ Most GenAI we refer to are **Large Language Models (LLMs)** trained on vast amou
 - 🎥 **Video** — Clinical demonstrations, patient scenarios
 - 🎭 **Three dimensional models** — Anatomical structures, medical devices
 
+## 🧬 Anatomy of a Prompt
+To get the best results from these models, you need to structure your requests effectively. Hover over the parts of this prompt to understand their function:
+
+import PromptAnatomy from '@site/src/components/PromptAnatomy';
+
+<PromptAnatomy />
+
 GenAI technology enables users to create, manipulate, and adapt content and integrate different semiotic forms to produce multimodal artefacts, and thus can be embedded into pedagogical practices that already emphasise diverse modes of engagement.
 
 ## Defining GenAI's Role
