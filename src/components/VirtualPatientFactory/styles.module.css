@@ -1,0 +1,268 @@
+.factoryContainer {
+    padding: 2rem;
+    background: var(--ifm-background-surface-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.modeSelector {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--ifm-color-emphasis-200);
+    padding-bottom: 1rem;
+}
+
+.modeButton {
+    flex: 1;
+    padding: 1rem;
+    border: 2px solid var(--ifm-color-emphasis-300);
+    background: transparent;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.modeButton:hover {
+    background: var(--ifm-color-primary-lightest);
+    border-color: var(--ifm-color-primary);
+}
+
+.modeButtonActive {
+    background: var(--ifm-color-primary);
+    color: white;
+    border-color: var(--ifm-color-primary);
+}
+
+.generatorSection,
+.critiqueSection {
+    margin-top: 1.5rem;
+}
+
+.generatorSection h3,
+.critiqueSection h3 {
+    color: var(--ifm-color-primary-dark);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.configGrid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.configGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.configGroup label {
+    font-weight: 600;
+    color: var(--ifm-color-emphasis-800);
+    font-size: 0.95rem;
+}
+
+.patientTypeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+}
+
+.patientTypeButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 2px solid var(--ifm-color-emphasis-300);
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.patientTypeButton:hover {
+    border-color: var(--ifm-color-primary);
+    background: var(--ifm-color-primary-lightest);
+    transform: translateY(-2px);
+}
+
+.patientTypeButtonActive {
+    border-color: var(--ifm-color-primary);
+    background: var(--ifm-color-primary);
+    color: white;
+}
+
+.emoji {
+    font-size: 2rem;
+}
+
+.customInput,
+.select,
+.textarea {
+    padding: 0.75rem;
+    border: 2px solid var(--ifm-color-emphasis-300);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: var(--ifm-font-family-base);
+    transition: border-color 0.2s ease;
+}
+
+.customInput:focus,
+.select:focus,
+.textarea:focus {
+    outline: none;
+    border-color: var(--ifm-color-primary);
+}
+
+.textarea {
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.phaseSelector {
+    margin: 2rem 0;
+}
+
+.phaseSelector label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--ifm-color-emphasis-800);
+}
+
+.phaseButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.phaseButton {
+    padding: 0.75rem 1.25rem;
+    border: 2px solid var(--ifm-color-emphasis-300);
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.phaseButton:hover {
+    border-color: var(--ifm-color-primary);
+    background: var(--ifm-color-primary-lightest);
+}
+
+.phaseButtonActive {
+    background: var(--ifm-color-primary);
+    color: white;
+    border-color: var(--ifm-color-primary);
+}
+
+.generateButton {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.generateButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.outputBox,
+.critiqueBox {
+    margin-top: 2rem;
+    border: 2px solid var(--ifm-color-primary-light);
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+}
+
+.outputHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: var(--ifm-color-primary-lightest);
+    border-bottom: 2px solid var(--ifm-color-primary-light);
+    font-weight: 600;
+}
+
+.outputContent,
+.critiqueContent {
+    padding: 1.5rem;
+    white-space: pre-wrap;
+    line-height: 1.8;
+    font-size: 0.95rem;
+    color: var(--ifm-color-emphasis-800);
+}
+
+.critiqueContent {
+    background: linear-gradient(to bottom, #f0f9ff, #ffffff);
+}
+
+.critiqueInstructions {
+    color: var(--ifm-color-emphasis-700);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--ifm-color-emphasis-100);
+    border-left: 4px solid var(--accent-teal);
+    border-radius: 4px;
+}
+
+.disclaimer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #856404;
+}
+
+[data-theme='dark'] .factoryContainer {
+    background: var(--ifm-background-color);
+}
+
+[data-theme='dark'] .patientTypeButton,
+[data-theme='dark'] .phaseButton,
+[data-theme='dark'] .outputBox,
+[data-theme='dark'] .critiqueBox {
+    background: var(--ifm-background-surface-color);
+    border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .customInput,
+[data-theme='dark'] .select,
+[data-theme='dark'] .textarea {
+    background: var(--ifm-background-surface-color);
+    color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .critiqueContent {
+    background: var(--ifm-background-surface-color);
+}
+
+@media (max-width: 768px) {
+    .modeSelector {
+        flex-direction: column;
+    }
+
+    .patientTypeGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .phaseButtons {
+        flex-direction: column;
+    }
+
+    .phaseButton {
+        width: 100%;
+    }
+}
