@@ -16,8 +16,17 @@ Before proceeding, it is useful to explain what we mean by Generative AI. In fac
 
 ## Common Misconceptions
 
-:::caution Common Misconception
-There is a common belief that GenAI technology can function efficiently as a 'search engine', while, in fact, it is **notoriously unreliable** as a means of searching for information, given that it prioritises relevance based on the prompt over accuracy or impartiality of information retrieved (Hemsworth et al., 2024).
+### ❌ GenAI is NOT a Search Engine
+
+| Feature | Google Search | Generative AI |
+| :--- | :---: | :---: |
+| **Primary Goal** | Find accurate information | Generate relevant responses |
+| **Source Verification** | ✅ Links to sources | ❌ Often no citations |
+| **Accuracy for Clinical Data** | ✅ Reliable (e.g., NICE) | ⚠️ Can hallucinate |
+| **Best For** | Finding evidence-based guidelines | Brainstorming, drafting, summarizing |
+
+:::caution Critical Reminder
+GenAI is **notoriously unreliable** as a means of searching for information, given that it prioritises relevance based on the prompt over accuracy or impartiality of information retrieved (Hemsworth et al., 2024).
 :::
 
 **For nursing educators**: This is particularly important when students might use GenAI to look up clinical information or evidence-based guidelines. Always emphasize the need to verify information against authoritative sources like:
@@ -26,20 +35,46 @@ There is a common belief that GenAI technology can function efficiently as a 'se
 - Cochrane reviews
 - Peer-reviewed nursing journals
 
+---
+
 ## How GenAI Actually Works
 
 GenAI employs deep machine learning techniques to process information contained within huge datasets to generate outputs based on human prompts inputted by the user.
 
-Most GenAI we refer to are **Large Language Models (LLMs)** trained on vast amounts of text data to decode, generate, and manipulate human language. However, GenAI is increasingly capable of producing multimodal content, including (but not limited to):
+### The "Next Token Prediction" Model
 
-- 📝 **Text** — Essays, care plans, documentation
-- 🗣️ **Speech** — Text-to-speech for accessibility
-- 🎵 **Audio** — Podcasts, narrated explanations
-- 🖼️ **Images** — Diagrams, infographics, anatomical illustrations
-- 🎥 **Video** — Clinical demonstrations, patient scenarios
-- 🎭 **Three dimensional models** — Anatomical structures, medical devices
+```mermaid
+graph LR
+    A[User Prompt:<br/>"The patient presents with"] --> B[AI Model<br/>Analyzes patterns]
+    B --> C[Predicts Next Word:<br/>"chest pain"]
+    C --> D[Continues Chain:<br/>"radiating to left arm"]
+    D --> E[Complete Response]
+    
+    style B fill:#e3f2fd,stroke:#1976d2
+    style E fill:#c8e6c9,stroke:#388e3c
+```
+
+Most GenAI we refer to are **Large Language Models (LLMs)** trained on vast amounts of text data to decode, generate, and manipulate human language. However, GenAI is increasingly capable of producing multimodal content.
+
+---
+
+## 🎨 Multimodal Capabilities
+
+GenAI can create content across multiple formats:
+
+| Mode | Examples | Nursing Use Case |
+| :--- | :--- | :--- |
+| 📝 **Text** | Essays, care plans | Patient documentation drafts |
+| 🗣️ **Speech** | Text-to-speech | Accessibility for learning disabilities |
+| 🎵 **Audio** | Podcasts, narrations | Commute-friendly lectures |
+| 🖼️ **Images** | Diagrams, infographics | Anatomy illustrations |
+| 🎥 **Video** | Demonstrations | Clinical skill tutorials |
+| 🎭 **3D Models** | Anatomical structures | Interactive learning |
+
+---
 
 ## 🧬 Anatomy of a Prompt
+
 To get the best results from these models, you need to structure your requests effectively. Hover over the parts of this prompt to understand their function:
 
 import PromptAnatomy from '@site/src/components/PromptAnatomy';
@@ -47,6 +82,8 @@ import PromptAnatomy from '@site/src/components/PromptAnatomy';
 <PromptAnatomy />
 
 GenAI technology enables users to create, manipulate, and adapt content and integrate different semiotic forms to produce multimodal artefacts, and thus can be embedded into pedagogical practices that already emphasise diverse modes of engagement.
+
+---
 
 ## Defining GenAI's Role
 
@@ -60,7 +97,40 @@ Suggests that we should understand it as a unique 'co-creator' that works alongs
 
 They suggest that this collaboration 'enables new processes for knowledge creation', where educators and students learn by evaluating, refining and re-imagining AI outputs, assembling them into multimodal artefacts.
 
-## The Question of 'Intelligence'
+---
+
+## The Human-AI Partnership
+
+```mermaid
+graph TD
+    subgraph Human["👤 Human Strengths"]
+        H1[Empathy & Compassion]
+        H2[Clinical Judgement]
+        H3[Ethical Reasoning]
+        H4[Cultural Competence]
+    end
+    
+    subgraph AI["🤖 AI Strengths"]
+        A1[24/7 Availability]
+        A2[Pattern Recognition]
+        A3[Scale & Speed]
+        A4[Zero Fatigue]
+    end
+    
+    subgraph Partnership["🤝 Nurse Citizen Developer"]
+        P1[Evidence-Based Innovation]
+        P2[Personalized Care Plans]
+        P3[Efficient Documentation]
+        P4[Enhanced Learning]
+    end
+    
+    Human --> Partnership
+    AI --> Partnership
+    
+    style Human fill:#fce4ec,stroke:#c2185b
+    style AI fill:#e1f5fe,stroke:#0277bd
+    style Partnership fill:#f1f8e9,stroke:#558b2f
+```
 
 :::tip Critical Perspective
 While human and artificial intelligences can work together and have a unique role to play within a cyber-social partnership, the term 'intelligence', taken as part of 'Generative AI' can, and perhaps should, be challenged in favour of more specific computer-science-driven terminologies, such as **LLMs (large language models)**.
@@ -85,6 +155,8 @@ It is GenAI's very **lack of 'intelligence'**, either emotional or intellectual,
 
 **The Bottom Line**: GenAI can offer raw material – drafts, artefacts and prototypes - but educators and learners are needed to bring vision, purpose, nuanced critique and meaning-making.
 
+---
+
 ## Types of Multimodal GenAI
 
 The guide's aim is to encapsulate strategies for the effective incorporation of GenAI in multimodal teaching, learning, and assessment and to position Generative AI most effectively within the cyber-social relationship with human users.
@@ -94,9 +166,11 @@ We interpret 'multimodal GenAI' in different ways:
 ### 1. Platform Capabilities
 Multimodal GenAI can refer to platform capabilities that utilise modalities beyond text-to-text:
 
-**Latest Models (as of December 2025)**:
+#### 🚀 Frontier Models (December 2025)
 
-**Text Generation & Multimodal Understanding**:
+<details>
+<summary><strong>Text Generation & Multimodal Understanding</strong></summary>
+
 - **Gemini 3 Pro** (Google DeepMind, Nov 2025) - State-of-the-art reasoning and multimodal understanding
 - **Gemini 3 Flash** (Google DeepMind, Dec 2025) - Frontier intelligence at speed
 - **Gemini 3 Deep Think** - Advanced reasoning for complex problems
@@ -104,32 +178,54 @@ Multimodal GenAI can refer to platform capabilities that utilise modalities beyo
 - **Claude Sonnet 4** (Anthropic, Aug 2025) - Default model with strong performance
 - **Claude Opus 4.1** (Anthropic, Aug 2025) - Most capable Claude model
 
-**Image Generation**:
-- DALL-E 3 (OpenAI)
-- Midjourney v6/v7
-- Adobe Firefly
-- Stable Diffusion XL
+</details>
 
-**Text-to-Speech**:
-- ElevenLabs
-- Google TTS 
-- Azure Speech Services
+<details>
+<summary><strong>Image Generation</strong></summary>
 
-**Text-to-Video**:
-- Runway Gen-2
-- Synthesia
-- HeyGen
-- Google Veo 2 (Dec 2024)
+- **DALL-E 3** (OpenAI) - High-quality images from text
+- **Midjourney v6/v7** - Artistic and photorealistic outputs
+- **Adobe Firefly** - Commercial-safe image generation
+- **Stable Diffusion XL** - Open-source flexibility
 
-**Speech-to-Text**:
-- Whisper (OpenAI)
-- Otter.ai
-- Google Speech-to-Text
+</details>
 
-**Image-to-Text & Vision**:
-- GPT-5 Vision
-- Gemini 3 Pro (native multimodal)
-- Claude Opus 4.1 Vision
+<details>
+<summary><strong>Text-to-Speech</strong></summary>
+
+- **ElevenLabs** - Hyper-realistic voice cloning
+- **Google TTS** - Natural-sounding multilingual
+- **Azure Speech Services** - Enterprise-grade reliability
+
+</details>
+
+<details>
+<summary><strong>Text-to-Video</strong></summary>
+
+- **Runway Gen-2** - Creative video generation
+- **Synthesia** - AI avatar presenters
+- **HeyGen** - Personalized video content
+- **Google Veo 2** (Dec 2024) - High-fidelity video
+
+</details>
+
+<details>
+<summary><strong>Speech-to-Text</strong></summary>
+
+- **Whisper** (OpenAI) - Industry-leading transcription
+- **Otter.ai** - Meeting notes and summaries
+- **Google Speech-to-Text** - Real-time transcription
+
+</details>
+
+<details>
+<summary><strong>Image-to-Text & Vision</strong></summary>
+
+- **GPT-5 Vision** - Understanding images and charts
+- **Gemini 3 Pro** (native multimodal) - Unified text/image processing
+- **Claude Opus 4.1 Vision** - Document and image analysis
+
+</details>
 
 :::caution Rapidly Evolving Field
 AI models evolve extremely rapidly. The models listed above were current as of December 2025. Always check the latest releases from:
@@ -150,12 +246,26 @@ Using GenAI to convert one artefact/modality (e.g. slides or images) into anothe
 
 **Nursing Example**: Converting a PowerPoint lecture on wound care into a podcast for students to listen to during commute.
 
+---
+
 ## The Multimodality Continuum
 
 The following illustrates GenAI capabilities' development in terms of educators' uses of multimodal resources from text to immersive simulation:
 
-```
-Text → Visual Text → Audio/Video → Interactive Audio/Video → Avatars → Immersive Simulations
+```mermaid
+graph LR
+    A[📝 Text<br/>Basic prompts] --> B[🎨 Visual Text<br/>Infographics]
+    B --> C[🎥 Audio/Video<br/>Lectures]
+    C --> D[🎮 Interactive<br/>Quizzes]
+    D --> E[🤖 AI Avatars<br/>Conversations]
+    E --> F[🥽 Immersive VR<br/>Clinical Simulations]
+    
+    style A fill:#e8eaf6,stroke:#3f51b5
+    style B fill:#e1f5fe,stroke:#0288d1
+    style C fill:#e0f2f1,stroke:#00897b
+    style D fill:#fff3e0,stroke:#fb8c00
+    style E fill:#fce4ec,stroke:#c2185b
+    style F fill:#f3e5f5,stroke:#7b1fa2
 ```
 
 We might contend that GenAI currently offers interactive content to learners and educators, via real-time interactivity with avatars or personas. However, just a year ago, this would perhaps have been closer to static textual, or perhaps audio/visual, content.
@@ -163,6 +273,8 @@ We might contend that GenAI currently offers interactive content to learners and
 :::caution Rapid Evolution
 This guide offers broad principles and approaches rather than platform-specific suggestions to ensure relevance across disciplines and learning contexts. Even during the lifespan of this project (2024/25), GenAI's multimodal capabilities have evolved so rapidly that listing very specific concrete examples risks the information becoming quickly outdated.
 :::
+
+---
 
 ## For Nursing Educators: Key Takeaways
 
