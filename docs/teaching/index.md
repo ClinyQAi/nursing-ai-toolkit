@@ -1,9 +1,13 @@
 ---
 sidebar_label:  Overview
 sidebar_position: 1
+title: Teaching with Multimodal Gen AI
+description: Enhancing nursing education with multimodal AI tools
 ---
 
-![Teaching with AI](@site/static/img/cover_teaching_ai.png)
+<div style={{textAlign: 'center', marginBottom: '20px'}}>
+  <img src={require('@site/static/img/cover_teaching_ai.png').default} alt="Teaching with AI" style={{width: '50%', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)'}} />
+</div>
 
 # Teaching with Multimodal Gen AI
 
@@ -13,128 +17,156 @@ sidebar_position: 1
 **Last Updated**: December 2025
 :::
 
-Generative AI (GenAI) tools significantly broaden the possibilities for multimodal teaching by enabling educators to design, adapt, and deliver content across a range of media. These technologies support not only the creation of multimodal artefacts such as images, audio, video, and interactive simulations, but also the transposition of content from one format to another.
+Generative AI (GenAI) is not just a text generator; it is a **multimodal engine**. It allows educators to move fluidly between text, image, audio, and video, amplifying your ability to cater to diverse learning styles.
 
-## Why This Matters for Nursing Education
+## 🚀 The Amplification Effect
 
-**For instance**, GenAI might be used to:
-- 📝 Convert lecture notes on diabetes management into **podcasts** for mobile learning
-- 📊 Transform care pathway flowcharts into **explanatory narratives**
-- 🎥 Turn seminar discussions about person-centred care into **visual summaries**
-- 🖼️ Create **anatomical diagrams** from text descriptions
+Think of GenAI as a lens that takes your core teaching idea (the "Prompt") and refracts it into multiple formats:
 
-This ability to work fluidly across modes introduces new opportunities for nursing educators to make complex clinical concepts more tangible, and to design learning experiences that better accommodate the diversity of students' learning preferences and needs.
+```mermaid
+graph LR
+    Input[Educator Expertise<br/>Core Concept] --> Engine{GenAI<br/>Engine}
+    Engine --> Visual[🖼️ Visuals<br/>Anatomy/Flowcharts]
+    Engine --> Audio[🎙️ Audio<br/>Podcasts/Narratives]
+    Engine --> Video[🎥 Video<br/>Simulations/Explainers]
+    Engine --> Text[📝 Text<br/>Scenarios/Quizzes]
+    
+    style Input fill:#ffffd0,stroke:#fbc02d,stroke-width:2px
+    style Engine fill:#e1f5fe,stroke:#01579b,stroke-width:2px,stroke-dasharray: 5 5
+    style Visual fill:#f3e5f5,stroke:#7b1fa2
+    style Audio fill:#e8f5e9,stroke:#2e7d32
+    style Video fill:#fff3e0,stroke:#e65100
+    style Text fill:#fce4ec,stroke:#c2185b
+```
 
-## The Role of GenAI
+## 🏥 Why This Matters for Nursing
 
-In a multimodal teaching-learning environment, GenAI allows educators to move decisively beyond text-dominant approaches:
+*   📝 **Convert** lecture notes on diabetes into a **Podcast** for students commuting to placement.
+*   📊 **Transform** complex care pathway text into a visual **Flowchart**.
+*   🎥 **Turn** a written case study into a **Video Script** or simulated dialogue.
+*   🖼️ **Create** bespoke **Anatomical Diagrams** that highlight exactly what you need.
 
-### What GenAI Can Do:
-
-- **Text-to-image and text-to-video tools** can generate diagrams, animations, and explanatory visuals in minutes
-- **Audio synthesis** can create narrated explainers or podcasts to accompany slides  
-- **Large language models** can rapidly produce draft quiz questions, scenario descriptions, or alternative explanations pitched at different levels of complexity
-
-**The role of GenAI in this context is best understood as amplification rather than substitution** — it does not replace the pedagogical expertise or creativity of educators, but instead augments their capacity to respond flexibly to students' needs.
-
-:::tip Key Principle
-Educators can focus on higher-order aspects of teaching such as sequencing, framing, and critical discussion, while delegating lower-level production tasks to AI. This shift enables more responsive and iterative teaching design.
-:::
-
-## Critical and Ethical Orientation
-
-At the same time, embedding GenAI into multimodal teaching demands a critical and ethical orientation:
-
-:::caution Important Considerations
-- **AI-generated outputs are shaped by their training datasets** — they may reproduce biases, inaccuracies, or stereotypes
-- **Educators have a dual responsibility**:
-  1. Model critical interrogation of AI outputs in their own teaching practice
-  2. Scaffold students' ability to do the same
-:::
-
-This is especially vital where AI is used to represent nursing knowledge visually or narratively, as inaccuracies can be less immediately visible than in text.
-
-**For nursing specifically**:
-- Verify clinical information against NICE guidelines, NMC standards, Cochrane reviews
-- Check anatomical diagrams for accuracy
-- Review patient scenarios for realistic and ethical representation
-- Ensure cultural sensitivity in generated content
-
-## Equity and Sustainability
-
-Considerations of equity and sustainability must also inform multimodal AI use:
-
-- **Access to high-quality AI tools is uneven** across institutions and student populations
-- **Premium features are often gated behind paywalls**
-- **Image and video generation carry significant computational and environmental costs**
-
-**Therefore**: Purposeful adoption is essential, ensuring that multimodal AI is used where it genuinely enhances learning rather than as a novelty.
-
-## Future-Facing Skills
-
-Integrating GenAI into multimodal teaching also creates opportunities to develop future-facing skills. As healthcare increasingly demands fluency in interpreting, critiquing, and collaborating with AI-generated content, students benefit from encountering these practices within their studies.
-
-:::tip Best Practice
-Educators who intentionally model transparent AI use—explaining prompts, evaluating outputs, and reflecting on limitations—can nurture these literacies while simultaneously enriching disciplinary teaching.
+:::tip Shift Your Role
+Your role shifts from **"Content Creator"** (writing everything from scratch) to **"Content Architect"** (designing the structure and curating the AI's output).
 :::
 
 ---
 
-## What's in This Section?
+## 🧭 Explore This Section
 
-This section explores how educators can use Generative AI (GenAI) to support and enhance multimodal teaching practices in nursing education:
+Dive into specific guides for enhancing your teaching:
 
-### 1. [Creating Visual Content](./creating-visual-content)
-- Generating images for diagrams, posters, presentations
-- Creating multimodal elements for infographics
-- Visual metaphors for abstract concepts
-- Educational videos and animated explainers
+<div className="row">
+  <div className="col col--6 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header">
+        <h3>🎨 Creating Visual Content</h3>
+      </div>
+      <div className="card__body">
+        <p>Generate diagrams, posters, and anatomical illustrations.</p>
+      </div>
+      <div className="card__footer">
+        <a href="./creating-visual-content" className="button button--primary button--block">Visual Tools →</a>
+      </div>
+    </div>
+  </div>
+  <div className="col col--6 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header">
+        <h3>🎤 Teaching Delivery</h3>
+      </div>
+      <div className="card__body">
+        <p>AI-powered Q&A chatbots and multimedia lecture components.</p>
+      </div>
+      <div className="card__footer">
+        <a href="./teaching-delivery" className="button button--primary button--block">Delivery Methods →</a>
+      </div>
+    </div>
+  </div>
+  <div className="col col--6 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header">
+        <h3>🤝 Collaborative Learning</h3>
+      </div>
+      <div className="card__body">
+        <p>Brainstorming, design thinking, and group scenarios.</p>
+      </div>
+      <div className="card__footer">
+        <a href="./collaborative-learning" className="button button--secondary button--block">Group Activities →</a>
+      </div>
+    </div>
+  </div>
+  <div className="col col--6 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header">
+        <h3>🧠 AI Literacy Activities</h3>
+      </div>
+      <div className="card__body">
+        <p>Teaching students to prompt and critique (The "Red Pen" method).</p>
+      </div>
+      <div className="card__footer">
+        <a href="./ai-literacy-activities" className="button button--secondary button--block">Student Exercises →</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-**Nursing examples**: Wound care diagrams, medication administration flowcharts, anatomical illustrations
-
-### 2. [Teaching Delivery](./teaching-delivery)
-- AI-powered Q&A chatbots trained on course materials
-- Generating multimedia lecture components
-- Multimodal activity briefs with diagrams and audio
-
-**Nursing examples**: Interactive patient scenario chatbots, clinical skills video demonstrations
-
-### 3. [Collaborative Learning](./collaborative-learning)
-- Auto-generating ideas for brainstorming
-- Supporting design thinking in group work
-- Creating discussion prompts and scenarios
-
-**Nursing examples**: Group care planning exercises, interprofessional collaboration scenarios
-
-### 4. [AI Literacy Activities](./ai-literacy-activities)
-- Teaching students to critically evaluate AI outputs
-- Prompt engineering practice
-- Understanding AI limitations and biases
-
-**Nursing examples**: Critiquing AI-generated care plans, testing AI health information accuracy
-
-### 5. [Benefits](./benefits)
-- Enhancing pedagogy through diverse modalities
-- Lowering barriers to multimodal creation
-- Boosting creativity and idea generation
-- Increasing efficiency
-- Enhancing student engagement
-- Preparing students for AI-augmented healthcare
-
-### 6. [Practical Tips](./practical-tips)
-- Save time with smart AI use
-- Mirror AI use: show your process
-- Ethical and sustainable use checklists
-- Design for human-AI collaboration
-- Teach AI literacy as a core skill
-
-### 7. [Nursing Examples](./nursing-examples)
-- Anatomy & Physiology visualization
-- Patient scenario generation
-- Clinical skills training materials
-- Person-centred language checking
-- Care planning templates
+<div className="row margin-top--md">
+  <div className="col col--4 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header">
+        <h3>🌟 Benefits</h3>
+      </div>
+      <div className="card__body">
+        <p>From efficiency to engagement.</p>
+      </div>
+      <div className="card__footer">
+        <a href="./benefits" className="button button--info button--block button--outline">Why do this?</a>
+      </div>
+    </div>
+  </div>
+  <div className="col col--4 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header">
+        <h3>💡 Practical Tips</h3>
+      </div>
+      <div className="card__body">
+        <p>Time-saving hacks and ethical checklists.</p>
+      </div>
+      <div className="card__footer">
+        <a href="./practical-tips" className="button button--info button--block button--outline">Get Tips</a>
+      </div>
+    </div>
+  </div>
+  <div className="col col--4 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header">
+        <h3>🩺 Examples</h3>
+      </div>
+      <div className="card__body">
+        <p>Specific nursing use cases.</p>
+      </div>
+      <div className="card__footer">
+        <a href="./nursing-examples" className="button button--info button--block button--outline">View Cases</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
-**Ready to explore?** Start with [Creating Visual Content](./creating-visual-content) or jump to [Nursing Examples](./nursing-examples) for specific use cases! 🚀
+## ⚖️ Critical & Ethical Orientation
+
+Embedding GenAI demands a critical stance.
+
+:::caution Handle with Care
+**AI-generated content is only as good as its training data.**
+It may reproduce stereotypes (e.g., all nurses as female) or hallucinate medical facts.
+
+**Your Responsibility**:
+1.  **Verify** everything against NICE/BNF.
+2.  **Scaffold** students to spot errors.
+3.  **Model** transparent use.
+:::
+
+**Ready to start?** Pick a card above to jump in! 🚀
