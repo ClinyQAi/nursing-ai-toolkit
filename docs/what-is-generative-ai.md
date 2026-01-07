@@ -45,10 +45,10 @@ GenAI employs deep machine learning techniques to process information contained 
 
 ```mermaid
 graph LR
-    A[User Prompt:<br/>"The patient presents with"] --> B[AI Model<br/>Analyzes patterns]
-    B --> C[Predicts Next Word:<br/>"chest pain"]
-    C --> D[Continues Chain:<br/>"radiating to left arm"]
-    D --> E[Complete Response]
+    A["User Prompt:<br/>'The patient presents with'"] --> B["AI Model<br/>Analyzes patterns"]
+    B --> C["Predicts Next Word:<br/>'chest pain'"]
+    C --> D["Continues Chain:<br/>'radiating to left arm'"]
+    D --> E["Complete Response"]
     
     style B fill:#e3f2fd,stroke:#1976d2
     style E fill:#c8e6c9,stroke:#388e3c
