@@ -12,345 +12,357 @@ description: University-wide AI literacy strategy
 **Last Updated**: December 2025
 :::
 
-An institutional framework provides the foundation for consistent, ethical, and effective AI integration across all nursing programmes and supports sustainable AI literacy development.
+## 🎯 What is This Document For?
 
-## Institutional Vision
+This framework is a **blueprint for university leaders** who want to integrate AI across their nursing programmes in a sustainable, ethical, and NMC-aligned way.
 
-### Strategic Alignment
+**If you are:**
+- 🏛️ **Senior Leadership**: Use this to align institutional strategy with AI innovation
+- 👨‍🏫 **Programme Leaders**: Use this to design governance structures and policies
+- 🤝 **Practice Partners**: Use this to align placement policies with university standards
 
-**University Strategy**
-- Align with institutional digital strategy
-- Support teaching excellence goals
-- Enhance student experience
-- Promote innovation
-- Ensure sustainability
+:::tip Quick Start
+If you're overwhelmed, start with the **[Policy Framework](#policy-framework)** section and the **Risk Management** checklist.
+:::
 
-**Nursing School Strategy**
-- Professional body compliance
-- Quality education delivery
-- Graduate employability
-- Research excellence
-- Sector leadership
+---
 
-## Governance Structure
+## 📊 Framework Overview
+
+This framework is organized around **5 Pillars**:
+
+| Pillar | What It Covers | Key Stakeholders |
+| :--- | :--- | :--- |
+| **1. Governance** | Steering groups, working groups, accountability | Senior Leadership |
+| **2. Policy** | Acceptable use, academic integrity, data protection | All Staff, Students |
+| **3. Infrastructure** | AI tool access, IT support, learning resources | IT Services, Library |
+| **4. Staff Development** | Training pathways, communities of practice | Academic Staff |
+| **5. Quality Assurance** | Monitoring, evaluation, continuous improvement | QA Teams, External Examiners |
+
+---
+
+## 1️⃣ Governance Structure
 
 ### AI Literacy Steering Group
 
-**Composition**
+**Purpose**: Oversee institutional AI strategy and ensure alignment with NMC standards.
+
+**Composition**:
 - Senior leadership (Chair)
 - Programme leaders
-- Module leaders
 - Student representatives
 - Practice partners
-- IT services
-- Library services
-- Quality assurance
+- IT & Library services
 
-**Responsibilities**
-- Policy development
-- Strategy oversight
-- Resource allocation
-- Quality monitoring
-- Risk management
-- Stakeholder engagement
+**Responsibilities**:
+- 📜 Policy development
+- 💰 Resource allocation
+- 📈 Quality monitoring
+- ⚠️ Risk management
 
 **Meeting Frequency**: Quarterly with annual review
 
 ### Working Groups
 
-**Curriculum Development**
+<details>
+<summary>🛠️ Curriculum Development Group</summary>
+
 - Design AI-integrated curriculum
 - Create learning resources
 - Develop assessments
 - Share best practices
 
-**Staff Development**
+</details>
+
+<details>
+<summary>👥 Staff Development Group</summary>
+
 - Training programmes
 - Support networks
 - Research opportunities
 - Innovation projects
 
-**Quality Assurance**
+</details>
+
+<details>
+<summary>✅ Quality Assurance Group</summary>
+
 - Monitor standards
 - Evaluate outcomes
 - Address issues
 - Continuous improvement
 
-## Policy Framework
+</details>
 
-### Institutional AI Policy
+---
 
-**Core Principles**
-1. **Student-Centered**: AI enhances learning
+## 2️⃣ Policy Framework {#policy-framework}
+
+### Core Principles
+
+The institutional AI policy must be built on these **5 Pillars**:
+
+1. **Student-Centered**: AI enhances learning, not replaces critical thinking
 2. **Ethical**: Responsible and transparent use
-3. **Evidence-Based**: Informed by research
-4. **Inclusive**: Equitable access for all
-5. **Sustainable**: Environmentally conscious
+3. **Evidence-Based**: Informed by research and best practice
+4. **Inclusive**: Equitable access for all students
+5. **Sustainable**: Environmentally and financially conscious
 
-**Policy Components**
-- Acceptable use guidelines
-- Data protection requirements
-- Academic integrity standards
-- Assessment regulations
-- Support provisions
+### Key Policy Components
 
-### Implementation Guidelines
+| Component | What It Includes |
+| :--- | :--- |
+| **Acceptable Use** | What students MAY and MUST NOT use AI for |
+| **Data Protection** | GDPR compliance, patient confidentiality rules |
+| **Academic Integrity** | Disclosure requirements, consequences for misuse |
+| **Assessment Regulations** | AI-resilient assessment design guidance |
+| **Support Provisions** | Where students go for help |
 
-**For Students**
-- Clear expectations
-- Disclosure requirements
-- Support resources
-- Consequences of misuse
-- Appeals process
+### Implementation Guidance
 
-**For Staff**
-- Teaching guidance
-- Assessment design
-- Tool recommendations
-- Support access
-- Professional development
+<details>
+<summary>📚 For Students</summary>
 
-**For Practice Partners**
-- Placement policies
-- Mentor guidance
-- Assessment alignment
-- Communication protocols
+- **Clear Expectations**: What's allowed vs. prohibited
+- **Disclosure Requirements**: How to cite AI use
+- **Support Resources**: Where to get help
+- **Consequences**: What happens if policies are violated
+- **Appeals Process**: How to challenge decisions
 
-## Infrastructure and Resources
+</details>
 
-### Technology Infrastructure
+<details>
+<summary>🎓 For Staff</summary>
 
-**AI Tool Access**
+- **Teaching Guidance**: How to integrate AI into lessons
+- **Assessment Design**: Creating AI-resilient assessments
+- **Tool Recommendations**: Which AI tools are approved
+- **Support Access**: Where staff go for training
+- **Professional Development**: Ongoing learning opportunities
+
+</details>
+
+<details>
+<summary>🏥 For Practice Partners</summary>
+
+- **Placement Policies**: AI use in clinical settings
+- **Mentor Guidance**: Supporting students using AI
+- **Assessment Alignment**: Ensuring consistency
+- **Communication Protocols**: Who to contact with concerns
+
+</details>
+
+---
+
+## 3️⃣ Infrastructure & Resources
+
+### Technology Access
+
+**Essential Tools**:
 - Institutional subscriptions (ChatGPT, Claude, etc.)
 - Specialized nursing AI tools
-- Integration with VLE
+- VLE integration (Moodle/Blackboard)
 - Mobile accessibility
-- Technical support
-
-**IT Support**
-- Help desk services
-- Training resources
-- Troubleshooting guides
-- Security measures
-- Regular updates
+- 24/7 technical support
 
 ### Learning Resources
 
-**Digital Library**
-- AI literacy guides
-- Video tutorials
-- Case studies
-- Assessment exemplars
-- Research papers
+**Digital Library**:
+- 📖 AI literacy guides
+- 🎥 Video tutorials
+- 📊 Case studies
+- 📝 Assessment exemplars
+- 🔬 Research papers
 
-**Physical Resources**
-- AI literacy workshops
-- Drop-in sessions
-- One-to-one support
-- Peer mentoring
-- Practice spaces
+**Physical Support**:
+- 🛠️ Drop-in workshops
+- 👤 One-to-one support
+- 👫 Peer mentoring
+- 💻 Practice labs
 
-## Staff Development Programme
+---
+
+## 4️⃣ Staff Development Programme
 
 ### Training Pathway
 
-**Foundation Level** (All Staff)
+```mermaid
+graph LR
+    A[Foundation Level<br/>All Staff] --> B[Intermediate Level<br/>Teaching Staff]
+    B --> C[Advanced Level<br/>Leaders]
+    
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+```
+
+**Foundation Level** (All Staff):
 - AI basics and terminology
 - Institutional policies
 - Ethical considerations
-- Tool demonstrations
-- Support resources
 
-**Intermediate Level** (Teaching Staff)
+**Intermediate Level** (Teaching Staff):
 - Pedagogical integration
 - Assessment design
-- Student support
-- Quality assurance
-- Troubleshooting
+- Student support strategies
 
-**Advanced Level** (Leaders/Innovators)
+**Advanced Level** (Leaders/Innovators):
 - Strategic planning
 - Research methods
 - Policy development
-- Sector engagement
-- Innovation leadership
 
 ### Support Mechanisms
 
-**Communities of Practice**
-- Regular meetings
-- Shared resources
-- Problem-solving
-- Innovation sharing
-- Peer support
+- **Communities of Practice**: Regular meetings to share innovation
+- **Mentoring**: Peer-to-peer support
+- **Research Opportunities**: Scholarships, publications, conference funding
 
-**Mentoring**
-- Experienced staff support
-- Peer mentoring
-- Cross-disciplinary learning
-- Practice sharing
+---
 
-**Research Opportunities**
-- Scholarship of teaching
-- Innovation projects
-- Conference presentations
-- Publications
-- Funding support
+## 5️⃣ Quality Assurance Framework
 
-## Quality Assurance Framework
+### Key Metrics
 
-### Monitoring and Evaluation
+| Metric | Data Source | Frequency |
+| :--- | :--- | :--- |
+| Student AI literacy levels | Student surveys | Annual |
+| Staff confidence | Staff feedback | Biannual |
+| Assessment outcomes | Module analytics | Per semester |
+| Academic integrity incidents | Registry data | Ongoing |
+| Stakeholder satisfaction | External examiner reports | Annual |
 
-**Key Metrics**
-- Student AI literacy levels
-- Staff confidence and competence
-- Assessment outcomes
-- Academic integrity incidents
-- Stakeholder satisfaction
+### Continuous Improvement Cycle
 
-**Data Sources**
-- Student surveys
-- Staff feedback
-- Assessment analytics
-- External examiner reports
-- Graduate outcomes
+1. **Collect Data** → Surveys, analytics, feedback
+2. **Analyze** → Identify trends, gaps, successes
+3. **Report** → Quarterly dashboards, annual reports
+4. **Adjust** → Policy updates, resource reallocation
+5. **Repeat** → Ongoing cycle
 
-**Reporting**
-- Quarterly dashboards
-- Annual reports
-- External reviews
-- Sector benchmarking
+---
 
-### Continuous Improvement
+## ⚠️ Risk Management
 
-**Review Cycle**
-- Annual policy review
-- Biennial strategy refresh
-- Ongoing practice evaluation
-- Regular stakeholder consultation
-- Evidence-based adjustments
+### Identified Risks & Mitigation Strategies
 
-## Risk Management
+<details>
+<summary>🚨 Academic Integrity Risks</summary>
 
-### Identified Risks
-
-**Academic Integrity**
+**Risks**:
 - Undisclosed AI use
 - Over-reliance on AI
-- Plagiarism concerns
+- Plagiarism
 
-**Mitigation**
-- Clear policies
-- AI-resilient assessment
-- Detection tools (used ethically)
-- Education and support
+**Mitigation**:
+- ✅ Clear policies and education
+- ✅ AI-resilient assessment design (Vivas, process-based tasks)
+- ✅ Ethical use of detection tools (not as sole evidence)
+- ✅ Student support and training
 
-**Equity and Access**
-- Digital divide
+</details>
+
+<details>
+<summary>⚖️ Equity & Access Risks</summary>
+
+**Risks**:
+- Digital divide (students without laptops)
 - Unequal resources
 - Disability barriers
 
-**Mitigation**
-- Institutional subscriptions
-- Device loan schemes
-- Accessibility features
-- Alternative provisions
+**Mitigation**:
+- ✅ Institutional subscriptions (free for all students)
+- ✅ Device loan schemes
+- ✅ Accessibility features
+- ✅ Alternative provisions
 
-**Data Privacy**
+</details>
+
+<details>
+<summary>🔒 Data Privacy Risks</summary>
+
+**Risks**:
 - Patient confidentiality breaches
 - GDPR violations
 - Data security
 
-**Mitigation**
-- Clear guidelines
-- Training
-- Monitoring
-- Incident response
+**Mitigation**:
+- ✅ Clear "Never Input Patient Data" guidelines
+- ✅ Mandatory training
+- ✅ Monitoring and audits
+- ✅ Incident response plan
 
-**Quality Concerns**
-- Inconsistent implementation
-- Variable standards
-- Staff capacity
+</details>
 
-**Mitigation**
-- Quality assurance
-- Staff development
-- Resource allocation
-- External validation
+---
 
-## Stakeholder Engagement
+## 🤝 Stakeholder Engagement
 
 ### Student Partnership
 
-**Involvement**
-- Policy co-creation
-- Resource development
-- Peer support leadership
-- Feedback mechanisms
-- Innovation projects
+**How Students Are Involved**:
+- 📝 Policy co-creation
+- 🛠️ Resource development
+- 💬 Feedback mechanisms
+- 🚀 Innovation projects
 
-**Communication**
-- Regular updates
-- Town halls
-- Digital channels
-- Student representatives
-- Feedback loops
+**Communication Channels**:
+- Regular town halls
+- Student representatives on steering group
+- Digital feedback forms
 
 ### Practice Partner Collaboration
 
-**Engagement**
+**Engagement Activities**:
 - Joint policy development
 - Mentor training
-- Placement integration
-- Quality assurance
 - Best practice sharing
+- Quality assurance reviews
 
 ### Professional Body Liaison
 
-**NMC Engagement**
-- Standards alignment
-- Policy consultation (NMC Code review 2025-2027)
-- Inspection preparation
-- Sector contribution
-
 :::tip NMC AI Standards Timeline
-The NMC is currently reviewing its Code to integrate AI standards. Consultation expected **Q3-Q4 2026**, with publication in **October 2027**. Institutions should actively participate in the consultation process and align policies with forthcoming standards.
+The NMC is currently reviewing its Code to integrate AI standards. Consultation expected **Q3-Q4 2026**, with publication in **October 2027**. Institutions should actively participate in the consultation process.
 :::
 
-**RCN Collaboration**
-- Professional development
-- Research partnerships
-- Policy influence
-- Member support
+**Key Relationships**:
+- 🏛️ **NMC**: Standards alignment, inspection preparation
+- 🩺 **RCN**: Professional development, research partnerships
 
-## Sustainability
+---
+
+## 🌱 Sustainability
 
 ### Environmental Considerations
 
-**Green AI Practices**
-- Energy-efficient tools
-- Sustainable procurement
-- Carbon offsetting
-- Environmental education
-- Policy integration
+**Green AI Practices**:
+- Use energy-efficient AI tools
+- Sustainable procurement policies
+- Carbon offsetting where necessary
+- Educate students on AI's environmental impact
 
 ### Financial Sustainability
 
-**Funding Model**
-- Institutional investment
-- External funding
-- Cost-benefit analysis
-- Resource optimization
-- Long-term planning
+**Funding Model**:
+- Institutional investment (base funding)
+- External grants (innovation projects)
+- Cost-benefit analysis (ROI tracking)
+- Long-term financial planning
 
-### Organizational Sustainability
+---
 
-**Change Management**
-- Phased implementation
-- Staff buy-in
-- Cultural change
-- Continuous adaptation
-- Leadership commitment
+## ✅ Implementation Checklist
+
+Use this to track your institutional readiness:
+
+- [ ] Steering group established
+- [ ] AI policy drafted and approved
+- [ ] Staff training programme launched
+- [ ] AI tool subscriptions secured
+- [ ] Student support resources created
+- [ ] Quality assurance metrics defined
+- [ ] Risk management plan in place
+- [ ] Practice partner engagement confirmed
+- [ ] NMC alignment verified
 
 ---
 
