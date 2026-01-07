@@ -6,139 +6,101 @@ description: Generative AI in UK nursing education - A toolkit for ethical, evid
 
 # AI in Nursing Education: A Multimodal Learning Toolkit
 
-## About This Toolkit
+:::tip 👋 Welcome
+I'm **Lincoln Gombedza, RN (LD)**. This toolkit is designed to help UK nursing educators harness the potential of Generative AI while maintaining the rigorous standards our profession demands.
+:::
 
-Welcome! I'm **Lincoln Gombedza, RN (LD)**, and I've created this toolkit to help UK nursing educators harness the potential of Generative AI whilst maintaining the rigorous standards our profession demands.
+## 🌟 About This Toolkit
 
-This work builds upon the foundational research of **Tünde Varga-Atkins, Samuel Saunders, and colleagues** in their excellent "Educators' guide to multimodal learning and Generative AI" (2024/25)[^1]. I have adapted and contextualised their insights for UK nursing education, integrating NMC standards, clinical examples, and person-centred care principles.
+This resource is a **practical bridge** between pedagogical theory and nursing practice.
 
-### Acknowledgments
+- **Built on Research**: Adapted from the *"Educators' guide to multimodal learning and Generative AI"* (Varga-Atkins et al., 2024/25)[^1].
+- **Contextualised for Nursing**: Integrating **NMC standards**, clinical examples, and person-centred care principles.
+- **For Educators**: Written for nurse academics, practice facilitators, and clinical educators.
 
-This toolkit would not exist without the pioneering work and inspiration of:
+<details>
+<summary>🙏 Acknowledgments & Pioneers</summary>
 
-**Academic Foundation**:
-- **Dr Tünde Varga-Atkins and the University of Liverpool team** — For creating the foundational guide to multimodal learning and GenAI, published under CC BY-NC 4.0 licence[^1]
+This work stands on the shoulders of giants. A heartfelt thank you to:
 
-**Mentors and Champions**:
-- **Aisha Holloway**, Chief Nursing Officer for Scotland — My mentor, whose leadership continues to inspire excellence in nursing practice
-- **Professor Gemma Stacey**, Programme Director Nursing Now Challenge — Mentor and champion of nurse-led innovation
-- **Josie Rudman MBE**, NHS England — My mutual mentor, whose wisdom has shaped my approach to healthcare transformation
-- **Dr Clare Cable**, Chief Executive Burdett Trust for Nursing, Nursing Now Challenge — For supporting nurse-led initiatives and evidence-based practice
-- **Janet Michel**, Executive Director Global Health Mentorships — For championing global nursing collaboration
+**Academic Foundation**
+* **Dr Tünde Varga-Atkins** (University of Liverpool) — For the foundational research guide.
 
-**Nurse Citizen Developer Pioneers**:
-- **Professor Joanne Bosanquet**, Chief Executive Foundation of Nursing Studies — For championing digital innovation, person-centred language, and evidence-based nursing practice
-- **Kumbi Kariwo**, Nurse Citizen Developer & Expert in Wound/Skintone Bias and Coded Bias in AI — For demonstrating how nurses can lead technological transformation and address critical AI equity issues
-- **Lorna Zvikomborero Magume**, Care and Support Worker at ALC Supported Living (Aspirational Led Care) — Whose dedication to person-centred care is nothing short of inspirational
-- **Hector Musonza**, Practice Education and Preceptorship Lead — For advancing nursing education excellence
-- **Rohit Sagoo**, Children's Nurse — Mentor whose commitment to paediatric nursing inspires innovation
-- **Dr Hellena Habte-Asres**, Multi-Award-Winning Postdoctoral Researcher (PhD Epidemiology), Clinical Academic Nurse — Mentor and friend whose expertise in diabetes, CKD, and ophthalmology, and dedication to real-world evidence continues to inspire
-- **Kelly Thobekile Ncube**, Senior Lecturer in Adult Nursing (SFHEA), Global Health Lecturer Volunteer Fellow — Passionate educator in resuscitation and expert in AI nursing education, championing innovative teaching methods
+**Mentors & Champions**
+* **Aisha Holloway** (CNO Scotland) & **Prof. Gemma Stacey** — For inspiring excellence.
+* **Josie Rudman MBE** & **Dr Clare Cable** — For supporting nurse-led innovation.
+* **Janet Michel** & **Prof. Joanne Bosanquet** — For championing global and person-centred nursing.
 
-**Professional Bodies**:
-- **The Nursing and Midwifery Council (NMC)** and **Royal College of Nursing (RCN)** — For their guidance on digital literacy in nursing
-- **The Foundation of Nursing Studies (FONS) community** — For championing evidence-based nursing practice
+**The "Nurse Citizen Developers"**
+* **Kumbi Kariwo** — Champion of AI equity and bias mitigation.
+* **Lorna Zvikomborero Magume** — An inspiration in person-centred care.
+* **Hector Musonza**, **Rohit Sagoo**, **Dr Hellena Habte-Asres**, **Kelly Thobekile Ncube** — Innovators in education and practice.
 
-**To All Nurse Educators**:
-- Every nurse educator experimenting with AI in their teaching — You are shaping the future of nursing education
-
-Their collective work has shown that nurses can—and should—shape the AI tools we use, rather than simply accepting what is built for us.
-
-**Last Updated**: December 2025
+</details>
 
 ---
 
-## Welcome to the AI Educator Toolkit
+## 🩺 Our Nursing Position on Generative AI
 
-This toolkit presents strategies and techniques for the incorporation of Generative AI (GenAI) in multimodal forms of teaching, learning, and assessment in **nursing education**. It focuses on the intersection of multimodal learning and GenAI and is written for both educators and educational developers, who play a pivotal role in modelling pedagogical innovation and guiding colleagues through evolving landscapes of teaching and learning.
+We align with the **ICN**, **NMC**, and **RCN**: AI is a tool to *augment*, not replace, nursing judgement.
 
-## Our Nursing Position on Generative AI
+### The "Middle Way" Approach
 
-As nurses and nursing educators, our position on AI must reflect the professional, ethical, and clinical realities of our practice. This toolkit aligns with guidance from the **International Council of Nurses (ICN)**, **Nursing and Midwifery Council (NMC)**, and **Royal College of Nursing (RCN)**.
+We reject both uncritical hype and complete rejection. Instead, we advocate for **Critical AI Fluency**:
 
-### Core Principles
+```mermaid
+graph LR
+    A[Uncritical Hype] -->|❌ Too Risky| B((The Middle Way))
+    C[Complete Rejection] -->|❌ Missed Opportunity| B
+    B --> D[Critical Evaluation]
+    B --> E[Ethical Use]
+    B --> F[Human-Centred Care]
+    
+    style B fill:#d1e7dd,stroke:#0f5132,stroke-width:2px
+```
 
-**1. Nurses Must Lead, Not Follow**  
-The ICN (2025) is unequivocal: nurses must be "actively engaged and lead in all phases of AI solution development, implementation, and evaluation." We are not passive recipients of technology—we are **Nurse Citizen Developers** who shape the tools we use.
+### 5 Core Principles
 
-**2. AI Augments, Never Replaces, Nursing Judgement**  
-The RCN (October 2025) states that "AI has significant potential to modernise services but must enhance, rather than replace, personal nursing care." AI does not replace a nurse's critical thinking, clinical judgement, empathy, or the therapeutic relationship. It is a **supportive tool**, not a substitute for human connection.
+| Principle | Why It Matters |
+| :--- | :--- |
+| **1. Lead, Don't Follow** | Nurses must be "Nurse Citizen Developers" who shape the tools we use (ICN, 2025). |
+| **2. Augment, Don't Replace** | AI cannot replace empathy, touch, or therapeutic relationships (RCN, 2025). |
+| **3. Accountability is Ours** | You remain professional accountable for all decisions, even AI-assisted ones (ANA, 2025). |
+| **4. Ethical Vigilance** | We must rigorously check for bias (e.g., skin tone bias in wound care). |
+| **5. Education Before Regulation** | Digital literacy is already an NMC requirement. We can't wait for the 2027 Code update. |
 
-**3. Patient Safety and Accountability Remain with Nurses**  
-The American Nurses Association (2025) Code of Ethics is clear: nurses remain accountable for all clinical decisions, even when AI contributes to diagnosis or monitoring. We must verify AI-generated information against authoritative sources (NICE, BNF, NMC standards) and never outsource our professional responsibility.
+---
 
-**4. Ethical Vigilance is Non-Negotiable**  
-AI systems can perpetuate bias, especially around skin tone in wound assessment, diagnostic algorithms, and triage tools. The ICN emphasises "vigilance against data bias" and "ensuring transparency and accountability." As nurses, we advocate for health equity and must scrutinise AI for fairness.
+## 🎨 Why "Multimodal" Learning?
 
-**5. Education Now, Regulation Coming**  
-The NMC is reviewing its Code to include AI standards (consultation 2026, publication 2027). However, **digital literacy is already a foundational requirement** in NMC pre-registration standards. We cannot wait for regulation—we must equip students with critical AI literacy now.
+Nursing is inherently multimodal. We don't just "read" patients; we **observe**, **listen**, **touch**, and **sense**. Our teaching should reflect this using AI to create rich, diverse learning materials.
 
-### Our Pragmatic Approach
+### Examples in Nursing:
 
-We adopt what Vallor (2024) calls **"a middle way"**: neither uncritical enthusiasm nor outright rejection. AI is here—students already use it, healthcare systems are deploying it, and patients expect it. Our role as educators is to:
+- **📸 Visual**: AI-generated diagrams of pathophysiology.
+- **🎧 Auditory**: Simulated patient voiceovers for history taking.
+- **🎭 Simulation**: Text-based roleplay scenarios for communication skills.
+- **📊 Data**: Interpreting AI-generated public health datasets.
 
-- **Model responsible use** — Show students how to use AI ethically and effectively
-- **Teach critical evaluation** — Equip students to identify hallucinations, bias, and limitations
-- **Preserve humanistic care** — Ensure AI enhances, rather than erodes, compassion and connection
-- **Prepare for the future** — AI fluency is now a core nursing competency alongside clinical skills
+---
 
-:::caution Our Commitment
-We do not believe that discussing AI means uncritically endorsing it. Rather, we believe that **ignoring AI does students a disservice**. Future nurses will work in AI-augmented healthcare systems. Our responsibility is to prepare them to use AI safely, ethically, and in service of person-centred care.
+## 🧭 Toolkit Navigation
+
+Where should you start?
+
+| If you are... | Go to... |
+| :--- | :--- |
+| **New to AI** | [**What is Generative AI?**](/docs/what-is-generative-ai) for the basics. |
+| **Worried about Ethics** | [**Responsible Use**](/docs/responsible-use) for policy and safety. |
+| **Planning a Module** | [**Teaching with AI**](/docs/teaching) for lesson plans. |
+| **Looking for Examples** | [**Case Studies**](/docs/case-studies/patient-scenarios) for ready-to-use prompts. |
+| **A Strategic Leader** | [**Institutional Framework**](/docs/ai-literacy/institutional-framework) for governance. |
+
+---
+
+:::quote
+"We do not believe that discussing AI means uncritically endorsing it. Rather, we believe that **ignoring AI does students a disservice**. Future nurses will work in AI-augmented healthcare systems. Our responsibility is to prepare them."
 :::
-
-## Why Multimodal Learning Matters in Nursing
-
-Digital technologies have both intensified and shone a light on the inherently multimodal nature of modern society — where learning and communication extend beyond text and speech to include the visual, aural, or tactile (Kress, 2009; Cope & Kalantzis, 2024).
-
-**For nursing education specifically**, multimodal approaches are essential because:
-
-- **Clinical practice is multimodal** — Nurses communicate through verbal reports, written documentation, visual assessments, and physical demonstrations
-- **Patient-centred care requires multiple forms of expression** — Understanding and responding to patients' needs through various communication modes
-- **Learning styles vary** — Different students grasp complex clinical concepts through different modalities
-- **Professional standards demand it** — NMC standards emphasize effective communication across multiple modes
-
-As Generative AI technology becomes increasingly embedded in everyday life, it is vital for nursing education to design multimodal learning, teaching, and assessment approaches that foster students' ability to think both critically and effectively in a digitally mediated context.
-
-## Multimodal Learning in Context
-
-In a multimodal learning environment, educators aim to move beyond text-dominant formats, and instead incorporate and combine a variety of communication forms to better support student learning. Digital multimodal learning involves designing learning activities that draw on multimodal artefacts and utilise a combination of 'semiotic technologies'.
-
-These technologies help to combine image, sound, touch and other modes into multimodal artefacts that are better than single-mode artefacts for meaning-making (Kress, 2009; van Leeuwen, 2017), commonly a combination of verbal and some other mode of expression.
-
-### Examples in Nursing Education:
-
-- **Infographics** — Anatomical diagrams with labels and explanatory text
-- **Digital posters** — Research presentations combining data, images, and narrative
-- **Videos** — Clinical skills demonstrations with narration
-- **Virtual simulations** — Interactive patient scenarios
-- **Inquiry graphics** — Visual representations of clinical reasoning processes
-
-A key aspect of multimodality is the way that different modes are assembled (e.g. text and image in an infographic). This assembly provides extra meaning beyond the sum of its parts, and informs interactions and discussions in the nursing education context.
-
-## What's in This Guide?
-
-The guide is organized into several key sections:
-
-1. **Responsible Use of AI** — Ethical considerations, costs, and sustainability
-2. **Developing AI Literacy** — Building competencies at individual, module, programme, and institutional levels
-3. **Teaching with AI** — Creating and delivering multimodal nursing education content
-4. **Learning with AI** — How students can engage with GenAI for deeper understanding
-5. **Assessment & Feedback** — Reimagining evaluation in the age of AI
-6. **Choosing Platforms** — Guidance on selecting appropriate GenAI tools
-7. **Design Model** — A framework for integrating multimodal GenAI into nursing curricula
-
-Throughout, you'll find **nursing-specific case studies**, **practical examples**, and **ready-to-use prompt templates** tailored for UK nursing education contexts.
-
-## Next Steps
-
-Ready to explore? Here's where to go:
-
-- **New to GenAI?** → Start with [What is Generative AI?](/docs/what-is-generative-ai)
-- **Concerned about ethics?** → Read [Responsible Use](/docs/responsible-use)
-- **Need practical ideas?** → Browse [Teaching with AI](/docs/teaching)
-- **Looking for examples?** → Check [Case Studies](/docs/case-studies/patient-scenarios)
-
-Let's begin this journey to enhance nursing education through thoughtful, critical, and creative use of multimodal learning and GenAI! 🚀
 
 ---
 
