@@ -1,0 +1,79 @@
+.quizContainer {
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.quizQuestion {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--ifm-heading-color);
+}
+
+.optionsGrid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.optionButton {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background: var(--ifm-color-emphasis-100);
+    border: 2px solid transparent;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 150px;
+}
+
+.optionButton:hover {
+    background: var(--ifm-color-primary-lighter);
+    transform: translateY(-2px);
+}
+
+.resultBox {
+    animation: fadeIn 0.4s ease-in;
+    padding: 2rem;
+    background: var(--ifm-color-emphasis-100);
+    border-radius: 12px;
+}
+
+.resultTitle {
+    font-size: 1.5rem;
+    color: var(--ifm-color-primary);
+    margin-bottom: 1rem;
+}
+
+.resultDesc {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.restartButton {
+    margin-top: 1rem;
+    color: var(--ifm-color-emphasis-600);
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

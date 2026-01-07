@@ -1,0 +1,97 @@
+.calculatorContainer {
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.questionGroup {
+    margin-bottom: 2rem;
+}
+
+.questionLabel {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: var(--ifm-heading-color);
+}
+
+.optionsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.optionButton {
+    padding: 1rem;
+    border: 2px solid var(--ifm-color-emphasis-200);
+    border-radius: 8px;
+    background: var(--ifm-background-color);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    color: var(--ifm-font-color-base);
+}
+
+.optionButton:hover {
+    background: var(--ifm-color-emphasis-100);
+    border-color: var(--ifm-color-emphasis-300);
+}
+
+.optionSelected {
+    border-color: var(--ifm-color-primary);
+    background: var(--ifm-color-emphasis-100);
+    color: var(--ifm-color-primary);
+}
+
+.resultBox {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.resultLow {
+    background-color: rgba(76, 175, 80, 0.1);
+    border: 1px solid #4CAF50;
+    color: #2E7D32;
+}
+
+.resultMedium {
+    background-color: rgba(255, 152, 0, 0.1);
+    border: 1px solid #FF9800;
+    color: #EF6C00;
+}
+
+.resultHigh {
+    background-color: rgba(244, 67, 54, 0.1);
+    border: 1px solid #F44336;
+    color: #C62828;
+}
+
+.riskTitle {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.riskDesc {
+    font-size: 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
