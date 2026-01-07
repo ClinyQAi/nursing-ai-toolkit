@@ -4,7 +4,7 @@ title: Collaborative Learning
 description: Strategies for effective student-AI collaboration in nursing education
 ---
 
-# Collaborative Learning with AI
+# 🤝 Collaborative Learning with AI
 
 :::info Attribution
 **Original work**: "Educators' guide to multimodal learning and Generative AI" — Tünde Varga-Atkins, Samuel Saunders, et al. (2024/25) — [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
@@ -14,39 +14,94 @@ description: Strategies for effective student-AI collaboration in nursing educat
 
 Generative AI introduces a new dynamic to collaborative learning: the "non-human" collaborator. This section explores how to facilitate effective group work that includes AI tools.
 
-## 1. AI as a "Team Member"
-In group projects, AI can be assigned a specific role, such as "The Sceptic" or "The Note-Taker," to support the human students.
+## 🤖 AI as a "Team Member"
 
-### Strategy: The "Devil's Advocate"
-*   **Context**: A group of students is designing a quality improvement implementation plan.
-*   **Action**: They feed their plan to an AI (e.g., Claude Sonnet 4) and ask it to identify **three potential points of failure** or **safety risks**.
-*   **Outcome**: The group must then discuss these risks and refute them or adapt their plan.
+In group projects, AI can be assigned a specific role to support human students.
 
-## 2. Think-Pair-Share-AI
-A modification of the classic teaching strategy:
+<div className="row">
+  <div className="col col--6 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header" style={{borderLeft: "5px solid #f44336"}}>
+        <h3>👿 The Devil's Advocate</h3>
+      </div>
+      <div className="card__body">
+        <p><strong>Goal:</strong> Challenge groupthink.</p>
+        <p><strong>Action:</strong> Feed a plan to AI and ask: <em>"Identify 3 safety risks or points of failure we missed."</em></p>
+      </div>
+    </div>
+  </div>
+  <div className="col col--6 margin-bottom--md">
+    <div className="card h-100">
+      <div className="card__header" style={{borderLeft: "5px solid #2196f3"}}>
+        <h3>📝 The Note-Taker</h3>
+      </div>
+      <div className="card__body">
+        <p><strong>Goal:</strong> Synthesize discussion.</p>
+        <p><strong>Action:</strong> Record (with consent) a brainstorm and ask AI to: <em>"Summarize our 3 key themes."</em></p>
+      </div>
+    </div>
+  </div>
+</div>
 
-1.  **Think**: Students reflect individually on a question (e.g., "What are the barriers to effective discharge planning?").
-2.  **Pair**: They discuss with a partner.
-3.  **Share**: They share with the wider group.
-4.  **AI (New Step)**: The group asks an AI the same question and compares the AI's perspective with their own. *Did the AI miss the human/social aspects? Did the AI find a policy point the students missed?*
+---
 
-## 3. Risks of "Social Loafing"
-There is a risk that students may over-rely on AI to do the "heavy lifting" in group work.
+## 🔄 Strategy: Think-Pair-Share-AI
 
-### Mitigation Strategies for Educators:
-*   **Process over Product**: Assess the *discussion* and *prompting strategy*, not just the final output.
-*   **Video Reflections**: Ask groups to record a 5-minute video explaining *how* they used AI and where they disagreed with it.
-*   **"Human-In-The-Loop" Requirement**: Mandate that every AI-generated contribution must be annotated with a student's verification or critique.
+A simple modification of the classic teaching strategy to include AI as a distinct "voice":
 
-## 4. Interdisciplinary Simulation
+```mermaid
+graph LR
+    A[🧠 Think<br/>(Individual Reflection)] --> B[👥 Pair<br/>(Discuss with Partner)]
+    B --> C[🗣️ Share<br/>(Group Feedback)]
+    C --> D[🤖 AI Critique<br/>(Compare with AI)]
+    
+    style A fill:#e3f2fd,stroke:#2196f3
+    style B fill:#e8f5e9,stroke:#4caf50
+    style C fill:#fff3e0,stroke:#ff9800
+    style D fill:#f3e5f5,stroke:#9c27b0,stroke-dasharray: 5 5
+```
+
+**Activity Example**:
+1.  **Think**: "What are barriers to discharge planning?"
+2.  **Pair**: Discuss with neighbor.
+3.  **Share**: Class discussion.
+4.  **AI**: Ask ChatGPT the same question. *Did it miss the social factors? Did it find a policy we missed?*
+
+---
+
+## 🎭 Interdisciplinary Simulation
+
 AI can simulate professionals from other fields to create interdisciplinary case conferences.
 
-**Scenario**: Discharge planning for a patient with complex needs.
-*   **Student Role**: The Nurse.
-*   **AI Role 1**: The Social Worker (focus on funding/care act).
-*   **AI Role 2**: The Occupational Therapist (focus on home adaptations).
-*   **Activity**: The student must coordinate the discharge plan, synthesizing input from these AI "colleagues" while advocating for the patient's nursing needs.
-
-:::tip Accessibility Note
-Collaborative AI tools can be great levelers for students who face language barriers or neurodiverse challenges in group settings, providing a "safe" space to rehearse ideas before sharing with peers.
+:::note 🏥 Scenario: Complex Discharge Planning
+**The Patient**: A 75-year-old with femoral fracture and early dementia.
+**The Student**: Plays the **Nurse**.
+**The AI**: Plays the **Social Worker** and **Occupational Therapist**.
 :::
+
+### 💬 Sample Interaction Script
+
+> **Student (Nurse)**: "I'm concerned about Mrs. Jones' mobility at home. She lives alone."
+>
+> **AI (Occupational Therapist)**: "I can arrange a home assessment. However, looking at her notes, does she have downstairs toileting? If not, we might need a commode or a hospital bed downstairs before discharge."
+>
+> **AI (Social Worker)**: "I need to check her care package funding. Has a financial assessment been triggered yet? We can't restart the package until that's confirmed."
+>
+> **Student (Nurse)**: *[Must synthesize this to coordinate the discharge date]*
+
+---
+
+## ⚠️ Risk: The "Social Loafing" Trap
+
+:::warning Avoid Dependency
+There is a risk that students may over-rely on AI to do the "heavy lifting" in group work (social loafing).
+
+**Mitigation Strategies**:
+1.  **Process over Product**: Grade the *prompt history*, not just the final essay.
+2.  **Video Reflection**: Groups record a 2-minute video explaining *how* they verified the AI's work.
+3.  **Human-In-The-Loop**: Mandate that every AI contribution must be manually annotated with a "Verification Check".
+:::
+
+---
+
+**Next**: Check out [AI Literacy Activities](./ai-literacy-activities) for specific student exercises!
