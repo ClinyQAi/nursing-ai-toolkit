@@ -9,7 +9,7 @@ import Heading from '@theme/Heading';
 
 import CallToAction from '@site/src/components/CallToAction';
 import TrustBar from '@site/src/components/HomepageFeatures/TrustBar';
-import Testimonials from '@site/src/components/HomepageFeatures/Testimonials';
+
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -57,7 +57,7 @@ export default function Home(): React.JSX.Element {
       <main>
         <TrustBar />
         <HomepageFeatures />
-        <Testimonials />
+
         <HowItWorks />
         <CallToAction />
       </main>
