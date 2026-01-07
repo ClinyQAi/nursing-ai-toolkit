@@ -45,50 +45,49 @@
 }
 
 [data-theme='dark'] {
-  /* Ivory Dark - Premium Blue with Ivory Accents */
-  --ifm-color-primary: #60a5fa;
-  /* Softer bright blue */
-  --ifm-color-primary-dark: #3b82f6;
-  --ifm-color-primary-darker: #2563eb;
-  --ifm-color-primary-darkest: #1d4ed8;
-  --ifm-color-primary-light: #93c5fd;
-  --ifm-color-primary-lighter: #bfdbfe;
-  --ifm-color-primary-lightest: #dbeafe;
+  /* Proper Dark Mode - Neutral Charcoal */
+  --ifm-color-primary: #3b82f6;
+  /* Blue accent for links */
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #bfdbfe;
 
-  /* Refined Accent Colours - Ivory/Cream inspired */
-  --accent-teal: #5eead4;
-  --accent-purple: #c4b5fd;
-  --accent-amber: #fcd34d;
-  --accent-pink: #f9a8d4;
-  --accent-green: #6ee7b7;
-  --accent-ivory: #fffbeb;
-  /* Warm ivory accent */
-  --accent-cream: #fef3c7;
+  /* Accent Colours - Vibrant against dark */
+  --accent-teal: #14b8a6;
+  --accent-purple: #a78bfa;
+  --accent-amber: #fbbf24;
+  --accent-pink: #f472b6;
+  --accent-green: #34d399;
 
-  /* Deep Dark Backgrounds - Charcoal with blue undertones */
-  --ifm-background-color: #0c1222;
-  --ifm-background-surface-color: rgba(15, 23, 42, 0.97);
-  --ifm-navbar-background-color: rgba(12, 18, 34, 0.85);
+  /* True Dark Backgrounds - Neutral charcoal/slate */
+  --ifm-background-color: #111827;
+  /* Slate 900 */
+  --ifm-background-surface-color: #1f2937;
+  /* Slate 800 */
+  --ifm-navbar-background-color: rgba(17, 24, 39, 0.95);
 
-  /* Typography - Ivory tinted for warmth */
-  --ifm-font-color-base: #f1f5f9;
-  --ifm-font-color-secondary: #cbd5e1;
-  --ifm-heading-color: #fefce8;
-  /* Warm ivory for headings */
+  /* Typography - Crisp white/gray */
+  --ifm-font-color-base: #f9fafb;
+  /* Gray 50 */
+  --ifm-font-color-secondary: #d1d5db;
+  /* Gray 300 */
+  --ifm-heading-color: #ffffff;
 
-  /* Enhanced Glassmorphism */
-  --glass-bg: rgba(15, 23, 42, 0.75);
-  --glass-border: rgba(96, 165, 250, 0.12);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
-  --glass-blur: 16px;
+  /* Glassmorphism - Adjusted for neutral dark */
+  --glass-bg: rgba(31, 41, 55, 0.8);
+  --glass-border: rgba(75, 85, 99, 0.4);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  --glass-blur: 12px;
 
-  /* Premium Glow tokens */
-  --glow-primary: 0 0 25px rgba(96, 165, 250, 0.25);
-  --glow-teal: 0 0 25px rgba(94, 234, 212, 0.2);
-  --glow-purple: 0 0 25px rgba(196, 181, 253, 0.2);
-  --glow-ivory: 0 0 30px rgba(254, 252, 232, 0.1);
+  /* Subtle glow tokens - toned down blue */
+  --glow-primary: 0 0 20px rgba(59, 130, 246, 0.2);
+  --glow-teal: 0 0 20px rgba(20, 184, 166, 0.15);
+  --glow-purple: 0 0 20px rgba(167, 139, 250, 0.15);
 
-  --docusaurus-highlighted-code-line-bg: rgba(96, 165, 250, 0.12);
+  --docusaurus-highlighted-code-line-bg: rgba(75, 85, 99, 0.3);
 }
 
 /* Global Typography */
@@ -339,75 +338,65 @@ body {
 
 /* --- Dark Mode Premium Enhancements --- */
 
-/* Glowing navbar in dark mode */
+/* Dark mode navbar */
 [data-theme='dark'] .navbar {
-  border-bottom: 1px solid rgba(59, 130, 246, 0.2);
-  box-shadow:
-    0 4px 20px rgba(0, 0, 0, 0.3),
-    0 0 30px rgba(59, 130, 246, 0.05);
+  border-bottom: 1px solid rgba(75, 85, 99, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Subtle glow on dark mode buttons */
+/* Dark mode buttons */
 [data-theme='dark'] .button--primary {
-  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 [data-theme='dark'] .button--primary:hover {
-  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 
-/* Enhanced code blocks with glow */
+/* Enhanced code blocks */
 [data-theme='dark'] pre {
-  background: rgba(15, 23, 42, 0.9) !important;
-  border: 1px solid rgba(59, 130, 246, 0.15);
-  box-shadow:
-    inset 0 0 30px rgba(0, 0, 0, 0.3),
-    0 4px 20px rgba(0, 0, 0, 0.2);
+  background: #1f2937 !important;
+  border: 1px solid rgba(75, 85, 99, 0.5);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 [data-theme='dark'] code {
-  background: rgba(59, 130, 246, 0.1);
-  border: 1px solid rgba(59, 130, 246, 0.1);
+  background: rgba(75, 85, 99, 0.4);
+  border: 1px solid rgba(75, 85, 99, 0.3);
 }
 
-/* Glowing sidebar links on hover */
+/* Sidebar links on hover */
 [data-theme='dark'] .menu__link:hover {
-  background: rgba(59, 130, 246, 0.1);
-  box-shadow: inset 0 0 15px rgba(59, 130, 246, 0.1);
+  background: rgba(75, 85, 99, 0.3);
 }
 
 [data-theme='dark'] .menu__link--active {
-  background: rgba(59, 130, 246, 0.15);
+  background: rgba(75, 85, 99, 0.4);
   border-right: 3px solid var(--ifm-color-primary-light);
-  box-shadow: inset 0 0 20px rgba(59, 130, 246, 0.15);
 }
 
 /* Dark mode table styling */
 [data-theme='dark'] table {
-  border: 1px solid rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(75, 85, 99, 0.4);
 }
 
 [data-theme='dark'] th {
-  background: rgba(59, 130, 246, 0.1);
+  background: rgba(75, 85, 99, 0.3);
 }
 
 [data-theme='dark'] tr:hover {
-  background: rgba(59, 130, 246, 0.05);
+  background: rgba(75, 85, 99, 0.2);
 }
 
-/* Enhanced dark mode ambient background - Ivory Dark Premium */
+/* Dark mode ambient background - subtle neutral */
 [data-theme='dark'] body {
-  background-image:
-    radial-gradient(ellipse at 10% 20%, rgba(96, 165, 250, 0.06), transparent 35%),
-    radial-gradient(ellipse at 90% 80%, rgba(196, 181, 253, 0.05), transparent 35%),
-    radial-gradient(ellipse at 50% 50%, rgba(94, 234, 212, 0.03), transparent 45%),
-    radial-gradient(ellipse at 30% 70%, rgba(254, 252, 232, 0.02), transparent 30%);
-  background-attachment: fixed;
+  background-color: #111827;
+  background-image: none;
 }
 
-/* Dark mode footer glow - enhanced */
+/* Dark mode footer */
 [data-theme='dark'] .footer::before {
-  box-shadow: 0 0 50px rgba(96, 165, 250, 0.25);
+  box-shadow: none;
 }
 
 /* Dark mode headings with ivory tint */
@@ -472,7 +461,7 @@ body {
   }
 
   [data-theme='dark'] .navbar-sidebar {
-    background-color: #0f172a !important;
+    background-color: #1f2937 !important;
   }
 
   /* Ensure sidebar content scrolls properly */
