@@ -18,22 +18,31 @@ This resource is a **practical bridge** between pedagogical theory and nursing p
 - **Contextualised for Nursing**: Integrating **NMC standards**, clinical examples, and person-centred care principles.
 - **For Educators**: Written for nurse academics, practice facilitators, and clinical educators.
 
-### 🙏 Acknowledgments & Pioneers
+<details>
+<summary>🙏 Acknowledgments & Pioneers</summary>
 
 This work stands on the shoulders of giants. A heartfelt thank you to:
 
-#### Academic Foundation
+**Academic Foundation**
 * **Dr Tünde Varga-Atkins** (University of Liverpool) — For the foundational research guide.
 
-#### Mentors & Champions
-* **Aisha Holloway** (CNO Scotland) & **Prof. Gemma Stacey** — For inspiring excellence.
-* **Josie Rudman MBE** & **Dr Clare Cable** — For supporting nurse-led innovation.
-* **Janet Michel** & **Prof. Joanne Bosanquet** — For championing global and person-centred nursing.
+**Mentors & Champions**
+* **Aisha Holloway** (CNO Scotland) — For inspiring excellence.
+* **Prof. Gemma Stacey** — For inspiring excellence.
+* **Josie Rudman MBE** — For supporting nurse-led innovation.
+* **Dr Clare Cable** — For supporting nurse-led innovation.
+* **Janet Michel** — For championing global nursing.
+* **Prof. Joanne Bosanquet** — For championing person-centred nursing.
 
-#### The "Nurse Citizen Developers"
+**The "Nurse Citizen Developers"**
 * **Kumbi Kariwo** — Champion of AI equity and bias mitigation.
 * **Lorna Zvikomborero Magume** — An inspiration in person-centred care.
-* **Hector Musonza**, **Rohit Sagoo**, **Dr Hellena Habte-Asres**, **Kelly Thobekile Ncube** — Innovators in education and practice.
+* **Hector Musonza** — Innovator in education and practice.
+* **Rohit Sagoo** — Innovator in education and practice.
+* **Dr Hellena Habte-Asres** — Innovator in education and practice.
+* **Kelly Thobekile Ncube** — Innovator in education and practice.
+
+</details>
 
 
 ---
