@@ -35,6 +35,10 @@ The rapid evolution of Generative AI challenges traditional essay-based assessme
 ### [Multimodal Assessment](./multimodal-assessment)
 Strategies for designing assessments that are harder to fake, including Vivas, Video Vlogs, and "Show Your Working" tasks.
 
+### [AI Risk Calculator](./risk-calculator)
+Test the vulnerability of your assessments to GenAI misuse with our interactive tool.
+
+
 ### [AI-Enabled Feedback](./ai-enabled-feedback)
 How to use AI to provide "Pre-flight checks" for students and assist marking, with **Strict Privacy Warnings**.
 

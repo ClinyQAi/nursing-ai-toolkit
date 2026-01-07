@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: AI Risk Calculator
 description: Calculate the vulnerability of your assessment to Generative AI misuse.
 ---
