@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# Prevent multiple deploys from running simultaneously
+concurrency:
+  group: pages-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
