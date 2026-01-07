@@ -70,7 +70,7 @@ graph LR
 
 | Principle | Why It Matters |
 | :--- | :--- |
-| **1. Lead, Don't Follow** | Nurses must be "Nurse Citizen Developers" who shape the tools we use (ICN, 2025). |
+| **1. Lead, Don't Follow** | Nurses must be "digital health experts" who shape the tools we use (ICN, 2024). |
 | **2. Augment, Don't Replace** | AI cannot replace empathy, touch, or therapeutic relationships (RCN, 2025). |
 | **3. Accountability is Ours** | You remain professional accountable for all decisions, even AI-assisted ones (ANA, 2025). |
 | **4. Ethical Vigilance** | We must rigorously check for bias (e.g., skin tone bias in wound care). |
