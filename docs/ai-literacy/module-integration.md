@@ -4,6 +4,9 @@ title: Module Integration
 description: Integrating AI literacy at module level
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Module-Level AI Literacy Integration
 
 :::info Attribution
@@ -14,380 +17,180 @@ description: Integrating AI literacy at module level
 
 Integrating AI literacy into individual modules ensures students develop competencies progressively and contextually. This page provides practical guidance for module leaders.
 
-## Module Design Principles
+## 📐 Module Design Principles
+
+:::tip Context is King
+Avoid generic "AI Training." Always embed AI literacy within the clinical context of your module (e.g., using AI for *care planning* in a nursing process module, or for *communication simulation* in a therapeutic practice module).
+:::
 
 ### 1. Alignment with Learning Outcomes
-
-**Explicit AI Literacy Outcomes**
-- Include AI competencies in module learning outcomes
-- Align with NMC proficiencies
-- Map to programme-level competencies
-- Ensure progressive development
-- Make expectations clear
-
-**Example Learning Outcomes**
-- "Critically evaluate AI-generated clinical information against evidence-based sources"
-- "Use AI tools ethically and safely in care planning while maintaining professional accountability"
-- "Demonstrate understanding of AI limitations in nursing practice"
+*   **Explicit**: Include AI competencies directly in learning outcomes.
+*   **Mapped**: Ensure alignment with **NMC standards** (e.g., digital literacy, evidence-based practice).
 
 ### 2. Contextual Integration
+*   ✅ **DO**: Relate AI to specific clinical tasks (care plans, discharge summaries).
+*   ❌ **DON'T**: Teach technology for technology's sake.
 
-**Embed in Clinical Context**
-- Relate AI use to module content
-- Use nursing-specific examples
-- Connect to practice scenarios
-- Align with placement learning
-- Ensure clinical relevance
+---
 
-**Avoid**
-- Generic AI training disconnected from nursing
-- Technology for technology's sake
-- Unrealistic or impractical applications
-- Ignoring clinical context
+## 🔄 Module Planning Framework
 
-## Module Planning Framework
+Follow this 3-step cycle to integrate AI effectively:
 
-### Step 1: Needs Analysis
+```mermaid
+graph LR
+    A[Step 1: Needs Analysis] --> B[Step 2: Learning Design]
+    B --> C[Step 3: Assessment Design]
+    C --> A
+    
+    subgraph Step 1
+    A1[Assess Student Tools]
+    A2[Identify Risks]
+    end
+    
+    subgraph Step 2
+    B1[Select AI Activities]
+    B2[Design Scaffolding]
+    end
+    
+    subgraph Step 3
+    C1[AI-Enhanced Assessment]
+    C2[Define Policy]
+    end
+    
+    style A fill:#e3f2fd,stroke:#1565c0
+    style B fill:#fff3e0,stroke:#ef6c00
+    style C fill:#f3e5f5,stroke:#7b1fa2
+```
 
-**Assess Current State**
-- What AI tools do students already use?
-- What misconceptions exist?
-- What competencies are needed?
-- What resources are available?
-- What are the risks?
+---
 
-**Define Module-Specific Needs**
-- Which AI competencies align with this module?
-- How can AI enhance learning?
-- What are the ethical considerations?
-- What support do students need?
-- How will competency be assessed?
+## 📚 Example Module Plans
 
-### Step 2: Learning Design
+Explore how AI integration looks across different fields of nursing:
 
-**Select Appropriate AI Applications**
-- Care planning assistance
-- Patient education material creation
-- Clinical scenario generation
-- Literature review support
-- Concept explanation
+<Tabs>
+  <TabItem value="adult" label="Adult Nursing" default>
 
-**Design Learning Activities**
-- Guided AI exploration
-- Critical evaluation exercises
-- Comparative analysis (AI vs. traditional)
-- Ethical case discussions
-- Reflective practice
+    ### 🫁 Care Planning Module (Year 2)
+    **Focus**: Holistic care planning & Evidence-based practice
 
-**Example Activity Sequence**
-1. **Week 1**: Introduction to AI in [module topic]
-2. **Week 2**: Guided practice with AI tool
-3. **Week 3**: Critical evaluation exercise
-4. **Week 4**: AI-enhanced assignment
-5. **Week 5**: Reflection and peer discussion
+    #### Learning Outcomes
+    1. Develop evidence-based care plans using tools including AI.
+    2. **Critically evaluate** AI-generated recommendations against **NICE guidelines**.
+    3. Demonstrate ethical AI use (privacy/accountability).
 
-### Step 3: Assessment Design
+    #### Key Activities
+    *   **Week 3 (Demo)**: Facilitator demonstrates generating a care plan and highlighting errors.
+    *   **Week 4 (Workshop)**: Students generate plans for complex case studies and **red-pen** the hallucinations.
+    *   **Week 5 (Ethics)**: Discussion on data privacy and professional accountability.
 
-**AI-Aware Assessment**
-- Clarify AI use policy for each assessment
-- Design tasks that require human insight
-- Include process as well as product
-- Require justification and reflection
-- Use varied assessment methods
+    #### Assessment: AI-Enhanced Portfolio
+    *   **Task**: Submit an AI-generated draft + a final human-edited version.
+    *   **Requirement**: A 500-word reflection on *why* changes were made.
+    *   **Success Criteria**: Accurate error identification and evidence-based modifications.
 
-**Assessment Types**
-- **AI-Enhanced**: Students may use AI with disclosure
-- **AI-Assisted**: AI allowed for specific components only
-- **AI-Free**: No AI use permitted
-- **AI-Focused**: Evaluating AI literacy itself
+  </TabItem>
+  <TabItem value="mental_health" label="Mental Health">
 
-## Example Module Plans
+    ### 🧠 Therapeutic Communication (Year 2)
+    **Focus**: Communication skills & Empathy
 
-### Example 1: Adult Nursing - Care Planning Module
+    #### Learning Outcomes
+    1. Practice therapeutic communication using AI simulations.
+    2. Evaluate AI's inability to understand **human emotion**.
+    3. Maintain a person-centered approach despite technology.
 
-**Module Overview**
-- Level: Year 2
-- Credits: 20
-- Focus: Holistic care planning
+    #### Key Activities
+    *   **Week 2 (Roleplay)**: Use text-based AI to simulate a patient conversation.
+    *   **Week 4 (Analysis)**: Compare AI's "empathy" to genuine human connection.
+    *   **Week 6 (Ethics)**: Discuss professional boundaries in digital communication.
 
-**AI Literacy Integration**
+    #### Assessment: Reflective Video
+    *   **Task**: Record a response to an AI-generated patient scenario.
+    *   **Requirement**: Critique the AI's portrayal of mental health conditions (stereotypes vs. reality).
 
-**Learning Outcomes**
-1. Develop evidence-based care plans using appropriate tools including AI
-2. Critically evaluate AI-generated care recommendations
-3. Demonstrate ethical AI use in care planning
+  </TabItem>
+  <TabItem value="child" label="Child Nursing">
 
-**Activities**
-- **Week 3**: Introduction to AI-assisted care planning
-  - Demonstrate AI care plan generation
-  - Discuss limitations and risks
-  - Practice prompt crafting
+    ### 👶 Health Promotion (Year 3)
+    **Focus**: Family health & Developmental appropriateness
 
-- **Week 4**: Critical Evaluation Workshop
-  - Generate AI care plans for case studies
-  - Compare with NICE guidelines
-  - Identify errors and omissions
-  - Discuss clinical safety
+    #### Learning Outcomes
+    1. Create age-appropriate health materials using Generative AI (images/text).
+    2. Evaluate content for **developmental stages**.
+    3. Adapt resources for diverse family needs.
 
-- **Week 5**: Ethical Considerations
-  - Patient confidentiality scenarios
-  - Professional accountability discussion
-  - NMC Code alignment
-  - Documentation requirements
+    #### Key Activities
+    *   **Week 3 (Creation)**: Generate a visual storyboard for a "Going to Theatre" guide.
+    *   **Week 5 (Critique)**: Assess if the language is truly child-friendly or just "dumbed down."
+    *   **Week 7 (Inclusion)**: Adapt materials for non-English speaking families using AI translation (with verification).
 
-**Assessment**
-- Care plan portfolio (AI-enhanced)
-  - Must include AI-generated draft
-  - Critical evaluation of AI output
-  - Evidence-based modifications
-  - Reflection on AI use
-  - Disclosure statement
+    #### Assessment: Resource Pack
+    *   **Task**: Create a health promotion pack.
+    *   **Requirement**: Justify developmental choices and how AI bias was mitigated.
 
-**Success Criteria**
-- Appropriate AI tool selection
-- Effective prompt crafting
-- Accurate error identification
-- Evidence-based modifications
-- Ethical practice demonstrated
+  </TabItem>
+  <TabItem value="ld" label="Learning Disability">
 
-### Example 2: Mental Health Nursing - Therapeutic Communication
+    ### ♿ Accessible Information (Year 2)
+    **Focus**: Health Inequalities & Reasonable Adjustments
 
-**Module Overview**
-- Level: Year 2
-- Credits: 15
-- Focus: Communication skills
+    #### Learning Outcomes
+    1. Use AI to simplify complex medical text into **"Easy Read"**.
+    2. Evaluate AI-generated images for respectful representation.
+    3. Demonstrate understanding of **reasonable adjustments**.
 
-**AI Literacy Integration**
+    #### Key Activities
+    *   **Week 2 (Standard)**: Workshop on Easy Read standards (images, text size).
+    *   **Week 4 (Social Stories)**: Use AI to create a visual "Getting a Blood Test" story.
+    *   **Week 6 (Risk)**: Discuss risk of AI hallucinating incorrect medical advice in simplified text.
 
-**Learning Outcomes**
-1. Practice therapeutic communication using AI simulation
-2. Evaluate AI limitations in understanding human emotion
-3. Maintain person-centered approach despite AI use
+    #### Assessment: Accessible Resource
+    *   **Task**: Create a Hospital Passport.
+    *   **Requirement**: Submission must show "Raw AI Output" vs "Final Version" to demonstrate human value.
 
-**Activities**
-- **Week 2**: AI Role-Play Scenarios
-  - Use AI to generate patient scenarios
-  - Practice responses
-  - Receive AI feedback
-  - Discuss limitations
+  </TabItem>
+</Tabs>
 
-- **Week 4**: Empathy and AI
-  - Compare AI vs. human responses
-  - Analyze emotional intelligence gaps
-  - Discuss irreplaceable human skills
-  - Reflect on therapeutic relationship
+---
 
-- **Week 6**: Ethical Practice
-  - Patient consent for AI use
-  - Privacy in digital communication
-  - Professional boundaries
-  - Documentation standards
+## ⚠️ Common Challenges & Solutions
 
-**Assessment**
-- Communication portfolio (AI-assisted)
-  - AI-generated scenarios (disclosed)
-  - Video recorded responses
-  - Self-evaluation
-  - Peer feedback
-  - Reflection on AI's role
+Anticipate these hurdles when introducing AI:
 
-### Example 3: Child Nursing - Health Promotion
+| Challenge | 💡 Potential Solution |
+| :--- | :--- |
+| **Student Over-Reliance** | Design "AI-Free" components (e.g., oral defense) and require process documentation. |
+| **Unequal Access** | Ensure all students have access to the same tools (institutional license) or use free tiers with clear guidance. |
+| **Academic Misconduct** | Move from "product-based" assessment (the essay) to "process-based" (the portfolio/reflection). |
+| **Staff Confidence** | Start small! Introduce AI in just one workshop before a full module rollout. |
 
-**Module Overview**
-- Level: Year 3
-- Credits: 20
-- Focus: Child and family health promotion
+---
 
-**AI Literacy Integration**
-
-**Learning Outcomes**
-1. Create age-appropriate health education materials using AI
-2. Evaluate AI-generated content for developmental appropriateness
-3. Adapt AI outputs for diverse family needs
-
-**Activities**
-- **Week 3**: AI for Health Education
-  - Generate patient information leaflets
-  - Create visual aids
-  - Develop activity sheets
-  - Adapt for different ages
-
-- **Week 5**: Critical Evaluation
-  - Assess developmental appropriateness
-  - Check accuracy against evidence
-  - Evaluate cultural sensitivity
-  - Test with families (simulated)
-
-- **Week 7**: Personalization
-  - Adapt for learning disabilities
-  - Translate for non-English speakers
-  - Modify for different health literacy levels
-  - Ensure inclusivity
-
-**Assessment**
-- Health promotion resource pack (AI-enhanced)
-  - AI-generated materials (disclosed)
-  - Evidence-based modifications
-  - Developmental justification
-  - Family feedback (simulated)
-  - Critical reflection
-
-### Example 4: Learning Disability Nursing - Accessible Health Information
-
-**Module Overview**
-- Level: Year 2
-- Credits: 20
-- Focus: Reducing Health Inequalities & Accessible Communication
-
-**AI Literacy Integration**
-
-**Learning Outcomes**
-1. Use AI tools to simplify complex medical information into "Easy Read" formats.
-2. Evaluate AI-generated accessible resources for genuine accessibility and accuracy.
-3. Demonstrate understanding of reasonable adjustments in digital health communication.
-
-**Activities**
-- **Week 2**: Introduction to Easy Read
-  - Analyze 'Easy Read' standards (images, text size, layout).
-  - Workshop: Prompting AI to "summarize this for a person with a learning disability" and critiquing the output.
-
-- **Week 4**: Creating Social Stories
-  - Use AI image generation to create visual cues for hospital visits (e.g., "Having a Blood Test").
-  - Use text AI to script a Social Story.
-  - Review with Service User Group (simulated).
-
-- **Week 6**: The "Human in the Loop"
-  - Discuss risks of AI hallucinating incorrect medical advice in simplified text.
-  - Ethical discussion: Does AI-generated art represent people with learning disabilities respectfully?
-
-**Assessment**
-- Accessible Resource Pack (AI-Assisted)
-  - Create a Health Action Plan or Hospital Passport using AI support.
-  - Submission must include the "Raw AI Output" vs "Final Edited Version".
-  - 500-word justification of changes made to ensure true accessibility.
-
-## Implementation Guidance
+## ✅ Implementation Checklist
 
 ### For Module Leaders
 
-**Preparation**
-- [ ] Review institutional AI policy
-- [ ] Explore relevant AI tools
-- [ ] Identify integration opportunities
-- [ ] Design AI-aware assessments
-- [ ] Prepare student guidance
-- [ ] Plan staff development
+<div className="card">
+  <div className="card__body">
+    <ul className="checklist">
+      <li><input type="checkbox" disabled /> <strong>Review Policy</strong>: Check your institution's current AI assessment policy.</li>
+      <li><input type="checkbox" disabled /> <strong>Tool Check</strong>: Ensure the chosen AI tool is GDPR compliant and accessible.</li>
+      <li><input type="checkbox" disabled /> <strong>Update Handbook</strong>: Clearly state "AI Permitted" or "AI Prohibited" for each assessment.</li>
+      <li><input type="checkbox" disabled /> <strong>Scaffold</strong>: Don't assume students know how to prompt; teach them.</li>
+      <li><input type="checkbox" disabled /> <strong>Safety Net</strong>: Have a backup plan if the AI tool goes down during a session.</li>
+    </ul>
+  </div>
+</div>
 
-**Communication**
-- [ ] Include AI policy in module handbook
-- [ ] Discuss in first session
-- [ ] Provide written examples
-- [ ] Clarify assessment expectations
-- [ ] Offer ongoing support
-- [ ] Address student concerns
+---
 
-**Support**
-- [ ] Provide AI tool access
-- [ ] Offer training sessions
-- [ ] Create guidance documents
-- [ ] Establish help channels
-- [ ] Monitor student progress
-- [ ] Gather feedback
+## Assessment Assessment Taxonomy
 
-### Common Challenges and Solutions
-
-**Challenge 1: Student Over-Reliance**
-- **Solution**: Design AI-free components
-- **Solution**: Require process documentation
-- **Solution**: Include oral assessments
-- **Solution**: Emphasize independent practice
-
-**Challenge 2: Unequal Access**
-- **Solution**: Provide institutional subscriptions
-- **Solution**: Offer alternative tools
-- **Solution**: Allow library access
-- **Solution**: Flexible deadlines
-
-**Challenge 3: Academic Misconduct**
-- **Solution**: Clear disclosure requirements
-- **Solution**: Process-focused assessment
-- **Solution**: Unique, personalized tasks
-- **Solution**: Oral defense of work
-
-**Challenge 4: Staff Confidence**
-- **Solution**: Peer support networks
-- **Solution**: Training workshops
-- **Solution**: Shared resources
-- **Solution**: Start small, scale gradually
-
-## Assessment Strategies
-
-### AI-Enhanced Assessments
-
-**Care Plan Assignment**
-- Students may use AI for initial draft
-- Must verify against evidence
-- Require critical evaluation
-- Include reflection on AI use
-- Disclose all AI assistance
-
-**Rubric Criteria**
-- Appropriate AI tool selection (10%)
-- Effective prompt crafting (10%)
-- Critical evaluation of output (25%)
-- Evidence-based modifications (30%)
-- Professional reflection (15%)
-- Disclosure and integrity (10%)
-
-### AI-Free Assessments
-
-**Clinical Simulation**
-- Real-time decision-making
-- No technology access
-- Demonstrates independent competence
-- Assesses clinical reasoning
-- Evaluates practical skills
-
-**Oral Examination**
-- Defend written work
-- Explain reasoning
-- Answer probing questions
-- Demonstrate understanding
-- Show clinical judgment
-
-### Hybrid Assessments
-
-**Portfolio**
-- AI-enhanced components (disclosed)
-- AI-free reflections
-- Practical demonstrations
-- Peer evaluations
-- Self-assessments
-
-## Quality Assurance
-
-### Module Evaluation
-
-**Student Feedback**
-- AI integration effectiveness
-- Support adequacy
-- Assessment clarity
-- Learning outcomes achievement
-- Suggestions for improvement
-
-**Learning Analytics**
-- AI tool usage patterns
-- Assessment performance
-- Engagement metrics
-- Support requests
-- Misconduct incidents
-
-**External Review**
-- External examiner feedback
-- Professional body alignment
-- Benchmark against sector
-- Continuous improvement
-- Best practice sharing
+1.  **🤖 AI-Enhanced**: Students *must* use AI (e.g., "Critique this AI care plan").
+2.  **🤝 AI-Assisted**: Students *may* use AI for specific tasks (e.g., "Brainstorming ideas").
+3.  **🚫 AI-Free**: No AI permitted (e.g., Clinical exams, Oral defense).
 
 ---
 
