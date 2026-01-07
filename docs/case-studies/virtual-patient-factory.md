@@ -8,9 +8,6 @@ description: Generate AI-powered clinical scenarios for student practice
 
 import VirtualPatientFactory from '@site/src/components/VirtualPatientFactory';
 
-:::info Inspired by Research
-This tool is inspired by King's College London's [Virtual Patients](https://ehealth.kcl.ac.uk/tel/virtual-patients/index.html) project, but enhanced with **Generative AI** to provide dynamic feedback rather than static "model answers".
-:::
 
 ## What is This?
 
