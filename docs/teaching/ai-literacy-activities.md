@@ -89,11 +89,11 @@ Developing AI literacy requires practice. Use these three ready-to-use activitie
 
 ```mermaid
 graph LR
-    A[👤 Student A<br/>Drafts Simple Prompt] --> B[🤖 AI Output 1<br/>(Generic/Vague)]
-    B --> C[👤 Student B<br/>Critiques & Refines]
-    C --> D[🤖 AI Output 2<br/>(Better Context)]
-    D --> E[👤 Student C<br/>Polishes Tone]
-    E --> F[⭐ Final Output<br/>(Specific & Clear)]
+    A["👤 Student A<br/>Drafts Simple Prompt"] --> B["🤖 AI Output 1<br/>(Generic/Vague)"]
+    B --> C["👤 Student B<br/>Critiques & Refines"]
+    C --> D["🤖 AI Output 2<br/>(Better Context)"]
+    D --> E["👤 Student C<br/>Polishes Tone"]
+    E --> F["⭐ Final Output<br/>(Specific & Clear)"]
     
     style A fill:#e1f5fe
     style C fill:#fff3e0
