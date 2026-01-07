@@ -51,9 +51,9 @@ A simple modification of the classic teaching strategy to include AI as a distin
 
 ```mermaid
 graph LR
-    A[🧠 Think<br/>(Individual Reflection)] --> B[👥 Pair<br/>(Discuss with Partner)]
-    B --> C[🗣️ Share<br/>(Group Feedback)]
-    C --> D[🤖 AI Critique<br/>(Compare with AI)]
+    A["🧠 Think<br/>(Individual Reflection)"] --> B["👥 Pair<br/>(Discuss with Partner)"]
+    B --> C["🗣️ Share<br/>(Group Feedback)"]
+    C --> D["🤖 AI Critique<br/>(Compare with AI)"]
     
     style A fill:#e3f2fd,stroke:#2196f3
     style B fill:#e8f5e9,stroke:#4caf50
