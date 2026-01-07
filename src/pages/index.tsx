@@ -8,6 +8,8 @@ import BackToTop from '@site/src/components/BackToTop';
 import Heading from '@theme/Heading';
 
 import CallToAction from '@site/src/components/CallToAction';
+import TrustBar from '@site/src/components/HomepageFeatures/TrustBar';
+import Testimonials from '@site/src/components/HomepageFeatures/Testimonials';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -53,7 +55,9 @@ export default function Home(): React.JSX.Element {
       description="A practical guide for nurse educators to integrate Generative AI into teaching, learning, and assessment. Aligned with NMC Standards.">
       <HomepageHeader />
       <main>
+        <TrustBar />
         <HomepageFeatures />
+        <Testimonials />
         <HowItWorks />
         <CallToAction />
       </main>
