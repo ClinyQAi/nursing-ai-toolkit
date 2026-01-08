@@ -89,7 +89,6 @@ For questions about the original work, contact the project team via the SEDA (St
 
 For questions about this nursing education adaptation, contact:
 - **GitHub**: https://github.com/ClinyQAi/nursing-ai-toolkit/issues
-- **Open Nursing Core**: https://build.fhir.org/ig/Open-Nursing/open-nursing-core/
 
 ---
 
