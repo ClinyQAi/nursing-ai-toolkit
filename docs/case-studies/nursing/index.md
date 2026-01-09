@@ -26,6 +26,17 @@ These case studies demonstrate practical applications of multimodal GenAI in UK 
 
 ## Featured Case Studies
 
+### 🤖 [Live Example: Nursing Council Agent](https://huggingface.co/spaces/NurseCitizenDeveloper/Nursing-Council-Agent-V2)
+A reference implementation of a "Council of Experts" that simulates an Academic, Clinical Mentor, and Student Advocate reviewing curriculum materials.
+
+*   **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/NurseCitizenDeveloper/Nursing-Council-Agent-V2)
+*   **Source Code:** [GitHub Repository](https://github.com/ClinyQAi/nursing-council-agent)
+*   **Version:** v2.0.0 (Stable)
+
+**NMC Competencies**: Platform 5 (Leading and managing nursing care and working in teams), Platform 6 (Improving safety and quality of care)
+
+---
+
 ### [Wound Care Visualization](./wound-care-visualization.md)
 Using text-to-image AI to create anatomical wound healing diagrams and care pathway visualizations.
 
