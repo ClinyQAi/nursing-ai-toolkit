@@ -621,9 +621,7 @@ body {
     box-shadow: none;
   }
 
-  [data-theme='dark'] .footer::before {
-    box-shadow: none;
-  }
+  [data-theme='dark'] .footer::before {}
 }
 
 /* Ensure no horizontal overflow */
@@ -631,4 +629,81 @@ html,
 body {
   overflow-x: hidden;
   max-width: 100vw;
+}
+
+/* --- MDX Utility Classes for Rich Layouts --- */
+
+/* 2-Column Grid (Stacks on mobile) */
+.mdx-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .mdx-grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Glassmorphic Card (Consistent with Feature Cards) */
+.mdx-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-soft-sm);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.mdx-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft-md);
+  border-color: var(--ifm-color-primary);
+}
+
+.mdx-card h3,
+.mdx-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-primary-dark);
+  font-weight: 700;
+}
+
+.mdx-card p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.mdx-card ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+[data-theme='dark'] .mdx-card {
+  background: rgba(15, 23, 42, 0.6);
+  border-color: rgba(96, 165, 250, 0.15);
+}
+
+[data-theme='dark'] .mdx-card:hover {
+  border-color: rgba(96, 165, 250, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .mdx-card h3,
+[data-theme='dark'] .mdx-card h4 {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Icon styling */
+.mdx-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  display: block;
 }

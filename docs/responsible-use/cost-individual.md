@@ -16,197 +16,148 @@ When using GenAI in nursing education, there are significant personal costs and 
 
 ## Personal Accountability
 
-### For Students
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <span className="mdx-icon">🎓</span>
+    <h3>For Students</h3>
+    
+    <h4>Academic Integrity</h4>
+    <ul>
+      <li>Students must understand that using AI without proper attribution constitutes academic misconduct</li>
+      <li>The NMC Code emphasizes honesty and integrity - this extends to academic work</li>
+      <li>Using AI to complete assessments without disclosure undermines professional development</li>
+    </ul>
 
-**Academic Integrity**
-- Students must understand that using AI without proper attribution constitutes academic misconduct
-- The NMC Code emphasizes honesty and integrity - this extends to academic work
-- Using AI to complete assessments without disclosure undermines professional development
+    <h4>Clinical Competence</h4>
+    <ul>
+      <li>Over-reliance on AI for clinical reasoning can weaken critical thinking skills</li>
+      <li>Students must develop independent clinical judgment for patient safety</li>
+      <li>AI should supplement, not replace, clinical learning experiences</li>
+    </ul>
 
-**Clinical Competence**
-- Over-reliance on AI for clinical reasoning can weaken critical thinking skills
-- Students must develop independent clinical judgment for patient safety
-- AI should supplement, not replace, clinical learning experiences
+    <h4>Professional Identity</h4>
+    <ul>
+      <li>Nursing requires empathy, compassion, and human connection</li>
+      <li>Excessive AI use may diminish development of these essential qualities</li>
+      <li>Students need authentic experiences to develop professional values</li>
+    </ul>
+  </div>
 
-**Professional Identity**
-- Nursing requires empathy, compassion, and human connection
-- Excessive AI use may diminish development of these essential qualities
-- Students need authentic experiences to develop professional values
+  <div className="mdx-card">
+    <span className="mdx-icon">👩‍🏫</span>
+    <h3>For Educators</h3>
+    
+    <h4>Pedagogical Responsibility</h4>
+    <ul>
+      <li>Educators must model responsible AI use</li>
+      <li>Clear guidance needed on when and how AI should be used</li>
+      <li>Responsibility to teach AI literacy alongside clinical skills</li>
+    </ul>
 
-### For Educators
-
-**Pedagogical Responsibility**
-- Educators must model responsible AI use
-- Clear guidance needed on when and how AI should be used
-- Responsibility to teach AI literacy alongside clinical skills
-
-**Assessment Design**
-- Need to create AI-resilient assessments that measure authentic competence
-- Responsibility to ensure assessments align with NMC standards
-- Must balance innovation with academic rigor
+    <h4>Assessment Design</h4>
+    <ul>
+      <li>Need to create AI-resilient assessments that measure authentic competence</li>
+      <li>Responsibility to ensure assessments align with NMC standards</li>
+      <li>Must balance innovation with academic rigor</li>
+    </ul>
+  </div>
+</div>
 
 ## Privacy and Data Protection
 
-### Personal Information
+:::warning Patient Confidentiality
+**Never input patient-identifiable information into AI tools.** Anonymize all case studies and adhere strictly to GDPR and institutional policies.
+:::
 
-**Student Data**
-- Never input patient-identifiable information into public AI tools
-- Be cautious with personal student data
-- Comply with GDPR and university data protection policies
-
-**Clinical Scenarios**
-- Anonymize all patient cases before using in AI prompts
-- Remove identifying details (names, dates, locations)
-- Consider institutional policies on data sharing
-
-### Digital Footprint
-
-**Professional Reputation**
-- Everything shared with AI tools may be stored and used for training
-- Consider long-term implications of AI interactions
-- Maintain professional standards in all AI communications
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <h4>🔒 Personal Information</h4>
+    <p>Be cautious with personal student data. Comply with GDPR and university data protection policies. Anonymize all clinical scenarios by removing identifying details (names, dates, locations).</p>
+  </div>
+  <div className="mdx-card">
+    <h4>👣 Digital Footprint</h4>
+    <p>Everything shared with AI tools may be stored and used for training. Consider long-term implications of AI interactions and maintain professional standards in all communications.</p>
+  </div>
+</div>
 
 ## Cognitive Costs
 
-### Critical Thinking
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <span className="mdx-icon">🧠</span>
+    <h3>Critical Thinking</h3>
+    <h4>Skill Atrophy</h4>
+    <p>Over-reliance on AI can weaken problem-solving abilities and clinical reasoning confidence.</p>
+    <h4>Learning Depth</h4>
+    <p>AI-generated summaries may reduce deep engagement, leading to surface-level learning that doesn't support expertise.</p>
+  </div>
+  
+  <div className="mdx-card">
+    <span className="mdx-icon">💭</span>
+    <h3>Metacognition</h3>
+    <h4>Self-Awareness</h4>
+    <p>Students must recognize when they rely too heavily on AI and understand their own learning processes, strengths, and areas for growth.</p>
+  </div>
+</div>
 
-**Skill Atrophy**
-- Over-reliance on AI can weaken problem-solving abilities
-- Students may lose confidence in their own clinical reasoning
-- Risk of becoming dependent on AI for basic tasks
+## Time, Effort & Finance
 
-**Learning Depth**
-- AI-generated summaries may reduce deep engagement with material
-- Students might miss nuanced understanding of complex concepts
-- Surface-level learning doesn't support clinical expertise
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <span className="mdx-icon">⏳</span>
+    <h3>The Efficiency Paradox</h3>
+    <p><strong>Short-term vs. Long-term:</strong> AI may save time initially but can create dependency. Quick answers don't build lasting knowledge.</p>
+    <p><strong>Skill Investment:</strong> Learning to use AI effectively (prompt engineering) requires significant time and practice.</p>
+  </div>
 
-### Metacognition
+  <div className="mdx-card">
+    <span className="mdx-icon">💳</span>
+    <h3>Financial Costs</h3>
+    <p><strong>Premium Tools:</strong> Advanced features often require subscriptions, creating equity issues.</p>
+    <p><strong>Hidden Costs:</strong> Data usage, potential hardware upgrades, and professional training expenses.</p>
+  </div>
+</div>
 
-**Self-Awareness**
-- Students need to recognize when they're relying too heavily on AI
-- Develop awareness of their own learning processes
-- Understand personal strengths and areas for growth
+## Emotional Considerations
 
-## Time and Effort
-
-### The Paradox of Efficiency
-
-**Short-term vs. Long-term**
-- AI may save time initially but can create dependency
-- Quick answers don't build lasting knowledge
-- Efficiency in learning doesn't always equal effectiveness
-
-**Prompt Engineering**
-- Learning to use AI effectively requires time and skill
-- Poorly crafted prompts yield poor results
-- Need to invest in developing AI literacy
-
-## Emotional and Psychological Costs
-
-### Anxiety and Uncertainty
-
-**For Students**
-- Confusion about when AI use is appropriate
-- Fear of being accused of cheating
-- Stress about keeping up with AI developments
-
-**For Educators**
-- Pressure to integrate AI without adequate training
-- Uncertainty about detecting AI misuse
-- Concern about maintaining academic standards
-
-### Imposter Syndrome
-
-**Attribution Confusion**
-- Students may question which ideas are truly their own
-- Difficulty distinguishing between AI-assisted and independent work
-- Impact on professional confidence and identity
-
-## Financial Costs
-
-### Subscription Services
-
-**Premium AI Tools**
-- Many advanced AI features require paid subscriptions
-- Creates equity issues between students with different financial means
-- Institutions may need to provide access to ensure fairness
-
-**Hidden Costs**
-- Data usage for AI applications
-- Potential need for upgraded devices or software
-- Training and professional development expenses
+:::tip Addressing Anxiety
+Students and educators may face anxiety about AI use, fear of plagiarism accusations, or "imposter syndrome" regarding AI-assisted work. **Open dialogue and clear guidelines are key to mitigation.**
+:::
 
 ## Mitigation Strategies
 
-### For Students
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <h3>For Students</h3>
+    <ol>
+      <li><strong>Set Boundaries:</strong> Use AI as a supplement, not a replacement. Maintain regular practice without AI.</li>
+      <li><strong>Practice Transparency:</strong> Always disclose AI use and keep records of your process.</li>
+      <li><strong>Develop Self-Awareness:</strong> Regularly assess your understanding without AI.</li>
+    </ol>
+  </div>
 
-1. **Set Boundaries**
-   - Define when AI use is appropriate for your learning
-   - Use AI as a supplement, not a replacement
-   - Maintain regular practice without AI assistance
-
-2. **Practice Transparency**
-   - Always disclose AI use when required
-   - Keep records of how AI was used in your work
-   - Seek clarification when unsure about policies
-
-3. **Develop Self-Awareness**
-   - Regularly assess your understanding without AI
-   - Identify areas where you're becoming too dependent
-   - Balance AI use with traditional learning methods
-
-### For Educators
-
-1. **Provide Clear Guidelines**
-   - Explicit policies on acceptable AI use
-   - Examples of appropriate and inappropriate applications
-   - Regular updates as technology evolves
-
-2. **Model Responsible Use**
-   - Demonstrate ethical AI integration in teaching
-   - Share your own AI learning journey
-   - Acknowledge limitations and challenges
-
-3. **Support Student Development**
-   - Teach AI literacy as a core skill
-   - Create opportunities for AI-free practice
-   - Foster critical evaluation of AI outputs
-
-## Nursing-Specific Considerations
-
-### NMC Standards Alignment
-
-**Platform 1: Being an accountable professional**
-- Students must take responsibility for their own learning
-- AI use should enhance, not undermine, accountability
-- Professional judgment cannot be outsourced to AI
-
-**Platform 4: Providing and evaluating care**
-- Clinical decision-making must remain human-centered
-- AI should inform, not replace, nursing assessment
-- Patient safety depends on independent critical thinking
-
-### Clinical Practice
-
-**Placement Learning**
-- AI cannot replace hands-on clinical experience
-- Students must develop practical skills independently
-- Mentors need guidance on supporting AI-literate students
-
-**Patient Interaction**
-- Empathy and communication skills require human practice
-- AI cannot teach the art of nursing care
-- Authentic patient relationships are irreplaceable
+  <div className="mdx-card">
+    <h3>For Educators</h3>
+    <ol>
+      <li><strong>Provide Clear Guidelines:</strong> specific policies on acceptable AI use.</li>
+      <li><strong>Model Responsible Use:</strong> Demonstrate ethical AI integration.</li>
+      <li><strong>Support Student Development:</strong> Teach AI literacy and critical evaluation.</li>
+    </ol>
+  </div>
+</div>
 
 ## Reflection Questions
 
-Consider these questions to evaluate your personal AI use:
-
-1. **Accountability**: Can you explain and justify every instance of AI use in your work?
-2. **Learning**: Is AI enhancing or replacing your learning process?
-3. **Competence**: Are you developing the clinical skills needed for safe practice?
-4. **Integrity**: Would you be comfortable disclosing your AI use to patients, mentors, or examiners?
-5. **Balance**: Are you maintaining skills that don't rely on AI?
+<div className="mdx-card" style={{borderLeft: '4px solid var(--ifm-color-primary)'}}>
+  <h3>🤔 Evaluate Your AI Use</h3>
+  <ul>
+    <li><strong>Accountability:</strong> Can you explain and justify every instance of AI use in your work?</li>
+    <li><strong>Learning:</strong> Is AI enhancing or replacing your learning process?</li>
+    <li><strong>Competence:</strong> Are you developing the clinical skills needed for safe practice?</li>
+    <li><strong>Integrity:</strong> Would you be comfortable disclosing your AI use to patients, mentors, or examiners?</li>
+    <li><strong>Balance:</strong> Are you maintaining skills that don't rely on AI?</li>
+  </ul>
+</div>
 
 ---
 
