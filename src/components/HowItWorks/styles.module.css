@@ -31,19 +31,19 @@
     flex: 1;
     min-width: 250px;
     max-width: 320px;
-    padding: 2rem;
+    padding: 2.5rem;
     background: var(--glass-bg);
     backdrop-filter: blur(var(--glass-blur));
     border-radius: 16px;
     border: 1px solid var(--glass-border);
-    box-shadow: var(--glass-shadow);
+    box-shadow: var(--shadow-soft-sm);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
 }
 
 .step:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-soft-md);
 }
 
 .stepIcon {

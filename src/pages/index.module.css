@@ -4,30 +4,28 @@
  */
 
 .heroBanner {
-  padding: 6rem 0;
+  padding: 7rem 0;
   text-align: left;
   position: relative;
   overflow: hidden;
-  /* Premium Mesh Gradient */
-  background: radial-gradient(at 0% 0%, hsla(210, 100%, 93%, 1) 0, transparent 50%),
-    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
-    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
-  background-color: var(--ifm-color-primary);
-  color: white;
+  /* Premium 'Breathable' Hero (Dyte-inspired) */
+  background: transparent;
+  /* Let global grid show through */
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 94, 184, 0.03) 100%);
+  color: var(--ifm-font-color-base);
   transition: all 0.3s ease;
 }
 
-/* Animated Glow Orbs */
+/* Subtle Glow Orb (simplified) */
 .heroBanner::before {
   content: '';
   position: absolute;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, transparent 70%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 94, 184, 0.05) 0%, transparent 60%);
   top: -150px;
-  left: -100px;
+  right: -50px;
   border-radius: 50%;
-  animation: floatOrb1 8s ease-in-out infinite;
   pointer-events: none;
 }
 
@@ -36,11 +34,10 @@
   position: absolute;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(244, 114, 182, 0.25) 0%, transparent 70%);
-  bottom: -100px;
-  right: -50px;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.05) 0%, transparent 60%);
+  bottom: -150px;
+  left: -50px;
   border-radius: 50%;
-  animation: floatOrb2 10s ease-in-out infinite;
   pointer-events: none;
 }
 
@@ -175,22 +172,14 @@
 }
 
 .heroTitle {
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  /* Animated Gradient Text */
-  background: linear-gradient(90deg,
-      #ffffff 0%,
-      #a5d8ff 25%,
-      #ffffff 50%,
-      #ffc9c9 75%,
-      #ffffff 100%);
-  background-size: 200% auto;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shimmerText 4s linear infinite;
-  text-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+  line-height: 1.1;
+  color: var(--ifm-color-primary-darkest);
+  /* Dark text for light mode */
+  letter-spacing: -0.03em;
+  line-height: 1.1;
 }
 
 @keyframes shimmerText {
@@ -265,9 +254,9 @@
   font-size: 1.1rem !important;
   border-radius: 50px !important;
   font-weight: 600 !important;
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%) !important;
-  border: none !important;
+  background: var(--ifm-color-primary) !important;
   color: white !important;
+  box-shadow: 0 4px 14px rgba(0, 94, 184, 0.3);
   transition: transform 0.2s ease, box-shadow 0.2s ease !important;
   position: relative;
   overflow: hidden;
@@ -312,11 +301,10 @@
   font-size: 1.1rem !important;
   border-radius: 50px !important;
   font-weight: 600 !important;
-  border: 2px solid rgba(255, 255, 255, 0.6) !important;
-  color: white !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  color: var(--ifm-color-primary) !important;
   transition: all 0.3s ease !important;
-  backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.05) !important;
+  background: rgba(255, 255, 255, 0.5) !important;
 }
 
 .heroButtonSecondary:hover {

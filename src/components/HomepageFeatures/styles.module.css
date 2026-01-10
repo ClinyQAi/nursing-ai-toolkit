@@ -15,18 +15,16 @@
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
 }
 
-/* --- Premium Feature Cards --- */
+/* --- Premium Feature Cards (Dyte-inspired) --- */
 .featureCard {
   background: var(--glass-bg);
   backdrop-filter: blur(var(--glass-blur));
   -webkit-backdrop-filter: blur(var(--glass-blur));
   border: 1px solid var(--glass-border);
-  border-radius: 20px;
-  padding: 2rem;
-  box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.05),
-    0 10px 20px rgba(0, 0, 0, 0.05);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: var(--shadow-soft-md);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
   height: 100%;
@@ -60,24 +58,10 @@
   }
 }
 
-/* Gradient border glow effect */
-.featureCard::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 20px;
-  padding: 2px;
-  background: linear-gradient(135deg,
-      var(--ifm-color-primary) 0%,
-      var(--accent-teal, #00a499) 50%,
-      var(--accent-purple, #7c3aed) 100%);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  pointer-events: none;
+/* Clean border transition instead of gradient glow */
+.featureCard {
+  border: 1px solid var(--glass-border);
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Shimmer effect */
@@ -96,24 +80,17 @@
   pointer-events: none;
 }
 
+/* Clean Hover Effect (Dyte-inspired) */
 .featureCard:hover {
-  transform: translateY(-12px) scale(1.02);
-  box-shadow:
-    0 20px 40px rgba(0, 94, 184, 0.15),
-    0 0 60px rgba(0, 164, 153, 0.1);
-}
-
-.featureCard:hover::before {
-  opacity: 1;
-}
-
-.featureCard:hover::after {
-  left: 100%;
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-soft-hover);
+  border-color: var(--ifm-color-primary);
+  /* Simple clean primary accent on hover */
 }
 
 .featureCard:hover .featureSvg {
-  transform: scale(1.08) rotate(2deg);
-  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.15));
+  transform: scale(1.05);
+  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.12));
 }
 
 .featureTitle {

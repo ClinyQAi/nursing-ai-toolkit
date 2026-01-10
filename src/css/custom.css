@@ -27,19 +27,25 @@
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
   --ifm-heading-font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
   --ifm-font-size-base: 16px;
-  --ifm-line-height-base: 1.65;
+  --ifm-line-height-base: 1.75;
   --ifm-code-font-size: 95%;
 
   /* Heading Sizes */
-  --ifm-h1-font-size: 2.5rem;
+  --ifm-h1-font-size: 2.75rem;
   --ifm-h2-font-size: 2rem;
   --ifm-h3-font-size: 1.5rem;
 
-  /* Glassmorphism Tokens */
-  --glass-bg: rgba(255, 255, 255, 0.7);
-  --glass-border: rgba(255, 255, 255, 0.3);
-  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
-  --glass-blur: 10px;
+  /* Premium Soft Shadow Tokens (Dyte-inspired) */
+  --shadow-soft-sm: 0 4px 20px rgba(0, 0, 0, 0.03), 0 1px 3px rgba(0, 0, 0, 0.02);
+  --shadow-soft-md: 0 12px 40px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.02);
+  --shadow-soft-lg: 0 20px 80px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.02);
+  --shadow-soft-hover: 0 28px 60px rgba(0, 94, 184, 0.08), 0 12px 30px rgba(0, 0, 0, 0.03);
+
+  /* Glassmorphism Tokens (simplified) */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(0, 0, 0, 0.06);
+  --glass-shadow: var(--shadow-soft-md);
+  --glass-blur: 12px;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -267,11 +273,13 @@ h3:hover .hash-link {
 }
 
 /* --- Ambient Background --- */
-/* Add a subtle fixed noise/gradient to body */
+/* Subtle grid pattern (Neutral/Slate-inspired) */
 body {
+  background-color: var(--ifm-background-color);
   background-image:
-    radial-gradient(circle at 15% 50%, rgba(var(--ifm-color-primary-rgb), 0.08), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(200, 50, 200, 0.05), transparent 25%);
+    linear-gradient(rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
   background-attachment: fixed;
 }
 
