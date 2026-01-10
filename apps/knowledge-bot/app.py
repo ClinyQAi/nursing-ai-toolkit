@@ -225,8 +225,8 @@ RELEVANT KNOWLEDGE RETRIEVED (The Code & Web Search):
         return "", history
 
 # --- 4. UI Layout ---
-with gr.Blocks(title="📚 NMC Knowledge Bot") as demo:
-    gr.Markdown("# 🇬🇧 NMC Knowledge Bot")
+with gr.Blocks(title="📚 Nursing Proficiency AI Coach") as demo:
+    gr.Markdown("# 🇬🇧 Nursing Proficiency AI Coach")
     gr.Markdown("Your AI Mentor for the Nursing & Midwifery Council Standards. referencing *The Code* and *Proficiency Standards*.")
     
     with gr.Tabs():

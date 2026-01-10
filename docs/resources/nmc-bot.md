@@ -1,12 +1,12 @@
 ---
 sidebar_position: 2
-title: 📚 NMC Knowledge Bot
+title: 📚 Nursing Proficiency AI Coach
 description: An AI-powered Nursing Proficiency Coach grounded in NMC Standards.
 ---
 
-# 📚 NMC Knowledge Bot
+# 📚 Nursing Proficiency AI Coach
 
-The **NMC Knowledge Bot** is a specialized AI mentor designed to help UK nursing students and professionals navigate the **Nursing and Midwifery Council (NMC) Standards**.
+The **Nursing Proficiency AI Coach** is a specialized AI mentor designed to help UK nursing students and professionals navigate the **Nursing and Midwifery Council (NMC) Standards**.
 
 It acts as a **Nursing Proficiency Coach**, using a Socratic teaching method to guide you through learning rather than just providing answers.
 
@@ -14,14 +14,14 @@ It acts as a **Nursing Proficiency Coach**, using a Socratic teaching method to 
 This bot is powered by the latest **2026 Frontier Models**, including Gemini 3, Claude 4.5, and GPT-5.2, providing state-of-the-art reasoning for nursing education.
 :::
 
-## 🤖 The Knowledge Bot
+## 🤖 The AI Coach
 
 <iframe
   src="https://nursecitizendeveloper-nmc-knowledge-bot.hf.space"
   frameborder="0"
   width="100%"
   height="900"
-  title="NMC Knowledge Bot"
+  title="Nursing Proficiency AI Coach"
 ></iframe>
 
 ## 🚀 Key Features
