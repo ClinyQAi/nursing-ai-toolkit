@@ -17,7 +17,7 @@ This bot is powered by the latest **2026 Frontier Models**, including Gemini 3, 
 ## 🤖 The AI Coach
 
 <iframe
-  src="https://nursecitizendeveloper-nmc-knowledge-bot.hf.space"
+  src="https://nursecitizendeveloper-nursing-proficiency-ai-coach.hf.space"
   frameborder="0"
   width="100%"
   height="900"
