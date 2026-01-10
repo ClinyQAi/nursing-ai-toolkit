@@ -39,6 +39,19 @@ Deploying AI platforms at scale requires coordination across departments. Use th
   </div>
 </div>
 
+:::info Cost Reality: The "Two-Tier" Classroom
+Without institutional licenses, students face significant costs to access top-tier models. This creates an inequitable learning environment.
+
+| Model Tier | Monthly Cost (UK) | Student Capabilities |
+| :--- | :--- | :--- |
+| **ChatGPT Plus** (GPT-4) | ~£20.00 | Advanced reasoning, data analysis, custom GPTs |
+| **Claude Pro** (Sonnet 3.5) | £18.00 | Superior coding/writing, large context window |
+| **Gemini Advanced** | £18.99 | Deep Google Workspace integration, 1M+ context |
+| **Perplexity Pro** | ~$20.00 (£16-17) | Real-time deep research, source citation |
+
+*Prices approximate as of 2025. Free tiers often have usage limits or lower reasoning capabilities.*
+:::
+
 ## Implementation & Culture
 
 <div className="mdx-grid-2">
