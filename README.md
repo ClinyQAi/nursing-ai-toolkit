@@ -114,13 +114,15 @@ Static files will be generated in the `build` directory.
 
 ---
 
-## 👤 About the Author
+## 👥 About the Authors
 
 **Lincoln Gombedza** is a **Registered Learning Disability Nurse (RNLD)** and **Practice Educator** with a passion for leveraging AI to enhance nursing education and clinical practice. As the founder of **Nursing Citizen Development**, Lincoln champions the "Nurse as Citizen Developer" movement—empowering healthcare professionals to build their own AI-powered tools.
 
-### Connect with Lincoln
+**Kelly Thobekile Ncube** is a **Senior Lecturer in Adult Nursing (SFHEA)** and **Global Health Lecturer Volunteer Fellow**. She is a passionate educator in resuscitation and an expert in AI nursing education, championing innovative teaching methods.
 
-- 🌐 **Website**: [practicedev.cloud](https://practicedev.cloud)
+### Connect with the Team
+
+- 🌐 **Project Website**: [practicedev.cloud](https://practicedev.cloud)
 - 💼 **LinkedIn**: [Lincoln Gombedza](https://www.linkedin.com/in/lincoln-gombedza)
 - 🐙 **GitHub**: [@ClinyQAi](https://github.com/ClinyQAi)
 
@@ -131,7 +133,7 @@ Static files will be generated in the `build` directory.
 
 If you use this software in your research or practice, please cite it as:
 
-> Lincoln Gombedza. (2025). AI in Nursing Education: A Multimodal Learning Toolkit (Version 2.0.0) [Computer software]. https://github.com/ClinyQAi/nursing-ai-toolkit
+> Lincoln Gombedza & Kelly Thobekile Ncube. (2025). AI in Nursing Education: A Multimodal Learning Toolkit (Version 2.0.0) [Computer software]. https://github.com/ClinyQAi/nursing-ai-toolkit
 
 ## 📜 License & Attribution
 
