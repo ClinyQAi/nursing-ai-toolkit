@@ -210,12 +210,25 @@ h4,
   border-radius: 4px;
 }
 
-/* 2. Sidebar Active State */
+/* 2. Sidebar Active State (Refine-inspired) */
+.menu__link {
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  transition: background 0.2s ease, color 0.2s ease;
+  font-size: 0.95rem;
+}
+
 .menu__link--active {
-  background-color: rgba(10, 77, 140, 0.1);
-  /* Soft blue background */
-  border-right: 3px solid var(--ifm-color-primary);
+  background-color: rgba(0, 0, 0, 0.05);
+  /* Refine Zinc-100 equivalent */
+  color: var(--ifm-color-primary-darkest);
   font-weight: 600;
+  border-right: none;
+  /* Removing the old blue border */
+}
+
+.menu__link:hover:not(.menu__link--active) {
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 /* 3. Refined Anchor Links (Hashtags) */
@@ -374,13 +387,15 @@ body {
 }
 
 /* Sidebar links on hover */
-[data-theme='dark'] .menu__link:hover {
-  background: rgba(75, 85, 99, 0.3);
+/* Sidebar links on hover (Dark Mode) */
+[data-theme='dark'] .menu__link:hover:not(.menu__link--active) {
+  background: rgba(255, 255, 255, 0.03);
 }
 
 [data-theme='dark'] .menu__link--active {
-  background: rgba(75, 85, 99, 0.4);
-  border-right: 3px solid var(--ifm-color-primary-light);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border-right: none;
 }
 
 /* Dark mode table styling */
