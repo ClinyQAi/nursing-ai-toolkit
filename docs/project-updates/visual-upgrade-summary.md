@@ -71,4 +71,9 @@ Finally, `implications.md` translates theory into role-based action plans.
 
 - **Role-Based Grids**: dedicated sections for "Educators", "Students", and "Leaders" with specific icons (📝, 🎓, 🏛️).
 - **Policy Cards**: "Green/Amber/Red" traffic light system for acceptable AI use is clearly highlighted.
-- **Success Stories**: Real-world examples like "Care Planning" and "Assessment Redesign" are showcased in glass cards.
+
+## 10. Bonus: "Selection Criteria" Enhancement
+The `selection-criteria.md` page is now a structured tool for decision-making.
+
+- **Criteria Grids**: "Pedagogical", "Technical", and "Ethical" lenses are presented as icon-driven cards.
+- **Visual Checklist**: The final "Quick Scan" is now a standout green-bordered card with checkmarks, making it an actionable tool for educators.

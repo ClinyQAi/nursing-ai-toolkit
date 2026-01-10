@@ -12,54 +12,96 @@ description: Essential criteria for evaluating AI platforms in nursing
 **Last Updated**: December 2025
 :::
 
-When evaluating an AI tool for use in a nursing module or programme, it's helpful to categorize your requirements into four main areas: **Pedagogical**, **Technical**, **Ethical/Legal**, and **Sustainable**.
+When evaluating an AI tool, use these four key lenses to ensure it supports safe, effective nursing education.
 
-## 1. Pedagogical Criteria
+## 1. Pedagogical Capability
 
-The primary question is: **Does the tool enhance learning in a way that aligns with nursing competencies?**
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <span className="mdx-icon">🎓</span>
+    <h3>Clinical Accuracy</h3>
+    <ul>
+      <li><strong>Medical Knowledge:</strong> Does it provide accurate nursing theory and pathophysiology?</li>
+      <li><strong>Tone:</strong> Can it simulate empathetic, professional patient interactions?</li>
+    </ul>
+  </div>
 
--   **Accuracy of Medical Knowledge**: Does the tool provide accurate nursing theory, pathophysiology, and clinical guidance?
--   **Nuance and Tone**: Can the tool adopt a professional, empathetic nursing tone appropriate for patient interaction simulations?
--   **Reasoning Capability**: Can it handle complex "What if?" patient scenarios requiring clinical judgment?
--   **Output Variety**: Does it support the multimodal needs of the module (text, images, audio)?
+  <div className="mdx-card">
+    <span className="mdx-icon">🧠</span>
+    <h3>Reasoning Depth</h3>
+    <ul>
+      <li><strong>Complexity:</strong> Can it handle "What if?" scenarios requiring clinical judgment?</li>
+      <li><strong>Multimodal:</strong> Does it support text, image, or audio as needed?</li>
+    </ul>
+  </div>
+</div>
 
-## 2. Technical Criteria
+## 2. Technical & Sustainable
 
-The tool must be usable and stable within the existing institutional infrastructure.
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <span className="mdx-icon">⚙️</span>
+    <h3>Infrastructure</h3>
+    <ul>
+      <li><strong>Access:</strong> SSO integration, mobile app availability?</li>
+      <li><strong>Stability:</strong> Reliable during peak exam/workshop times?</li>
+      <li><strong>Integration:</strong> API support for existing VLEs?</li>
+    </ul>
+  </div>
 
--   **Ease of Access**: Is there a web interface? Mobile app? Single Sign-On (SSO) integration?
--   **API Availability**: Can the tool be integrated into other nursing education software (e.g., VLEs)?
--   **Stability and Performance**: Is the tool reliable during peak usage hours (e.g., during an exam or workshop)?
--   **Customization**: Can we provide "system instructions" or "custom instructions" to keep the AI focused on UK nursing standards (NMC)?
+  <div className="mdx-card">
+    <span className="mdx-icon">🌱</span>
+    <h3>Sustainability</h3>
+    <ul>
+      <li><strong>Cost:</strong> Predictable pricing models for academia?</li>
+      <li><strong>Green AI:</strong> Provider commitment to net-zero operations?</li>
+      <li><strong>Scale:</strong> Supports 200+ concurrent students?</li>
+    </ul>
+  </div>
+</div>
 
-## 3. Ethical and Legal Criteria
+## 3. Ethical & Legal Standards
 
-Nursing education is bound by strict ethical and professional standards (NMC Code).
+:::warning NMC Code Compliance
+Nursing education tools **must** adhere to professional standards.
+:::
 
--   **Data Security & Privacy**: Where is the data stored? Is it used for training the model? Is it GDPR compliant?
--   **Bias and Fairness**: How does the tool handle diverse patient scenarios (different ethnicities, genders, socio-economic backgrounds)?
--   **Transparency**: Is it clear when the output is AI-generated? Does the tool cite its sources?
--   **Intellectual Property**: Who owns the outputs created by students and staff?
+<div className="mdx-grid-2">
+  <div className="mdx-card" style={{borderLeft: '4px solid #ef4444'}}>
+    <h3>🛡️ Data Security</h3>
+    <ul>
+      <li><strong>GDPR:</strong> Is data stored in the UK/EU?</li>
+      <li><strong>Training:</strong> Is student data used to train the model? (Should be 'No').</li>
+      <li><strong>IP:</strong> Who owns the output?</li>
+    </ul>
+  </div>
 
-## 4. Sustainability Criteria
+  <div className="mdx-card" style={{borderLeft: '4px solid #f59e0b'}}>
+    <h3>⚖️ Fairness & Bias</h3>
+    <ul>
+      <li><strong>Diversity:</strong> Does it handle diverse patient demographics correctly?</li>
+      <li><strong>Transparency:</strong> Is it clear when content is AI-generated?</li>
+    </ul>
+  </div>
+</div>
 
-The long-term viability of the tool must be considered.
+## ✅ Evaluation Checklist
 
--   **Financial Sustainability**: Is the pricing model predictable? Are there free tiers or academic discounts?
--   **Environmental Impact**: Does the provider have a commitment to net-zero carbon operations?
--   **Scalability**: Can the tool support a whole cohort of 200+ nursing students simultaneously?
+<div className="mdx-card" style={{borderColor: '#22c55e', borderWidth: '2px'}}>
+  <h3>Quick Scan for Educators</h3>
+  <p>Before introducing a tool, confirm:</p>
+  <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem'}}>
+    <div>
+      <p>✅ <strong>Accuracy:</strong> Tested on complex topics?</p>
+      <p>✅ <strong>Security:</strong> Meets privacy verification?</p>
+    </div>
+    <div>
+      <p>✅ <strong>Accessibility:</strong> Usable by all students?</p>
+      <p>✅ <strong>Professionalism:</strong> Aligns with NMC Code?</p>
+    </div>
+  </div>
+</div>
 
 ---
 
-### Evaluation Checklist for Educators
-
-Before introducing a new AI tool to students, run through this quick checklist:
-
-1.  **[ ] Accuracy:** Have I tested it on a known complex clinical topic?
-2.  **[ ] Security:** Have I confirmed it meets university data privacy requirements?
-3.  **[ ] Accessibility:** Can students with disabilities or those without expensive hardware use it?
-4.  **[ ] Professionalism:** Does its output align with the NMC Code of Conduct?
-
----
-
-**Next**: Learn about the **[Institutional Considerations](./institutional-considerations)** for deploying AI platforms across a department or university.
+**Next**: Learn about [Institutional Considerations](./institutional-considerations) for deployment.
