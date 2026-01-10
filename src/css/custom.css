@@ -30,10 +30,13 @@
   --ifm-line-height-base: 1.75;
   --ifm-code-font-size: 95%;
 
-  /* Heading Sizes */
-  --ifm-h1-font-size: 2.75rem;
-  --ifm-h2-font-size: 2rem;
-  --ifm-h3-font-size: 1.5rem;
+  /* Heading Sizes (Refine-like Hierarchy) */
+  --ifm-h1-font-size: 2.5rem;
+  /* Large, bold H1 */
+  --ifm-h2-font-size: 1.75rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-line-height-base: 1.65;
+  /* Slightly tighter */
 
   /* Premium Soft Shadow Tokens (Dyte-inspired) */
   --shadow-soft-sm: 0 4px 20px rgba(0, 0, 0, 0.03), 0 1px 3px rgba(0, 0, 0, 0.02);
@@ -231,7 +234,30 @@ h4,
   background-color: rgba(0, 0, 0, 0.02);
 }
 
-/* 3. Refined Anchor Links (Hashtags) */
+/* 3. Refined Table of Contents (Right Sidebar) */
+.table-of-contents {
+  font-size: 0.85rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 0.5rem;
+}
+
+.table-of-contents__link {
+  color: #64748b;
+  /* Slate-500 */
+  border-radius: 4px;
+  padding: 4px 8px;
+  transition: all 0.2s ease;
+  display: block;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  background-color: rgba(0, 0, 0, 0.04);
+  text-decoration: none;
+}
+
+/* 4. Refined Anchor Links (Hashtags) */
 .hash-link {
   opacity: 0;
   transition: opacity 0.2s ease;
