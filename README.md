@@ -80,6 +80,7 @@ Try our interactive AI-powered applications directly on the website:
 |------|-------------|------|
 | **🎙️ Podcast Agent** | Convert nursing documents/text into 2-speaker educational podcasts powered by Gemini 2.5 & Edge-TTS. | [Try it](https://practicedev.cloud/docs/resources/podcast-agent) |
 | **📚 NMC Knowledge Bot** | An AI Nursing Proficiency Coach using hybrid web search and the NMC Code. Powered by 2026 Frontier Models (Gemini 3, Claude 4.5, GPT-5.2). BYOK (Bring Your Own Key). | [Try it](https://practicedev.cloud/docs/resources/nmc-bot) |
+| **⚖️ Nursing Council** | A multi-perspective peer review tool for nursing education, simulating a council of experts (Academic, Clinical, Student) to provide balanced feedback. | [Try it](https://practicedev.cloud/docs/resources/nursing-council) |
 
 ---
 

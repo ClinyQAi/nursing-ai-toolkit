@@ -142,6 +142,7 @@ const sidebars: SidebarsConfig = {
         'resources/nmc-proficiency-mapping',
         'resources/podcast-agent',
         'resources/nmc-bot',
+        'resources/nursing-council',
       ],
     },
     'license',
