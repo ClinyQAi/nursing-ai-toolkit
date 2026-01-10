@@ -12,45 +12,73 @@ description: Managing AI deployment at an institutional level
 **Last Updated**: December 2025
 :::
 
-Deploying AI platforms at scale within a nursing school or university requires coordination across several departments. This page outlines the systemic factors to consider.
+Deploying AI platforms at scale requires coordination across departments. Use this framework to navigate the systemic factors.
 
-## 1. Procurement and Licensing
+## Strategic Foundations
 
--   **Centralized vs. Individual**: Does the university provide an enterprise license for tools like Microsoft Copilot (Enterprise) or Google Gemini (Enterprise), or are departments expected to purchase their own?
--   **Predictable Budgeting**: Many AI tools use "metered" pricing (pay per use) or monthly subscriptions. Universities typically require fixed, annual pricing for budgeting.
--   **Equality of Access**: Institutional licenses prevent the "digital divide" where only students who can afford $20/month subscriptions have access to the most powerful models (e.g., GPT-4 or Claude 3.5 Sonnet).
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <span className="mdx-icon">💰</span>
+    <h3>Procurement & Licensing</h3>
+    <ul>
+      <li><strong>Centralized:</strong> Does the university provide Enterprise licenses (copilot/Gemini) to ensure data safety?</li>
+      <li><strong>Budgeting:</strong> Move from "metered" personal costs to fixed, annual institutional pricing.</li>
+      <li><strong>Equity:</strong> Prevent a "digital divide" where only students who fit the bill get access to superior models.</li>
+    </ul>
+  </div>
 
-## 2. Data Security & Data Protection (DP)
+  <div className="mdx-card">
+    <span className="mdx-icon">🛡️</span>
+    <h3>Data Governance</h3>
+    <ul>
+      <li><strong>Opt-Out:</strong> Contracts must ensure patient/student data is <em>not</em> used to train models.</li>
+      <li><strong>Hosting:</strong> Prefer UK/EEA hosting for easier GDPR compliance.</li>
+      <li><strong>DPIA:</strong> Complete a Data Protection Impact Assessment before rollout.</li>
+    </ul>
+  </div>
+</div>
 
-Nursing educators must ensure that patient-led scenarios and student data remain private.
+## Implementation & Culture
 
--   **"Opt-Out" of Training**: Ensure your institutional agreement specifies that user data will **not** be used to train future iterations of the AI model.
--   **Local Cloud Hosting**: Whenever possible, choose providers that host data within the UK or EEA to simplify GDPR compliance.
--   **Impact Assessments**: Work with your Data Protection Officer (DPO) to complete a Data Protection Impact Assessment (DPIA) before any large-scale deployment.
+<div className="mdx-grid-2">
+  <div className="mdx-card">
+    <span className="mdx-icon">🎓</span>
+    <h3>Training & Support</h3>
+    <ul>
+      <li><strong>Upskilling:</strong> Dedicated time for "Nursing Prompt Engineering".</li>
+      <li><strong>Onboarding:</strong> Orientation workshops on responsible AI use.</li>
+      <li><strong>Support:</strong> IT helpdesk ready for API/SSO specific queries.</li>
+    </ul>
+  </div>
 
-## 3. Training and Support
+  <div className="mdx-card">
+    <span className="mdx-icon">🚀</span>
+    <h3>Leading Change</h3>
+    <ul>
+      <li><strong>Champions:</strong> Identify "early adopter" faculty to mentor others.</li>
+      <li><strong>Evidence:</strong> Share internal case studies of success.</li>
+      <li><strong>Leadership:</strong> Management must model transparent, ethical use.</li>
+    </ul>
+  </div>
+</div>
 
-Simply providing a link is not enough. Implementation requires a support structure.
+## Policy Spotlight
 
--   **Staff Upskilling**: Dedicated time for educators to learn "Prompt Engineering" specifically for nursing pedagogy.
--   **Student Onboarding**: Workshops during orientation weeks to explain the responsible use of AI and the institution's specific toolkit.
--   **Technical Support**: The IT helpdesk needs to be equipped to handle issues specific to AI tools (e.g., login errors with SSO, API rate limits).
-
-## 4. Academic Integrity & Policy
-
-The institution needs a clear, unified stance on AI.
-
--   **Consistent Grading Policies**: Can a student use AI to summarize a research paper for a reflective essay? Can they use it for brainstorming? Policies should be consistent across modules to avoid student confusion.
--   **Disclosure Standards**: Establish a standard format for students to "declare" their AI use (e.g., an AI use appendix).
-
-## 5. Leading Change
-
-Moving a nursing department toward AI-enhanced education is a cultural shift.
-
--   **AI Champions**: Identify "early adopters" among nursing faculty to mentor others.
--   **Evidence Base**: Collect and share internal case studies showing how AI has improved either the student experience or staff productivity.
--   **Ethical Leadership**: Ensure the school leadership models the transparent and ethical use of AI.
+<div className="mdx-card" style={{borderLeft: '4px solid #8b5cf6'}}>
+  <h3>⚖️ Academic Integrity & Policy</h3>
+  <p>The institution needs a unified stance to avoid student confusion.</p>
+  <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginTop: '1rem'}}>
+    <div>
+      <strong>Consistent Grading</strong>
+      <p>Decide department-wide: Can AI be used for summarizing? Brainstorming? Editing?</p>
+    </div>
+    <div>
+      <strong>Disclosure Standards</strong>
+      <p>Standardize the "AI Declaration" appendix for assignments.</p>
+    </div>
+  </div>
+</div>
 
 ---
 
-**Next**: Move to the **[Design Framework](/docs/design-framework/)** to learn how to integrate these tools directly into your curriculum.
+**Next**: Move to the **[Design Framework](/docs/design-framework/)** to integrate these tools into your curriculum.

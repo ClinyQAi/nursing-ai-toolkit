@@ -76,4 +76,10 @@ Finally, `implications.md` translates theory into role-based action plans.
 The `selection-criteria.md` page is now a structured tool for decision-making.
 
 - **Criteria Grids**: "Pedagogical", "Technical", and "Ethical" lenses are presented as icon-driven cards.
-- **Visual Checklist**: The final "Quick Scan" is now a standout green-bordered card with checkmarks, making it an actionable tool for educators.
+
+## 11. Bonus: "Institutional Considerations" Enhancement
+The `institutional-considerations.md` page addresses systemic factors.
+
+- **Strategic Grids**: "Procurement" and "Data Governance" are visualized side-by-side.
+- **Implementation Cards**: "Training" and "Leading Change" sections use consistent icon-driven layouts.
+- **Policy Spotlight**: A purple-accented card highlights "Academic Integrity" to ensure it grabs attention.
