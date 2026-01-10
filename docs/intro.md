@@ -14,7 +14,8 @@ I'm **Lincoln Gombedza, RN (LD)**. This toolkit is designed to help UK nursing e
 
 This resource is a **practical bridge** between pedagogical theory and nursing practice.
 
-- **Built on Research**: Adapted from the *"Educators' guide to multimodal learning and Generative AI"* (Varga-Atkins et al., 2024/25)[^1].
+- **Built on Research**: Instead of reinventing the wheel, we've adapted the foundational *"Educators' guide to multimodal learning and Generative AI"* (Varga-Atkins et al., 2024/25)[^1].
+- **Living Content**: Unlike a static PDF or handbook, this toolkit is a **living resource**. It is updated in real-time as AI models evolve and new NMC standards emerge.
 - **Contextualised for Nursing**: Integrating **NMC standards**, clinical examples, and person-centred care principles.
 - **For Educators**: Written for nurse academics, practice facilitators, and clinical educators.
 
