@@ -124,7 +124,8 @@ Static files will be generated in the `build` directory.
 ### Connect with the Team
 
 - 🌐 **Project Website**: [practicedev.cloud](https://practicedev.cloud)
-- 💼 **LinkedIn**: [Lincoln Gombedza](https://www.linkedin.com/in/lincoln-gombedza)
+- 💼 **LinkedIn (Lincoln)**: [Lincoln Gombedza](https://www.linkedin.com/in/lincoln-gombedza)
+- 💼 **LinkedIn (Kelly)**: [Kelly Thobekile Ncube](https://www.linkedin.com/in/kelly-thobekile-ncube-24502069/)
 - 🐙 **GitHub**: [@ClinyQAi](https://github.com/ClinyQAi)
 
 
