@@ -38,3 +38,31 @@ The design system fully supports Dark Mode, ensuring high contrast and accessibi
 - **Global Styles**: Defined in `custom.css` with new `slate-50` and `shadow-soft-*` tokens.
 - **Glassmorphism**: Applied to Feature Cards and "How It Works" steps using `backdrop-filter`.
 - **Mobile Responsiveness**: Disabled heavy background patterns and optimized sidebar behavior for mobile devices.
+
+## 5. Bonus: "Cost to Individual" Enhancement
+The `cost-individual.md` page now visualizes abstract learning concepts.
+
+- **The Learning Paradox**: "Efficiency vs. Depth" is presented in a responsive grid.
+- **Concept Cards**: Key risks like "Digital Amnesia" and "Problem-Solving Atrophy" are highlighted with custom icons (🧠, 🧩).
+- **Mitigation Strategies**: clearly separated into "Student" and "Educator" actions.
+
+## 6. Bonus: "Cost to Environment" Enhancement
+Simillarly, the `cost-environment.md` page has been upgraded.
+
+- **Visual Data**: "Hidden Energy Costs" and "Carbon Footprint" are now displayed in clear, icon-headed cards.
+- **Actionable Mitigation**: Distinct blocks for "Educator Action" and "Student Action" make the advice easier to digest.
+- **Green/Red Examples**: "High-Impact" vs "Sustainable" choices are visually distinguished with colored glass borders.
+
+## 7. Bonus: "Cost to Knowledge" Enhancement
+The `cost-knowledge.md` page now visualizes abstract learning concepts.
+
+- **The Learning Paradox**: "Efficiency vs. Depth" is presented in a responsive grid.
+- **Concept Cards**: Key risks like "Digital Amnesia" and "Problem-Solving Atrophy" are highlighted with custom icons (🧠, 🧩).
+- **Mitigation Strategies**: clearly separated into "Student" and "Educator" actions.
+
+## 8. Bonus: "Cost to Jobs" Enhancement
+The `cost-jobs.md` page completes the set.
+
+- **Employment Landscape**: "Automation vs Transformation" is visualized with distinct icons (🤖, 🏥).
+- **Tasks at Risk**: Clearly distinguishes "Administrative" risk from "Clinical" safety using colored borders.
+- **Future Scenarios**: Separates "Likely Developments" from "Unchanged Core" aspects of nursing.
