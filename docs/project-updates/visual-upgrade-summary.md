@@ -65,4 +65,10 @@ The `cost-jobs.md` page completes the set.
 
 - **Employment Landscape**: "Automation vs Transformation" is visualized with distinct icons (🤖, 🏥).
 - **Tasks at Risk**: Clearly distinguishes "Administrative" risk from "Clinical" safety using colored borders.
-- **Future Scenarios**: Separates "Likely Developments" from "Unchanged Core" aspects of nursing.
+
+## 9. Bonus: "Practical Implications" Enhancement
+Finally, `implications.md` translates theory into role-based action plans.
+
+- **Role-Based Grids**: dedicated sections for "Educators", "Students", and "Leaders" with specific icons (📝, 🎓, 🏛️).
+- **Policy Cards**: "Green/Amber/Red" traffic light system for acceptable AI use is clearly highlighted.
+- **Success Stories**: Real-world examples like "Care Planning" and "Assessment Redesign" are showcased in glass cards.
