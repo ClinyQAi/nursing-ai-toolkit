@@ -23,7 +23,8 @@ Deploying AI platforms at scale requires coordination across departments. Use th
     <ul>
       <li><strong>Centralized:</strong> Does the university provide Enterprise licenses (copilot/Gemini) to ensure data safety?</li>
       <li><strong>Budgeting:</strong> Move from "metered" personal costs to fixed, annual institutional pricing.</li>
-      <li><strong>Equity:</strong> Prevent a "digital divide" where only students who fit the bill get access to superior models.</li>
+      <li><strong>Equity Risk:</strong> Students with paid access (e.g., GPT-4o, Claude 3.5) have a significant reasoning advantage over those on free tiers. Institutional access levels this playing field.</li>
+      <li><strong>Cost Barrier:</strong> The standard ~£20/month subscription is prohibitive for many, creating a "two-tier" classification of students.</li>
     </ul>
   </div>
 
