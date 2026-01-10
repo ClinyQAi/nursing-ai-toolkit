@@ -62,6 +62,11 @@ graph BT
 - Transforming lecture notes on wound care into visuals or podcasts
 - Critically evaluating AI-generated patient scenarios for accuracy
 - Identifying biases in AI-generated health information
+
+:::info 🧩 LD Nursing Spotlight: Easy Read Co-creation
+**Activity**: Use AI to draft an "Easy Read" guide for a gastrostomy procedure.
+**Skill**: Critically evaluate the AI's language—is it truly accessible? Does it follow [Photosymbols](https://www.photosymbols.com/) principles?
+:::
 :::
 
 ### 🔴 Advanced Literacy

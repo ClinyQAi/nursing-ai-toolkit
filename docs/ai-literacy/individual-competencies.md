@@ -188,10 +188,14 @@ Select a year to see the progression logic:
     - Evaluate clinical relevance & accuracy
     - Integrate AI results with evidence-based practice
 
-    ### Key Activities
     *   **Care Planning**: AI-enhanced care plan drafting (critiqued)
     *   **Simulation**: Clinical scenario analysis
     *   **Creation**: Developing patient education materials
+
+    :::tip 🧠 Learning Disability Focus
+    **Assistive Technology**: Use voice-to-text AI to support communication for people with physical disabilities. 
+    **Task**: Evaluate if the AI accurately interprets non-standard speech patterns.
+    :::
 
     ### Assessment
     - Critical appraisal of an AI-generated care plan

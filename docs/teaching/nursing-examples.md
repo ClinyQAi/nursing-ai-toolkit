@@ -64,12 +64,14 @@ Help students structure their reflection (without writing it for them).
 Essential for Learning Disability nursing and patient education.
 
 ### Template
-> "Rewrite the following medical explanation of [Condition/Procedure] into **Easy Read** format.
+### Template: PMLD Hospital Passport
+> "Draft a **Hospital Passport** for a person with Profound and Multiple Learning Disabilities (PMLD).
 >
-> *   Use simple sentences.
-> *   Avoid jargon.
-> *   Bullet points for key actions.
-> *   Suggest an image description for each point that I could create or find."
+> **Persona**: 45yo man, non-verbal, loves 80s rock music.
+> **Critical Info**: Dysphagia (IDDSI Level 4), epilepsy (seizure protocol attached).
+> **Communication**: Uses eye-gaze for 'Yes/No'.
+>
+> **Task**: Create a 1-page summary using **Easy Read principles** (short sentences, icon suggestions). Focus on: 'How I communicate', 'Things I like', and 'How to support me safely'."
 
 ---
 :::tip Pro Tip
