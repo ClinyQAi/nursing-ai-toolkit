@@ -81,6 +81,6 @@ The `selection-criteria.md` page is now a structured tool for decision-making.
 The `institutional-considerations.md` page addresses systemic factors.
 
 - **Strategic Grids**: "Procurement" card explicitly warns about the "Two-Tier" student risk.
-- **Cost Table**: A detailed pricing table now includes **Student Offers**, highlighting the ~£200/yr savings available via Gemini and Perplexity free trials.
+- **Cost Table**: A detailed pricing table now includes **Student Offers** and direct links to provider pricing pages.
 - **Implementation Cards**: "Training" and "Leading Change" sections use consistent icon-driven layouts.
 - **Policy Spotlight**: A purple-accented card highlights "Academic Integrity" to ensure it grabs attention.
