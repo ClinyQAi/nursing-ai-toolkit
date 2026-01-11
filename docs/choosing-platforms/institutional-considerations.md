@@ -40,16 +40,16 @@ Deploying AI platforms at scale requires coordination across departments. Use th
 </div>
 
 :::info Cost Reality: The "Two-Tier" Classroom
-Without institutional licenses, students face significant costs to access top-tier models. This creates an inequitable learning environment.
+Without institutional licenses, students face significant costs to access top-tier models. However, **specific student offers** can mitigate this.
 
-| Model Tier | Monthly Cost (UK) | Student Capabilities |
-| :--- | :--- | :--- |
-| **ChatGPT Plus** (GPT-4) | ~£20.00 | Advanced reasoning, data analysis, custom GPTs |
-| **Claude Pro** (Sonnet 3.5) | £18.00 | Superior coding/writing, large context window |
-| **Gemini Advanced** | £18.99 | Deep Google Workspace integration, 1M+ context |
-| **Perplexity Pro** | ~$20.00 (£16-17) | Real-time deep research, source citation |
+| Model Tier | Standard Cost (UK) | Student/Edu Offer (2025) | Capabilities |
+| :--- | :--- | :--- | :--- |
+| **ChatGPT Plus** | ~£20.00/mo | **None universal.** (Inst. only: ChatGPT Edu) | Advanced reasoning, custom GPTs |
+| **Claude Pro** | £18.00/mo | **None universal.** (Inst. only: Claude for Edu) | Best for coding/writing context |
+| **Gemini Advanced** | £18.99/mo | **✅ 12 Months Free** (Student Trial) | Integrated with Google Workspace |
+| **Perplexity Pro** | ~£16.00/mo ($20) | **✅ 12 Months Free** (Edu Plan) | Real-time deep research |
 
-*Prices approximate as of 2025. Free tiers often have usage limits or lower reasoning capabilities.*
+*Note: Offers for Gemini and Perplexity often require a verifiable `.ac.uk` or `.edu` email address.*
 :::
 
 ## Implementation & Culture
