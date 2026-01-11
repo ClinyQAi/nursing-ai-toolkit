@@ -86,6 +86,13 @@ Copy these prompts to start creating immediately.
 "Create a detailed cross-sectional diagram of the **human heart** showing the four chambers, major blood vessels, and direction of blood flow. Use **medical illustration style** with clear labels. Suitable for Year 1 nursing students."
 :::
 
+<div style={{textAlign: 'center', marginTop: '1rem', marginBottom: '1.5rem'}}>
+  <img src={require('@site/static/img/cardiac-anatomy-explorer.png').default} alt="Cardiac Anatomy Explorer Example" style={{borderRadius: '8px', border: '1px solid #ddd', maxWidth: '100%', boxShadow: '0 2px 4px rgba(0,0,0,0.1)'}} />
+  <p style={{marginTop: '0.5rem'}}>
+    <a href="https://gemini.google.com/share/112e337f8b3f" target="_blank" rel="noopener noreferrer"><strong>🚀 Open in Gemini to Remix this Example</strong></a>
+  </p>
+</div>
+
 ### 🦠 Infection Control Flowchart
 :::tip Prompt
 "Create a visual flowchart showing the **chain of infection**: infectious agent, reservoir, portal of exit, means of transmission, portal of entry, and susceptible host. Include examples at each stage. Use **NHS color scheme** (Blue/White)."
