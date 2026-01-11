@@ -81,6 +81,6 @@ The `selection-criteria.md` page is now a structured tool for decision-making.
 The `institutional-considerations.md` page addresses systemic factors.
 
 - **Strategic Grids**: "Procurement" card explicitly warns about the "Two-Tier" student risk.
-- **Cost Table**: A detailed pricing table now includes **Student Offers** and direct links to provider pricing pages.
+- **Cost Table**: A detailed pricing table now lists **latest 2026 models** (GPT-5.2, Gemini 3, Claude 4.5) alongside Student Offers and direct links.
 - **Implementation Cards**: "Training" and "Leading Change" sections use consistent icon-driven layouts.
 - **Policy Spotlight**: A purple-accented card highlights "Academic Integrity" to ensure it grabs attention.
